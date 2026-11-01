@@ -11474,5 +11474,1157 @@
    }
   ],
   "imatges": []
+ },
+ {
+  "id": "wv-dkr-musee-femme",
+  "nom": "Musée de la Femme Henriette Bathily",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "historia",
+   "art"
+  ],
+  "resum": "Un petit museu dedicat a les dones senegaleses, dins d'una de les cúpules de la Place du Souvenir, amb la posta de sol sobre l'Atlàntic de propina.",
+  "descripcio": "El Musée de la Femme va obrir el 1994 a Gorée, davant de la Maison des Esclaves, a partir d'una idea del cineasta Ousmane William Mbaye i sota la direcció d'Annette Mbaye d'Erneville. El 2015, després de dos anys tancat, es va traslladar a Dakar, a un dels panteons de la Place du Souvenir Africain et de la Diaspora, a la Corniche Ouest.\n\nÉs museu i galeria alhora: objectes tradicionals, vestits, joies, artesania i obra d'art que expliquen la vida quotidiana de les dones al camp i a la ciutat, i el seu paper a la història del país. No és gran (una hora n'hi ha prou), però dona un punt de vista que no trobareu en cap altre museu de Dakar.\n\nWikivoyage recomana la plaça mateixa per veure la posta de sol «des de la vora de l'Àfrica»: penjada sobre un penya-segat, té espais d'exposició i algun lloc per menjar, i queda al costat del centre comercial Sea Plaza.",
+  "consells": [
+   "Pel vostre compte: taxi fins a la Place du Souvenir Africain (Corniche Ouest, al costat del Sea Plaza); pacteu el preu abans de pujar.",
+   "Aneu-hi a mitja tarda i quedeu-vos a la plaça per a la posta de sol.",
+   "Tanca els dilluns (horari de dimarts a diumenge, segons au-senegal).",
+   "Combineu-lo amb la Corniche Ouest a l'hora en què s'omple d'esportistes (a partir de les 17 h)."
+  ],
+  "durada": "1-2 h",
+  "preu": "1.000 FCFA adults, 500 FCFA menors de 18 anys (au-senegal.com)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.69206,
+  "lng": -17.47519,
+  "millor_moment": "Tarda, abans de la posta de sol; de dimarts a diumenge, 10:00-18:30",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "au-senegal.com – Musée de la Femme Henriette Bathily",
+    "url": "https://au-senegal.com/musee-de-la-femme-henriette-bathily,2775.html"
+   },
+   {
+    "nom": "Viquipèdia (fr) – Musée de la Femme Henriette-Bathily",
+    "url": "https://fr.wikipedia.org/wiki/Musée_de_la_Femme_Henriette-Bathily"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "Taxi fins a la Place du Souvenir Africain; entrada a la porta.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-musee-forces-armees",
+  "nom": "Musée des Forces Armées Sénégalaises",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "El museu militar del Plateau: la història del Senegal vista des dels uniformes, inclosos els tiralladors senegalesos que van lluitar sota bandera francesa.",
+  "descripcio": "Wikivoyage el descriu com un museu patriòtic que repassa la història del Senegal i del seu exèrcit, amb un pes especial en els soldats senegalesos que van combatre sota bandera francesa: els tirailleurs sénégalais de les dues guerres mundials.\n\nÉs un lloc poc visitat pels estrangers i interessant per entendre un capítol que a Europa s'explica poc: el dels centenars de milers d'africans reclutats per l'exèrcit colonial. Encaixa bé amb la Gare de Dakar, on hi ha l'estàtua de Demba i Dupont (un tirallador senegalès i un soldat francès) i, per als més interessats, amb el cementiri de Bel-Air, que té un sector militar.\n\nAvís honest: les fonts consultades no publiquen ni horaris ni preu d'entrada; és un museu modest i de vocació institucional, no un gran museu modern com el de les Civilitzacions Negres.",
+  "consells": [
+   "Pel vostre compte: és al Plateau, a pocs minuts a peu de la catedral i de la Place de l'Indépendance; es pot incloure en una passejada a peu pel centre.",
+   "Confirmeu l'horari a la porta o per telèfon abans de desviar-vos: no està publicat a les fonts.",
+   "Demaneu permís abans de fer fotos: és una institució militar."
+  ],
+  "durada": "1 h",
+  "preu": "No publicat a les fonts consultades (probablement simbòlic)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.2,
+  "lat": 14.66704,
+  "lng": -17.44192,
+  "millor_moment": "Matí de dia feiner, combinat amb el Plateau",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Viquipèdia (fr) – Gare de Dakar",
+    "url": "https://fr.wikipedia.org/wiki/Gare_de_Dakar"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "A peu des del Plateau; no cal guia.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-place-obelisque",
+  "nom": "Place de la Nation (Place de l'Obélisque)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "L'obelisc blanc de la independència, on Dakar celebra, es manifesta i fa festa: el pols polític de la ciutat, a la Médina.",
+  "descripcio": "La Place de la Nation, que tothom anomena «de l'Obélisque», es va fer durant la presidència de Senghor. És una plaça triangular amb un obelisc blanc al mig on hi ha gravat MCMLX, l'any de la independència (1960), la divisa del país («Un poble, un objectiu, una fe») a les tres cares i un lleó, l'emblema nacional, al sòcol. És a l'extrem del boulevard du Général-de-Gaulle, a la Médina.\n\nMés que un monument per contemplar, és un escenari: hi passen les desfilades del 4 d'abril (festa de la independència), hi va tenir lloc el Festival Mundial de les Arts Negres del 2010 i des del 2011 s'hi concentren les grans manifestacions polítiques (contra la violència sexual el 2019, contra l'arrest de Sonko el 2021...).\n\nAvís honest: visualment és una plaça de trànsit i formigó; val la pena si passeu per la Médina o el mercat de Tilène, no com a destí en si.",
+  "consells": [
+   "Pel vostre compte: taxi o bus Dem Dikk fins a Colobane / boulevard du Général-de-Gaulle; queda a prop del mercat de Colobane i de la Médina.",
+   "Si hi ha una concentració política, allunyeu-vos-en: no és lloc per a turistes en aquests moments.",
+   "Combineu-la amb el mercat de Tilène i la Gran Mesquita, que són al mateix eix."
+  ],
+  "durada": "30 min",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.2,
+  "lat": 14.69449,
+  "lng": -17.44833,
+  "millor_moment": "De passada, de dia",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Viquipèdia (fr) – Place de la Nation (Dakar)",
+    "url": "https://fr.wikipedia.org/wiki/Place_de_la_Nation_(Dakar)"
+   },
+   {
+    "nom": "Viquipèdia (en) – Place de l'Obélisque",
+    "url": "https://en.wikipedia.org/wiki/Place_de_l'Obélisque"
+   },
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi o bus urbà fins a Colobane.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-gare-dakar",
+  "nom": "Gare de Dakar i Place du Tirailleur",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "L'estació colonial de 1914, rescatada de la demolició i convertida en capçalera del TER, amb l'estàtua de Demba i Dupont davant.",
+  "descripcio": "L'estació actual es va construir entre 1913 i 1914 per a la línia Dakar-Níger (abans n'hi havia una de 1885, de la primera línia Dakar-Saint-Louis). Va tancar el 2009 i va estar a punt de ser enderrocada per fer-hi un parc cultural, però el 2013 el govern va decidir salvar-la. Rehabilitada, va reobrir el 2019 i des del 28 de desembre de 2021 és la terminal del Train Express Régional (TER) cap a Diamniadio i l'aeroport AIBD.\n\nA la plaça, rebatejada Place du Tirailleur el 2004, hi ha el monument a Demba i Dupont, un tirallador senegalès i un soldat colonial francès braç a braç, que abans era davant de l'Assemblea Nacional. L'embarcador del ferri de Gorée és a tocar.\n\nÉs una parada de cinc minuts que explica molt: el ferrocarril que va fer créixer Dakar, el Thiès ferroviari i el tren modern que fareu servir per anar a l'aeroport.",
+  "consells": [
+   "Pel vostre compte: és a tocar de l'embarcador de Gorée; mireu-la abans o després del ferri.",
+   "Si aneu a l'aeroport AIBD o a Diamniadio, podeu agafar el TER aquí mateix (vegeu la fitxa del TER).",
+   "L'edifici es pot veure per fora sense bitllet; a dins hi ha un Relay i poca cosa més."
+  ],
+  "durada": "15-30 min",
+  "preu": "Gratuït (bitllet de TER a part)",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.1,
+  "lat": 14.6758,
+  "lng": -17.43341,
+  "millor_moment": "Combinada amb el ferri de Gorée",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Viquipèdia (fr) – Gare de Dakar",
+    "url": "https://fr.wikipedia.org/wiki/Gare_de_Dakar"
+   },
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "A peu des de l'embarcador de Gorée o el Plateau.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-cimetiere-bel-air",
+  "nom": "Cementiri de Bel-Air (tomba de Senghor)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "El cementiri catòlic i militar on reposa Léopold Sédar Senghor, poeta i primer president: un racó silenciós i molt poc visitat.",
+  "descripcio": "El cementiri de Bel-Air es va obrir el 1832 per als habitants de Gorée, cristians i musulmans, i més tard per als militars i els residents de Dakar. El 1857 en va passar el manteniment als religiosos de la Missió i, a poc a poc, es va convertir en un cementiri catòlic. Té una part civil i una de militar, amb tombes de soldats de la infanteria colonial i dels regiments de tiralladors senegalesos, un monument «À nos morts coloniaux» i una estàtua de l'escultor Hippolyte Marius Galy en homenatge als morts de l'AOF.\n\nAquí hi ha la tomba de Léopold Sédar Senghor (mort el 2001), al costat del seu fill Philippe Maguilen i de la seva segona esposa, Colette. La Wikivoyage francesa el recull com un lloc de memòria.\n\nÉs un lloc per a qui s'interessi per Senghor o per la història colonial; podeu fer-ne una ruta amb la seva casa museu de la Corniche, la casa natal de Joal i la d'infància de Djilor.",
+  "consells": [
+   "Pel vostre compte: taxi fins a Bel-Air (a prop de la Route de Rufisque / Hann); pacteu el preu abans de pujar.",
+   "Vestiu de manera discreta i demaneu al guarda on és la tomba de Senghor.",
+   "Combineu-lo amb el Parc forestier de Hann, que és a prop."
+  ],
+  "durada": "30-45 min",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.70017,
+  "lng": -17.42457,
+  "millor_moment": "Matí",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (fr) – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Viquipèdia (fr) – Cimetière Bel-Air",
+    "url": "https://fr.wikipedia.org/wiki/Cimetière_Bel-Air"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi fins a Bel-Air i entrada lliure.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-musee-senghor",
+  "nom": "Musée Léopold Sédar Senghor (casa de Senghor)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura",
+   "art"
+  ],
+  "resum": "La casa on el poeta-president va viure la jubilació, a la Corniche Ouest, convertida en museu el 2014.",
+  "descripcio": "Al final de la seva vida política, Senghor es va fer construir una casa a Fann Résidence, sobre la Corniche Ouest, en un terreny d'uns 8.000 m². Hi va viure amb la seva dona Colette entre 1981 i 1992. Després de la seva mort (2001) va quedar tancada anys, fins que l'Estat la va comprar el 2010 per convertir-la en museu, inaugurat el 30 de novembre de 2014 durant la cimera de la Francofonia.\n\nÉs una visita íntima: la casa, els objectes personals, la biblioteca i el rastre de l'home que va ser alhora poeta de la negritud i primer president del Senegal independent. Per entendre el país, és un bon complement del Musée des Civilisations Noires (un projecte que ja somiava Senghor).\n\nAvís: les fonts consultades no publiquen horaris ni preus; confirmeu-ho abans d'anar-hi.",
+  "consells": [
+   "Pel vostre compte: taxi fins a la Corniche Ouest a Fann Résidence; digueu «Musée Senghor» o «Maison Senghor».",
+   "Confirmeu horari i obertura abans d'anar-hi: no figuren a les fonts consultades.",
+   "Feu-ne una ruta Senghor amb el cementiri de Bel-Air i, si baixeu a la Petite Côte, Joal i Djilor."
+  ],
+  "durada": "1 h",
+  "preu": "No publicat a les fonts consultades",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.6885,
+  "lng": -17.4705,
+  "millor_moment": "Matí o primera hora de la tarda",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Viquipèdia (fr) – Musée Senghor - Fondation Léopold Sédar Senghor",
+    "url": "https://fr.wikipedia.org/wiki/Musée_Senghor_-_Fondation_Léopold_Sédar_Senghor"
+   },
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi fins a Fann Résidence (Corniche Ouest).",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-grand-theatre",
+  "nom": "Grand Théâtre National de Dakar",
+  "regio": "dakar",
+  "tipus": "nit",
+  "categories": [
+   "musica-nit",
+   "cultura"
+  ],
+  "resum": "Un dels teatres més grans de l'Àfrica occidental, davant del Musée des Civilisations Noires: mireu-ne la cartellera per a concerts de Cap d'Any.",
+  "descripcio": "Wikivoyage el defineix com un dels teatres més grans de l'Àfrica occidental, escenari dels grans concerts de la capital. És a l'avinguda Malick Sy, just davant del Musée des Civilisations Noires, i la seva arquitectura monumental forma part del mateix eix cultural.\n\nPer al vostre viatge, l'interès és la programació: per Nadal i Cap d'Any hi solen tocar estrelles del mbalax i de la música urbana senegalesa, i també hi ha espectacles de ballet i teatre. Si coincideix un concert d'un gran nom, és una manera molt local de viure la música del país, amb públic senegalès arreglat per a l'ocasió.\n\nAvís: la programació es publica tard (sovint a principis de desembre) i les fonts consultades no en donen cap per al 2026.",
+  "consells": [
+   "Pel vostre compte: taxi fins al Grand Théâtre (davant del MCN); a la sortida dels concerts hi ha taxis, però pacteu el preu.",
+   "Seguiu les xarxes del teatre i l'agenda d'au-senegal.com des de principis de desembre.",
+   "Les entrades es compren a la taquilla o a punts de venda locals; arribeu d'hora, els grans concerts comencen tard i s'allarguen."
+  ],
+  "durada": "vespre",
+  "preu": "Segons espectacle (no publicat per a 2026)",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 0.2,
+  "lat": 14.6793,
+  "lng": -17.4362,
+  "millor_moment": "Vespre, si hi ha concert entre el 27/12 i el 03/01",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "Taxi i entrada a taquilla.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-stade-senghor",
+  "nom": "Futbol (i lluita) a l'Estadi Léopold Sédar Senghor",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "esport",
+   "cultura"
+  ],
+  "resum": "60.000 places, renovat el 2025 i tradicionalment amb una gran vetllada de lluita a principis de gener: l'esport com a experiència popular.",
+  "descripcio": "L'estadi Léopold Sédar Senghor (inaugurat el 1985 com a «stade de l'Amitié») té forma de plat volador i capacitat per a 60.000 persones. Va tancar l'agost del 2022 per renovar-lo de cara als Jocs Olímpics de la Joventut Dakar 2026 i es va tornar a lliurar l'abril del 2025, amb gespa, pista i il·luminació noves.\n\nWikivoyage ho resumeix així: «el futbol és tan important com la música». Un partit de lliga o, encara millor, de la selecció, és soroll, passió i ambient de festa. A més, segons la Viquipèdia, l'estadi acull tradicionalment a principis de gener una gran trobada de lluita senegalesa, cosa que podria coincidir amb el vostre viatge.\n\nAl costat hi ha el Village des Arts, així que podeu fer tarda d'art i vespre d'esport.",
+  "consells": [
+   "Pel vostre compte: taxi per la carretera de l'aeroport fins a l'estadi; tornar de nit, pacteu el taxi abans o caminant fins a l'autopista amb el corrent de gent.",
+   "Consulteu el calendari de lliga i les vetllades de lluita a la premsa esportiva local (Record, Stades) a finals de desembre.",
+   "Entrades a les taquilles de l'estadi; Wikivoyage parla d'uns 5-15 € (dada antiga).",
+   "Porteu poca cosa a sobre: hi ha molta gent i controls a l'entrada."
+  ],
+  "durada": "mig dia",
+  "preu": "Aprox. 5-15 € segons tribuna (Wikivoyage, dada no datada)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.4,
+  "lat": 14.74669,
+  "lng": -17.45201,
+  "millor_moment": "Tarda de cap de setmana amb partit; principis de gener per a la lluita",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Viquipèdia (fr) – Stade Léopold-Sédar-Senghor",
+    "url": "https://fr.wikipedia.org/wiki/Stade_Léopold-Sédar-Senghor"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi fins a l'estadi i entrada a taquilla el mateix dia.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-plage-mamelles",
+  "nom": "Platja de les Mamelles",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "platja",
+   "relax"
+  ],
+  "resum": "Una cala de sorra sota el far de les Mamelles, amb una de les postes de sol més boniques de Dakar.",
+  "descripcio": "Wikivoyage la presenta com una de les platges més populars i estimades de Dakar: sorra, onades i postes de sol «fenomenals», just a sota del Phare des Mamelles. La versió francesa la recomana per a un bany a última hora del dia i avisa que s'hi baixa per un corriol una mica dret des del nord.\n\nÉs una platja de veïns, no de resort: famílies, nois jugant a futbol, algun xiringuito. Al costat hi ha el restaurant Max's.\n\nAvís important: les onades poden ser fortes i, segons un informe del 2026 citat per RFI, la qualitat de l'aigua de moltes platges de Dakar desaconsella el bany. Millor anar-hi a passejar i veure la posta que a nedar.",
+  "consells": [
+   "Pel vostre compte: taxi fins a les Mamelles/Ouakam i baixada a peu pel corriol del nord.",
+   "Calçat que agafi bé per a la baixada.",
+   "Combineu-la amb el far (pujada a peu) i el Monument de la Renaissance, que són a tocar.",
+   "Si us banyeu, quedeu-vos on hi hagi gent i no entreu amb mala mar."
+  ],
+  "durada": "2-3 h",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.4,
+  "lat": 14.72493,
+  "lng": -17.50377,
+  "millor_moment": "Última hora de la tarda, per a la posta de sol",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi a les Mamelles i baixada a peu.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-virage-secret-spot",
+  "nom": "Platja del Virage i Secret Spot (surf, pàdel i snorkel)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "platja",
+   "esport",
+   "natura"
+  ],
+  "resum": "Dues platges de surfistes a la costa nord: el Virage, per a tots els nivells, i el Secret Spot, per a surf, pàdel i ulleres i tub.",
+  "descripcio": "La Plage du Virage, entre Ouakam i Yoff, és una platja una mica rocosa però més neta que altres, amb un bar a prop; Wikivoyage diu que és més per fer surf que per nedar, i la versió francesa la recomana per a surfistes de tots els nivells.\n\nUns quilòmetres a l'oest, a les Almadies, el «Secret Spot» és, segons la Wikivoyage francesa, ideal per al surf, el pàdel, el bany i fer snorkel amb ulleres i tub: és un dels pocs llocs de Dakar on té sentit portar ulleres de busseig.\n\nSón bones alternatives a Ngor quan voleu un pla de platja actiu i local. Per a classes i lloguer de taules, vegeu la fitxa de surf a Ngor, Ouakam i Yoff.",
+  "consells": [
+   "Pel vostre compte: taxi fins a la Plage du Virage (route de Ngor) o fins a les Almadies; pregunteu pel «Secret Spot» als surfistes.",
+   "Porteu ulleres i tub si voleu fer snorkel al Secret Spot.",
+   "Mireu l'onada abans d'entrar: hi ha roques i corrents.",
+   "Tingueu present l'avís general sobre la qualitat de l'aigua a les platges de Dakar (RFI, 2026)."
+  ],
+  "durada": "mig dia",
+  "preu": "Gratuït (lloguer de taula a part)",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.5,
+  "lat": 14.75485,
+  "lng": -17.4958,
+  "millor_moment": "Matí, amb menys vent",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi fins a la platja; taules de lloguer a les escoles de surf properes.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-anse-bernard",
+  "nom": "Platja de l'Anse Bernard (Plateau)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "platja",
+   "relax"
+  ],
+  "resum": "Una platgeta tranquil·la al Plateau, amb poca onada: el bany més a mà si dormiu al centre.",
+  "descripcio": "Al sud del Plateau, a tocar del centre administratiu, l'Anse Bernard és segons Wikivoyage una platja tranquil·la i pacífica, amb un trencant d'onades més petit que a la costa nord, de manera que s'hi pot nedar.\n\nÉs útil sobretot si dormiu al Plateau i voleu un moment de mar entre museus i mercats sense creuar tota la ciutat. Molt a prop, la Wikivoyage francesa assenyala la «Plage à plateau» com a punt de sortida de wingfoil, amb aigua molt plana i vent del nord-est a principis d'any.\n\nNo és una platja de postal: és petita, urbana i concorreguda els caps de setmana.",
+  "consells": [
+   "Pel vostre compte: a peu o en taxi curt des de la Place de l'Indépendance.",
+   "Si practiqueu wingfoil, la Plage à plateau té aigua plana i vent del nord-est a l'hivern (Wikivoyage fr).",
+   "Tingueu present l'avís general sobre la qualitat de l'aigua a Dakar (RFI, 2026)."
+  ],
+  "durada": "1-2 h",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.1,
+  "lat": 14.65679,
+  "lng": -17.43375,
+  "millor_moment": "Matí de dia feiner",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "A peu des del Plateau.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-voile-dor",
+  "nom": "Platja de la Voile d'Or (Hann)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "platja",
+   "relax"
+  ],
+  "resum": "Platja privada a la badia de Hann, amb l'aigua més neta del costat est de Dakar i Gorée a l'horitzó.",
+  "descripcio": "A la badia de Hann, a l'est de la península, la Voile d'Or és una platja privada d'accés de pagament. Segons la Wikivoyage francesa, l'aigua és força neta, sobretot si es compara amb la de la platja de Hann, una mica més al nord. La versió anglesa la considera bona per nedar i apunta que des d'aquí es veu Gorée a la llunyania.\n\nÉs un pla senzill de platja tranquil·la amb serveis, útil si voleu un bany sense haver d'anar fins a Ngor o a la Petite Côte.",
+  "consells": [
+   "Pel vostre compte: taxi fins a Hann (Route de Rufisque) i digueu «Voile d'Or».",
+   "Entrada aprox. 2.000 FCFA (Wikivoyage fr, preu orientatiu).",
+   "Combineu-la amb el Parc forestier de Hann i el cementiri de Bel-Air."
+  ],
+  "durada": "mig dia",
+  "preu": "Aprox. 2.000 FCFA d'entrada (Wikivoyage fr)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.4,
+  "lat": 14.70035,
+  "lng": -17.42105,
+  "millor_moment": "Matí o primera hora de la tarda",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (fr) – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "Taxi fins a Hann.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-ngor-street-art",
+  "nom": "Poble de Ngor: platja de pirogues i murals",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "art",
+   "cultura",
+   "platja"
+  ],
+  "resum": "El vell poble lebou de Ngor, amb la platja de pirogues i les desenes de murals que cobreixen el seu front marítim des del 2026.",
+  "descripcio": "Abans d'agafar la pirogua cap a l'illa, val la pena perdre's pel poble de Ngor, un dels pobles lebou originals de la península, amb carrerons de sorra, mesquita i la platja on s'amunteguen les pirogues de pesca.\n\nSegons la Wikivoyage francesa, des del 2026 el litoral de Ngor s'ha omplert de murals: una galeria a l'aire lliure que es recorre passejant entre la platja i el poble. És una manera de veure el Dakar contemporani fora dels circuits.\n\nDes de la mateixa platja surten les pirogues cap a l'illa de Ngor (uns 500 FCFA el trajecte, segons Wikivoyage) i a la vora hi ha llocs per menjar peix a la brasa.",
+  "consells": [
+   "Pel vostre compte: taxi fins a «l'embarcadère de Ngor»; d'allà, passeig a peu pel front marítim.",
+   "Demaneu permís abans de fotografiar persones; els murals, lliurement.",
+   "Acabeu-ho amb pirogua cap a l'illa o un peix a la brasa a la platja (vegeu les fitxes de l'illa de Ngor i de Chez Fatou)."
+  ],
+  "durada": "1-2 h",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.6,
+  "lat": 14.75086,
+  "lng": -17.51485,
+  "millor_moment": "Tarda, abans de la posta de sol",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (fr) – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi fins a l'embarcador de Ngor i a peu.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-cafe-de-rome",
+  "nom": "Café de Rome (Plateau)",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Brasserie francesa clàssica del Plateau: ostres, steak tartar i lenguado a la meunière, per a un caprici.",
+  "descripcio": "Wikivoyage la posa a la categoria de capricis: cuina francesa autèntica («us sentireu a França»), des d'ostres fins a steak tartar i el famós lenguado a la meunière. És cara per als estàndards de Dakar, però el menjar és molt bo.\n\nÉs una institució del Plateau, a prop del boulevard de la République, on es barregen funcionaris, diplomàtics i dakarois benestants. No és autèntic en el sentit senegalès, però sí un tros d'història de la ciutat colonial i postcolonial.",
+  "consells": [
+   "Pel vostre compte: és al Plateau, a peu des de la Place de l'Indépendance.",
+   "Reserveu per a sopar si hi aneu en cap de setmana.",
+   "Al carrer de sota hi ha la fleca Eric Kayser, bona per esmorzar."
+  ],
+  "durada": "1-2 h",
+  "preu": "Car per a Dakar (sense preus publicats a Wikivoyage)",
+  "nivell_preu": 3,
+  "hores_des_de_dakar": 0.1,
+  "lat": 14.66548,
+  "lng": -17.4357,
+  "millor_moment": "Dinar o sopar",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "A peu pel Plateau.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-farid",
+  "nom": "Hôtel-Restaurant Farid: mezze i arak",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "La comunitat libanesa de Dakar en una taula: un arak gegant d'aperitiu i els «20 mezze».",
+  "descripcio": "Dakar té una comunitat libanesa centenària i el Farid, al Plateau, n'és un clàssic. La recomanació de Wikivoyage és concreta: comenceu amb un arak gegant (anisat) d'aperitiu i després demaneu els 20 mezze.\n\nÉs un pla perfecte per a quatre persones: es comparteix tot, es parla molt i surt més assequible que un restaurant francès. L'hotel també té habitacions amb aire condicionat al centre.",
+  "consells": [
+   "Pel vostre compte: és al Plateau, a peu des de Sandaga o la Place de l'Indépendance.",
+   "Demaneu els mezze per compartir; amb quatre persones, el surtit gran té sentit.",
+   "Si busqueu menjar libanès més barat, mireu la fitxa d'Ali Baba i Chez Elias."
+  ],
+  "durada": "1-2 h",
+  "preu": "Mitjà (preus no publicats a Wikivoyage)",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 0.1,
+  "lat": 14.67088,
+  "lng": -17.43459,
+  "millor_moment": "Sopar",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "A peu pel Plateau.",
+  "imatges": []
+ },
+ {
+  "id": "wv-dkr-le-viking",
+  "nom": "Le Viking (bar amb música en directe, Plateau)",
+  "regio": "dakar",
+  "tipus": "nit",
+  "categories": [
+   "musica-nit"
+  ],
+  "resum": "Bar veterà a l'avinguda Ponty, en ple caos de Sandaga, amb música en directe les nits de cap de setmana.",
+  "descripcio": "Wikivoyage el descriu com un punt de trobada popular entre expats i viatgers a l'avinguda Pompidou (l'antiga Ponty), enmig del brogit de Sandaga. Les begudes són cares, però l'ambient és molt bo i hi ha música en directe les nits de cap de setmana.\n\nÉs una bona primera cervesa al centre (una Gazelle o una Flag, les dues birres locals) abans d'anar a sopar a algun dels restaurants del Plateau.",
+  "consells": [
+   "Pel vostre compte: a peu pel Plateau; de nit, torneu en taxi.",
+   "Divendres o dissabte, per a la música en directe.",
+   "Vigileu les butxaques a la zona de Sandaga."
+  ],
+  "durada": "2-3 h",
+  "preu": "Begudes una mica cares per a Dakar (Wikivoyage)",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 0.1,
+  "lat": 14.66929,
+  "lng": -17.43433,
+  "millor_moment": "Divendres o dissabte al vespre",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "A peu pel Plateau; taxi de tornada.",
+  "imatges": []
+ },
+ {
+  "id": "wv-nord-grande-mosquee-sl",
+  "nom": "Gran Mesquita de Saint-Louis",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "Una mesquita colonial amb dos minarets que tenen rellotge i campana: una rara barreja que resumeix la història de la ciutat.",
+  "descripcio": "Al nord de l'illa, a tocar del riu, la Gran Mesquita de Saint-Louis (de mitjan segle XIX) és, segons Wikivoyage, bonica però discreta, d'arquitectura colonial. El detall que tothom recorda: els seus dos minarets tenen un rellotge i una campana, una solució que poques vegades es veu en una mesquita.\n\nÉs part del passeig per l'illa nord, amb les cases de balcons de fusta, el Quai Giraud i l'Institut Français. Es veu bé des de fora; per entrar, cal fer-ho fora de les hores de pregària i demanar permís.",
+  "consells": [
+   "Pel vostre compte: tota l'illa es fa a peu; des de Dakar, sept-place o bus a la gare routière de Saint-Louis i taxi fins a l'illa.",
+   "Visiteu-la fora de les hores de pregària i especialment no el divendres a migdia.",
+   "Vestiu roba llarga; les dones, amb un mocador a mà per si us conviden a entrar.",
+   "Combineu-la amb l'Institut Français, que és a la mateixa punta nord."
+  ],
+  "durada": "30 min",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.03173,
+  "lng": -16.50355,
+  "millor_moment": "Matí, fora de les hores de pregària",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Saint-Louis",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   },
+   {
+    "nom": "au-senegal.com – À la découverte de Saint-Louis",
+    "url": "https://au-senegal.com/a-la-decouverte-de-saint-louis,17032.html"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "A peu per l'illa.",
+  "imatges": []
+ },
+ {
+  "id": "wv-nord-cathedrale-sl",
+  "nom": "Catedral de Saint-Louis",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "La primera església de l'Àfrica occidental (1828), restaurada i reoberta el 2020: i, per Nadal, la missa que va inspirar el Fanal.",
+  "descripcio": "Malgrat gairebé dos segles de presència europea, Saint-Louis no va tenir una església de veritat fins que la mare Anne-Marie Javouhey la va reclamar i el governador baró Roger en va posar la primera pedra el 1827. Va obrir el 1828 i és la més antiga en funcionament de l'Àfrica occidental. Té façana neoclàssica amb dues torres quadrades, tres naus i tribunes amb baranes de ferro; és a la Place d'Armes, al sud de l'illa.\n\nVa estar tancada des del 2005 per l'estat de degradació, i entre el 2018 i el 2020 es va restaurar amb finançament francès (AFD); va reobrir a finals del 2020.\n\nPer al vostre viatge té un interès especial: el Fanal neix de les processons de fanals que acompanyaven les signares a la missa del gall. Si sou a Saint-Louis per Nadal, la missa de mitjanit és una manera de connectar amb aquesta tradició.",
+  "consells": [
+   "Pel vostre compte: tota l'illa es fa a peu; des de Dakar, sept-place o bus a la gare routière de Saint-Louis i taxi fins a l'illa.",
+   "Les misses són obertes a tothom; vestiu de manera respectuosa.",
+   "Pregunteu a la parròquia l'horari de la missa del gall i de Cap d'Any.",
+   "Combineu-la amb el pont Faidherbe i el MuPho, que són a prop."
+  ],
+  "durada": "30 min",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.02477,
+  "lng": -16.50445,
+  "millor_moment": "Nit del 24 de desembre o qualsevol matí",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Saint-Louis",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   },
+   {
+    "nom": "Viquipèdia (fr) – Cathédrale Saint-Louis de Saint-Louis-du-Sénégal",
+    "url": "https://fr.wikipedia.org/wiki/Cathédrale_Saint-Louis_de_Saint-Louis-du-Sénégal"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "A peu per l'illa.",
+  "imatges": []
+ },
+ {
+  "id": "wv-nord-gouvernance-place-faidherbe",
+  "nom": "La Gouvernance i la plaça Faidherbe (Baya Ndar)",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "El cor polític de l'antiga capital de l'AOF: el palau del governador sobre les restes del fort i la plaça de l'estàtua polèmica.",
+  "descripcio": "Al centre de l'illa, a la sortida del pont Faidherbe, hi ha la Gouvernance, l'antic palau del governador, construït sobre l'emplaçament d'un fort colonial del qual encara queden alguns murs. Davant s'obre l'antiga Place Faidherbe (ex-Place d'Orléans, anomenada «la Savane»), amb l'estàtua de bronze del governador Louis Faidherbe de 1887.\n\nLa plaça ha estat rebatejada Baya Ndar, i l'estàtua és motiu de debat: per a uns és patrimoni, per a d'altres un homenatge al conqueridor colonial. Segons au-senegal, és una visita «imprescindible».\n\nAl costat hi ha l'Office de Tourisme / Syndicat d'Initiative, que organitza visites guiades de l'illa a peu, en bici o en calesa, i el Musée de l'Aéropostale. L'Hôtel de la Poste, on va dormir Jean Mermoz, també és a la vora.",
+  "consells": [
+   "Pel vostre compte: tota l'illa es fa a peu; des de Dakar, sept-place o bus a la gare routière de Saint-Louis i taxi fins a l'illa.",
+   "Al Syndicat d'Initiative (a la mateixa plaça) proposen recorreguts guiats d'1 h 30 a 3 h per les dues illes i el poble de pescadors (Wikivoyage fr).",
+   "La Gouvernance és un edifici oficial: es veu per fora.",
+   "Feu la foto clàssica des del pont Faidherbe a la llum de la tarda."
+  ],
+  "durada": "30 min",
+  "preu": "Gratuït (visites guiades a part)",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.0262,
+  "lng": -16.5037,
+  "millor_moment": "Tarda",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Saint-Louis",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Saint-Louis (Sénégal)",
+    "url": "https://fr.wikivoyage.org/wiki/Saint-Louis_(S%C3%A9n%C3%A9gal)"
+   },
+   {
+    "nom": "Viquipèdia (fr) – Saint-Louis (Sénégal)",
+    "url": "https://fr.wikipedia.org/wiki/Saint-Louis_(Sénégal)"
+   },
+   {
+    "nom": "au-senegal.com – À la découverte de Saint-Louis",
+    "url": "https://au-senegal.com/a-la-decouverte-de-saint-louis,17032.html"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "A peu; guies al Syndicat d'Initiative.",
+  "imatges": []
+ },
+ {
+  "id": "wv-nord-musee-crds",
+  "nom": "Museu del CRDS (Centre Yoro Boly Dyao)",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura"
+  ],
+  "resum": "El museu d'història i etnografia de Saint-Louis, a la punta sud de l'illa: prehistòria, la vall del riu i una col·lecció bassari.",
+  "descripcio": "El Centre de Recherche et de Documentation du Sénégal (CRDS), creat el 1943 com a centre IFAN Senegal-Mauritània i avui anomenat Centre Yoro Boly Dyao, ocupa un edifici colonial de 1954 a la punta sud de l'illa. El museu va obrir el 1956 i s'ha rehabilitat diverses vegades, l'última amb la Cooperació Espanyola (reinaugurat el 2017).\n\nÉs un museu de prehistòria, història, etnografia, arts i tradicions populars. Hi ha un centre d'interpretació del patrimoni del riu, «Els fills de la vall del riu», sales d'exposicions temporals i una col·lecció d'objectes bassari dels anys 50.\n\nÉs el complement més seriós al MuPho per entendre Saint-Louis i el nord: el riu Senegal, els regnes del Waalo i el Fouta i la història colonial.",
+  "consells": [
+   "Pel vostre compte: tota l'illa es fa a peu; des de Dakar, sept-place o bus a la gare routière de Saint-Louis i taxi fins a l'illa.",
+   "Confirmeu horaris a la porta: les fonts consultades no en publiquen.",
+   "Combineu-lo amb el MuPho i la catedral, tots al sud de l'illa.",
+   "Ideal a les hores de més calor."
+  ],
+  "durada": "1 h",
+  "preu": "No publicat a les fonts consultades",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.0198,
+  "lng": -16.505,
+  "millor_moment": "Migdia, per fugir de la calor",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Viquipèdia (fr) – Musée du Centre de recherches et de documentation du Sénégal à Saint-Louis",
+    "url": "https://fr.wikipedia.org/wiki/Musée_du_Centre_de_recherches_et_de_documentation_du_Sénégal_à_Saint-Louis"
+   },
+   {
+    "nom": "Viquipèdia (fr) – Saint-Louis (Sénégal)",
+    "url": "https://fr.wikipedia.org/wiki/Saint-Louis_(Sénégal)"
+   },
+   {
+    "nom": "Wikivoyage (en) – Saint-Louis",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "A peu al sud de l'illa.",
+  "imatges": []
+ },
+ {
+  "id": "wv-nord-institut-francais-sl",
+  "nom": "Institut Français de Saint-Louis",
+  "regio": "nord",
+  "tipus": "nit",
+  "categories": [
+   "musica-nit",
+   "cultura"
+  ],
+  "resum": "Jardí, cafè i programació de concerts, cinema i exposicions al nord de l'illa: mireu què fan les nits del Fanal.",
+  "descripcio": "L'Institut Français de Saint-Louis, al nord de l'illa, té cafè, biblioteca i, sovint, concerts, cinema i exposicions d'art. Wikivoyage recomana agafar el programa mensual al mateix centre, en algun hotel o al Syndicat d'Initiative. També s'hi fan classes de wòlof i francès.\n\nEs fa servir sovint com a escenari d'esdeveniments de la ciutat, inclòs el Festival de Jazz (finals de maig, fora de les vostres dates). Per Nadal i Cap d'Any val la pena mirar si hi ha concerts o activitats lligades al Fanal.",
+  "consells": [
+   "Pel vostre compte: tota l'illa es fa a peu; des de Dakar, sept-place o bus a la gare routière de Saint-Louis i taxi fins a l'illa.",
+   "Horari de referència (Wikivoyage, pot haver canviat): dl-dv 8:30-12:30 i 15:00-18:00, ds 8:30-16:00.",
+   "Agafeu el programa mensual al primer dia d'estada.",
+   "El cafè és bon lloc per descansar del sol."
+  ],
+  "durada": "1-3 h",
+  "preu": "Entrada lliure al recinte; concerts segons programa",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.03313,
+  "lng": -16.50337,
+  "millor_moment": "Vespres amb programació",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Saint-Louis",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   }
+  ],
+  "autentic": false,
+  "pel_teu_compte": "A peu al nord de l'illa.",
+  "imatges": []
+ },
+ {
+  "id": "wv-nord-plage-salsal",
+  "nom": "Platja de Sal Sal (nord de Saint-Louis)",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "platja",
+   "natura"
+  ],
+  "resum": "Una platja immensa i deserta al nord de Saint-Louis, sense ningú: tota la Langue de Barbarie per a vosaltres, però amb la frontera a prop.",
+  "descripcio": "Al nord de la ciutat, la Plage de Sal Sal és, segons Wikivoyage, verge i deserta, fins al punt que potser no hi trobareu ningú. És la cara oposada de la platja urbana de Ndar Toute (plena de pirogues però també de deixalles) i de l'Hydrobase, més concorreguda.\n\nLa platja s'allarga fins a la frontera amb Mauritània, de manera que no us heu d'allunyar gaire cap al nord. Pel camí podeu trobar controls policials: digueu simplement que aneu a la platja.",
+  "consells": [
+   "Pel vostre compte: taxi des de l'illa cap al nord, pel barri de Guet Ndar; pacteu l'espera o l'hora de tornada.",
+   "No camineu cap al nord fins a la frontera mauritana.",
+   "Porteu aigua i ombra: no hi ha cap servei.",
+   "Porteu el passaport per als possibles controls."
+  ],
+  "durada": "mig dia",
+  "preu": "Gratuït (taxi a part)",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 4.7,
+  "lat": 16.0533,
+  "lng": -16.5081,
+  "millor_moment": "Matí o tarda, mai a les hores de més sol",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Saint-Louis",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Taxi des de l'illa amb hora de recollida pactada.",
+  "imatges": []
+ },
+ {
+  "id": "wv-nord-richard-toll",
+  "nom": "Richard-Toll i el castell del baró Roger",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "natura"
+  ],
+  "resum": "El «jardí de Richard» del riu Senegal: un castell colonial en ruïnes, un parc botànic de 1816 i un mar de canya de sucre.",
+  "descripcio": "Richard-Toll vol dir en wòlof «el jardí de Richard», pel botànic francès Jean Michel Claude Richard, que a partir de 1816 hi va intentar aclimatar plantes europees. Entre 1822 i 1827 el governador baró Jacques François Roger s'hi va fer construir un veritable castell, que després va habitar Faidherbe i que va ser monestir i escola; avui són unes ruïnes evocadores al costat del riu, envoltades del vell parc.\n\nLa ciutat viu de la canya de sucre: la Compagnie Sucrière Sénégalaise hi gestiona uns 10.500 ha i hi dona feina a milers de persones, i al voltant hi ha arrossars en plena zona àrida. És a uns 100 km de Saint-Louis i a tocar de Mauritània.\n\nTé sentit com a parada en una ruta pel riu cap al llac de Guiers o Podor. No és un destí en si mateix.",
+  "consells": [
+   "Pel vostre compte: sept-place des de la gare routière de Saint-Louis (aprox. 2 h).",
+   "Pregunteu per «le château du Baron Roger» o «la Folie du Baron»; està en ruïnes, mireu-lo amb precaució.",
+   "Combineu-lo amb el llac de Guiers i Nder (vegeu la fitxa) en una mateixa jornada amb cotxe."
+  ],
+  "durada": "2-3 h",
+  "preu": "Gratuït",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 6.5,
+  "lat": 16.46,
+  "lng": -15.696,
+  "millor_moment": "Matí",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Viquipèdia (fr) – Richard-Toll",
+    "url": "https://fr.wikipedia.org/wiki/Richard-Toll"
+   },
+   {
+    "nom": "Viquipèdia (en) – Richard Toll",
+    "url": "https://en.wikipedia.org/wiki/Richard_Toll"
+   },
+   {
+    "nom": "Wikivoyage (en) – Senegal",
+    "url": "https://en.wikivoyage.org/wiki/Senegal"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Sept-place des de Saint-Louis i a peu pel centre.",
+  "imatges": []
+ },
+ {
+  "id": "wv-vlt-tivaouane",
+  "nom": "Tivaouane, la ciutat santa tidjane",
+  "regio": "voltants",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "historia"
+  ],
+  "resum": "Antiga capital del Cayor i cor de la confraria tidjane: mausoleu d'El Hadji Malick Sy, mesquites i l'estació, a 92 km de Dakar.",
+  "descripcio": "Tivaouane, a 92 km de Dakar per la N2, va ser capital del regne del Cayor des del segle XV i avui és la ciutat santa de la Tidjaniyya, la confraria sufí amb més fidels al Senegal juntament amb els murides. Cada setmana milers de fidels hi venen a recollir-se als mausoleus, sobretot al d'El Hadji Malick Sy, el gran erudit que va construir la Gran Mesquita.\n\nEl 2003 el mausoleu d'El Hadji Malick Sy, la mesquita Serigne Babacar Sy i l'estació de tren es van declarar monuments històrics. Durant el Gamou (el naixement del Profeta) hi poden arribar fins a un milió i mig de pelegrins, però és a l'estiu i no coincideix amb el vostre viatge.\n\nWikivoyage la llista entre els «llocs de religió i contemplació» del país, al costat de Touba i Keur Moussa. Fora del Gamou, és una ciutat tranquil·la que es pot combinar amb Ndiassane (Qadiriyya) per entendre el pes de les confraries.",
+  "consells": [
+   "Pel vostre compte: sept-place des de Dakar (gare des Baux Maraîchers) o parada de camí a Saint-Louis per la N2.",
+   "Vestiu roba llarga; les dones, amb mocador. Visiteu els mausoleus fora de les hores de pregària i demaneu permís.",
+   "Combineu-la amb Ndiassane, a pocs quilòmetres (vegeu la fitxa)."
+  ],
+  "durada": "mig dia",
+  "preu": "Gratuït (donatiu voluntari)",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 1.5,
+  "lat": 14.95,
+  "lng": -16.817,
+  "millor_moment": "Matí, fora del divendres a migdia",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Viquipèdia (fr) – Tivaouane",
+    "url": "https://fr.wikipedia.org/wiki/Tivaouane"
+   },
+   {
+    "nom": "Wikivoyage (en) – Senegal",
+    "url": "https://en.wikivoyage.org/wiki/Senegal"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Sept-place per la N2 i a peu pel centre.",
+  "imatges": []
+ },
+ {
+  "id": "wv-sal-cercles-megalitics",
+  "nom": "Cercles megalítics de Sine Ngayène i Wanar (UNESCO)",
+  "regio": "saloum",
+  "tipus": "activitat",
+  "categories": [
+   "historia",
+   "cultura",
+   "excursio"
+  ],
+  "resum": "La concentració de cercles de pedra més gran del món, enmig de la sabana del cacauet: pedres de fins a 2 tones aixecades fa més de mil anys.",
+  "descripcio": "Els cercles megalítics de Senegàmbia formen la concentració de cercles de pedra més gran del món: més de mil monuments en una franja de 350 km al llarg del riu Gàmbia. La UNESCO en va inscriure quatre conjunts el 2006, dos d'ells al Senegal: Sine Ngayène, amb 52 cercles, i Wanar, amb 21. Cada cercle fa entre 4 i 6 metres de diàmetre i té de 8 a 14 pedres de laterita d'uns 2 metres i fins a 2 tones.\n\nSón monuments funeraris aixecats aproximadament entre els segles VII i XV (segons la ceràmica trobada). Una de les hipòtesis és que els van construir els serer, que encara fan servir cases funeràries semblants a les de Wanar.\n\nWikivoyage els destaca entre els llocs singulars del país (Nioro du Rip, Keur Ali Lobé). Hi arriben molt pocs viatgers: és una excursió llarga des de Kaolack, però el silenci de les pedres a la sabana és memorable.",
+  "consells": [
+   "Pel vostre compte: des de Kaolack, sept-place o clando cap a Nioro du Rip i després taxi o moto fins a Sine Ngayène; amb cotxe amb xofer, es poden fer els dos llocs el mateix dia.",
+   "Porteu aigua i barret: no hi ha ombra ni serveis.",
+   "Busqueu el guarda del lloc per a una explicació i deixeu-li una propina.",
+   "Té sentit si ja passeu per Kaolack cap a Tambacounda, la Casamance o el Saloum oriental."
+  ],
+  "durada": "mig dia (1 dia des de Kaolack)",
+  "preu": "Entrada simbòlica (import no publicat a les fonts consultades)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 5,
+  "lat": 13.69111,
+  "lng": -15.5225,
+  "millor_moment": "Primera hora del matí o última de la tarda",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Viquipèdia (fr) – Cercles mégalithiques de Sénégambie",
+    "url": "https://fr.wikipedia.org/wiki/Cercles_mégalithiques_de_Sénégambie"
+   },
+   {
+    "nom": "Viquipèdia (en) – Senegambian stone circles",
+    "url": "https://en.wikipedia.org/wiki/Senegambian_stone_circles"
+   },
+   {
+    "nom": "Wikivoyage (en) – Senegal",
+    "url": "https://en.wikivoyage.org/wiki/Senegal"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Transport públic fins a Nioro du Rip i moto o taxi al lloc; o cotxe amb xofer des de Kaolack.",
+  "imatges": []
+ },
+ {
+  "id": "wv-sal-foundiougne-puits-sel",
+  "nom": "Pous de sal i taula de Chez Bifa (Foundiougne)",
+  "regio": "saloum",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "gastronomia",
+   "mercats"
+  ],
+  "resum": "Passejar entre els pous de sal a tocar de Foundiougne i dinar a Soum en un restaurant d'una sola taula: el Saloum més quotidià.",
+  "descripcio": "La Wikivoyage francesa proposa una visita molt senzilla i molt local als voltants de Foundiougne: a la sortida del poble, cap al llac, hi ha un camp de pous de sal on es pot passejar entre les dones i els homes que l'extreuen (coordenades GPS 14.076765, -16.490799).\n\nPer dinar, al poblet de Soum, recomana Chez Bifa (14.082367, -16.483306), un restaurant minúscul amb una sola taula i una acollida molt càlida: cal avisar amb antelació per menjar a les 14 h, l'hora habitual del dinar.\n\nSi hi passeu un dimarts, la louma (mercat setmanal) de Foundiougne se celebra al costat de la gare routière. Els eco-guies locals també proposen passejades a peu i en pirogua.",
+  "consells": [
+   "Pel vostre compte: des de Foundiougne, a peu o en moto-taxi fins als pous; Soum és a pocs quilòmetres.",
+   "Truqueu o passeu el dia abans per Chez Bifa per reservar el dinar de les 14 h.",
+   "Demaneu permís abans de fotografiar els treballadors de la sal.",
+   "La louma és els dimarts, al costat de la gare routière (Wikivoyage fr)."
+  ],
+  "durada": "mig dia",
+  "preu": "Pous gratuïts; dinar econòmic (preu no publicat)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 3.5,
+  "lat": 14.07677,
+  "lng": -16.4908,
+  "millor_moment": "Matí als pous, dinar a les 14 h; dimarts per la louma",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (fr) – Foundiougne",
+    "url": "https://fr.wikivoyage.org/wiki/Foundiougne"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "A peu o en moto-taxi des de Foundiougne; reserva directa a Chez Bifa.",
+  "imatges": []
+ },
+ {
+  "id": "wv-ptc-popenguine-pirogue",
+  "nom": "Pirogua per la costa des de Popenguine",
+  "regio": "petite-cote",
+  "tipus": "activitat",
+  "categories": [
+   "aventura",
+   "natura",
+   "excursio"
+  ],
+  "resum": "Llogar una pirogua amb un pescador de Popenguine i resseguir els penya-segats de la Petite Côte, amb opció de pescar.",
+  "descripcio": "Wikivoyage (anglesa i francesa) proposa llogar directament una pirogua a Popenguine per fer una volta pel mar, resseguint la costa entre Mbour i Toubab Dialaw, i veure des de l'aigua els penya-segats del Cap de Naze i els pobles de pescadors. Per als aficionats, el mateix pescador us pot portar als seus punts de pesca.\n\nÉs exactament el tipus d'experiència que busqueu: res d'agència, tracte directe amb un pescador del poble i una pirogua per a vosaltres quatre.",
+  "consells": [
+   "Pel vostre compte: pregunteu a la platja de Popenguine o al campement Kër Cupaam per un pescador que faci sortides.",
+   "Preus orientatius de Wikivoyage: 30.000 FCFA per una pirogua de 2-4 h (fins a 10 persones); 40.000 FCFA amb pesca. Negocieu i pacteu-ho tot abans de sortir.",
+   "Exigiu armilles salvavides i no sortiu amb mala mar.",
+   "Sortiu al matí, quan el mar sol estar més calmat."
+  ],
+  "durada": "2-4 h",
+  "preu": "Aprox. 30.000 FCFA per pirogua (40.000 amb pesca), segons Wikivoyage; negociable",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 1.2,
+  "lat": 14.552,
+  "lng": -17.113,
+  "millor_moment": "Matí",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Popenguine",
+    "url": "https://en.wikivoyage.org/wiki/Popenguine"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Popenguine-Ndayane",
+    "url": "https://fr.wikivoyage.org/wiki/Popenguine-Ndayane"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Tracte directe amb un pescador a la platja de Popenguine.",
+  "imatges": []
+ },
+ {
+  "id": "wv-ptc-ker-cupaam",
+  "nom": "Campement Kër Cupaam (Popenguine)",
+  "regio": "petite-cote",
+  "tipus": "allotjament",
+  "categories": [
+   "relax",
+   "natura"
+  ],
+  "resum": "Campement comunitari gestionat per l'associació de dones que protegeix la reserva de Popenguine: dormir barat i que els diners es quedin al poble.",
+  "descripcio": "Kër Cupaam és el campement de la comunitat de Popenguine, gestionat per l'agrupació de dones RFPPN, la mateixa que cogestiona la Reserva Natural de Popenguine. Segons Wikivoyage, els beneficis es reinverteixen en salut, educació, reforestació, horts i microcrèdits per al poble.\n\nOfereix cabanes i un dormitori, i des d'aquí surten els guies de l'associació per caminar per la reserva i observar ocells. Popenguine té una platja tranquil·la i és a una hora de Dakar.\n\nNo és un hotel: és senzill, però és una manera directa de viure la Petite Côte sense resorts.",
+  "consells": [
+   "Pel vostre compte: sept-place Dakar-Mbour fins al trencall de Popenguine i clando fins al poble.",
+   "Preus orientatius de Wikivoyage (dada antiga): 12.000 FCFA la cabana i 6.000 FCFA per persona al dormitori; confirmeu-ho i pregunteu per una cabana per a quatre.",
+   "Reserveu amb 2-3 setmanes d'antelació, recomana Wikivoyage; per Nadal, millor abans.",
+   "Per a una opció més còmoda per a 4, Wikivoyage cita Les Manguiers de Guéréo (cabanes fins a 4 persones, amb aire condicionat)."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Aprox. 12.000 FCFA la cabana, 6.000 FCFA al dormitori (Wikivoyage, dada antiga)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 1.2,
+  "lat": 14.553,
+  "lng": -17.112,
+  "millor_moment": "Tot l'any; per Pentecosta, ple de pelegrins",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Popenguine",
+    "url": "https://en.wikivoyage.org/wiki/Popenguine"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Popenguine-Ndayane",
+    "url": "https://fr.wikivoyage.org/wiki/Popenguine-Ndayane"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Reserva directa amb el campement; transport públic fins al poble.",
+  "imatges": []
+ },
+ {
+  "id": "wv-ptc-joal-port-senghor",
+  "nom": "Port de pesca de Joal i casa familiar de Senghor",
+  "regio": "petite-cote",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "historia",
+   "mercats"
+  ],
+  "resum": "Abans de creuar a Fadiouth: el caos organitzat del port de pirogues de Joal i la casa on va créixer el primer president.",
+  "descripcio": "Wikivoyage recomana no limitar-se a Fadiouth. A l'entrada de Joal hi ha el port de pesca artesanal, un espectacle magnífic al matí i al vespre, quan arriben les pirogues: caos organitzat, descàrregues, dones que compren i venen, i la possibilitat de comprar peix acabat de pescar. Les millors hores són cap a les 9:00 i les 18:00.\n\nL'altra visita és la casa on va créixer Léopold Sédar Senghor. Explica com era Joal en època colonial i la història de la família Senghor.\n\nI als afores, en direcció a Palmarin, hi ha el gran baobab, que diuen que és el més gros del Senegal (vegeu la fitxa del baobab sagrat de Fadial).",
+  "consells": [
+   "Pel vostre compte: des de Mbour, transport col·lectiu fins a Joal; el port és a l'entrada de la ciutat.",
+   "Aneu al port cap a les 9:00 o les 18:00, quan tornen les pirogues.",
+   "Demaneu sempre permís abans de fotografiar la gent.",
+   "Combineu-ho amb Fadiouth el mateix dia."
+  ],
+  "durada": "2-3 h",
+  "preu": "Port gratuït; casa de Senghor amb entrada modesta (import no publicat)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 2.5,
+  "lat": 14.167,
+  "lng": -16.845,
+  "millor_moment": "Cap a les 9:00 o les 18:00",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Joal-Fadiouth",
+    "url": "https://en.wikivoyage.org/wiki/Joal-Fadiouth"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Transport col·lectiu des de Mbour i a peu.",
+  "imatges": []
+ },
+ {
+  "id": "wv-ptc-joal-thiouraye",
+  "nom": "Le Thiouraye (Joal)",
+  "regio": "petite-cote",
+  "tipus": "allotjament",
+  "categories": [
+   "relax",
+   "natura"
+  ],
+  "resum": "Un petit lodge de tres habitacions al barri vell de Joal, davant dels manglars: per dormir a prop de Fadiouth quan marxen els grups.",
+  "descripcio": "Wikivoyage el descriu com un petit lodge en una part més tranquil·la i antiga de Joal, just davant dels manglars. Té tres habitacions amb bany, amb ventilador o, pagant més, aire condicionat, i un petit espai per menjar a tocar dels manglars.\n\nTambé té una botiga d'artesania. Dormir a Joal permet veure el port de pesca a primera hora i passejar per Fadiouth al capvespre, quan ja no hi ha excursions.",
+  "consells": [
+   "Pel vostre compte: transport col·lectiu des de Mbour fins a Joal i a peu o taxi local.",
+   "Amb tres habitacions, reserveu-ne dues per als quatre i confirmeu-ho per escrit.",
+   "Demaneu aire condicionat només si cal: el ventilador surt més barat."
+  ],
+  "durada": "1 nit",
+  "preu": "No publicat a Wikivoyage",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 2.5,
+  "lat": 14.16,
+  "lng": -16.835,
+  "millor_moment": "Per veure Fadiouth al capvespre i el port al matí",
+  "imprescindible": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Joal-Fadiouth",
+    "url": "https://en.wikivoyage.org/wiki/Joal-Fadiouth"
+   }
+  ],
+  "autentic": true,
+  "pel_teu_compte": "Reserva directa; transport col·lectiu fins a Joal.",
+  "imatges": []
  }
 ]
