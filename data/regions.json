@@ -185,6 +185,21 @@
     "com_arribar": "Tambacounda ≈7-8 h; Kédougou ≈10-12 h per carretera. Vols interns ocasionals.",
     "dies": "5 dies com a mínim",
     "ideal": "Trekking, fauna, pobles de muntanya, aventura de veritat",
-    "imatges": []
+    "imatges": [
+      {
+        "src": "assets/img/reg-est-1.jpg",
+        "autor": "BluesyPete",
+        "llicencia": "CC BY-SA 3.0",
+        "font": "https://commons.wikimedia.org/wiki/File:DindefeloFalls_01.jpg",
+        "titol": "DindefeloFalls 01.jpg"
+      }
+    ],
+    "imatge": {
+      "src": "assets/img/reg-est-1.jpg",
+      "autor": "BluesyPete",
+      "llicencia": "CC BY-SA 3.0",
+      "font": "https://commons.wikimedia.org/wiki/File:DindefeloFalls_01.jpg",
+      "titol": "DindefeloFalls 01.jpg"
+    }
   }
 ]

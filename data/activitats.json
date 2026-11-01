@@ -627,7 +627,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Pregunteu a la Corniche Ouest per les barques del parc (preu aprox. 5.000 FCFA) i sortiu només amb mar calma.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/dkr-iles-madeleine-1.jpg",
+    "autor": "KaBa (KaaBaa)",
+    "llicencia": "CC BY 3.0",
+    "font": "https://commons.wikimedia.org/wiki/File:%C3%8Eles_de_la_Madeleine,_Dakar.jpg",
+    "titol": "Îles de la Madeleine, Dakar.jpg"
+   }
+  ]
  },
  {
   "id": "dkr-pointe-almadies",
@@ -1251,7 +1259,29 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Truqueu o escriviu per WhatsApp directament a l'escola el dia abans; res de paquets.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/dkr-surf-ngor-1.jpg",
+    "autor": "Isabelle Lemelin",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:SurfDakar,_Senegal_(2).jpg",
+    "titol": "SurfDakar, Senegal (2).jpg"
+   },
+   {
+    "src": "assets/img/dkr-surf-ngor-2.jpg",
+    "autor": "Isabelle Lemelin",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Prepare_to_surf_in_Dakar,_Senegal.jpg",
+    "titol": "Prepare to surf in Dakar, Senegal.jpg"
+   },
+   {
+    "src": "assets/img/dkr-surf-ngor-3.jpg",
+    "autor": "Manuele Zunelli",
+    "llicencia": "CC BY 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:DakarSurf.jpg",
+    "titol": "DakarSurf.jpg"
+   }
+  ]
  },
  {
   "id": "dkr-lluita-arena",
@@ -1432,7 +1462,15 @@
    }
   ],
   "pel_teu_compte": "Yango o Heetch d'anada i tornada (preu fix, sense regatejar).",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/dkr-nit-almadies-1.jpg",
+    "autor": "Erica Kowal",
+    "llicencia": "CC BY-SA 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Dakar-Just4U.jpg",
+    "titol": "Dakar-Just4U.jpg"
+   }
+  ]
  },
  {
   "id": "dkr-cap-any",
@@ -2412,7 +2450,15 @@
    }
   ],
   "pel_teu_compte": "Igual que Bandia: sept-place cap a Mbour fins a Sindia o taxi des de Saly/Somone.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/ptc-accrobaobab-1.jpg",
+    "autor": "Manuel.flury",
+    "llicencia": "CC BY-SA 3.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Baobab_forest_senegal.JPG",
+    "titol": "Baobab forest senegal.JPG"
+   }
+  ]
  },
  {
   "id": "ptc-popenguine",
@@ -3650,7 +3696,22 @@
   ],
   "autentic": true,
   "pel_teu_compte": "A peu o en bici des de qualsevol campament de Palmarin; les basses són a l'est de Ngallou.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/sal-palmarin-salines-1.jpg",
+    "autor": "Kalamuh 045",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Puits_de_sel_de_couleur_diff%C3%A9rentes_dans_la_r%C3%A9serve_naturel_communautaire_de_Palmarin_de_Palmarin_DSC00921_01.jpg",
+    "titol": "Puits de sel de couleur différentes dans la réserve naturel communautaire de Palmarin de Palmarin DSC00921 01.jpg"
+   },
+   {
+    "src": "assets/img/sal-palmarin-salines-2.jpg",
+    "autor": "Kalamuh 045",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:La_r%C3%A9serve_naturel_de_Palmarin_DSC00941_01.jpg",
+    "titol": "La réserve naturel de Palmarin DSC00941 01.jpg"
+   }
+  ]
  },
  {
   "id": "sal-caiac-palmarin",
@@ -4839,7 +4900,22 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Pirogua negociada al moll de Djiffer o Ndangane incloent-hi Falia; pagueu al piroguer, no a una agència.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/sal-falia-1.jpg",
+    "autor": "Julien saison",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Cueilleuses_traditionnelles_d%27Hu%C3%AEtres_de_mangrove,_r%C3%A9gion_du_Sine_Saloum,_femmes_du_village_de_Soucouta,_S%C3%A9n%C3%A9gal.jpg",
+    "titol": "Cueilleuses traditionnelles d'Huîtres de mangrove, région du Sine Saloum, femmes du village de Soucouta, Sénégal.jpg"
+   },
+   {
+    "src": "assets/img/sal-falia-2.jpg",
+    "autor": "Julien saison",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Cueilleuse_traditionnelle_d%27Hu%C3%AEtres_de_mangrove,_delta_du_Sine_Saloum,_femme_du_village_de_Soucouta,_S%C3%A9n%C3%A9gal.jpg",
+    "titol": "Cueilleuse traditionnelle d'Huîtres de mangrove, delta du Sine Saloum, femme du village de Soucouta, Sénégal.jpg"
+   }
+  ]
  },
  {
   "id": "sal-kousmar-falcons",
@@ -5193,7 +5269,15 @@
    }
   ],
   "pel_teu_compte": "Entreu directament a la Villa MuPho (rue Ibrahima Sarr); no cal reserva.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/nord-mupho-museus-1.jpg",
+    "autor": "HaguardDuNord (talk)",
+    "llicencia": "CC BY-SA 3.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Saint-Louis_-_Mus%C3%A9e_du_Centre_de_Recherches_et_de_Documentation_du_S%C3%A9n%C3%A9gal.JPG",
+    "titol": "Saint-Louis - Musée du Centre de Recherches et de Documentation du Sénégal.JPG"
+   }
+  ]
  },
  {
   "id": "nord-hydrobase",
@@ -7023,7 +7107,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Aneu-hi pel vostre compte en set-place via Bignona o des de Kafountine i dormiu al poble; no cal cap paquet.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/cas-festival-abene-1.jpg",
+    "autor": "Bess Sadler from Palo Alto, CA, USA",
+    "llicencia": "CC BY 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Dakar-Djemb%C3%A9_sur_la_plage.jpg",
+    "titol": "Dakar-Djembé sur la plage.jpg"
+   }
+  ]
  },
  {
   "id": "cas-parc-basse-casamance",
@@ -8051,7 +8143,22 @@
     "url": "https://en.wikivoyage.org/wiki/Dakar"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/otb-marche-hlm-1.jpg",
+    "autor": "Mam505",
+    "llicencia": "CC0",
+    "font": "https://commons.wikimedia.org/wiki/File:Tailleur_couturier_Hann_Mariste_05.jpg",
+    "titol": "Tailleur couturier Hann Mariste 05.jpg"
+   },
+   {
+    "src": "assets/img/otb-marche-hlm-2.jpg",
+    "autor": "Mam505",
+    "llicencia": "CC0",
+    "font": "https://commons.wikimedia.org/wiki/File:Tailleur_couturier_Hann_Mariste_01.jpg",
+    "titol": "Tailleur couturier Hann Mariste 01.jpg"
+   }
+  ]
  },
  {
   "id": "otb-lluita-1-gener",
@@ -8791,7 +8898,15 @@
     "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/ngueniene/marche-de-ngueniene"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/otb-ngueniene-louma-1.jpg",
+    "autor": "Yvonneberthe",
+    "llicencia": "CC0",
+    "font": "https://commons.wikimedia.org/wiki/File:March%C3%A9_hebdomadaire_de_Diagl%C3%A9_au_S%C3%A9n%C3%A9gal_2.jpg",
+    "titol": "Marché hebdomadaire de Diaglé au Sénégal 2.jpg"
+   }
+  ]
  },
  {
   "id": "otb-mbour-port",
@@ -8960,7 +9075,15 @@
     "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/kafountine"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/otb-abene-1.jpg",
+    "autor": "Pitele",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Plage_d%27Ab%C3%A9n%C3%A9.jpg",
+    "titol": "Plage d'Abéné.jpg"
+   }
+  ]
  },
  {
   "id": "otb-oussouye-edioungou",
@@ -9508,5 +9631,1054 @@
     "titol": "Bateau Aline sitoé diatta.JPG"
    }
   ]
+ },
+ {
+  "id": "rlp-sal-simal",
+  "nom": "Simal, poble serer entre bolongs",
+  "regio": "saloum",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "excursio",
+   "fauna",
+   "relax"
+  ],
+  "resum": "Un poble serer petit i tranquil al nord del delta: pirogua, caiac, pesca amb línia i carro pels camins de la brossa.",
+  "descripcio": "Simal és un poble de pescadors i pagesos serers a tocar del bolong de Fimela, al nord del delta del Saloum. El Routard el destaca entre els imprescindibles del Siné Saloum precisament per allò que no té: ni hotels grans ni circuits massius, només carrerons de sorra, cases tradicionals i alguns ecolodges amb cabanes.\n\nEl pla és senzill i molt del vostre perfil: sortir en pirogua o caiac pels bolongs, provar la pesca tradicional amb línia (palangrotte), caminar o anar amb carro de cavall fins als llogarrets veïns i mirar ocells (pelicans, corbs marins, blauets). És una bona alternativa més quieta a Ndangane, que queda a pocs quilòmetres.\n\nPerò compte: hi ha poques infraestructures i cal pactar-ho tot sobre el terreny.",
+  "consells": [
+   "Pel vostre compte: sept-place fins a Mbour o Fatick, i d'allà taxi brousse/clando cap a Fimela; els últims quilòmetres són pista. El Routard calcula unes 3 h des de Dakar.",
+   "Demaneu al vostre allotjament o als pescadors del poble una sortida en pirogua i pacteu durada i preu abans de pujar (el Routard no dona tarifes).",
+   "Combineu-lo amb Ndangane/Mar Lodj o Palmarin, a menys d'una hora.",
+   "Porteu efectiu: no hi ha caixers (els més propers, a Mbour o Fatick/Kaolack)."
+  ],
+  "durada": "1-2 dies",
+  "preu": "Accés lliure; pirogua, caiac i guia a negociar al poble (sense tarifes publicades).",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 3,
+  "lat": 14.08,
+  "lng": -16.73,
+  "millor_moment": "Primera hora del matí o capvespre per a la pirogua; desembre és temporada seca i d'ocells.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Sept-place fins a Fimela/Ndangane i pirogua contractada directament amb els pescadors.",
+  "fonts": [
+   {
+    "nom": "Routard - Simal",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum/simal"
+   },
+   {
+    "nom": "Routard - Siné Saloum",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-sal-fatick",
+  "nom": "Fatick, bressol serer i marais salants",
+  "regio": "saloum",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "historia",
+   "mercats"
+  ],
+  "resum": "La capital regional que ningú visita: llocs sagrats serers, arquitectura colonial i salines on es cull la sal a mà.",
+  "descripcio": "Fatick és ciutat de pas a la carretera Dakar–Kaolack (uns 155 km de Dakar), però el Routard la presenta com a porta d'entrada al Saloum i, sobretot, com el bressol de la cultura serer. Hi ha edificis colonials protegits (prefectura, tribunal, Maison luthérienne) i llocs rituals que expliquen molt de la cosmovisió serer: el lloc de libacions de Mind Ngo Mindiss, a la vora del Sine, el lloc de cerimònies de Ndiobaye i l'arbre sagrat Jab Ndeb, al barri de Ndiaye-Ndiaye.\n\nA la sortida cap a Kaolack hi ha marais salants on es pot veure la feina dels saliners. És una parada autèntica, sense cap infraestructura turística, ideal si aneu en sept-place o en cotxe cap a Foundiougne o Kaolack.\n\nAls llocs sagrats, discreció: pregunteu abans d'entrar o fer fotos.",
+  "consells": [
+   "Pel vostre compte: els sept-place Dakar–Kaolack paren a Fatick (gare routière de Pikine / Baux Maraîchers).",
+   "Per als llocs sagrats, demaneu a algú del barri que us hi acompanyi; és més respectuós que anar-hi sols.",
+   "Combineu-ho amb Foundiougne (ferri/pont) o amb les salines de camí a Kaolack.",
+   "El Routard no dona preus ni horaris: no hi ha entrades formals."
+  ],
+  "durada": "2-3 h",
+  "preu": "Gratuït (propina al guia local si n'hi ha).",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 2.5,
+  "lat": 14.339,
+  "lng": -16.411,
+  "millor_moment": "Matí, de camí cap a Foundiougne o Kaolack.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Baixeu del sept-place Dakar–Kaolack a Fatick i passegeu amb un guia improvisat del barri.",
+  "fonts": [
+   {
+    "nom": "Routard - Fatick",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum/fatick"
+   },
+   {
+    "nom": "Routard - Siné Saloum",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-sal-sipo",
+  "nom": "Illa de Sipo, el poble de la reina",
+  "regio": "saloum",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "excursio",
+   "natura"
+  ],
+  "resum": "Un illot amb un centenar d'habitants, antigament governat per una reina, a pocs minuts de pirogua de Toubacouta.",
+  "descripcio": "Sipo és un dels pobles insulars més petits del delta: un centenar de persones en una illa envoltada de manglars, a l'altra banda del bolong de Toubacouta. Segons el Routard, la va governar una reina i ara la dirigeix el seu fill; la visita és un passeig pel poble, xerrada amb els vilatans i manglar.\n\nEs fa en pirogua des de Toubacouta i es combina bé amb l'illa de petxines de Diorom Boumak i el dormidor d'ocells al capvespre. Al mateix Toubacouta hi ha el Centre d'interprétation du Delta du Saloum (CIDS), creat el 2013 amb la UNESCO, útil per entendre el delta abans de sortir.\n\nEs fa sovint en excursió organitzada pels hotels; si negocieu directament amb un piroguier, ho viureu més a la vostra manera.",
+  "consells": [
+   "Pel vostre compte: pirogua des de l'embarcador de Toubacouta; pacteu el preu per pirogua (no per persona) i incloeu-hi Diorom Boumak i el capvespre amb ocells.",
+   "Porteu algun obsequi útil per a l'escola o deixeu una contribució al poble en lloc de donar diners als nens.",
+   "Passeu abans pel CIDS de Toubacouta per contextualitzar la visita."
+  ],
+  "durada": "mig dia",
+  "preu": "Pirogua a negociar a Toubacouta (sense tarifes al Routard); contribució voluntària al poble.",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4,
+  "lat": 13.79,
+  "lng": -16.53,
+  "millor_moment": "Tarda, per acabar amb els ocells tornant als dormidors.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Contracteu un piroguier a l'embarcador de Toubacouta i combineu Sipo amb Diorom Boumak.",
+  "fonts": [
+   {
+    "nom": "Routard - Toubacouta",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum/toubacouta"
+   },
+   {
+    "nom": "Routard - Siné Saloum",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-sal-samba-dia",
+  "nom": "Bosc classificat de Samba Dia (palmerar de rôniers)",
+  "regio": "saloum",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "excursio"
+  ],
+  "resum": "Un bosc protegit des del 1936 de palmeres rônier, a la porta del Saloum: caminada curta i fotogènica entre Joal i Fimela.",
+  "descripcio": "El bosc classificat de Samba Dia és un petit espai protegit (7,6 km²) al sud-est de Joal-Fadiouth, a l'entrada del Sine-Saloum. Està classificat des del 1936 i forma part de la reserva de biosfera de la UNESCO des del 1979. El que el fa especial és el palmerar de rôniers (Borassus aethiopum), una palmera d'usos infinits per als pagesos serers, acompanyada d'acàcies i combretàcies.\n\nEl Routard el cita entre els llocs a l'entorn del Saloum. No hi ha centre de visitants ni senders senyalitzats; és més aviat una parada per caminar una estona entre palmeres altíssimes, idealment de camí de Joal cap a Palmarin o Fimela.",
+  "consells": [
+   "Pel vostre compte: és a la carretera Joal–Fimela; demaneu al taxi brousse o al xofer que pari a Samba Dia.",
+   "Aneu-hi amb llum baixa (matí d'hora o tarda) per a les fotos i per la calor.",
+   "No hi ha serveis: porteu aigua."
+  ],
+  "durada": "1 h",
+  "preu": "Accés lliure.",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 2.5,
+  "lat": 14.117,
+  "lng": -16.7,
+  "millor_moment": "De pas entre Joal i Palmarin/Fimela, a primera o última hora.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Parada a la carretera Joal–Fimela amb taxi brousse o cotxe.",
+  "fonts": [
+   {
+    "nom": "Routard - Toubacouta (environs)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum/toubacouta"
+   },
+   {
+    "nom": "Wikipedia - Forêt classée de Samba Dia",
+    "url": "https://fr.wikipedia.org/wiki/For%C3%AAt_class%C3%A9e_de_Samba_Dia"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-cas-edioungou",
+  "nom": "Edioungou, el poble de les terrisseres",
+  "regio": "casamance",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "art",
+   "excursio"
+  ],
+  "resum": "A tocar d'Oussouye, les dones diola fan terrissa amb fang del manglar i pols de petxina, i la couen a l'aire lliure.",
+  "descripcio": "Edioungou és un poble diola enganxat a Oussouye, conegut com el poble de les terrisseres: l'ofici passa de mare a filla. El Routard explica el procés: el fang s'extreu del manglar, es barreja amb pols de petxina, es modela a mà, s'asseca a l'ombra i es cou a l'aire lliure. Es pot veure treballar les dones i fins i tot fer un taller d'iniciació.\n\nA més, Edioungou és l'embarcador des d'on surten les pirogues cap a Éloubaline i els bolongs del voltant, i els camins pel bosc el connecten amb altres pobles tradicionals. Dormir en un campement villageois de la zona és la manera de deixar els diners directament a la comunitat.",
+  "consells": [
+   "Pel vostre compte: des d'Oussouye s'hi va a peu o en bici (és un barri més d'Oussouye); a Oussouye s'arriba en taxi brousse des de Ziguinchor.",
+   "Compreu directament a les terrisseres: és el millor record de la Casamance i va a les seves mans.",
+   "Demaneu al campement d'Oussouye que us posi en contacte amb un piroguier per anar a Éloubaline des del mateix embarcador.",
+   "Demaneu permís abans de fotografiar les dones treballant."
+  ],
+  "durada": "2-3 h",
+  "preu": "Visita lliure; taller i compres a negociar amb les artesanes (el Routard no dona preus).",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 12,
+  "lat": 12.49,
+  "lng": -16.53,
+  "millor_moment": "Matí, quan les dones treballen abans de la calor.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "A peu o en bici des d'Oussouye; compres i taller directament amb les terrisseres.",
+  "fonts": [
+   {
+    "nom": "Routard - Édioungou",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/edioungou"
+   },
+   {
+    "nom": "Routard - Oussouye",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/oussouye"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-cas-eloubaline",
+  "nom": "Éloubaline, l'illa de les cases a impluvium",
+  "regio": "casamance",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "historia",
+   "excursio",
+   "natura"
+  ],
+  "resum": "Una hora de pirogua pel manglar des d'Edioungou fins a un poble insular amb cases rodones de fang que recullen la pluja.",
+  "descripcio": "Éloubaline és un poblet diola en una illa dels bolongs de la Basse-Casamance, i només s'hi arriba en pirogua (al voltant d'una hora des d'Edioungou, al costat d'Oussouye). Segons el Routard, la gràcia principal són les cases a impluvium: grans construccions circulars de fang amb teulada en embut que canalitza l'aigua de pluja cap a un pati central, algunes encara habitades.\n\nUn guia del poble us explica l'organització social i les tradicions, i de vegades s'exposen eines i objectes rituals. La travessia, entre manglars i ocells, ja és mitja excursió. Segons l'època, podeu veure feines d'arròs, pesca, terrissa o cistelleria. És molt menys visitat que Enampore.",
+  "consells": [
+   "Pel vostre compte: pirogua des de l'embarcador d'Edioungou; pacteu anada, espera i tornada amb el piroguier.",
+   "Es pot fer combinat: a peu o en bici des d'Oussouye fins a Edioungou i pirogua fins a l'illa.",
+   "Hi ha campements comunitaris a Éloubaline o a Enampore si voleu dormir-hi.",
+   "Consulteu els consells de seguretat d'Exteriors sobre la Casamance abans d'anar-hi (el Routard ho recomana)."
+  ],
+  "durada": "mig dia",
+  "preu": "Pirogua i guia del poble a negociar (sense tarifes publicades).",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 12,
+  "lat": 12.54,
+  "lng": -16.57,
+  "millor_moment": "Matí, amb marea favorable (el piroguier us dirà l'hora).",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Pirogua contractada a Edioungou (Oussouye) i guia del poble a l'arribada.",
+  "fonts": [
+   {
+    "nom": "Routard - Éloubaline",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/eloubaline"
+   },
+   {
+    "nom": "Routard - Casamance",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-cas-djembering",
+  "nom": "Djembering i l'ecomuseu Sangawatt",
+  "regio": "casamance",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "platja",
+   "natura"
+  ],
+  "resum": "A 10 km de Cap Skirring però lluny del turisme: fromagers centenaris, platges buides i un ecomuseu diola a l'aire lliure.",
+  "descripcio": "Djembering (o Diembering) és un poble diola sobre dunes, envoltat d'arrossars i palmerars, uns 10 km al nord de Cap Skirring. El Routard el descriu com 'lluny de l'agitació turística'. Al centre hi ha fromagers (ceibes) centenaris; el més gran marca la plaça on es fan les reunions i cerimònies.\n\nA la vora del bosc hi ha el Musée Sangawatt, un ecomuseu a l'aire lliure sobre els ritus, creences i sabers vegetals dels diola-awatt. També hi ha un ecoparc en un turó amb bosc primari, manglar i senders marcats, i platges llargues sovint buides. Des d'aquí surten pirogues pels bolongs cap a Kachouane o Elinkine.\n\nUn bon consell del Routard: si sou en diumenge, la missa cantada en diola val la pena.",
+  "consells": [
+   "Pel vostre compte: taxi brousse o clando des de Cap Skirring (o des de Ziguinchor).",
+   "Diumenge al matí, missa cantada en diola: respecte i roba adequada.",
+   "Caminades o bici per pistes de sorra fins a Bouyouye i altres llogarrets.",
+   "Demaneu permís abans de fotografiar persones."
+  ],
+  "durada": "mig dia - 1 dia",
+  "preu": "Poble lliure; entrada a l'ecomuseu i ecoparc no indicada a les fonts.",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 13,
+  "lat": 12.455,
+  "lng": -16.765,
+  "millor_moment": "Diumenge al matí (missa) o capvespre a la platja.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Clando des de Cap Skirring i passeig a peu; pirogua a negociar al poble.",
+  "fonts": [
+   {
+    "nom": "Routard - Djembering",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/djembering"
+   },
+   {
+    "nom": "Routard - Casamance",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-cas-kachouane",
+  "nom": "Kachouane i les illes del delta de la Casamance",
+  "regio": "casamance",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "excursio",
+   "cultura",
+   "fauna"
+  ],
+  "resum": "Poble aïllat entre manglar i arrossars, amb capvespres sobre el riu i pirogues cap a illes de pescadors i ostres.",
+  "descripcio": "Kachouane és un poble de la península de la Basse-Casamance rodejat de manglar, arrossars i bolongs. El Routard destaca els carrerons de sorra, la vida diària (arròs, pesca, artesania) i uns capvespres sobre el riu 'reputats'.\n\nÉs base per a sortides en pirogua per veure ocells i manglar, i per arribar a illes del delta com Wendaye, Ehidj o Sifoka, pobles de pescadors on es cullen ostres de mangle. També s'hi pot arribar caminant per la sabana i els arrossars des de Diembering. Els allotjaments són campements integrats al poble.",
+  "consells": [
+   "Pel vostre compte: per pista des de Cap Skirring o Diembering, o (més bonic) en pirogua des d'Elinkine o Carabane.",
+   "Porteu efectiu: el poble no accepta pagaments electrònics (Routard).",
+   "Desplaceu-vos només de dia i per eixos principals; repel·lent per als mosquits.",
+   "Combineu-ho amb Carabane i Elinkine en un circuit de 2-3 dies en pirogua."
+  ],
+  "durada": "1-2 dies",
+  "preu": "Campement i pirogues a negociar (sense tarifes publicades).",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 13,
+  "lat": 12.56,
+  "lng": -16.69,
+  "millor_moment": "Capvespre sobre el riu.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Pirogua des d'Elinkine o Carabane i nit en campement del poble.",
+  "fonts": [
+   {
+    "nom": "Routard - Kachouane",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/kachouane"
+   },
+   {
+    "nom": "Routard - Djembering",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/djembering"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-cas-kalissaye",
+  "nom": "Reserva ornitològica de Kalissaye",
+  "regio": "casamance",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "fauna",
+   "excursio"
+  ],
+  "resum": "Illots de sorra i manglar a la desembocadura del marigot de Kalissaye: colònies de xatracs i pelicans i platges de tortugues.",
+  "descripcio": "Creada el 1978 a la desembocadura del marigot de Kalissaye, al sud de Kafountine, la reserva protegeix colònies d'ocells marins (xatracs, pelicans) i llocs de posta de tortugues marines. Són illots de sorra i manglar als quals només s'arriba en pirogua. El Routard la defineix com un paradís per als observadors d'ocells.\n\nDes de Kafountine també surten pirogues cap a les illes Karones; podeu combinar-ho en una sola sortida llarga si les marees ho permeten.",
+  "consells": [
+   "Pel vostre compte: negocieu una pirogua al port de pesca de Kafountine o a través del vostre campement.",
+   "Les marees manen: sortiu quan us digui el piroguier.",
+   "Prismàtics i protecció solar; no desembarqueu a les zones de nidificació.",
+   "Kafountine és a uns 110 km de Ziguinchor via Bignona i Diouloulou; viatgeu de dia."
+  ],
+  "durada": "mig dia",
+  "preu": "Pirogua a negociar (sense tarifes publicades).",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 11,
+  "lat": 12.88,
+  "lng": -16.78,
+  "millor_moment": "Matí d'hora, desembre-gener és bona època d'ocells.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Pirogua contractada al port de Kafountine.",
+  "fonts": [
+   {
+    "nom": "Routard - Kafountine",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/kafountine"
+   },
+   {
+    "nom": "Routard - Casamance",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-cas-karones",
+  "nom": "Illes Karones (Kailo, Boune, Saloulou)",
+  "regio": "casamance",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "aventura",
+   "excursio"
+  ],
+  "resum": "Arxipèlag laberíntic de manglar que Wikivoyage anomena 'una mena d'Amazònia africana', en pirogua des de Kafountine.",
+  "descripcio": "Les illes Karones són un arxipèlag de pobles (Kailo, Boune, Saloulou...) enmig d'un manglar espès al nord del riu Casamance. El Routard explica que s'hi va en pirogua des de Kafountine i que les marees determinen quan es pot navegar; Wikivoyage ho descriu com 'una mena d'Amazònia africana'.\n\nÉs una de les sortides més salvatges de la Casamance: manglar, ocells i pobles molt aïllats. Wikivoyage avisa que algunes illes s'usen per a plantacions de marihuana: aneu sempre amb un piroguier de confiança i no us desvieu.",
+  "consells": [
+   "Pel vostre compte: pirogua des de Kafountine contractada a través del campement o al port; pacteu-ho per a tot el dia.",
+   "Consulteu horaris de marea amb el piroguier el dia abans.",
+   "Porteu aigua, menjar i efectiu; als pobles hi ha pocs serveis.",
+   "Seguretat: només amb gent recomanada pel vostre allotjament."
+  ],
+  "durada": "1 dia",
+  "preu": "Pirogua de jornada a negociar (sense tarifes publicades).",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 11,
+  "lat": 12.85,
+  "lng": -16.65,
+  "millor_moment": "Jornada sencera, segons marees.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Pirogua de jornada des del port de Kafountine.",
+  "fonts": [
+   {
+    "nom": "Routard - Kafountine",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/kafountine"
+   },
+   {
+    "nom": "Wikivoyage - Kafountine",
+    "url": "https://en.wikivoyage.org/wiki/Kafountine"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-cas-marche-saint-maur",
+  "nom": "Mercat Saint-Maur-des-Fossés i port de Ziguinchor",
+  "regio": "casamance",
+  "tipus": "activitat",
+  "categories": [
+   "mercats",
+   "cultura"
+  ],
+  "resum": "El mercat més conegut de Ziguinchor, al barri de Néma: fruita, verdura i productes locals, i després passeig pels molls.",
+  "descripcio": "El mercat Saint-Maur-des-Fossés, al barri de Néma, és el mercat de referència de Ziguinchor tant per al Routard com per a Wikivoyage: fruita, verdura, peix, oli de palma, anacards i tot el que produeix la Casamance. Completeu-ho amb el Centre artisanal (records regionals, terrissa, teixits) i un passeig pels molls del port de pesca, on es veuen els constructors de pirogues treballant.\n\nAl barri de l'Escale hi ha cases colonials en avingudes amples, la catedral Saint-Antoine-de-Padoue (renovada cap al 2022) i un petit memorial al naufragi del Joola.",
+  "consells": [
+   "Pel vostre compte: un taxi dins de Ziguinchor costa 500 FCFA per trajecte (Wikivoyage, 2024).",
+   "Aneu-hi al matí, quan el mercat és més viu i fa menys calor.",
+   "Bon lloc per comprar anacards i fruita per a les excursions en pirogua."
+  ],
+  "durada": "2-3 h",
+  "preu": "Gratuït; taxi urbà 500 FCFA.",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 11,
+  "lat": 12.565,
+  "lng": -16.268,
+  "millor_moment": "Matí.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Taxi urbà fins al mercat i passeig a peu fins al port.",
+  "fonts": [
+   {
+    "nom": "Routard - Ziguinchor",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/ziguinchor"
+   },
+   {
+    "nom": "Wikivoyage - Ziguinchor",
+    "url": "https://en.wikivoyage.org/wiki/Ziguinchor"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-ptc-ngueniene-marche",
+  "nom": "Mercat setmanal de Nguéniène (dimecres)",
+  "regio": "petite-cote",
+  "tipus": "activitat",
+  "categories": [
+   "mercats",
+   "cultura"
+  ],
+  "resum": "Cada dimecres, pagesos, pastors i artesans de tota la Petite Côte es troben en un mercat rural immens entre Mbour i Joal.",
+  "descripcio": "Nguéniène és un poble rural de l'interior de la Petite Côte, entre Mbour i Joal-Fadiouth, lluny de les platges. El Routard en destaca el mercat setmanal del dimecres: comerciants, ramaders i artesans de tota la zona hi porten productes de l'horta, espècies, teixits, bestiar i artesania. 'Un immens lloc d'intercanvis i de trobades', diu la guia.\n\nÉs exactament el contrari de Saly: un loumo (mercat setmanal) de debò, amb carros, bestiar i molt de soroll. Aprofiteu per passejar pels pobles de la comuna (Nguéniène-Ouolof, Nguéniène-Sérère, Fadial) i veure l'horta i els arrossars de la vall de Fadial, molt treballats per les dones.",
+  "consells": [
+   "Pel vostre compte: taxi brousse o clando des de Mbour o Joal; el dimecres hi ha molt de moviment cap al mercat.",
+   "Aneu-hi al matí, quan arriba el bestiar i el mercat és més animat.",
+   "Combineu-ho amb el baobab sagrat de Fadial i amb Joal-Fadiouth la mateixa jornada.",
+   "Demaneu permís abans de fer fotos, especialment a les zones de bestiar."
+  ],
+  "durada": "mig dia",
+  "preu": "Gratuït.",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 2,
+  "lat": 14.27,
+  "lng": -16.8,
+  "millor_moment": "Dimecres al matí (si sou a la Petite Côte el 30/12/2026, és dimecres).",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Clando des de Mbour o Joal un dimecres al matí.",
+  "fonts": [
+   {
+    "nom": "Routard - Nguéniène",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/ngueniene"
+   },
+   {
+    "nom": "Routard - Petite Côte",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-ptc-baobab-fadial",
+  "nom": "Baobab sagrat de Fadial",
+  "regio": "petite-cote",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "cultura"
+  ],
+  "resum": "El que molts anomenen el baobab més gran del Senegal: un gegant sagrat amb una obertura per entrar dins del tronc.",
+  "descripcio": "Al poble de Fadial, a tocar de Joal, hi ha un baobab enorme i sagrat per a la comunitat serer. El Routard el cita a la fitxa de Nguéniène, i viatgers del fòrum del Routard el descriuen com 'el baobab més gran del Senegal', amb una petita obertura que dona accés a l'interior del tronc (no recomanable per a claustrofòbics).\n\nÉs una parada breu però memorable de camí a Joal-Fadiouth o Palmarin. Als voltants, la vall de Fadial té horta i arrossars treballats per les dones.",
+  "consells": [
+   "Pel vostre compte: clando o taxi des de Joal (molt a prop) o parada amb el vostre xofer de camí a Palmarin.",
+   "Sovint hi ha un vilatà que fa de guia: deixeu una contribució al poble.",
+   "És un arbre sagrat: comporteu-vos amb respecte."
+  ],
+  "durada": "1 h",
+  "preu": "Contribució voluntària al poble (sense tarifa publicada).",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 2.2,
+  "lat": 14.17,
+  "lng": -16.8,
+  "millor_moment": "Combinat amb Joal-Fadiouth, al matí.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Clando des de Joal fins a Fadial.",
+  "fonts": [
+   {
+    "nom": "Routard - Nguéniène",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/ngueniene"
+   },
+   {
+    "nom": "Routard Forum - Circuit dans le Nord du Sénégal",
+    "url": "https://www.routard.com/forums/t/circuit-dans-le-nord-du-senegal/342478"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-ptc-warang",
+  "nom": "Warang, poble de pescadors tranquil",
+  "regio": "petite-cote",
+  "tipus": "activitat",
+  "categories": [
+   "platja",
+   "cultura",
+   "relax"
+  ],
+  "resum": "Entre Saly i Nianing, un poble mig sérère mig socé amb retorn de pirogues, platja amb palmeres i una destil·leria de licors de fruita.",
+  "descripcio": "Warang és un poble de pescadors uns 10 km al sud de Mbour, a la comuna de Malicounda, molt més tranquil que Saly. Té dos barris principals, Warang Socé i Warang Sérère, amb capella i mesquites, i una platja llarga amb palmeres. El moment del dia és el retorn de les pirogues a la platja i al mercat.\n\nEl Routard hi afegeix una curiositat: una destil·leria artesanal que fa licors de fruita i ofereix tastos. També s'hi poden fer windsurf, kite, pesca o caminades per la brossa. És una bona base de platja si voleu evitar els resorts.",
+  "consells": [
+   "Pel vostre compte: clando o taxi des de Mbour (uns 10 km); a Mbour s'arriba en bus o sept-place des de Dakar.",
+   "Aneu a la platja a la tarda per veure tornar les pirogues.",
+   "Combineu-ho amb Nianing i el mercat de peix de Mbour."
+  ],
+  "durada": "mig dia",
+  "preu": "Gratuït; tast a la destil·leria sense preu indicat.",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 1.7,
+  "lat": 14.375,
+  "lng": -16.95,
+  "millor_moment": "Tarda (retorn de les pirogues).",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Clando des de Mbour i passeig a peu per la platja.",
+  "fonts": [
+   {
+    "nom": "Routard - Warang",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/warang"
+   },
+   {
+    "nom": "Routard - Mbour",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/mbour"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-vlt-village-tortues",
+  "nom": "Village des Tortues de Noflaye",
+  "regio": "voltants",
+  "tipus": "activitat",
+  "categories": [
+   "fauna",
+   "natura"
+  ],
+  "resum": "Un centre de protecció de tortugues amenaçades, creat el 1993, a uns 30 km de Dakar: centenars de tortugues, inclosa la gegant sulcata.",
+  "descripcio": "El Village des Tortues, a Noflaye (zona de Sangalkam, a prop de Rufisque), es va fundar el 1993 per protegir i reintroduir tortugues amenaçades, i n'acull diversos centenars, segons el Routard. És una visita curta i tranquil·la, interessant sobretot per veure la tortuga sulcata (tortue sillonnée), la tercera tortuga terrestre més gran del món, que també es reintrodueix a la reserva de Guembeul.\n\nEncaixa bé en una jornada als voltants de Dakar combinada amb el Lac Rose o el llac Tanma.",
+  "consells": [
+   "Pel vostre compte: taxi des de Dakar o des del Lac Rose (pacteu tarifa abans); no hi ha transport públic directe còmode.",
+   "Les fonts consultades no indiquen preu ni horari actual: confirmeu-ho abans d'anar-hi.",
+   "Combineu-ho amb el Lac Rose (molt a prop) en mig dia."
+  ],
+  "durada": "1-2 h",
+  "preu": "Entrada no indicada a les fonts consultades.",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 1,
+  "lat": 14.79,
+  "lng": -17.23,
+  "millor_moment": "Matí, quan les tortugues són actives abans de la calor forta.",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi negociat des de Dakar o del Lac Rose.",
+  "fonts": [
+   {
+    "nom": "Routard - Thiès (environs)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/thies"
+   },
+   {
+    "nom": "Wikipedia - Village des tortues (homonímia)",
+    "url": "https://fr.wikipedia.org/wiki/Village_des_tortues"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-nord-mboro-niayes",
+  "nom": "Mboro i les Niayes, l'hort del Senegal",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "mercats",
+   "cultura"
+  ],
+  "resum": "A la Grande-Côte, entre dunes i filaos: hortes a les depressions de les Niayes, pobles de pescadors i un mercat de verdura molt local.",
+  "descripcio": "Mboro és un poble de la Grande-Côte, a uns 95 km al nord de Dakar, que el Routard descriu com menys turístic que els seus veïns. És el cor de les Niayes, una franja costanera de depressions fèrtils entre dunes, plantades de boscos de filaos (casuarines) per fixar la sorra, on es cultiva intensivament: és el 'graner de verdures' del país.\n\nA Mboro-sur-Mer hi ha pobles de pescadors amb pirogues de colors que tornen amb les captures. Es pot caminar per les dunes i les hortes, mirar ocells i passar pel mercat local. Molt bona parada en una ruta Dakar–Lompoul–Saint-Louis per la costa.\n\nAvís: la platja és llarga però amb corrents forts; el bany pot ser perillós.",
+  "consells": [
+   "Pel vostre compte: sept-place o bus fins a Tivaouane i clando fins a Mboro (25 km); o parada en cotxe de camí a Lompoul.",
+   "No us banyeu: la Grande-Côte té corrents molt forts (Routard).",
+   "Passeu pel mercat al matí per veure la producció de les Niayes."
+  ],
+  "durada": "mig dia",
+  "preu": "Gratuït.",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 2,
+  "lat": 15.143,
+  "lng": -16.885,
+  "millor_moment": "Matí (mercat) o tarda (retorn de pirogues).",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Sept-place fins a Tivaouane i clando fins a Mboro.",
+  "fonts": [
+   {
+    "nom": "Routard - M'Boro",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/m-boro"
+   },
+   {
+    "nom": "Routard - Saint-Louis et le Nord",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-nord-marche-sor",
+  "nom": "Mercat de Sor i cementiri dels pescadors (Saint-Louis)",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "mercats",
+   "cultura"
+  ],
+  "resum": "El gran mercat popular de Saint-Louis, al continent, i el cementiri musulmà dels pescadors amb les tombes cobertes de xarxes.",
+  "descripcio": "Sor és el barri continental de Saint-Louis, l'altra banda del pont Faidherbe, i el seu mercat és on compra la ciutat de veritat: peix, verdura, roba, espècies. Viatgers del fòrum del Routard el recomanen al costat de la calesa i Guet Ndar.\n\nAl final de Guet Ndar, a la Langue de Barbarie, hi ha el cementiri musulmà dels pescadors, fàcil de reconèixer per les tombes marcades amb pals coberts de xarxes de pesca. És un lloc molt fotogènic però és un cementiri: discreció.",
+  "consells": [
+   "Pel vostre compte: a peu des de l'illa travessant el pont Faidherbe, o taxi curt.",
+   "Al cementiri, comporteu-vos amb respecte i no feu fotos de persones sense permís.",
+   "Combineu-ho amb el retorn de les pirogues a Guet Ndar."
+  ],
+  "durada": "2 h",
+  "preu": "Gratuït.",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.025,
+  "lng": -16.495,
+  "millor_moment": "Matí.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "A peu pel pont Faidherbe fins a Sor.",
+  "fonts": [
+   {
+    "nom": "Routard Forum - Circuit dans le Nord du Sénégal",
+    "url": "https://www.routard.com/forums/t/circuit-dans-le-nord-du-senegal/342478"
+   },
+   {
+    "nom": "Routard - Saint-Louis",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/saint-louis"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-nord-ferlo",
+  "nom": "Ferlo: la sabana dels pastors peul",
+  "regio": "nord",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "fauna",
+   "cultura",
+   "aventura"
+  ],
+  "resum": "Reserva de biosfera de més de 2 milions d'hectàrees: gaseles, òrixs reintroduïts, estruços i campaments de pastors peul.",
+  "descripcio": "El Ferlo és el Senegal de l'interior sahelià: sabanes, estepes i bosc sec, reserva de biosfera UNESCO des del 2012 (més de dos milions d'hectàrees). El Routard hi destaca les reserves de fauna del Ferlo Nord i Sud (creades el 1972), l'enclos de Katané (Ferlo Nord) on es reintrodueixen òrixs i tortugues sulcata, i la fauna de la temporada seca (desembre-juny): gaseles dorques i de front vermell, estruços, calaus terrestres i grans otardes.\n\nLa porta d'entrada és Linguère, amb restes d'un fort colonial. L'interès real és cultural: visitar pobles i mercats peul i conèixer famílies de pastors, i veure la Gran Muralla Verda. És un destí exigent i sense infraestructures; per a un viatge de 9 dies, només si voleu fer alguna cosa radicalment fora de circuit.",
+  "consells": [
+   "Pel vostre compte: sept-place fins a Linguère (via Louga o Touba) i, d'allà, cotxe amb xofer local per a les pistes.",
+   "Desembre és bona època per a la fauna (temporada seca).",
+   "Les caminades de diversos dies en bivac són només per a gent experimentada (Routard).",
+   "Porteu aigua i efectiu: no hi ha serveis fora de Linguère."
+  ],
+  "durada": "2 dies",
+  "preu": "Sense tarifes publicades; cost principal: cotxe amb xofer.",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 5,
+  "lat": 15.395,
+  "lng": -15.117,
+  "millor_moment": "Desembre-juny (temporada seca).",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Sept-place fins a Linguère i xofer local contractat allà.",
+  "fonts": [
+   {
+    "nom": "Routard - Ferlo",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/ferlo"
+   },
+   {
+    "nom": "Routard - Saint-Louis et le Nord",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-est-bandafassi-ethiouar",
+  "nom": "Bandafassi, Ethiouar i Iwol: caminada als pobles bedik",
+  "regio": "est",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "aventura",
+   "natura"
+  ],
+  "resum": "Des de Bandafassi, 15 minuts de pujada fins a Ethiouar, poble bedik entre roques, i més amunt Iwol amb vistes a la plana.",
+  "descripcio": "Bandafassi, a 15 km de Kédougou, és la porta del país bassari, on conviuen peul, bassari i bedik (tenda). El Routard proposa començar pel mercat del poble, on les dones bedik venen terrissa, cistelleria i joies, i pujar caminant uns 15 minuts fins a Ethiouar (Ethiowar), un poble bedik encimbellat amb cases entre grans blocs de roca i coves sagrades d'accés restringit.\n\nA pocs quilòmetres, sobre el poble d'Ibel, hi ha Iwol, un altre poble bedik als turons. Les caminades passen per sabana i muntanya, amb micos i facoceros. També es poden visitar apicultors i fer rutes en bici fins a Landieni Tenda. Les festes d'iniciació se solen fer al maig, no al desembre.",
+  "consells": [
+   "Pel vostre compte: taxi brousse o clando de Kédougou a Bandafassi (15 km).",
+   "Contracteu un guia local al poble i saludeu el cap del poble abans de visitar (Routard).",
+   "Respecteu les coves i boscos sagrats, i demaneu permís per a les fotos.",
+   "Hi ha campements i cases d'hostes comunitàries a Bandafassi."
+  ],
+  "durada": "1 dia",
+  "preu": "Guia local i contribució al poble a negociar (sense tarifes publicades).",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 11,
+  "lat": 12.54,
+  "lng": -12.31,
+  "millor_moment": "Matí d'hora per caminar abans de la calor.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Clando des de Kédougou i guia local contractat a Bandafassi.",
+  "fonts": [
+   {
+    "nom": "Routard - Bandafassi",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental/bandafassi"
+   },
+   {
+    "nom": "Routard - Sénégal oriental",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-est-cascades-segou",
+  "nom": "Cascades de Ségou i Kafory",
+  "regio": "est",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "aventura",
+   "excursio"
+  ],
+  "resum": "Les germanes poc conegudes de Dindéfelo: cascades amb gorgs per banyar-se, a les quals s'arriba caminant pel bosc.",
+  "descripcio": "Al voltant de Kédougou, a més de la famosa Dindéfelo, hi ha les cascades de Ségou i de Kafory. El Routard les cita a la fitxa de Kédougou i del Senegal oriental: s'hi arriba caminant pel bosc, i diverses formen gorgs naturals on es pot nedar.\n\nSón molt menys visitades que Dindéfelo i encaixen perfectament en el vostre perfil. A finals de desembre, però, el cabal és més baix que just després de les pluges.",
+  "consells": [
+   "Pel vostre compte: des de Kédougou, cotxe o moto-taxi fins al poble de Ségou i guia local per a la caminada.",
+   "Amb el mateix guia, podeu encadenar-ho amb Dindéfelo.",
+   "Calçat de muntanya i aigua: el camí és pedregós.",
+   "Comproveu l'accés: el Routard avisa d'incendis a principis del 2026 a la reserva de Dindéfelo."
+  ],
+  "durada": "mig dia - 1 dia",
+  "preu": "Guia local a negociar (sense tarifes publicades).",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 12,
+  "lat": 12.41,
+  "lng": -12.27,
+  "millor_moment": "Matí.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Cotxe o moto-taxi des de Kédougou i guia del poble.",
+  "fonts": [
+   {
+    "nom": "Routard - Kédougou",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental/kedougou"
+   },
+   {
+    "nom": "Routard - Sénégal oriental",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-dkr-mausolee-layene",
+  "nom": "Mausoleu de Seydina Limamou Laye (Yoff)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "cultura",
+   "historia"
+  ],
+  "resum": "El santuari de la confraria layène, blanc i verd davant del mar a Yoff: el centre espiritual del poble lebou.",
+  "descripcio": "Seydina Limamou Laye, fundador de la confraria musulmana layène, va morir el 1909 i el seu mausoleu es va construir a Yoff, davant del mar. Yoff és la capital espiritual dels layènes, una confraria molt lligada a la comunitat lebou de la península. La Lonely Planet el té llistat entre les atraccions de Dakar.\n\nEl lloc és sobri i tranquil, i la seva situació a tocar de la platja el fa especial. Cada any, el 8è dia del 8è mes del calendari musulmà, els layènes celebren a Yoff l'aniversari de la crida (l'Appel) de Limamou Laye; fora d'aquesta data, és un lloc de devoció quotidiana.",
+  "consells": [
+   "Pel vostre compte: taxi fins a Yoff Layène i passeig a peu per la platja dels pescadors de Yoff.",
+   "Roba que cobreixi espatlles i cames; les dones, mocador al cap. Descalceu-vos on se us indiqui.",
+   "Demaneu permís abans d'entrar o de fer fotos; un membre de la comunitat sovint fa de guia (deixeu una almoina)."
+  ],
+  "durada": "1 h",
+  "preu": "Gratuït (almoina voluntària).",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.5,
+  "lat": 14.761,
+  "lng": -17.468,
+  "millor_moment": "Matí o tarda, evitant les hores de pregària del divendres.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Taxi fins a Yoff i visita a peu combinada amb la platja dels pescadors.",
+  "fonts": [
+   {
+    "nom": "Lonely Planet - Layen Mausoleum",
+    "url": "https://www.lonelyplanet.com/points-of-interest/layen-mausoleum/416898"
+   },
+   {
+    "nom": "Wikipedia - Layène",
+    "url": "https://fr.wikipedia.org/wiki/Lay%C3%A8ne"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-dkr-medina-tilene",
+  "nom": "Médina i mercat de Tilène",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "mercats",
+   "cultura",
+   "musica-nit"
+  ],
+  "resum": "El barri popular on van créixer Youssou N'Dour i Omar Pène, amb el mercat de Tilène, el més local del centre de Dakar.",
+  "descripcio": "La Médina va néixer el 1914, quan l'administració colonial va expulsar els habitants africans del Plateau amb l'excusa d'una epidèmia de pesta; avui és un dels barris més vius i densos de Dakar, d'on surten Youssou N'Dour, Omar Pène o Daara J. La Lonely Planet llista tant el barri com el seu mercat, el Marché Tilène (avinguda Blaise Diagne).\n\nTilène és un mercat d'alimentació i de tot una mica, molt menys turístic que Sandaga o Kermel: espècies, fruita, peix sec, bols, roba. Combineu-lo amb un passeig pels carrers numerats de la Médina (la mesquita Seydou Nourou Tall és al carrer 6) i, si voleu, baixeu fins a Soumbédioune.",
+  "consells": [
+   "Pel vostre compte: taxi o bus Dakar Dem Dikk fins a l'avinguda Blaise Diagne; després tot a peu.",
+   "Aneu-hi al matí. Compte amb carteristes a les zones atapeïdes (com a tots els mercats de Dakar).",
+   "Bon lloc per comprar espècies i bissap (flor d'hibisc) per endur-vos-en."
+  ],
+  "durada": "2-3 h",
+  "preu": "Gratuït.",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.2,
+  "lat": 14.685,
+  "lng": -17.449,
+  "millor_moment": "Matí entre setmana.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Taxi fins al mercat de Tilène i passeig a peu per la Médina.",
+  "fonts": [
+   {
+    "nom": "Lonely Planet - Marché Tilène",
+    "url": "https://www.lonelyplanet.com/points-of-interest/marche-tilene/1327581"
+   },
+   {
+    "nom": "Lonely Planet - Médina",
+    "url": "https://www.lonelyplanet.com/points-of-interest/medina/1347424"
+   },
+   {
+    "nom": "Wikipedia - Médina (Dakar)",
+    "url": "https://fr.wikipedia.org/wiki/M%C3%A9dina_(Dakar)"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-dkr-parc-hann",
+  "nom": "Parc forestier i jardí botànic de Hann",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "natura",
+   "fauna"
+  ],
+  "resum": "El 'pulmó verd' de Dakar des del 1903: 60 hectàrees d'arbres, jardí etnobotànic i ocells, amb un zoo que val més evitar.",
+  "descripcio": "El parc forestier i zoològic de Hann es va crear el 1903 com a jardí públic i viver, i avui és el gran espai verd de Dakar (uns 60 ha): arborètum, jardí etnobotànic de 1934 amb centenars d'espècies etiquetades per usos, gespes i molts ocells (marabús, calaus, pelicans).\n\nWikivoyage (fr) l'inclou entre les visites de Dakar però avisa que el petit zoo té els lleons en recintes petits. La recomanació honesta: aneu-hi per l'arbreda i els ocells, com a respir del trànsit, i no pel zoo.",
+  "consells": [
+   "Pel vostre compte: taxi fins a Hann Bel-Air (pacteu el preu abans de pujar).",
+   "Aneu-hi al matí d'hora, quan hi ha més ocells i menys calor.",
+   "Les fonts no indiquen preu ni horaris actuals: confirmeu-ho a l'entrada."
+  ],
+  "durada": "2 h",
+  "preu": "Entrada no indicada a les fonts consultades.",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.726,
+  "lng": -17.434,
+  "millor_moment": "Matí d'hora.",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi fins a l'entrada de Hann i passeig lliure.",
+  "fonts": [
+   {
+    "nom": "Wikivoyage (fr) - Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikipedia - Parc forestier et zoologique de Hann",
+    "url": "https://fr.wikipedia.org/wiki/Parc_forestier_et_zoologique_de_Hann"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-dkr-djembe-ibou-sene",
+  "nom": "Classe de djembé amb Ibou Sene (Derklé)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "musica-nit",
+   "cultura",
+   "art"
+  ],
+  "resum": "Aprendre a tocar (i fins i tot a construir) un djembé amb un mestre artesà, sota un baobab al jardí d'un centre cultural.",
+  "descripcio": "La Lonely Planet, en el seu reportatge sobre la música de Dakar, visita Ibou Sene, mestre constructor de djembés i professor que dona classes per construir i tocar el tambor al seu petit taller, als jardins del Centre culturel de Derklé, a prop del centre de Dakar. Sota un baobab, explica els patrons rítmics tradicionals i com aquests ritmes eren 'els mòbils de la generació dels meus pares'.\n\nÉs una activitat perfecta per a un grup: participativa, local i lluny dels circuits. L'article és del 2019; confirmeu que el taller continua actiu abans d'anar-hi.",
+  "consells": [
+   "Pel vostre compte: taxi fins al Centre culturel de Derklé i pregunteu pel taller d'Ibou Sene.",
+   "Truqueu o demaneu-ho al vostre allotjament abans: l'article de la LP és del 2019.",
+   "Pacteu preu i durada de la classe abans de començar."
+  ],
+  "durada": "2-3 h",
+  "preu": "Classe a negociar amb el mestre (l'article no dona preus).",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.712,
+  "lng": -17.455,
+  "millor_moment": "Matí o tarda, entre setmana.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Taxi a Derklé i classe pactada directament amb el mestre.",
+  "fonts": [
+   {
+    "nom": "Lonely Planet - Dakar: Senegal's city of rhythm",
+    "url": "https://www.lonelyplanet.com/articles/dakar-music"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-dkr-bufalo-soldier",
+  "nom": "Bufalo Soldier Music Shop (vinils al Jet d'Eau)",
+  "regio": "dakar",
+  "tipus": "activitat",
+  "categories": [
+   "musica-nit",
+   "cultura"
+  ],
+  "resum": "Una barraca al costat d'una gasolinera, plena fins al sostre de vinils africans, cubans i reggae, amb un DJ historiador al capdavant.",
+  "descripcio": "Segons la Lonely Planet, Dread Amala, DJ de reggae i historiador de la música de Dakar, porta des de fa 30 anys el Bufalo Soldier Music Shop: una barraca petita en una cantonada polsosa al costat d'una gasolinera de la rotonda del Jet d'Eau. A dins, piles de vinils de gairebé tots els països d'Àfrica, discos francesos i cubans, jazz, blues i molt de reggae.\n\nÉs un lloc per perdre-hi una hora i deixar-se explicar la connexió entre els tambors de l'Àfrica occidental i el reggae, el jazz o el blues. Article del 2019: comproveu que segueixi obert.",
+  "consells": [
+   "Pel vostre compte: taxi fins a la rotonda del Jet d'Eau.",
+   "Si voleu comprar vinils, negocieu i porteu una bossa rígida per al viatge de tornada.",
+   "Informació del 2019: confirmeu-ho abans."
+  ],
+  "durada": "1 h",
+  "preu": "Entrada lliure; vinils a negociar.",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.706,
+  "lng": -17.452,
+  "millor_moment": "Tarda.",
+  "imprescindible": false,
+  "autentic": true,
+  "pel_teu_compte": "Taxi a la rotonda del Jet d'Eau.",
+  "fonts": [
+   {
+    "nom": "Lonely Planet - Dakar: Senegal's city of rhythm",
+    "url": "https://www.lonelyplanet.com/articles/dakar-music"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-dkr-playclub-vema",
+  "nom": "PLAYclub (Hotel Al Afifa) i Espace Vema",
+  "regio": "dakar",
+  "tipus": "nit",
+  "categories": [
+   "musica-nit"
+  ],
+  "resum": "Dues nits oposades: un club soterrani dels anys 70 amb mbalax en directe i un magatzem industrial on balla el Dakar cosmopolita.",
+  "descripcio": "La Lonely Planet recomana dues sales per tastar la música de Dakar. El PLAYclub, al soterrani de l'Hotel Al Afifa, al Plateau, és un local una mica decadent que sembla no haver canviat des dels anys 70: miralls rodons, cocteleria i concerts que comencen passada la 1 de la matinada (al reportatge, Woz Kaly cantant en wòlof fins que tota la sala balla).\n\nL'Espace Vema és el contrari: una nau industrial rehabilitada a prop del port, parets blanques i conductes vistos, on DJ barregen pop africà i occidental i va el públic jove i cosmopolita. Els dos apareixen en un article del 2019: comproveu programació a les seves xarxes.",
+  "consells": [
+   "Pel vostre compte: taxi anada i tornada (no camineu de nit per la Corniche o zones buides).",
+   "Els concerts comencen molt tard (sovint després de la 1 h); sopeu abans tranquil·lament.",
+   "Consulteu la programació a les xarxes socials del local; informació del 2019."
+  ],
+  "durada": "nit",
+  "preu": "Entrada i consumicions variables (sense preus a la font).",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 0.2,
+  "lat": 14.668,
+  "lng": -17.436,
+  "millor_moment": "Divendres o dissabte, a partir de la mitjanit.",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi fins a l'Hotel Al Afifa (Plateau) o l'Espace Vema i tornada en taxi.",
+  "fonts": [
+   {
+    "nom": "Lonely Planet - Dakar: Senegal's city of rhythm",
+    "url": "https://www.lonelyplanet.com/articles/dakar-music"
+   },
+   {
+    "nom": "Wikivoyage - Dakar (Al Afifa Hotel)",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "rlp-dkr-allot-goree",
+  "nom": "Dormir a Gorée: Villa Castel i Maison Augustin Ly",
+  "regio": "dakar",
+  "tipus": "allotjament",
+  "categories": [
+   "historia",
+   "relax"
+  ],
+  "resum": "Quan marxa l'últim ferri, Gorée és una altra illa: cases d'hostes en cases colonials amb buguenvíl·lia.",
+  "descripcio": "La majoria de gent visita Gorée en excursió d'un dia, però el Routard recomana justament 'passar una vetllada impregnant-se de la calma de l'illa', i la Lonely Planet hi proposa dos allotjaments: la Villa Castel, casa d'hostes 'eco' a prop del centre (dobles des d'uns 70 € el 2018), i la Maison Augustin Ly, una casa del segle XVIII coberta de buguenvíl·lies, a poca distància al sud de la Maison des Esclaves (dobles des d'uns 55 € el 2018).\n\nDormir-hi us permet veure l'illa al vespre i a primera hora, abans que arribin els ferris de visitants. Els preus són de la font de 2018: comproveu-los, i pregunteu per habitacions o combinacions per a 4 persones.",
+  "consells": [
+   "Pel vostre compte: ferri des de la Gare Maritime de Dakar (uns 20 min); la LP indicava sortides cada ~90 min de 7.30 a 22.30.",
+   "Reserveu amb antelació: són cases petites amb poques habitacions, i per Cap d'Any s'omplen.",
+   "Demaneu l'horari de l'últim ferri si voleu sopar a Dakar."
+  ],
+  "durada": "1 nit",
+  "preu": "Dobles des d'aprox. 55-70 € (preus LP 2018, a confirmar).",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 0.5,
+  "lat": 14.667,
+  "lng": -17.398,
+  "millor_moment": "Al vespre i a primera hora, sense excursionistes.",
+  "imprescindible": false,
+  "pel_teu_compte": "Ferri públic des de la Gare Maritime i reserva directa amb la casa d'hostes.",
+  "fonts": [
+   {
+    "nom": "Lonely Planet - Île de Gorée: the perfect Dakar day trip",
+    "url": "https://www.lonelyplanet.com/articles/ile-de-goree-day-trip-dakar"
+   },
+   {
+    "nom": "Routard - Incontournables Sénégal",
+    "url": "https://www.routard.com/fr/guide/top/afrique/senegal"
+   }
+  ],
+  "imatges": []
  }
 ]
