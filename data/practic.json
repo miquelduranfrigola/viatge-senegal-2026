@@ -1,0 +1,765 @@
+{
+ "seccions": [
+  {
+   "id": "visat",
+   "titol": "Visat i entrada",
+   "icona": "passport",
+   "punts": [
+    "Amb passaport espanyol NO cal visat per a estades de menys de 90 dies (el viatge del 27/12 al 04/01 hi entra de sobres).",
+    "El passaport ha de tenir una validesa superior a 6 mesos: comproveu que no caduqui abans de juliol de 2027.",
+    "El DNI NO serveix per entrar al Senegal: només passaport.",
+    "Si us passeu del termini de 90 dies la sortida es complica i cal anar a la Police des Étrangers et des Titres de Voyage.",
+    "Porteu sempre a sobre el passaport o una fotocòpia: la policia fa controls de documentació.",
+    "El certificat de febre groga només és obligatori si arribeu d'un país amb risc de transmissió o hi heu fet escala (vegeu Salut); en vol directe o via Europa no us el demanaran, però és recomanable.",
+    "Cal declarar per escrit l'entrada o sortida de més d'1.000.000 FCFA (uns 1.500 €) en efectiu.",
+    "Emergències consulars de l'Ambaixada d'Espanya a Dakar (24 h, només urgències): +221 77 569 28 89. Ambaixada: Av. Nelson Mandela 18-20, tel. +221 33 821 30 81. Consolat General: Corniche Ouest, Fann Mermoz, tel. +221 33 869 07 07.",
+    "Recomanable inscriure's al Registre de Viatgers d'Exteriores abans de marxar."
+   ],
+   "fonts": [
+    {
+     "nom": "Exteriores – Recomanacions de viatge Senegal (act. 24/04/2026)",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal"
+    }
+   ]
+  },
+  {
+   "id": "salut",
+   "titol": "Salut",
+   "icona": "vaccines",
+   "punts": [
+    "Demaneu cita a un Centre de Vacunació Internacional (Sanitat Exterior) amb diverses setmanes d'antelació: a finals de novembre/desembre hi ha molta demanda.",
+    "Febre groga: obligatòria (a partir de 9 mesos segons el CDC) només si veniu d'un país amb risc o hi heu fet escala de més de 12 h; Exteriores i el CDC la recomanen igualment a tots els viatgers.",
+    "Malària: endèmica a tot el país (sobretot P. falciparum, resistent a la cloroquina). El CDC recomana profilaxi a tot el Senegal: atovaquona-proguanil, doxiciclina, mefloquina o tafenoquina, segons prescripció mèdica. Desembre és època seca i amb menys incidència que juliol-octubre, però el risc no desapareix.",
+    "Protecció antimosquits: repel·lent (DEET/IR3535), mànigues llargues al capvespre i mosquitera. També hi ha casos de dengue.",
+    "Altres vacunes recomanades: hepatitis A i B, tètanus, febre tifoide; la meningocòccica es recomana per a zones del 'cinturó de la meningitis' en època seca (desembre-juny). La ràbia és freqüent en gossos: no toqueu animals.",
+    "Aigua: beveu només aigua embotellada (p. ex. Kirène), eviteu el gel i la verdura crua; porteu sals de rehidratació oral.",
+    "Assegurança de viatge amb cobertura mèdica àmplia i repatriació és imprescindible: la Seguretat Social espanyola no cobreix res al Senegal.",
+    "La sanitat és acceptable a Dakar però deficient a la resta del país; hospitals i clíniques sovint demanen pagament en efectiu per avançat.",
+    "Urgències: SAMU +221 33 824 24 18; SOS Médecin +221 33 889 15 15.",
+    "Índex UV 8 (molt alt) al desembre a Dakar: crema solar, gorra i ulleres."
+   ],
+   "fonts": [
+    {
+     "nom": "Exteriores – Senegal (Sanitat)",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal"
+    },
+    {
+     "nom": "CDC – Travelers' Health Senegal",
+     "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/senegal"
+    },
+    {
+     "nom": "Ministerio de Sanidad – La salud también viaja",
+     "url": "https://www.sanidad.gob.es/areas/sanidadExterior/laSaludTambienViaja/home.htm"
+    },
+    {
+     "nom": "Wikivoyage – Senegal",
+     "url": "https://en.wikivoyage.org/wiki/Senegal"
+    }
+   ]
+  },
+  {
+   "id": "diners",
+   "titol": "Diners",
+   "icona": "payments",
+   "punts": [
+    "Moneda: franc CFA d'Àfrica Occidental (XOF / FCFA). Canvi FIX amb l'euro: 1 € = 655,957 FCFA (a la pràctica, 1.000 FCFA ≈ 1,52 €; 10.000 FCFA ≈ 15 €).",
+    "Es pot canviar als bancs principals i en alguns hotels de Dakar (amb comissió). Compte amb els bitllets falsos.",
+    "Caixers: els d'Ecobank accepten Visa i Mastercard; fora de les ciutats grans són escassos. Traieu efectiu a Dakar, Saint-Louis o Mbour/Saly abans d'anar a zones rurals (Sine Saloum, Lompoul...).",
+    "Els caixers donen bitllets de 5.000 i 10.000 FCFA, i molts venedors i taxistes no tenen canvi: trenqueu-los aviat en botigues grans o supermercats i porteu bitllets petits (≤2.000) i monedes.",
+    "Les targetes només funcionen a hotels i establiments importants de Dakar; per a la resta, efectiu.",
+    "Mobile money (Wave, Orange Money) és omnipresent al Senegal i molts operadors de transport l'accepten; la venda en línia del ferri de la COSAMA (batobi.sn) de moment només admet Orange Money. Per obrir-ne un compte cal SIM local registrada amb passaport.",
+    "Propines: no són obligatòries ni gaire habituals en restaurants i taxis; es dona alguna cosa per un bon servei (arrodonir, o un 5-10%). Per a guies i xofers, una propina al final si n'esteu contents és un bon gest.",
+    "No ensenyeu ni tingueu els diners a la mà mentre regategeu."
+   ],
+   "fonts": [
+    {
+     "nom": "Exteriores – Senegal (Divises)",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal"
+    },
+    {
+     "nom": "Wikivoyage – Senegal (Money)",
+     "url": "https://en.wikivoyage.org/wiki/Senegal"
+    },
+    {
+     "nom": "Scoot West Africa – Ferri Dakar-Ziguinchor",
+     "url": "https://scootwestafrica.com/dakar-ziguinchor-ferry/"
+    },
+    {
+     "nom": "Tripmasters – Tipping in Senegal",
+     "url": "https://www.tripmasters.com/tipping_in_senegal/cms"
+    },
+    {
+     "nom": "CIA World Factbook – Senegal travel facts",
+     "url": "https://www.cia.gov/the-world-factbook/about/archives/2024/static/e16de8f50e8bedb73e851e95c09c7a5f/SG-travel-facts.pdf"
+    }
+   ]
+  },
+  {
+   "id": "aeroport",
+   "titol": "Arribar des de l'AIBD",
+   "icona": "flight_land",
+   "punts": [
+    "L'aeroport AIBD (Diass) és a uns 47 km de Dakar i a uns 20-30 min per autopista de Saly/Mbour.",
+    "NOVETAT: des del 28/09/2026 el TER (tren exprés) arriba fins a l'AIBD. Dakar-AIBD uns 55 min; trens cada ~24 min entre Diamniadio i l'AIBD (cada 8 min entre Dakar i Diamniadio).",
+    "Preus TER a l'AIBD (des del 12/10/2026, només anada): des de Dakar 4.000 FCFA en 2a classe i 10.000 FCFA en 1a; des de Diamniadio 3.000 FCFA. Permet 2 maletes + 1 bossa de mà per persona. Web: terdakar.sn, atenció al client 33 920 00 40.",
+    "ATENCIÓ: el TER circula com a molt fins a les 22 h, i molts vols d'Europa aterren entre les 22 h i les 3 h. Si arribeu de nit, haureu d'anar en taxi o trasllat.",
+    "Bus Dakar Dem Dikk (navette express AIBD–Dakar, terminal HLM Grand Yoff): històricament 24 h, cada 30 min, 3.000 FCFA (sense clima) / 6.000 FCFA (amb clima). Confirmeu-ho al 33 824 10 10.",
+    "Taxis: les tarifes oficials del 2017 eren 13.000 FCFA de dia i 18.000 de nit fins a Dakar (11.000/14.000 fins a Saly) + peatge; avui les fonts recents parlen de 20.000-32.000 FCFA fins a Dakar. Pacteu SEMPRE el preu abans de pujar.",
+    "Yango i Heetch funcionen a Dakar però només amb SIM local; un Yango AIBD-Dakar surt per uns 18.000-23.000 FCFA segons la demanda.",
+    "Per a 4 persones amb equipatge, el més còmode és un trasllat privat reservat (furgoneta o cotxe gran) o que el xofer contractat per al viatge us esperi a la sortida.",
+    "Exteriores avisa de falsos xofers a l'aeroport: verifiqueu nom, matrícula i el cartell amb el vostre nom. Compte també amb 'ajudants' que us agafen les maletes i després demanen diners.",
+    "Peatge Dakar-AIBD en cotxe: uns 2.000-2.600 FCFA en total segons l'accés."
+   ],
+   "fonts": [
+    {
+     "nom": "Senego – TER: la desserte de l'AIBD officiellement mise en service",
+     "url": "https://senego.com/ter-la-desserte-de-laibd-officiellement-mise-en-service_2007129.html"
+    },
+    {
+     "nom": "Senego – SETER détaille les prix du TER AIBD",
+     "url": "https://senego.com/seter-detaille-les-prix-du-ter-aibd-3-000-a-4-000-fcfa-en-2e-classe-10-000-en-1re_2010835.html"
+    },
+    {
+     "nom": "Au Sénégal – TER Dakar-AIBD : tarifs, horaires et guide pratique",
+     "url": "https://au-senegal.com/ter-dakar-aibd-tarifs-horaires-et-guide-pratique-pour-rejoindre-l-aeroport,18552.html"
+    },
+    {
+     "nom": "Au Sénégal – Les différents moyens de transport pour l'AIBD (2017)",
+     "url": "https://au-senegal.com/les-differents-moyens-de-transport-pour-aibd,15068.html"
+    },
+    {
+     "nom": "Kolonell – AIBD Dakar airport transfers 2026",
+     "url": "https://kolonell.com/en/blog/aibd-dakar-airport-transfers-website-whatsapp-2026"
+    },
+    {
+     "nom": "Cestee – Transport from Dakar Blaise Diagne Airport",
+     "url": "https://www.cestee.com/airport/dakar-blaise-diagne-dss/transport"
+    },
+    {
+     "nom": "TollGuru – Senegal toll roads 2026",
+     "url": "https://beta.tollguru.mapup.ai/senegal-toll"
+    }
+   ]
+  },
+  {
+   "id": "transport",
+   "titol": "Moure's pel país",
+   "icona": "directions_car",
+   "punts": [
+    "Per a un grup de 4 en un primer viatge, el cotxe amb xofer és l'opció més recomanada: coneix les rutes i els controls, evita el trànsit caòtic de Dakar i la conducció nocturna. Preus orientatius de testimonis: 25.000-55.000 FCFA/dia segons vehicle; demaneu preu tot inclòs (benzina, quilometratge, assegurança, allotjament i menjar del xofer).",
+    "Lloguer sense xofer: utilitaris 20.000-35.000 FCFA/dia, SUV/4x4 40.000-80.000 FCFA/dia. Cal permís de conduir internacional (el permís espanyol sol no és reconegut).",
+    "Per al Sine Saloum es recomana 4x4; les carreteres principals (Dakar-Thiès-Mbour-Saint-Louis) estan en bon estat, però les secundàries i les pistes poden estar malmeses.",
+    "Sept-places: rancheres compartides (Peugeot) que surten de les gares routières quan s'omplen; són barates però sovint van sobrecarregades. Pacteu el preu i el de l'equipatge (500-1.000 FCFA per bulto). Sent 4, podeu comprar els 7 seients i tenir el cotxe per a vosaltres.",
+    "Autopistes de peatge: Dakar-AIBD (uns 2.000-2.600 FCFA), AIBD-Thiès (1.000), Thiès-Touba per l'Ila Touba (2.500). Es paga en efectiu o targeta a les cabines.",
+    "Ferri Dakar-Ziguinchor (Aline Sitoé Diatta, COSAMA): surt de Dakar dimarts i divendres a les 20 h (i torna de Ziguinchor dijous i diumenge a les 13 h); nit a bord. Preus: seient 15.000 FCFA, llit en cabina de 8 18.000, cabina de 2 fins a 30.900. Cabines esgotades setmanes abans: reserveu a batobi.sn (Orange Money) o al port, amb passaport. Arribeu 2 h abans. Horaris a confirmar a cosama.sn.",
+    "En les dates del viatge, els ferris Dakar→Ziguinchor serien dimarts 29/12/2026 i divendres 01/01/2027 (cal confirmar que el dia de Cap d'Any opera).",
+    "Exteriores recomana viatjar de dia i, si es pot, en grup de vehicles; eviteu conduir de nit.",
+    "Temps de trajecte orientatius: AIBD-Dakar ~55 min en TER o 45-90 min en cotxe segons trànsit; AIBD-Saly ~30 min; Dakar-Saint-Louis ~4-5 h; Dakar-Sine Saloum (Ndangane/Toubacouta) ~3-4 h; Dakar-Ziguinchor una nit en ferri o tot un dia per carretera.",
+    "A Dakar: taxis grocs i negres (regategeu abans), Yango/Heetch amb SIM local, i busos Dakar Dem Dikk."
+   ],
+   "fonts": [
+    {
+     "nom": "Au Sénégal – Louer une voiture au Sénégal : prix, conseils",
+     "url": "https://au-senegal.com/louer-une-voiture-au-senegal-prix-conseils-et-erreurs-a-eviter,18326.html"
+    },
+    {
+     "nom": "Routard – Voiture avec chauffeur au Sénégal (fòrum)",
+     "url": "https://www.routard.com/forums/t/voiture-avec-chauffeur-au-senegal-a-recommander/229247"
+    },
+    {
+     "nom": "Wikivoyage – Senegal (Get around)",
+     "url": "https://en.wikivoyage.org/wiki/Senegal"
+    },
+    {
+     "nom": "Scoot West Africa – Overnight ferry Dakar-Ziguinchor (act. 2026)",
+     "url": "https://scootwestafrica.com/dakar-ziguinchor-ferry/"
+    },
+    {
+     "nom": "Au Sénégal – Reprise des rotations de l'Aline Sitoé Diatta",
+     "url": "https://au-senegal.com/reprise-des-rotations-du-navire-aline-sitoe-diatta,17697.html"
+    },
+    {
+     "nom": "TollGuru – Senegal toll roads 2026",
+     "url": "https://beta.tollguru.mapup.ai/senegal-toll"
+    },
+    {
+     "nom": "Exteriores – Senegal",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal"
+    }
+   ]
+  },
+  {
+   "id": "seguretat",
+   "titol": "Seguretat",
+   "icona": "shield",
+   "punts": [
+    "Exteriores considera de risc BAIX la major part del país (Dakar, Petite Côte, Sine Saloum, Saint-Louis, Thiès...).",
+    "Zones a evitar (risc alt): regió de Matam (frontera amb Mauritània) i franges frontereres amb Mali a Tambacounda i Kédougou.",
+    "Casamance (Ziguinchor, Sédhiou, Kolda) és de risc mitjà: presència militar, restriccions nocturnes en algunes carreteres, possibles mines fora de l'asfalt; eviteu carreteres secundàries, viatges de nit i la frontera amb Guinea-Bissau.",
+    "Dakar: estirades de mòbils i bosses des de moto; porteu el mòbil guardat i butxaques que tanquin. En taxi, no obriu portes ni baixeu finestres si algú us ho demana des de fora.",
+    "Estafes típiques: el 'Te'n recordes de mi?' (algú diu que us coneix de l'hotel o l'avió), 'regals' que després s'han de pagar, falsos empleats de l'aeroport que agafen maletes, falsos guies o agents a les xarxes socials, i preus triplicats per a turistes.",
+    "'Guies' espontanis: si algú s'ofereix a acompanyar-vos sense que ho hàgiu demanat, dieu un 'non, merci' amable i ferm i continueu; no us deixeu portar a llocs apartats. Contracteu guies a través de l'allotjament o oficines oficials.",
+    "Carteristes en equip: un us distreu (fins i tot agafant-vos la cama) mentre l'altre us buida la butxaca, sobretot a mercats i platges.",
+    "Exteriores recomana evitar aglomeracions; de nit, moveu-vos en taxi i eviteu les platges urbanes desertes.",
+    "Drogues: penes de 2 mesos a 20 anys de presó. L'homosexualitat està penada; eviteu mostres d'afecte en públic.",
+    "Telèfons: policia 17, bombers 18, gendarmeria (línia verda) 800 00 20 20."
+   ],
+   "fonts": [
+    {
+     "nom": "Exteriores – Senegal (Seguretat)",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal"
+    },
+    {
+     "nom": "Wikivoyage – Senegal (Stay safe)",
+     "url": "https://en.wikivoyage.org/wiki/Senegal"
+    },
+    {
+     "nom": "Routard – Sécurité et arnaques à Dakar (fòrum)",
+     "url": "https://www.routard.com/forums/t/securite-et-arnaques-a-dakar-actuellement/244718"
+    },
+    {
+     "nom": "Seneweb – Faux agents touristiques sur les réseaux sociaux",
+     "url": "https://www.seneweb.com/news/Societe/cometrip-ou-comment-profiter-de-la-desti_n_417298.html"
+    }
+   ]
+  },
+  {
+   "id": "cultura",
+   "titol": "Cultura i etiqueta",
+   "icona": "diversity_3",
+   "punts": [
+    "País majoritàriament musulmà, organitzat en confraries sufís (mourides, tidjanes...), amb una minoria cristiana; la religió és un tema de conversa habitual i ben rebut.",
+    "Teranga (hospitalitat): us convidaran a menjar o a prendre te (ataya); acceptar-ho és un gest de respecte. Es menja d'un plat comú, amb la mà dreta i només de la part del plat que teniu davant.",
+    "La mà dreta per menjar, donar i rebre coses i saludar; l'esquerra es considera impura.",
+    "Salutacions: són sagrades. Comenceu sempre amb 'Salaam aleekum' i pregunteu com està la persona abans de parlar de negocis o preus. Alguns homes religiosos no donen la mà a dones: en aquest cas, mà al cor.",
+    "No crideu ningú fent senyes amb el dit: es considera molt groller.",
+    "Vestimenta: discreta fora de les zones turístiques (pantalons i faldilles fins al genoll, res de samarretes de tirants a pobles). A les mesquites: descalceu-vos, braços i cames tapats, i les dones amb mocador al cap.",
+    "Fotos: demaneu sempre permís, sobretot a persones, nens i llocs religiosos; algunes persones demanaran diners per la foto.",
+    "Regateig: és normal a mercats, taxis i artesania; feu-ho amb bon humor, sense enfadar-vos. Feu una contraoferta baixa i acosteu-vos poc a poc.",
+    "No doneu diners ni regals a qui us en demani pel carrer (inclosos els talibés); si voleu ajudar, feu-ho a través d'associacions.",
+    "Les mostres d'afecte en públic (petons, anar agafats) no són habituals."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage – Senegal (Respect)",
+     "url": "https://en.wikivoyage.org/wiki/Senegal"
+    },
+    {
+     "nom": "World Travel Guide – 16 things to know before travelling to Senegal",
+     "url": "https://www.worldtravelguide.net/features/feature/16-things-to-know-before-travelling-to-senegal/"
+    },
+    {
+     "nom": "Kaijego – Essential things to know before visiting Senegal",
+     "url": "https://www.kaijego.com/blog/post/essential-things-to-know-before-visiting-senegal"
+    },
+    {
+     "nom": "There She Goes Again – Tips before visiting Dakar",
+     "url": "https://thereshegoesagain.org/planning-a-trip-to-dakar-travel-tips/"
+    }
+   ]
+  },
+  {
+   "id": "comunicacions",
+   "titol": "Comunicacions i electricitat",
+   "icona": "sim_card",
+   "punts": [
+    "Operadors: Orange (millor cobertura), Free (rebatejat com a Yas) i Expresso.",
+    "SIM física: cal passaport per registrar-la a botiga oficial. La SIM costa uns 1.000 FCFA; amb dades, a partir d'uns 3.000 FCFA. Exemple Yas: 2.000 FCFA/setmana amb 9 GB o 5.000 FCFA/mes amb 12,5 GB.",
+    "eSIM de viatge (Airalo, Holafly, etc., sobre xarxa Orange o Free): no cal passaport, però són més cares i sovint només dades (sense número per a Yango/Wave).",
+    "Recomanació per al grup: almenys una SIM local amb número (per a Yango/Heetch, trucar xofers i allotjaments i, si cal, Orange Money/Wave).",
+    "WhatsApp és la manera habitual de comunicar-se amb xofers, guies i allotjaments.",
+    "Electricitat: 230 V, 50 Hz. Endolls tipus C i E (els europeus funcionen) i també D i K; porteu un adaptador universal per si de cas.",
+    "Hi pot haver talls de llum: una bateria externa per persona és molt útil.",
+    "Prefix telefònic del Senegal: +221."
+   ],
+   "fonts": [
+    {
+     "nom": "Gigago – Senegal SIM cards",
+     "url": "https://gigago.com/senegal-sim-cards/"
+    },
+    {
+     "nom": "Roafly – How to get internet in Senegal",
+     "url": "https://www.roafly.com/de/blog/how-to-get-internet-in-senegal"
+    },
+    {
+     "nom": "Mind of a Hitchhiker – How to get a Senegalese SIM card",
+     "url": "https://mindofahitchhiker.com/?p=24128"
+    },
+    {
+     "nom": "Skyalo – Best eSIMs Senegal (2026)",
+     "url": "https://skyalo.com/en/blog/best-esims-senegal"
+    },
+    {
+     "nom": "Wikivoyage – Senegal (Electricity)",
+     "url": "https://en.wikivoyage.org/wiki/Senegal"
+    }
+   ]
+  },
+  {
+   "id": "allotjament",
+   "titol": "Allotjament per a grups de 4",
+   "icona": "hotel",
+   "punts": [
+    "Les dates de Nadal-Cap d'Any són temporada alta (vacances de francesos, diàspora senegalesa i turisme local): reserveu com més aviat millor, especialment a Saly, Sine Saloum, Saint-Louis, Lac Rose/Lompoul i Casamance.",
+    "Per a 4, busqueu bungalows/cases o habitacions familiars en campements i ecolodges (Sine Saloum, Lompoul, Casamance): sovint més barats per persona que dues dobles.",
+    "Molts allotjaments inclouen mitja pensió; a zones aïllades (illes del Saloum, desert de Lompoul) és pràcticament l'única opció.",
+    "Comproveu mosquiteres, ventilador/aire condicionat i si hi ha aigua calenta i electricitat 24 h (alguns campements funcionen amb solar).",
+    "Molts allotjaments petits demanen pagament en efectiu o mobile money: confirmeu-ho abans.",
+    "Demaneu a l'allotjament que us organitzi el trasllat des de l'aeroport o excursions: és més segur que els 'guies' espontanis.",
+    "Pregunteu si el sopar del 31/12 és obligatori i amb suplement: molts hotels fan 'réveillon' de pagament."
+   ],
+   "fonts": [
+    {
+     "nom": "Au Sénégal – Location de voiture (consells de temporada i reserva)",
+     "url": "https://au-senegal.com/louer-une-voiture-au-senegal-prix-conseils-et-erreurs-a-eviter,18326.html"
+    },
+    {
+     "nom": "Evaneos – Sénégal en décembre",
+     "url": "https://www.evaneos.fr/senegal/circuits-decembre/"
+    }
+   ]
+  },
+  {
+   "id": "capdany",
+   "titol": "Cap d'Any al Senegal",
+   "icona": "celebration",
+   "punts": [
+    "L'1 de gener (divendres 01/01/2027) és festiu nacional: bancs, administració i moltes botigues tancades; planifiqueu efectiu i transport.",
+    "Saint-Louis: el Fanal, desfilada de grans fanals (tradició del segle XVIII, quan les signares anaven a la missa del gall amb llanternes), se celebra habitualment entre el 24 i el 31 de desembre amb la gran desfilada el 31 cap a la plaça Faidherbe. Gratuït. L'edició 2026 encara no està anunciada.",
+    "Casamance: el Festival d'Abéné (danses diola i mandinga, música, a la platja d'Abéné) se celebra cada any del 26 de desembre al 2 de gener; edició 2026-27 encara no confirmada.",
+    "Dakar, Saly i Cap Skirring: els hotels i discoteques organitzen 'soirées réveillon' de pagament; reserveu-hi taula amb antelació.",
+    "Tot i ser un país musulmà, el Cap d'Any i Nadal se celebren obertament, sobretot a les ciutats i zones turístiques; hi pot haver molt trànsit i preus més alts els dies 30-31/12.",
+    "Eviteu conduir de matinada el 31/12–1/1 i torneu a l'allotjament en taxi o amb el xofer."
+   ],
+   "fonts": [
+    {
+     "nom": "Au Sénégal – 24e édition du Fanal de Saint-Louis (2024)",
+     "url": "https://au-senegal.com/24eme-edition-du-fanal-de-saint-louis-du-24-au-31-decembre-2024,17277.html"
+    },
+    {
+     "nom": "Au Sénégal – Fanal de Saint-Louis, un événement chargé d'histoire",
+     "url": "https://au-senegal.com/fanal-de-saint-louis-un-evenement-charge-d-histoire,15504.html"
+    },
+    {
+     "nom": "Au Sénégal – Festival d'Abéné",
+     "url": "https://au-senegal.com/festival-d-abene,17672.html"
+    },
+    {
+     "nom": "Publicholidays.africa – Senegal",
+     "url": "https://publicholidays.africa/senegal/"
+    }
+   ]
+  },
+  {
+   "id": "maleta",
+   "titol": "Què posar a la maleta",
+   "icona": "luggage",
+   "punts": [
+    "Passaport (>6 mesos de validesa) + fotocòpies; carnet internacional de vacunació si us poseu la febre groga; permís de conduir internacional si llogueu cotxe.",
+    "Antipalúdics receptats, repel·lent fort, farmaciola (sals de rehidratació, antidiarreics, antibiòtic de viatge receptat, analgèsics, tiretes) i medicació contra el mareig si agafeu el ferri.",
+    "Crema solar alta, gorra i ulleres de sol (UV molt alt).",
+    "Roba lleugera de cotó/lli, però també pantalons llargs i mànigues llargues (mosquits al capvespre i visites a mesquites); mocador per a les dones.",
+    "Una jaqueta o forro prim: les nits a la costa i al desert de Lompoul poden baixar a uns 17-20 °C, i al ferri hi fa fresca.",
+    "Banyador, tovallola de microfibra i sandàlies; calçat tancat per a pistes i ciutat.",
+    "Adaptador d'endoll universal i bateria externa; frontal o llanterna per a campements.",
+    "Mascareta o buff per a la pols de l'harmattan i dels camins de terra.",
+    "Bitllets petits en FCFA, una mica d'euros de reserva i una bossa interior o cinturó porta-diners.",
+    "Cadenat per a motxilles i bossa estanca per a excursions en piragua (Sine Saloum)."
+   ],
+   "fonts": [
+    {
+     "nom": "CDC – Travelers' Health Senegal",
+     "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/senegal"
+    },
+    {
+     "nom": "Weather2Travel – Dakar December",
+     "url": "https://www.weather2travel.com/senegal/dakar/december"
+    },
+    {
+     "nom": "Exteriores – Senegal",
+     "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal"
+    }
+   ]
+  }
+ ],
+ "wolof": [
+  {
+   "wolof": "Salaam aleekum",
+   "catala": "Hola (la pau sigui amb tu)",
+   "pronuncia": "sa-LAAM a-LÉ-kum"
+  },
+  {
+   "wolof": "Maleekum salaam",
+   "catala": "Resposta a la salutació",
+   "pronuncia": "ma-LÉ-kum sa-LAAM"
+  },
+  {
+   "wolof": "Na nga def?",
+   "catala": "Com estàs?",
+   "pronuncia": "nan-ga DEF"
+  },
+  {
+   "wolof": "Maa ngi fi rekk",
+   "catala": "Estic bé (literalment: només sóc aquí)",
+   "pronuncia": "maan-gui fi REK"
+  },
+  {
+   "wolof": "Naka suba si?",
+   "catala": "Com ha anat el matí? (bon dia)",
+   "pronuncia": "na-ka SU-ba si"
+  },
+  {
+   "wolof": "Jërëjëf",
+   "catala": "Gràcies",
+   "pronuncia": "dje-re-DJEF"
+  },
+  {
+   "wolof": "Amul solo",
+   "catala": "De res",
+   "pronuncia": "a-MUL so-lo"
+  },
+  {
+   "wolof": "Waaw",
+   "catala": "Sí",
+   "pronuncia": "uau"
+  },
+  {
+   "wolof": "Déedéet",
+   "catala": "No",
+   "pronuncia": "dé-DÉT"
+  },
+  {
+   "wolof": "Déedéet, jërëjëf",
+   "catala": "No, gràcies",
+   "pronuncia": "dé-DÉT, dje-re-DJEF"
+  },
+  {
+   "wolof": "Baal ma",
+   "catala": "Perdó / disculpa",
+   "pronuncia": "BAAL ma"
+  },
+  {
+   "wolof": "Naka nga tudd?",
+   "catala": "Com et dius?",
+   "pronuncia": "na-ka nga TUDD"
+  },
+  {
+   "wolof": "Maa ngi tudd ...",
+   "catala": "Em dic ...",
+   "pronuncia": "maan-gui TUDD"
+  },
+  {
+   "wolof": "Bii ñaata la?",
+   "catala": "Quant costa això?",
+   "pronuncia": "bii NYAA-ta la"
+  },
+  {
+   "wolof": "Dafa cher! / Bare na!",
+   "catala": "És massa car!",
+   "pronuncia": "da-fa XER / BA-re na"
+  },
+  {
+   "wolof": "Wàññi ma ko",
+   "catala": "Rebaixa-me'l una mica",
+   "pronuncia": "UA-nyi ma ko"
+  },
+  {
+   "wolof": "Dama xool rekk",
+   "catala": "Només estic mirant",
+   "pronuncia": "da-ma KHOOL rek"
+  },
+  {
+   "wolof": "Ndox",
+   "catala": "Aigua",
+   "pronuncia": "n-DOKH"
+  },
+  {
+   "wolof": "Neex na torop!",
+   "catala": "Està boníssim!",
+   "pronuncia": "NÉKH na to-ROP"
+  },
+  {
+   "wolof": "Bëggu ma kaani",
+   "catala": "No vull picant",
+   "pronuncia": "BEG-gu ma KAA-ni"
+  },
+  {
+   "wolof": "Ana wanag wi?",
+   "catala": "On és el lavabo?",
+   "pronuncia": "a-na UA-nag ui"
+  },
+  {
+   "wolof": "Ndank ndank",
+   "catala": "A poc a poc (amb calma)",
+   "pronuncia": "n-DANK n-DANK"
+  },
+  {
+   "wolof": "Dégg uma",
+   "catala": "No ho entenc",
+   "pronuncia": "DEG-u-ma"
+  },
+  {
+   "wolof": "Ba beneen yoon",
+   "catala": "Fins a la propera (adéu)",
+   "pronuncia": "ba be-NÉN ioon"
+  },
+  {
+   "wolof": "Jamm ak jamm",
+   "catala": "Que vagi en pau (resposta/comiat)",
+   "pronuncia": "DJAAM ak DJAAM"
+  }
+ ],
+ "plats": [
+  {
+   "nom": "Thiéboudienne (ceebu jën)",
+   "descripcio": "Plat nacional: arròs cuit en un brou de tomàquet amb peix (sovint thiof), verdures (mandioca, col, albergínia, pastanaga) i el 'xoon', la crosta cruixent del fons de l'olla. Hi ha versió vermella i blanca.",
+   "imatge": {
+    "src": "assets/img/pplat-0-1.jpg",
+    "autor": "Mariel.cg",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Senegalese_Thieboudienne.JPG",
+    "titol": "Senegalese Thieboudienne.JPG"
+   }
+  },
+  {
+   "nom": "Yassa",
+   "descripcio": "Pollastre (yassa ginaar) o peix marinat i cuit amb molta ceba, llimona i mostassa, servit amb arròs blanc. Originari de Casamance.",
+   "imatge": {
+    "src": "assets/img/pplat-1-1.jpg",
+    "autor": "Kinesira",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Senegalese_Yassa.JPG",
+    "titol": "Senegalese Yassa.JPG"
+   }
+  },
+  {
+   "nom": "Mafé (maafe)",
+   "descripcio": "Estofat de carn (vedella, xai o pollastre) en una salsa espessa de pasta de cacauet i tomàquet, servit amb arròs.",
+   "imatge": {
+    "src": "assets/img/pplat-2-1.jpg",
+    "autor": "A Healthier Michigan from Detroit, United States",
+    "llicencia": "CC BY-SA 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:African_Chicken_Peanut_Stew_(37673757141).jpg",
+    "titol": "African Chicken Peanut Stew (37673757141).jpg"
+   }
+  },
+  {
+   "nom": "Thiébou yapp",
+   "descripcio": "Germà carnívor del thiéboudienne: arròs cuinat amb carn (sovint xai o vedella) i ceba."
+  },
+  {
+   "nom": "Dibi",
+   "descripcio": "Carn de xai (o vedella) a la brasa, tallada a trossos i servida amb ceba, mostassa i pebre, en paper. Típic de les dibiteries al vespre.",
+   "imatge": {
+    "src": "assets/img/pplat-4-1.jpg",
+    "autor": "Yvonneberthe",
+    "llicencia": "CC0",
+    "font": "https://commons.wikimedia.org/wiki/File:Dibi_du_s%C3%A9n%C3%A9gal_01.jpg",
+    "titol": "Dibi du sénégal 01.jpg"
+   }
+  },
+  {
+   "nom": "Pastels",
+   "descripcio": "Empanadetes fregides farcides de peix especiat, servides amb salsa de tomàquet picant. Snack de carrer molt popular."
+  },
+  {
+   "nom": "Accara (akara)",
+   "descripcio": "Bunyols fregits de pasta de mongeta (bé negre), sovint en un entrepà de pa amb salsa de ceba picant.",
+   "imatge": {
+    "src": "assets/img/pplat-6-1.jpg",
+    "autor": "Taoheedah",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Akara;Bean_Cake.jpg",
+    "titol": "Akara;Bean Cake.jpg"
+   }
+  },
+  {
+   "nom": "Fataya",
+   "descripcio": "Empanades fregides de massa de blat farcides de carn picada o peix, amb salsa picant; d'influència libanesa.",
+   "imatge": {
+    "src": "assets/img/pplat-7-1.jpg",
+    "autor": "Cheikh cherif",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Fataya.jpg",
+    "titol": "Fataya.jpg"
+   }
+  },
+  {
+   "nom": "Thiakry (dégué)",
+   "descripcio": "Postres de mill o cuscús de mill amb iogurt o llet fermentada ensucrada, vainilla i panses, servides fredes."
+  },
+  {
+   "nom": "Bissap",
+   "descripcio": "Beguda freda d'infusió de flors d'hibisc amb sucre i menta o flor de taronger; de color granat intens.",
+   "imatge": {
+    "src": "assets/img/pplat-9-1.jpg",
+    "autor": "Noahalorwu",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Sobolo.jpg",
+    "titol": "Sobolo.jpg"
+   }
+  },
+  {
+   "nom": "Bouye",
+   "descripcio": "Batut cremós de fruit de baobab (pa de mico) amb llet o aigua i sucre; àcid i refrescant.",
+   "imatge": {
+    "src": "assets/img/pplat-10-1.jpg",
+    "autor": "Ghada Elajb",
+    "llicencia": "CC0",
+    "font": "https://commons.wikimedia.org/wiki/File:%D8%B9%D8%B5%D9%8A%D8%B1_%D8%A7%D9%84%D8%AA%D8%A8%D9%84%D8%AF%D9%8A_%D8%AC%D8%A7%D9%87%D8%B2.jpg",
+    "titol": "عصير التبلدي جاهز.jpg"
+   }
+  },
+  {
+   "nom": "Café Touba",
+   "descripcio": "Cafè especiat amb pebre de Guinea (djar) i a vegades clau, associat a la confraria mouride de Touba; es ven en gots petits pel carrer.",
+   "imatge": {
+    "src": "assets/img/pplat-11-1.jpg",
+    "autor": "Lahat sogue",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:T%C3%A9gouna_caf%C3%A9_tuuba.jpg",
+    "titol": "Tégouna café tuuba.jpg"
+   }
+  },
+  {
+   "nom": "Ataya",
+   "descripcio": "Te verd xinès molt ensucrat amb menta, preparat en tres tandes (cada una més dolça) i servit amb escuma; és un ritual social de conversa i teranga."
+  },
+  {
+   "nom": "Gingembre (jus de gingembre)",
+   "descripcio": "Suc fred de gingebre fresc amb llimona i sucre, molt picant; sol acompanyar el bissap i el bouye.",
+   "imatge": {
+    "src": "assets/img/pplat-13-1.jpg",
+    "autor": "Jen Arrr",
+    "llicencia": "CC BY-SA 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Bissap_%26_Ginger_Juice_(7558541174).jpg",
+    "titol": "Bissap & Ginger Juice (7558541174).jpg"
+   }
+  }
+ ],
+ "clima": "Finals de desembre és plena estació seca i una de les millors èpoques per visitar el Senegal: pràcticament no plou (1 mm de mitjana a Dakar al desembre, el mes més sec) i fa sol unes 8 hores al dia, amb unes 11 h de llum (posta cap a les 19 h). A Dakar i la costa atlàntica (Petite Côte, Saly, Lac Rose) les màximes rondeixen els 26-28 °C i les mínimes uns 18-20 °C, amb la brisa de l'oceà i una humitat moderada; el sol crema (índex UV 8). L'aigua del mar està fresca per a l'Atlàntic tropical: uns 21-25 °C segons la font (uns 23 °C de mitjana a Dakar), més freda a la Grande Côte i al nord. Al nord (Saint-Louis, desert de Lompoul) els dies poden ser més calorosos lluny de la costa (fins a uns 30-34 °C en alguns registres) però les nits refresquen força, sobretot al desert; porteu una peça d'abric. A l'interior (Kaolack, Tambacounda) i a Casamance fa més calor de dia (uns 32-35 °C a Ziguinchor i fins a uns 38 °C a Tambacounda) i nits d'uns 20 °C. L'harmattan, el vent sec i polsós del Sàhara, bufa sobretot de gener a març i pot portar calitja i pols durant uns dies (cel blanquinós, sequedat d'ulls i gola); a finals de desembre és possible però sol ser menys intens.",
+ "calendari": [
+  {
+   "data": "2026-12-24",
+   "titol": "Fanal de Saint-Louis (període habitual 24-31/12)",
+   "descripcio": "Festival de fanals gegants i desfilades a l'illa de Saint-Louis, tradició del segle XVIII. Les edicions 2024 i 2025 es van fer del 24 al 30-31 de desembre; l'edició 2026 encara no està anunciada. Gratuït."
+  },
+  {
+   "data": "2026-12-25",
+   "titol": "Nadal (festiu nacional)",
+   "descripcio": "Divendres, festiu oficial al Senegal (abans de la vostra arribada). Ambient festiu sobretot a les comunitats cristianes (Saint-Louis, Gorée, Joal-Fadiouth, Casamance)."
+  },
+  {
+   "data": "2026-12-26",
+   "titol": "Festival d'Abéné (habitualment 26/12–02/01)",
+   "descripcio": "Festival anual de danses i músiques de Casamance (diola, mandinga, karone, balanta) a la platja d'Abéné. Edició 2026-27 encara no confirmada."
+  },
+  {
+   "data": "2026-12-27",
+   "titol": "Arribada a l'AIBD (diumenge)",
+   "descripcio": "El TER circula fins a les 22 h aprox.; si l'avió aterra més tard, cal taxi, trasllat o xofer reservat."
+  },
+  {
+   "data": "2026-12-29",
+   "titol": "Ferri Dakar → Ziguinchor (dimarts 20 h)",
+   "descripcio": "Sortida regular de l'Aline Sitoé Diatta si aneu a Casamance; les cabines s'esgoten setmanes abans en aquestes dates. Horari a confirmar amb la COSAMA."
+  },
+  {
+   "data": "2026-12-31",
+   "titol": "Cap d'Any – réveillon i gran desfilada del Fanal",
+   "descripcio": "Dijous. Soirées de pagament a hotels i discoteques de Dakar, Saly i Cap Skirring. A Saint-Louis la desfilada principal del Fanal acostuma a ser el 31 de desembre."
+  },
+  {
+   "data": "2027-01-01",
+   "titol": "Jour de l'An (festiu nacional)",
+   "descripcio": "Divendres festiu: bancs, oficines i moltes botigues tancades. També és dia de sortida regular del ferri Dakar → Ziguinchor (confirmar si opera)."
+  },
+  {
+   "data": "2027-01-02",
+   "titol": "Últim dia habitual del Festival d'Abéné",
+   "descripcio": "Cloenda habitual del festival de Casamance (dates 2026-27 a confirmar)."
+  },
+  {
+   "data": "2027-01-04",
+   "titol": "Tornada (dilluns)",
+   "descripcio": "Dia laborable; compteu amb trànsit dens a Dakar en hora punta cap a l'aeroport, o feu servir el TER (fins a les 22 h)."
+  },
+  {
+   "data": "2027-01-05",
+   "titol": "Magal de Kazu Rajab (estimació, just després del viatge)",
+   "descripcio": "Pelegrinatge a Touba per la naixença de Serigne Fallou Mbacké. El 2026 es va celebrar el 16/01; com que segueix el calendari lunar (uns 11 dies abans cada any), el 2027 cauria cap al 5-6 de gener (estimació pròpia, no confirmada). Pot haver-hi trànsit cap a Touba els dies previs."
+  },
+  {
+   "data": "2026-08-02",
+   "titol": "Nota: NO hi ha Grand Magal ni Gamou durant el viatge",
+   "descripcio": "El Grand Magal de Touba 2026 va ser el 2 d'agost de 2026 i el Gamou (Maouloud) cap a finals d'agost de 2026 (el mes de Rabi al-Awwal va començar el 15/08/2026). Cap gran festa religiosa coincideix amb el 27/12–04/01."
+  },
+  {
+   "data": "2027-02-06",
+   "titol": "Nota: l'Africa Eco Race 2027 arriba al Lac Rose el 6 de febrer",
+   "descripcio": "La 18a edició surt de Tànger el 24/01/2027 i acaba al Lac Rose (Dakar) el 06/02/2027, és a dir, un mes després del viatge. No coincideix amb les vostres dates."
+  }
+ ],
+ "pressupost": [
+  {
+   "concepte": "Canvi de referència",
+   "preu": "1 € = 655,957 FCFA (fix); 10.000 FCFA ≈ 15,2 €"
+  },
+  {
+   "concepte": "TER Dakar ↔ AIBD (per persona, anada)",
+   "preu": "4.000 FCFA en 2a / 10.000 FCFA en 1a (≈ 6 € / 15 €)"
+  },
+  {
+   "concepte": "Bus Dem Dikk AIBD ↔ Dakar (per persona)",
+   "preu": "3.000-6.000 FCFA (tarifa històrica; confirmar)"
+  },
+  {
+   "concepte": "Taxi AIBD → Dakar (per cotxe)",
+   "preu": "13.000-18.000 FCFA tarifa oficial 2017 (dia/nit); avui sovint 20.000-32.000 FCFA + peatge"
+  },
+  {
+   "concepte": "Yango AIBD → Dakar",
+   "preu": "18.000-23.000 FCFA segons demanda"
+  },
+  {
+   "concepte": "Taxi AIBD → Saly/Mbour",
+   "preu": "10.000-14.000 FCFA (tarifa oficial 2017); trasllat privat 45.000-65.000 FCFA"
+  },
+  {
+   "concepte": "Cotxe amb xofer per dia",
+   "preu": "≈ 25.000-55.000 FCFA (≈ 40-85 €) segons vehicle i negociació; demanar preu amb benzina inclosa"
+  },
+  {
+   "concepte": "Lloguer sense xofer (per dia)",
+   "preu": "Utilitari 20.000-35.000 FCFA; SUV/4x4 40.000-80.000 FCFA"
+  },
+  {
+   "concepte": "Peatge Dakar → AIBD (cotxe)",
+   "preu": "≈ 2.000-2.600 FCFA; AIBD-Thiès 1.000; Thiès-Touba 2.500"
+  },
+  {
+   "concepte": "Ferri Dakar–Ziguinchor (per persona)",
+   "preu": "Seient 15.000 FCFA; llit cabina 8 places 18.000; cabina de 2 fins a 30.900 FCFA"
+  },
+  {
+   "concepte": "Sept-place Dakar → Ziguinchor (per seient)",
+   "preu": "≈ 9.500 FCFA + 500-1.000 per bulto (Wikivoyage, a confirmar)"
+  },
+  {
+   "concepte": "Ferri Dakar–Gorée + entrada Maison des Esclaves",
+   "preu": "≈ 6.500 FCFA per persona (estranger)"
+  },
+  {
+   "concepte": "SIM local amb dades",
+   "preu": "SIM ≈ 1.000 FCFA; paquet ≈ 2.000 FCFA/setmana (9 GB) o 5.000 FCFA/mes"
+  },
+  {
+   "concepte": "eSIM de viatge",
+   "preu": "≈ 6-14 $ per 1 GB; ≈ 36 $ per 20 GB/30 dies"
+  },
+  {
+   "concepte": "Excursió 4x4 al Lac Rose",
+   "preu": "≈ 40-60 € (segons fòrum Routard, considerat car)"
+  }
+ ]
+}

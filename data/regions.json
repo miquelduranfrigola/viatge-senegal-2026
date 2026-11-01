@@ -1,0 +1,190 @@
+[
+  {
+    "id": "dakar",
+    "nom": "Dakar",
+    "etiqueta": "La capital · punt d'arribada",
+    "descripcio": "Dakar és una península volcànica que s'endinsa a l'Atlàntic: el punt més occidental de l'Àfrica continental. És caòtica, sorollosa i enganxosa, amb una energia creativa que no trobareu enlloc més del país: galeries d'art, estudis de música, surfistes a Ngor i Ouakam, mercats immensos i una Corniche on mig Dakar fa esport al capvespre.\n\nCada barri és un món: el Plateau colonial i administratiu, la Médina popular, els pobles lebous de Yoff, Ngor i Ouakam (pescadors que encara tenen els seus propis ritus), i les Almadies, amb restaurants de peix a peu de roca. A vint minuts en ferri hi ha Gorée, la illa sense cotxes que és memòria de la tracta atlàntica.",
+    "com_arribar": "L'aeroport AIBD és a uns 45-60 km. Des de setembre de 2026 el TER hi arriba (≈55 min fins a Dakar, fins a les 22 h); si no, taxi o xofer reservat.",
+    "dies": "2-3 dies com a mínim (inici i final del viatge)",
+    "ideal": "Art, música en directe, mercats, surf, vida nocturna, Cap d'Any",
+    "imatges": [
+      {
+        "src": "assets/img/reg-dakar-1.jpg",
+        "autor": "Jeff Attaway from Abuja, Nigeria",
+        "llicencia": "CC BY 2.0",
+        "font": "https://commons.wikimedia.org/wiki/File:Dakar_Senegal_-_Looking_North_(5274051599).jpg",
+        "titol": "Dakar Senegal - Looking North (5274051599).jpg"
+      }
+    ],
+    "imatge": {
+      "src": "assets/img/reg-dakar-1.jpg",
+      "autor": "Jeff Attaway from Abuja, Nigeria",
+      "llicencia": "CC BY 2.0",
+      "font": "https://commons.wikimedia.org/wiki/File:Dakar_Senegal_-_Looking_North_(5274051599).jpg",
+      "titol": "Dakar Senegal - Looking North (5274051599).jpg"
+    }
+  },
+  {
+    "id": "voltants",
+    "nom": "Voltants de Dakar",
+    "etiqueta": "Excursions d'un dia",
+    "descripcio": "Al voltant de la capital, el paisatge canvia de seguida: les Niayes, una franja d'horts i dunes entre llacunes que proveeix de verdura mig país; el Lac Rose (Retba), on els recol·lectors de sal treballen amb l'aigua al pit; i ports de pesca com Kayar, on centenars de pirogues pintades arriben a la tarda.\n\nAquí també hi ha el monestir de Keur Moussa, famós per les misses cantades amb kora, i Thiès, segona ciutat del país i seu de les Manufactures de tapissos. Tot és fàcil de fer en una sortida d'un dia, amb cotxe o transport públic des de Dakar.",
+    "com_arribar": "Entre 45 min i 1,5 h per carretera des del centre (Lac Rose ≈1 h, Kayar ≈1,5 h, Thiès ≈1 h per l'autopista).",
+    "dies": "1-2 dies en excursions",
+    "ideal": "Paisatges de dunes i llacs, ports de pesca, mercats, un dia fora de la ciutat",
+    "imatges": [
+      {
+        "src": "assets/img/reg-voltants-1.jpg",
+        "autor": "Dr. Alexey Yakovlev",
+        "llicencia": "CC BY-SA 2.0",
+        "font": "https://commons.wikimedia.org/wiki/File:Salt-harvesting_at_Lake_Retba_(Lac_Rose)_(54205608528).jpg",
+        "titol": "Salt-harvesting at Lake Retba (Lac Rose) (54205608528).jpg"
+      },
+      {
+        "src": "assets/img/reg-voltants-2.jpg",
+        "autor": "Ftewcha",
+        "llicencia": "CC BY-SA 4.0",
+        "font": "https://commons.wikimedia.org/wiki/File:Salt_collector_in_lake_retba.jpg",
+        "titol": "Salt collector in lake retba.jpg"
+      }
+    ],
+    "imatge": {
+      "src": "assets/img/reg-voltants-1.jpg",
+      "autor": "Dr. Alexey Yakovlev",
+      "llicencia": "CC BY-SA 2.0",
+      "font": "https://commons.wikimedia.org/wiki/File:Salt-harvesting_at_Lake_Retba_(Lac_Rose)_(54205608528).jpg",
+      "titol": "Salt-harvesting at Lake Retba (Lac Rose) (54205608528).jpg"
+    }
+  },
+  {
+    "id": "petite-cote",
+    "nom": "Petite Côte",
+    "etiqueta": "La costa al sud de Dakar",
+    "descripcio": "La Petite Côte és la franja de platges que va de Toubab Dialaw fins a Joal-Fadiouth. Té fama de turística per Saly, la vila de resorts, però entre els complexos hi ha pobles amb molta vida: Toubab Dialaw, refugi d'artistes amb cales i penya-segats vermells; la llacuna de Somone, amb manglars i ocells; i Mbour, un dels ports pesquers més grans de l'Àfrica occidental, espectacular a l'hora de l'arribada de les pirogues.\n\nAl final de la costa, Joal-Fadiouth és un dels llocs més singulars del país: una illa feta de petxines, unida per un pont de fusta, amb un cementiri compartit per cristians i musulmans.",
+    "com_arribar": "Per l'autopista de peatge: Toubab Dialaw ≈1 h, Somone/Saly ≈1-1,5 h, Mbour ≈1,5 h, Joal ≈2 h.",
+    "dies": "1-3 dies",
+    "ideal": "Platja, peix fresc, mercats de pescadors, ritme tranquil a prop de Dakar",
+    "imatges": [
+      {
+        "src": "assets/img/reg-petite-cote-1.jpg",
+        "autor": "Andersonphotography",
+        "llicencia": "CC BY 2.0",
+        "font": "https://commons.wikimedia.org/wiki/File:La_Lagune_de_la_Somone_02.jpg",
+        "titol": "La Lagune de la Somone 02.jpg"
+      }
+    ],
+    "imatge": {
+      "src": "assets/img/reg-petite-cote-1.jpg",
+      "autor": "Andersonphotography",
+      "llicencia": "CC BY 2.0",
+      "font": "https://commons.wikimedia.org/wiki/File:La_Lagune_de_la_Somone_02.jpg",
+      "titol": "La Lagune de la Somone 02.jpg"
+    }
+  },
+  {
+    "id": "saloum",
+    "nom": "Sine-Saloum",
+    "etiqueta": "Delta, manglars i illes · UNESCO",
+    "descripcio": "El delta del Saloum és un laberint de braços d'aigua salada (els bolongs), manglars, illes de sorra i petits pobles serers on només s'arriba en pirogua. És Patrimoni Mundial de la UNESCO tant pel seu valor natural com pels milers d'anys d'amuntegaments de petxines que els seus habitants hi han anat deixant.\n\nÉs el lloc perfecte per baixar el ritme: navegar al capvespre mentre milers d'ocells tornen a dormir, nedar en llacunes, recórrer illes amb carro o bicicleta i dormir en campaments comunitaris. Palmarin i Ndangane-Mar Lodj al nord, Toubacouta i el parc nacional al sud. Des de 2022 el pont Nelson Mandela de Foundiougne ha escurçat molt els trajectes.",
+    "com_arribar": "Ndangane ≈2,5 h; Palmarin, Toubacouta i Foundiougne ≈2,75-3 h; Kaolack ≈3,5 h. Sept-place des de la gare routière de Baux Maraîchers o cotxe amb xofer.",
+    "dies": "2-4 dies",
+    "ideal": "Natura, ocells, pirogua i caiac, vida de poble, ecolodges",
+    "imatges": [
+      {
+        "src": "assets/img/reg-saloum-1.jpg",
+        "autor": "Issiaga0",
+        "llicencia": "CC BY-SA 4.0",
+        "font": "https://commons.wikimedia.org/wiki/File:Delta_du_Sine_Saloum_-_Patrimoine_Mondial_de_L%27Unesco_17.jpg",
+        "titol": "Delta du Sine Saloum - Patrimoine Mondial de L'Unesco 17.jpg"
+      },
+      {
+        "src": "assets/img/reg-saloum-2.jpg",
+        "autor": "Issiaga0",
+        "llicencia": "CC BY-SA 4.0",
+        "font": "https://commons.wikimedia.org/wiki/File:S%C3%A9n%C3%A9gal,_dans_le_Delta_du_Sine_Saloum_03.jpg",
+        "titol": "Sénégal, dans le Delta du Sine Saloum 03.jpg"
+      }
+    ],
+    "imatge": {
+      "src": "assets/img/reg-saloum-1.jpg",
+      "autor": "Issiaga0",
+      "llicencia": "CC BY-SA 4.0",
+      "font": "https://commons.wikimedia.org/wiki/File:Delta_du_Sine_Saloum_-_Patrimoine_Mondial_de_L%27Unesco_17.jpg",
+      "titol": "Delta du Sine Saloum - Patrimoine Mondial de L'Unesco 17.jpg"
+    }
+  },
+  {
+    "id": "nord",
+    "nom": "Nord i Saint-Louis",
+    "etiqueta": "Antiga capital, desert i ocells",
+    "descripcio": "Saint-Louis, l'antiga capital de l'Àfrica Occidental Francesa, és una illa al riu Senegal amb cases colonials de colors pastel, balcons de ferro i un ambient decadent i musical. Al seu costat, Guet Ndar és un dels barris de pescadors més densos i impressionants del continent, i la Langue de Barbarie, una llengua de sorra entre el riu i l'oceà.\n\nAl voltant hi ha alguns dels paisatges més diferents del país: les dunes taronja del desert de Lompoul, on es dorm en jaimes; el Parc Nacional dels Ocells del Djoudj, un dels grans santuaris d'aus migratòries del món, en plena temporada a desembre-gener; i la vall del riu Senegal cap a Podor, terra peul.",
+    "com_arribar": "Lompoul ≈3 h; Saint-Louis ≈4-5 h per l'autopista fins a Thiès i la N2; Djoudj ≈1 h més enllà de Saint-Louis.",
+    "dies": "3-4 dies",
+    "ideal": "Arquitectura, música, desert, observació d'ocells, Cap d'Any al Fanal (si se celebra)",
+    "imatges": [
+      {
+        "src": "assets/img/reg-nord-1.jpg",
+        "autor": "Manu25",
+        "llicencia": "CC BY-SA 4.0",
+        "font": "https://commons.wikimedia.org/wiki/File:Saintlouis_ile_pecheur.jpg",
+        "titol": "Saintlouis ile pecheur.jpg"
+      },
+      {
+        "src": "assets/img/reg-nord-2.jpg",
+        "autor": "Jim Williams",
+        "llicencia": "CC BY-SA 3.0 igo",
+        "font": "https://commons.wikimedia.org/wiki/File:Island_of_Saint-Louis-113799.jpg",
+        "titol": "Island of Saint-Louis-113799.jpg"
+      }
+    ],
+    "imatge": {
+      "src": "assets/img/reg-nord-1.jpg",
+      "autor": "Manu25",
+      "llicencia": "CC BY-SA 4.0",
+      "font": "https://commons.wikimedia.org/wiki/File:Saintlouis_ile_pecheur.jpg",
+      "titol": "Saintlouis ile pecheur.jpg"
+    }
+  },
+  {
+    "id": "casamance",
+    "nom": "Casamance",
+    "etiqueta": "El sud verd i diola",
+    "descripcio": "Separada de la resta del país per Gàmbia, la Casamance és una altra cosa: verda, humida i exuberant, amb arrossars, palmerars i rius amples. És terra diola, amb un rei tradicional a Oussouye, cases d'impluvium i una espiritualitat animista que conviu amb l'islam i el cristianisme. Les platges de Cap Skirring i de Kafountine-Abéné són de les millors de l'Àfrica occidental.\n\nEl conflicte separatista que va marcar la regió durant dècades està molt apaivagat, però el Ministeri d'Exteriors (abril de 2026) la classifica com a zona de risc mitjà i hi marca punts de risc alt: trajectes nocturns, carreteres secundàries i pistes, i la frontera amb Guinea Bissau. Cal viatjar sempre de dia, no sortir de l'asfalt fora de Cap Skirring i consultar la recomanació actualitzada abans d'anar-hi. Amb nou dies, només val la pena si li dediqueu almenys quatre dies.",
+    "com_arribar": "Vol de ≈45 min a Ziguinchor o Cap Skirring (des de ≈39.500 FCFA), ferri nocturn Dakar–Ziguinchor (≈15 h; surt dimarts i divendres a les 20 h) o 9-10 h per carretera passant per Gàmbia.",
+    "dies": "4-5 dies (o res)",
+    "ideal": "Cultura diola, natura exuberant, platges, ritme lent, Festival d'Abéné",
+    "imatges": [
+      {
+        "src": "assets/img/reg-casamance-1.jpg",
+        "autor": "No machine-readable author provided. Armadyou assumed (based on copyright claims).",
+        "llicencia": "Public domain",
+        "font": "https://commons.wikimedia.org/wiki/File:Fleuve_casamance.jpg",
+        "titol": "Fleuve casamance.jpg"
+      },
+      {
+        "src": "assets/img/reg-casamance-2.jpg",
+        "autor": "Nikocra",
+        "llicencia": "CC BY-SA 3.0",
+        "font": "https://commons.wikimedia.org/wiki/File:Baobab_de_casamance.jpg",
+        "titol": "Baobab de casamance.jpg"
+      }
+    ],
+    "imatge": {
+      "src": "assets/img/reg-casamance-1.jpg",
+      "autor": "No machine-readable author provided. Armadyou assumed (based on copyright claims).",
+      "llicencia": "Public domain",
+      "font": "https://commons.wikimedia.org/wiki/File:Fleuve_casamance.jpg",
+      "titol": "Fleuve casamance.jpg"
+    }
+  },
+  {
+    "id": "est",
+    "nom": "Est i País Bassari",
+    "etiqueta": "Sabana, muntanyes i parcs · UNESCO",
+    "descripcio": "L'est del Senegal és el país més remot i salvatge: el Parc Nacional del Niokolo-Koba, enorme i encara ple de vida (hipopòtams, antílops, ximpanzés i amb sort algun lleó), i el País Bassari, a la frontera amb Guinea, amb pobles bassari, bedik i peul enfilats a turons, declarats Patrimoni de la Humanitat.\n\nKédougou és la base per caminar fins a la cascada de Dindéfelo o pujar als pobles bedik d'Iwol. Desembre és un mes ideal pel clima, però les distàncies són llargues: per a un viatge de nou dies amb Cap d'Any, és una opció només si voleu dedicar-hi el viatge sencer.",
+    "com_arribar": "Tambacounda ≈7-8 h; Kédougou ≈10-12 h per carretera. Vols interns ocasionals.",
+    "dies": "5 dies com a mínim",
+    "ideal": "Trekking, fauna, pobles de muntanya, aventura de veritat",
+    "imatges": []
+  }
+]

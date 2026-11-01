@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catàleg · Senegal 2026</title>
+<meta name="description" content="Catàleg filtrable de coses a fer, on menjar, on sortir i on dormir al Senegal.">
+<meta name="theme-color" content="#9A4A1C">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400,0..1,0&display=block" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="cataleg">
+<main>
+
+<div class="container page-hero">
+  <span class="label">Catàleg</span>
+  <h1>Coses a fer al Senegal</h1>
+  <p class="lead">Totes les fitxes en un sol lloc. Filtra per regió, tipus o temàtica, o cerca per nom.</p>
+</div>
+<div class="toolbar">
+  <div class="container">
+    <label class="search"><span class="msym">search</span><span class="visually-hidden">Cerca</span><input id="q" type="search" placeholder="Cerca: Gorée, surf, thiéboudienne, pirogua…"></label>
+    <div class="chip-row" id="f-regio"><span class="label">Regió</span></div>
+    <div class="chip-row" id="f-tipus"><span class="label">Tipus</span><button class="chip" id="f-must" aria-pressed="false"><span class="msym">star</span> Imprescindibles</button><button class="chip" id="f-auth" aria-pressed="false"><span class="msym">eco</span> Autèntic / fora dels circuits</button></div>
+    <div class="chip-row" id="f-cat"><span class="label">Temes</span></div>
+    <div class="toolbar-extra">
+      <label class="muted">Ordena <select id="sort"><option value="recomanat">Recomanat</option><option value="distancia">Més a prop de Dakar</option><option value="preu">Més econòmic</option><option value="nom">Alfabètic</option></select></label>
+      <label class="muted">Distància <select id="maxh"><option value="">Qualsevol</option><option value="1">≤ 1 h de Dakar</option><option value="2">≤ 2 h</option><option value="3.5">≤ 3,5 h</option><option value="5">≤ 5 h</option></select></label>
+      <button class="chip" id="reset"><span class="msym">restart_alt</span> Neteja filtres</button>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <p class="result-count" id="count"></p>
+  <div class="grid" id="grid"></div>
+</div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

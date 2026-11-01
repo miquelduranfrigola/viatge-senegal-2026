@@ -1,0 +1,561 @@
+/* Viatge a Senegal 2026 — lògica compartida */
+(() => {
+  "use strict";
+
+  const NAV = [
+    ["index.html", "Inici"],
+    ["cataleg.html", "Catàleg"],
+    ["regions.html", "Regions"],
+    ["itinerari.html", "Itineraris"],
+    ["agenda.html", "Agenda"],
+    ["coneix.html", "Coneix el Senegal"],
+    ["cultura.html", "Llegir i mirar"],
+    ["practic.html", "Pràctic"],
+    ["fonts.html", "Fonts"],
+  ];
+
+  const REGIONS = {
+    dakar: "Dakar",
+    voltants: "Voltants de Dakar",
+    "petite-cote": "Petite Côte",
+    saloum: "Sine-Saloum",
+    nord: "Nord i Saint-Louis",
+    casamance: "Casamance",
+    est: "Est i País Bassari",
+  };
+  const TYPES = { activitat: "Activitat", menjar: "Menjar", nit: "Nit i música", allotjament: "Allotjament" };
+  const TYPE_ICON = { activitat: "explore", menjar: "restaurant", nit: "nightlife", allotjament: "bed" };
+  const CATS = {
+    cultura: "Cultura", historia: "Història", platja: "Platja", natura: "Natura", aventura: "Aventura",
+    gastronomia: "Gastronomia", "musica-nit": "Música i nit", mercats: "Mercats", esport: "Esport",
+    excursio: "Excursió", relax: "Relax", fauna: "Fauna", art: "Art",
+  };
+  const PRICE = ["Gratis", "€", "€€", "€€€"];
+  const REGION_COLOR = {
+    dakar: "#9A4A1C", voltants: "#C46A2B", "petite-cote": "#00658E", saloum: "#3F6837",
+    nord: "#B8860B", casamance: "#2E7D5B", est: "#6B4E9B",
+  };
+
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const icon = (n) => `<span class="msym" aria-hidden="true">${n}</span>`;
+  const cache = {};
+  const load = (name) => (cache[name] ??= fetch(`data/${name}.json`).then((r) => {
+    if (!r.ok) throw new Error(`No s'ha pogut carregar ${name}`);
+    return r.json();
+  }));
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch { /* sense emmagatzematge */ } },
+  };
+
+  /* ---------- Layout ---------- */
+  function layout() {
+    const here = location.pathname.split("/").pop() || "index.html";
+    const header = document.createElement("header");
+    header.className = "topbar";
+    header.innerHTML = `
+      <div class="container">
+        <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span>Senegal 2026</a>
+        <nav class="nav" id="nav">${NAV.map(([h, t]) => `<a href="${h}"${h === here ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
+        <button class="icon-btn menu-btn" aria-label="Menú" aria-controls="nav" aria-expanded="false">${icon("menu")}</button>
+        <button class="icon-btn theme-btn" aria-label="Canvia el tema">${icon("dark_mode")}</button>
+      </div>`;
+    document.body.prepend(header);
+    const nav = $("#nav"), mb = $(".menu-btn", header);
+    mb.addEventListener("click", () => {
+      const open = nav.classList.toggle("open");
+      mb.setAttribute("aria-expanded", open);
+    });
+    const saved = store.get("theme");
+    if (saved) document.documentElement.dataset.theme = saved;
+    const tb = $(".theme-btn", header);
+    const isDark = () => document.documentElement.dataset.theme === "dark" ||
+      (!document.documentElement.dataset.theme && matchMedia("(prefers-color-scheme: dark)").matches);
+    const syncIcon = () => { $(".msym", tb).textContent = isDark() ? "light_mode" : "dark_mode"; };
+    syncIcon();
+    tb.addEventListener("click", () => {
+      const next = isDark() ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      store.set("theme", next);
+      syncIcon();
+    });
+
+    const footer = document.createElement("footer");
+    footer.innerHTML = `
+      <div class="container">
+        <div><strong>Viatge a Senegal 2026</strong><br>27 de desembre de 2026 – 4 de gener de 2027 · 4 amics · Dakar</div>
+        <div>Fotos de <a href="https://commons.wikimedia.org">Wikimedia Commons</a> (llicències lliures, crèdits a cada imatge i a <a href="fonts.html">Fonts</a>).<br>Disseny: sistema <a href="https://github.com/google-labs-code/design.md">DESIGN.md</a> «Teranga».</div>
+      </div>`;
+    document.body.append(footer);
+  }
+
+  /* ---------- Helpers ---------- */
+  const credit = (img) => img ? `${esc(img.autor || "Autor desconegut")} · <a href="${esc(img.font)}" target="_blank" rel="noopener">${esc(img.llicencia || "Commons")}</a>` : "";
+  let REGION_IMG = {};
+  const setRegionImgs = (regions) => { regions.forEach((r) => { if (r.imatge) REGION_IMG[r.id] = r.imatge; }); };
+  const firstImg = (a) => (a.imatges && a.imatges[0]) || null;
+  const placeholder = (a) => `<div class="ph" aria-hidden="true">${icon(TYPE_ICON[a.tipus] || "explore")}<span>${esc(REGIONS[a.regio] || "")}</span></div>`;
+  const hours = (h) => h == null ? "" : h === 0 ? "A Dakar" : h < 1 ? `${Math.round(h * 60)} min des de Dakar` : `${String(h).replace(".", ",")} h des de Dakar`;
+
+  function cardHTML(a) {
+    const img = firstImg(a);
+    return `
+      <button class="card" data-id="${esc(a.id)}" aria-label="${esc(a.nom)}">
+        <div class="card-img">
+          ${img ? `<img src="${esc(img.src)}" alt="${esc(a.nom)}" loading="lazy">` : placeholder(a)}
+          <div class="card-badges">
+            <span class="badge badge-region">${esc(REGIONS[a.regio] || a.regio)}</span>
+            ${a.imprescindible ? `<span class="badge badge-must">${icon("star")} Imprescindible</span>` : ""}
+            ${a.autentic ? `<span class="badge badge-auth">${icon("eco")} Autèntic</span>` : ""}
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="label">${icon(TYPE_ICON[a.tipus] || "explore")} ${esc(TYPES[a.tipus] || a.tipus)}${a.categories?.length ? " · " + a.categories.slice(0, 2).map((c) => esc(CATS[c] || c)).join(", ") : ""}</span>
+          <h3>${esc(a.nom)}</h3>
+          <p>${esc(a.resum)}</p>
+          <div class="meta">
+            ${a.durada ? `<span>${icon("schedule")}${esc(a.durada)}</span>` : ""}
+            ${a.nivell_preu != null ? `<span>${icon("payments")}${PRICE[a.nivell_preu] || ""}</span>` : ""}
+            ${a.hores_des_de_dakar != null ? `<span>${icon("directions_car")}${hours(a.hores_des_de_dakar)}</span>` : ""}
+          </div>
+        </div>
+      </button>`;
+  }
+
+  /* ---------- Detail dialog ---------- */
+  let dlg, dlgMap;
+  function openDetail(a) {
+    if (!dlg) {
+      dlg = document.createElement("dialog");
+      dlg.className = "detail";
+      document.body.append(dlg);
+      dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+      dlg.addEventListener("close", () => {
+        if (location.hash.startsWith("#a=")) history.replaceState(null, "", location.pathname + location.search);
+      });
+    }
+    const imgs = a.imatges || [];
+    let idx = 0;
+    const paras = String(a.descripcio || "").split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("");
+    dlg.innerHTML = `
+      <button class="icon-btn detail-close" aria-label="Tanca">${icon("close")}</button>
+      <div class="detail-gallery">
+        ${imgs.length ? `<img src="${esc(imgs[0].src)}" alt="${esc(a.nom)}">
+          <div class="detail-credit">${credit(imgs[0])}</div>` : placeholder(a)}
+        ${imgs.length > 1 ? `<button class="icon-btn nav-btn prev" aria-label="Foto anterior">${icon("chevron_left")}</button>
+          <button class="icon-btn nav-btn next" aria-label="Foto següent">${icon("chevron_right")}</button>` : ""}
+      </div>
+      <div class="detail-body">
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">
+          <span class="badge badge-region">${esc(REGIONS[a.regio] || a.regio)}</span>
+          <span class="badge badge-type">${esc(TYPES[a.tipus] || a.tipus)}</span>
+          ${a.imprescindible ? `<span class="badge badge-must">${icon("star")} Imprescindible</span>` : ""}
+          ${a.autentic ? `<span class="badge badge-auth">${icon("eco")} Autèntic · fora dels circuits</span>` : ""}
+        </div>
+        <h2>${esc(a.nom)}</h2>
+        <p class="lead">${esc(a.resum)}</p>
+        <div class="facts">
+          ${a.durada ? `<div class="fact"><div class="label">${icon("schedule")}Durada</div><div>${esc(a.durada)}</div></div>` : ""}
+          ${a.preu ? `<div class="fact"><div class="label">${icon("payments")}Preu</div><div>${esc(a.preu)}</div></div>` : ""}
+          ${a.hores_des_de_dakar != null ? `<div class="fact"><div class="label">${icon("directions_car")}Distància</div><div>${hours(a.hores_des_de_dakar)}</div></div>` : ""}
+          ${a.millor_moment ? `<div class="fact"><div class="label">${icon("wb_twilight")}Millor moment</div><div>${esc(a.millor_moment)}</div></div>` : ""}
+        </div>
+        ${paras}
+        ${a.pel_teu_compte ? `<div class="callout green"><strong>${icon("hiking")} Pel vostre compte:</strong> ${esc(a.pel_teu_compte)}</div>` : ""}
+        ${a.consells?.length ? `<div class="tips"><div class="label" style="color:inherit;margin-bottom:6px">${icon("lightbulb")} Consells</div><ul>${a.consells.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
+        ${a.lat ? `<div class="mini-map" id="mini-map"></div>
+          <p><a href="https://www.google.com/maps/search/?api=1&query=${a.lat},${a.lng}" target="_blank" rel="noopener">${icon("map")} Obre a Google Maps</a></p>` : ""}
+        ${a.categories?.length ? `<p class="muted">${a.categories.map((c) => esc(CATS[c] || c)).join(" · ")}</p>` : ""}
+        ${a.fonts?.length ? `<div class="sources"><div class="label">Fonts</div><ul>${a.fonts.map((f) => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nom || f.url)}</a></li>`).join("")}</ul></div>` : ""}
+      </div>`;
+    $(".detail-close", dlg).addEventListener("click", () => dlg.close());
+    const show = (i) => {
+      idx = (i + imgs.length) % imgs.length;
+      $(".detail-gallery img", dlg).src = imgs[idx].src;
+      $(".detail-credit", dlg).innerHTML = credit(imgs[idx]);
+    };
+    $(".prev", dlg)?.addEventListener("click", () => show(idx - 1));
+    $(".next", dlg)?.addEventListener("click", () => show(idx + 1));
+    if (!dlg.open) dlg.showModal();
+    dlg.scrollTop = 0;
+    history.replaceState(null, "", `${location.pathname}${location.search}#a=${encodeURIComponent(a.id)}`);
+    if (a.lat && window.L) {
+      if (dlgMap) { dlgMap.remove(); dlgMap = null; }
+      dlgMap = L.map("mini-map", { scrollWheelZoom: false }).setView([a.lat, a.lng], 11);
+      tiles(dlgMap);
+      L.circleMarker([a.lat, a.lng], { radius: 9, color: "#fff", weight: 2, fillColor: REGION_COLOR[a.regio] || "#9A4A1C", fillOpacity: 1 }).addTo(dlgMap);
+    }
+  }
+
+  function bindCards(container, items) {
+    const byId = Object.fromEntries(items.map((a) => [a.id, a]));
+    container.addEventListener("click", (e) => {
+      const c = e.target.closest(".card[data-id]");
+      if (c && byId[c.dataset.id]) openDetail(byId[c.dataset.id]);
+    });
+    const m = location.hash.match(/^#a=(.+)$/);
+    if (m && byId[decodeURIComponent(m[1])]) openDetail(byId[decodeURIComponent(m[1])]);
+  }
+
+  /* ---------- Maps ---------- */
+  function tiles(map) {
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+  }
+  function overviewMap(el, items) {
+    if (!window.L || !el) return;
+    const map = L.map(el, { scrollWheelZoom: false }).setView([14.4, -16.0], 7);
+    tiles(map);
+    const pts = [];
+    items.filter((a) => a.lat && a.lng).forEach((a) => {
+      pts.push([a.lat, a.lng]);
+      const mk = L.circleMarker([a.lat, a.lng], {
+        radius: a.imprescindible ? 8 : 6, color: "#fff", weight: 1.5,
+        fillColor: REGION_COLOR[a.regio] || "#9A4A1C", fillOpacity: .95,
+      }).addTo(map);
+      mk.bindPopup(`<b>${esc(a.nom)}</b><br>${esc(REGIONS[a.regio] || "")} · ${esc(TYPES[a.tipus] || "")}<br><a href="cataleg.html#a=${encodeURIComponent(a.id)}">Veure fitxa →</a>`);
+    });
+    if (pts.length) map.fitBounds(pts, { padding: [24, 24] });
+    const legend = L.control({ position: "bottomleft" });
+    legend.onAdd = () => {
+      const d = L.DomUtil.create("div");
+      d.style.cssText = "background:rgba(255,255,255,.92);color:#221A15;padding:8px 10px;border-radius:12px;font:12px/18px Inter,sans-serif";
+      d.innerHTML = Object.entries(REGIONS).map(([k, v]) => `<div><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${REGION_COLOR[k]};margin-right:6px"></span>${v}</div>`).join("");
+      return d;
+    };
+    legend.addTo(map);
+  }
+
+  /* ---------- Pages ---------- */
+  async function pageIndex() {
+    const [items, regions] = await Promise.all([load("activitats"), load("regions")]);
+    setRegionImgs(regions);
+    load("hero").then((h) => { $("#hero-credit").innerHTML = `Foto: ${credit(h)}`; }).catch(() => {});
+    load("esdeveniments").then((ev) => {
+      const el = $("#agenda-teaser"); if (!el) return;
+      const top = ev.filter((e) => ["cap-d-any", "festival", "lluita", "musica"].includes(e.categoria)).slice(0, 6);
+      el.innerHTML = top.map(eventHTML).join("");
+    }).catch(() => {});
+    const acts = items.filter((a) => a.tipus === "activitat");
+    $("#stat-acts").textContent = acts.length;
+    $("#stat-total").textContent = items.length;
+    $("#stat-regions").textContent = new Set(items.map((a) => a.regio)).size;
+    const must = items.filter((a) => a.imprescindible && a.tipus === "activitat");
+    const order = ["dakar", "voltants", "petite-cote", "saloum", "nord", "casamance", "est"];
+    must.sort((a, b) => order.indexOf(a.regio) - order.indexOf(b.regio));
+    const grid = $("#must-grid");
+    grid.innerHTML = must.slice(0, 12).map(cardHTML).join("");
+    bindCards(grid, items);
+    overviewMap($("#map"), items);
+
+    const target = new Date("2026-12-27T00:00:00Z").getTime();
+    const cd = $("#countdown");
+    const tick = () => {
+      const d = target - Date.now();
+      if (d <= 0) { cd.innerHTML = "<div><b>Ja hi som!</b><span>Bon viatge</span></div>"; return; }
+      const days = Math.floor(d / 864e5), h = Math.floor(d / 36e5) % 24, m = Math.floor(d / 6e4) % 60;
+      cd.innerHTML = `<div><b>${days}</b><span>dies</span></div><div><b>${h}</b><span>hores</span></div><div><b>${m}</b><span>minuts</span></div>`;
+    };
+    tick(); setInterval(tick, 30000);
+  }
+
+  async function pageCataleg() {
+    const [items, regions] = await Promise.all([load("activitats"), load("regions")]);
+    setRegionImgs(regions);
+    const params = new URLSearchParams(location.search);
+    const state = {
+      q: "", regio: new Set(params.getAll("regio")), tipus: new Set(params.getAll("tipus")),
+      cat: new Set(params.getAll("cat")), must: params.has("imprescindible"), auth: params.has("autentic"), sort: "recomanat", maxh: "",
+    };
+    const chips = (id, map, set) => {
+      const counts = {};
+      items.forEach((a) => {
+        const vals = id === "cat" ? a.categories || [] : [a[id === "regio" ? "regio" : "tipus"]];
+        vals.forEach((v) => (counts[v] = (counts[v] || 0) + 1));
+      });
+      $(`#f-${id}`).innerHTML += Object.entries(map).filter(([k]) => counts[k])
+        .map(([k, v]) => `<button class="chip" data-k="${k}" aria-pressed="${set.has(k)}">${esc(v)} <small>${counts[k]}</small></button>`).join("");
+      $(`#f-${id}`).addEventListener("click", (e) => {
+        const b = e.target.closest(".chip"); if (!b) return;
+        set.has(b.dataset.k) ? set.delete(b.dataset.k) : set.add(b.dataset.k);
+        b.setAttribute("aria-pressed", set.has(b.dataset.k));
+        render();
+      });
+    };
+    chips("regio", REGIONS, state.regio);
+    chips("tipus", TYPES, state.tipus);
+    chips("cat", CATS, state.cat);
+    const mustBtn = $("#f-must");
+    mustBtn.setAttribute("aria-pressed", state.must);
+    mustBtn.addEventListener("click", () => { state.must = !state.must; mustBtn.setAttribute("aria-pressed", state.must); render(); });
+    const authBtn = $("#f-auth");
+    authBtn.setAttribute("aria-pressed", state.auth);
+    authBtn.addEventListener("click", () => { state.auth = !state.auth; authBtn.setAttribute("aria-pressed", state.auth); render(); });
+    $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+    $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
+    $("#maxh").addEventListener("change", (e) => { state.maxh = e.target.value; render(); });
+    const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    const grid = $("#grid");
+    bindCards(grid, items);
+    function render() {
+      const q = norm(state.q);
+      let list = items.filter((a) =>
+        (!state.regio.size || state.regio.has(a.regio)) &&
+        (!state.tipus.size || state.tipus.has(a.tipus)) &&
+        (!state.cat.size || (a.categories || []).some((c) => state.cat.has(c))) &&
+        (!state.must || a.imprescindible) &&
+        (!state.auth || a.autentic) &&
+        (!state.maxh || (a.hores_des_de_dakar ?? 99) <= Number(state.maxh)) &&
+        (!q || norm(`${a.nom} ${a.resum} ${a.descripcio} ${a.pel_teu_compte || ""} ${REGIONS[a.regio]}`).includes(q)));
+      const s = state.sort;
+      if (s === "distancia") list.sort((a, b) => (a.hores_des_de_dakar ?? 99) - (b.hores_des_de_dakar ?? 99));
+      else if (s === "preu") list.sort((a, b) => (a.nivell_preu ?? 9) - (b.nivell_preu ?? 9));
+      else if (s === "nom") list.sort((a, b) => a.nom.localeCompare(b.nom, "ca"));
+      else list.sort((a, b) => (b.imprescindible - a.imprescindible) || ((a.tipus !== "activitat") - (b.tipus !== "activitat")));
+      $("#count").textContent = `${list.length} ${list.length === 1 ? "resultat" : "resultats"}`;
+      grid.innerHTML = list.length ? list.map(cardHTML).join("") : `<div class="empty">Cap resultat amb aquests filtres.</div>`;
+    }
+    render();
+    $("#reset").addEventListener("click", () => {
+      state.regio.clear(); state.tipus.clear(); state.cat.clear(); state.must = false; state.auth = false; state.q = ""; state.maxh = "";
+      $("#q").value = ""; $("#maxh").value = "";
+      $$(".chip").forEach((c) => c.setAttribute("aria-pressed", "false"));
+      render();
+    });
+  }
+
+  async function pageRegions() {
+    const [regions, items] = await Promise.all([load("regions"), load("activitats")]);
+    setRegionImgs(regions);
+    $("#toc").innerHTML = regions.map((r) => `<a class="chip" href="#${r.id}">${esc(r.nom)}</a>`).join("");
+    $("#regions").innerHTML = regions.map((r) => {
+      const its = items.filter((a) => a.regio === r.id);
+      const acts = its.filter((a) => a.tipus === "activitat");
+      const img = r.imatge;
+      return `
+        <section class="region" id="${r.id}" style="scroll-margin-top:80px">
+          <div class="region-img">${img ? `<img src="${esc(img.src)}" alt="${esc(r.nom)}" loading="lazy"><span class="img-credit">${credit(img)}</span>` : ""}</div>
+          <div>
+            <span class="label">${esc(r.etiqueta || "")}</span>
+            <h2>${esc(r.nom)}</h2>
+            ${r.descripcio.split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("")}
+            <dl class="kv">
+              <dt>${icon("directions_car")}Des de Dakar</dt><dd>${esc(r.com_arribar)}</dd>
+              <dt>${icon("calendar_month")}Dies</dt><dd>${esc(r.dies)}</dd>
+              <dt>${icon("thumb_up")}Ideal per a</dt><dd>${esc(r.ideal)}</dd>
+            </dl>
+            <ul class="region-list">${acts.map((a) => `<li><a href="cataleg.html#a=${encodeURIComponent(a.id)}">${a.imprescindible ? "★ " : ""}${esc(a.nom)}</a></li>`).join("")}</ul>
+            <div class="btn-row"><a class="btn btn-tonal" href="cataleg.html?regio=${r.id}">${icon("grid_view")} Veure les ${its.length} fitxes</a></div>
+          </div>
+        </section>`;
+    }).join("");
+  }
+
+  async function pageItinerari() {
+    const [its, items] = await Promise.all([load("itineraris"), load("activitats")]);
+    const byId = Object.fromEntries(items.map((a) => [a.id, a]));
+    const tabs = $("#tabs"), body = $("#itinerary");
+    const RITME = { tranquil: "Ritme tranquil", moderat: "Ritme moderat", intens: "Ritme intens" };
+    tabs.innerHTML = its.map((it, i) => `<button class="chip" data-i="${i}" aria-pressed="${i === 0}">${esc(it.nom.split(":")[0])}</button>`).join("");
+    let map;
+    const show = (i) => {
+      const it = its[i];
+      $$(".chip", tabs).forEach((c) => c.setAttribute("aria-pressed", c.dataset.i == i));
+      body.innerHTML = `
+        <h2>${esc(it.nom)}</h2>
+        <p class="lead">${esc(it.resum)}</p>
+        <div class="facts">
+          ${it.ritme ? `<div class="fact"><div class="label">${icon("speed")}Ritme</div><div>${esc(RITME[it.ritme] || it.ritme)}</div></div>` : ""}
+          ${it.km_aprox ? `<div class="fact"><div class="label">${icon("route")}Distància</div><div>≈${Number(it.km_aprox).toLocaleString("ca")} km</div></div>` : ""}
+          <div class="fact"><div class="label">${icon("calendar_month")}Dates</div><div>27 des. – 4 gen. (9 dies)</div></div>
+        </div>
+        <div class="callout green"><strong>${icon("group")} Per a qui:</strong> ${esc(it.per_a_qui)}<br><strong>${icon("route")} Ruta:</strong> ${esc(it.ruta)}<br><strong>${icon("directions_car")} Transport:</strong> ${esc(it.transport)}</div>
+        <div class="map" id="it-map" style="height:360px;margin-bottom:var(--s-lg)"></div>
+        <div class="timeline">${it.dies.map((d) => `
+          <article class="day">
+            <div class="when">${esc(d.data)}</div>
+            <h3>${esc(d.titol)}</h3>
+            <ul>${d.plans.map((p) => `<li>${esc(p.text)}${p.id && byId[p.id] ? ` <a href="cataleg.html#a=${encodeURIComponent(p.id)}" title="${esc(byId[p.id].nom)}">${icon("arrow_outward")}fitxa</a>` : ""}</li>`).join("")}</ul>
+            ${d.transport ? `<div class="sleep">${icon("directions_car")} ${esc(d.transport)}</div>` : ""}
+            ${d.dormir ? `<div class="sleep">${icon("bed")} ${esc(d.dormir)}</div>` : ""}
+          </article>`).join("")}
+        </div>
+        ${it.notes?.length ? `<div class="callout"><strong>${icon("info")} Notes i alternatives</strong><ul>${it.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul></div>` : ""}
+        ${it.fonts?.length ? `<p class="muted" style="font-size:13px">Fonts: ${it.fonts.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nom)}</a>`).join(" · ")}</p>` : ""}`;
+      if (window.L) {
+        if (map) map.remove();
+        map = L.map("it-map", { scrollWheelZoom: false });
+        tiles(map);
+        const pts = [];
+        it.dies.forEach((d, di) => d.plans.forEach((p) => {
+          const a = byId[p.id]; if (!a?.lat) return;
+          pts.push([a.lat, a.lng]);
+          L.circleMarker([a.lat, a.lng], { radius: 7, color: "#fff", weight: 1.5, fillColor: REGION_COLOR[a.regio] || "#9A4A1C", fillOpacity: 1 })
+            .addTo(map).bindPopup(`<b>Dia ${di + 1}</b> · ${esc(a.nom)}`);
+        }));
+        const uniq = pts.filter((p, k) => k === 0 || p[0] !== pts[k - 1][0] || p[1] !== pts[k - 1][1]);
+        if (uniq.length > 1) L.polyline(uniq, { color: "#9A4A1C", weight: 2, opacity: .6, dashArray: "6 6" }).addTo(map);
+        if (pts.length) map.fitBounds(pts, { padding: [30, 30] }); else map.setView([14.5, -16.5], 7);
+      }
+      history.replaceState(null, "", `#${it.id}`);
+    };
+    tabs.addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) show(+b.dataset.i); });
+    const fromHash = its.findIndex((it) => `#${it.id}` === location.hash);
+    show(fromHash >= 0 ? fromHash : 0);
+  }
+
+  const EV_CAT = { "cap-d-any": ["Cap d'Any", "celebration"], lluita: ["Lluita", "sports_kabaddi"], futbol: ["Futbol", "sports_soccer"], musica: ["Música", "music_note"], festival: ["Festival", "festival"], religios: ["Religiós", "church"], mercat: ["Mercat", "storefront"], art: ["Art", "palette"], esport: ["Esport", "directions_run"] };
+  const CONF = { confirmat: ["Confirmat", "badge-auth"], habitual: ["Cada any", "badge-type"], possible: ["Possible", "badge-region"] };
+  const fmtDate = (d) => new Date(d + "T12:00:00").toLocaleDateString("ca", { weekday: "short", day: "numeric", month: "short" });
+  function eventHTML(e) {
+    const [cat, ic] = EV_CAT[e.categoria] || [e.categoria, "event"];
+    const [cl, ccl] = CONF[e.confirmacio] || [e.confirmacio, "badge-type"];
+    const dates = e.data_fi && e.data_fi !== e.data_inici ? `${fmtDate(e.data_inici)} – ${fmtDate(e.data_fi)}` : e.data_inici ? fmtDate(e.data_inici) : "";
+    return `
+      <article class="media event">
+        <div class="ico">${icon(ic)}</div>
+        <div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px"><span class="badge ${ccl}">${esc(cl)}</span><span class="badge badge-region">${esc(REGIONS[e.regio] || e.regio || "")}</span></div>
+          <h4>${esc(e.titol)}</h4>
+          <div class="by">${icon("event")} ${esc(dates)} · ${esc(cat)}${e.lloc ? ` · ${esc(e.lloc)}` : ""}</div>
+          <p>${esc(e.descripcio)}</p>
+          ${e.com_anar ? `<p class="tr">${icon("confirmation_number")} ${esc(e.com_anar)}</p>` : ""}
+          ${e.fonts?.length ? `<div class="src">${e.fonts.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nom)}</a>`).join(" · ")}</div>` : ""}
+        </div>
+      </article>`;
+  }
+
+  async function pageAgenda() {
+    const ev = await load("esdeveniments");
+    const filt = $("#ev-filters"), list = $("#ev-list");
+    const cats = [...new Set(ev.map((e) => e.categoria))];
+    const sel = new Set();
+    filt.innerHTML = cats.map((c) => `<button class="chip" data-k="${c}" aria-pressed="false">${icon((EV_CAT[c] || [0, "event"])[1])} ${esc((EV_CAT[c] || [c])[0])}</button>`).join("");
+    const render = () => {
+      const l = ev.filter((e) => !sel.size || sel.has(e.categoria));
+      const days = {};
+      l.forEach((e) => { const k = e.data_inici && e.data_inici >= "2026-12-27" ? e.data_inici : "abans"; (days[k] ??= []).push(e); });
+      list.innerHTML = Object.keys(days).sort().map((k) => `
+        <h3 style="margin-top:var(--s-xl)">${k === "abans" ? "Durant tot el viatge / dates obertes" : esc(new Date(k + "T12:00:00").toLocaleDateString("ca", { weekday: "long", day: "numeric", month: "long" }))}</h3>
+        <div class="media-list">${days[k].map(eventHTML).join("")}</div>`).join("") || `<div class="empty">Cap esdeveniment.</div>`;
+    };
+    filt.addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (!b) return; sel.has(b.dataset.k) ? sel.delete(b.dataset.k) : sel.add(b.dataset.k); b.setAttribute("aria-pressed", sel.has(b.dataset.k)); render(); });
+    render();
+    if (window.L) {
+      const map = L.map("ev-map", { scrollWheelZoom: false }); tiles(map);
+      const pts = ev.filter((e) => e.lat && e.lng).map((e) => { L.circleMarker([e.lat, e.lng], { radius: 7, color: "#fff", weight: 1.5, fillColor: REGION_COLOR[e.regio] || "#9A4A1C", fillOpacity: 1 }).addTo(map).bindPopup(`<b>${esc(e.titol)}</b><br>${esc(e.data_inici || "")}`); return [e.lat, e.lng]; });
+      pts.length ? map.fitBounds(pts, { padding: [30, 30] }) : map.setView([14.5, -16.5], 7);
+    }
+  }
+
+  async function pageConeix() {
+    const data = await load("coneix");
+    $("#toc").innerHTML = data.capitols.map((c) => `<a class="chip" href="#${c.id}">${icon(c.icona || "menu_book")} ${esc(c.titol)}</a>`).join("");
+    $("#chapters").innerHTML = data.capitols.map((c) => {
+      const L = c.llista;
+      const isTimeline = L && L.items?.length && L.items.every((x) => !x.imatge && /^[\d.–\- sXVIaC]+$/.test(String(x.nom).trim().slice(0, 4)));
+      let list = "";
+      if (L?.items?.length) {
+        list = isTimeline
+          ? `<h3 style="margin-top:var(--s-lg)">${esc(L.titol)}</h3><ul class="timeline-list">${L.items.map((x) => `<li><b>${esc(x.nom)}</b><span>${esc(x.text)}</span></li>`).join("")}</ul>`
+          : `<h3 style="margin-top:var(--s-lg)">${esc(L.titol)}</h3><div class="items">${L.items.map((x) => `
+              <div class="item">${x.imatge ? `<img src="${esc(x.imatge.src)}" alt="${esc(x.nom)}" loading="lazy" title="${esc((x.imatge.autor || "") + " · " + (x.imatge.llicencia || ""))}">` : ""}
+                <div class="item-body"><h4>${esc(x.nom)}</h4><p>${esc(x.text)}</p>${x.on ? `<div class="where">${icon("location_on")} ${esc(x.on)}</div>` : ""}</div></div>`).join("")}</div>`;
+      }
+      return `
+        <section class="chapter" id="${c.id}">
+          <span class="label">${icon(c.icona || "menu_book")} Coneix el Senegal</span>
+          <h2>${esc(c.titol)}</h2>
+          ${c.subtitol ? `<p class="lead">${esc(c.subtitol)}</p>` : ""}
+          <div class="chapter-grid">
+            <div class="chapter-text">${c.paragrafs.map((p) => `<p>${esc(p)}</p>`).join("")}</div>
+            <aside class="chapter-aside">
+              ${(c.imatges || []).slice(0, 2).map((im) => `<figure><img src="${esc(im.src)}" alt="${esc(c.titol)}" loading="lazy"><figcaption class="img-credit">${credit(im)}</figcaption></figure>`).join("")}
+              ${c.punts_clau?.length ? `<div class="keypoints"><div class="label" style="color:inherit;margin-bottom:6px">Punts clau</div><ul>${c.punts_clau.map((p) => `<li>${esc(p)}</li>`).join("")}</ul></div>` : ""}
+            </aside>
+          </div>
+          ${list}
+          ${c.fonts?.length ? `<p class="muted" style="font-size:13px;margin-top:var(--s-md)">Fonts: ${c.fonts.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nom)}</a>`).join(" · ")}</p>` : ""}
+        </section>`;
+    }).join("");
+    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+  }
+
+  async function pageCultura() {
+    const d = await load("cultura");
+    const src = (f) => f?.length ? `<div class="src">${f.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nom)}</a>`).join(" · ")}</div>` : "";
+    $("#llibres").innerHTML = d.llibres.map((b) => `
+      <article class="media"><div class="ico">${icon(b.genere === "guia" ? "travel_explore" : b.genere === "poesia" ? "history_edu" : "menu_book")}</div>
+        <div><h4>${esc(b.titol)}</h4><div class="by">${esc(b.autor)}${b.any ? ` · ${b.any}` : ""}${b.genere ? ` · ${esc(b.genere)}` : ""}${b.titol_original && b.titol_original !== b.titol ? ` · <em>${esc(b.titol_original)}</em>` : ""}</div>
+        <p>${esc(b.per_que)}</p>${b.traduccions ? `<div class="tr">${icon("translate")} ${esc(b.traduccions)}</div>` : ""}${src(b.fonts)}</div></article>`).join("");
+    $("#pellicules").innerHTML = d.pellicules.map((p) => `
+      <article class="media"><div class="ico">${icon(p.tipus === "sèrie" ? "live_tv" : p.tipus === "documental" ? "videocam" : "movie")}</div>
+        <div><h4>${esc(p.titol)}</h4><div class="by">${esc(p.director)}${p.any ? ` · ${p.any}` : ""}${p.durada_min ? ` · ${p.durada_min} min` : ""}${p.tipus ? ` · ${esc(p.tipus)}` : ""}</div>
+        <p>${esc(p.per_que)}</p>${p.on_veure ? `<div class="tr">${icon("play_circle")} ${esc(p.on_veure)}</div>` : ""}${src(p.fonts)}</div></article>`).join("");
+    $("#musica").innerHTML = d.musica.map((m) => `
+      <article class="media"><div class="ico">${icon("music_note")}</div>
+        <div><h4>${esc(m.artista)}</h4><div class="by">${icon("play_arrow")} «${esc(m.tema)}»</div>
+        <p>${esc(m.per_que)}</p>
+        <div class="tr"><a href="https://www.youtube.com/results?search_query=${encodeURIComponent(m.artista + " " + m.tema)}" target="_blank" rel="noopener">Escolta-ho a YouTube</a></div>${src(m.fonts)}</div></article>`).join("");
+  }
+
+  async function pagePractic() {
+    const d = await load("practic");
+    $("#toc").innerHTML = [...d.seccions.map((s) => [s.id, s.titol]), ["calendari", "Calendari"], ["pressupost", "Pressupost"], ["plats", "Què menjar"], ["wolof", "Wolof bàsic"]]
+      .map(([id, t]) => `<a class="chip" href="#${id}">${esc(t)}</a>`).join("");
+    $("#clima").textContent = d.clima;
+    $("#seccions").innerHTML = d.seccions.map((s) => `
+      <article class="info" id="${s.id}" style="scroll-margin-top:80px"><h3>${icon(s.icona || "info")} ${esc(s.titol)}</h3>
+        <ul>${s.punts.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
+        ${s.fonts?.length ? `<div class="src">Fonts: ${s.fonts.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nom)}</a>`).join(" · ")}</div>` : ""}
+      </article>`).join("");
+    $("#cal").innerHTML = d.calendari.map((c) => `<tr><td style="white-space:nowrap"><strong>${esc(new Date(c.data + "T12:00:00").toLocaleDateString("ca", { weekday: "short", day: "numeric", month: "short" }))}</strong></td><td><strong>${esc(c.titol)}</strong><br><span class="muted">${esc(c.descripcio)}</span></td></tr>`).join("");
+    $("#budget").innerHTML = d.pressupost.map((p) => `<tr><td>${esc(p.concepte)}</td><td>${esc(p.preu)}</td></tr>`).join("");
+    $("#plats-grid").innerHTML = d.plats.map((p) => `
+      <div class="item">${p.imatge ? `<img src="${esc(p.imatge.src)}" alt="${esc(p.nom)}" loading="lazy" title="${esc((p.imatge.autor || "") + " · " + (p.imatge.llicencia || ""))}">` : ""}
+        <div class="item-body"><h4>${esc(p.nom)}</h4><p>${esc(p.descripcio)}</p></div></div>`).join("");
+    $("#wolof-grid").innerHTML = d.wolof.map((w) => `<div class="phrase"><b>${esc(w.wolof)}</b>${esc(w.catala)}${w.pronuncia ? `<br><small>[${esc(w.pronuncia)}]</small>` : ""}</div>`).join("");
+    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+  }
+
+  async function pageFonts() {
+    const names = ["activitats", "practic", "cultura", "coneix", "regions", "itineraris", "esdeveniments", "hero"];
+    const all = await Promise.all(names.map((n) => load(n).catch(() => null)));
+    const links = new Map(), photos = new Map();
+    const walk = (o) => {
+      if (!o || typeof o !== "object") return;
+      if (Array.isArray(o)) return o.forEach(walk);
+      if (o.url && /^https?:/.test(o.url) && (o.nom !== undefined)) {
+        try { const host = new URL(o.url).hostname.replace(/^www\./, ""); if (!links.has(o.url)) links.set(o.url, { nom: o.nom, host }); } catch { /* url invàlida */ }
+      }
+      if (o.src && o.font) photos.set(o.src, o);
+      Object.values(o).forEach(walk);
+    };
+    all.forEach(walk);
+    const byHost = {};
+    links.forEach((v, url) => (byHost[v.host] ??= []).push({ url, nom: v.nom }));
+    const hosts = Object.keys(byHost).sort((a, b) => byHost[b].length - byHost[a].length || a.localeCompare(b));
+    $("#n-links").textContent = links.size;
+    $("#n-hosts").textContent = hosts.length;
+    $("#n-photos").textContent = photos.size;
+    $("#links").innerHTML = hosts.map((h) => `
+      <details class="info" style="padding:var(--s-md) var(--s-lg)"><summary><strong>${esc(h)}</strong> <span class="muted">(${byHost[h].length})</span></summary>
+        <ul>${byHost[h].map((l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.nom || l.url)}</a></li>`).join("")}</ul></details>`).join("");
+    $("#photos").innerHTML = [...photos.values()].map((p) => `<tr><td><img src="${esc(p.src)}" alt="" loading="lazy" style="width:72px;height:48px;object-fit:cover;border-radius:8px"></td><td>${esc(p.titol || "")}</td><td>${esc(p.autor || "")}</td><td><a href="${esc(p.font)}" target="_blank" rel="noopener">${esc(p.llicencia || "Commons")}</a></td></tr>`).join("");
+  }
+
+  /* ---------- Boot ---------- */
+  document.addEventListener("DOMContentLoaded", () => {
+    layout();
+    const pages = { agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
+    const fn = pages[document.body.dataset.page];
+    if (fn) fn().catch((e) => {
+      console.error(e);
+      const m = document.querySelector("main");
+      m?.insertAdjacentHTML("afterbegin", `<div class="container"><div class="callout warn">No s'han pogut carregar les dades (${esc(e.message)}). Si obres el fitxer en local, serveix la carpeta amb <code>python3 -m http.server</code>.</div></div>`);
+    });
+  });
+})();

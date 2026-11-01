@@ -1,0 +1,773 @@
+{
+ "llibres": [
+  {
+   "titol": "Una carta molt llarga",
+   "titol_original": "Une si longue lettre",
+   "autor": "Mariama Bâ",
+   "any": 1979,
+   "genere": "novel·la",
+   "traduccions": "Català: Una carta molt llarga (Jande Editorial, 2025; existeix també una edició de Takusan, 2005, trad. Laia Galdon). Castellà: Mi carta más larga. Atenció: el títol català és 'molt llarga', no 'tan llarga'.",
+   "per_que": "Novel·la epistolar fundacional de la literatura femenina africana: una vídua de Dakar escriu a la seva amiga sobre la poligàmia, el dol i la independència. Ajuda a entendre la vida familiar i el paper de les dones al Senegal urbà.",
+   "fonts": [
+    {
+     "nom": "El Corte Inglés – Una carta molt llarga (Jande)",
+     "url": "https://www.elcorteingles.es/libros/A54718556-una-carta-molt-llarga-tapa-blanda/"
+    },
+    {
+     "nom": "Wikipedia – So Long a Letter",
+     "url": "https://en.wikipedia.org/wiki/So_Long_a_Letter"
+    }
+   ]
+  },
+  {
+   "titol": "La memòria més secreta dels homes",
+   "titol_original": "La plus secrète mémoire des hommes",
+   "autor": "Mohamed Mbougar Sarr",
+   "any": 2021,
+   "genere": "novel·la",
+   "traduccions": "Català: La memòria més secreta dels homes (Més Llibres, trad. Oriol Valls). Castellà: La más recóndita memoria de los hombres (Anagrama, 2022, trad. Rubén Martín Giráldez).",
+   "per_que": "Premi Goncourt 2021, el primer per a un autor de l'Àfrica subsahariana. Un jove escriptor senegalès persegueix un autor maleït entre Dakar, París i Amsterdam: una reflexió brillant sobre literatura, colonialisme i memòria.",
+   "fonts": [
+    {
+     "nom": "Ara Llegim – entrevista (Més Llibres)",
+     "url": "https://llegim.ara.cat/actualitat/mohamed-mbougar-sarr-premi-goncourt-escric-contra-espera-autor-africa_1_4493949.html"
+    },
+    {
+     "nom": "Catalunya Press – edicions castellana i catalana",
+     "url": "https://www.catalunyapress.es/articulo/me-gusta-leer/2022-09-16/3892353-mbougar-sarr-presento-novela-obtuvo-premio-goncourt-recondita-memoria-hombres"
+    },
+    {
+     "nom": "Wikipedia – The Most Secret Memory of Men",
+     "url": "https://en.wikipedia.org/wiki/The_Most_Secret_Memory_of_Men"
+    }
+   ]
+  },
+  {
+   "titol": "Germans d'ànima",
+   "titol_original": "Frère d'âme",
+   "autor": "David Diop",
+   "any": 2018,
+   "genere": "novel·la",
+   "traduccions": "Català: Germans d'ànima (Llibres Anagrama, 2019, trad. Anna Casassas). Castellà: Hermanos de alma (Anagrama, trad. Rubén Martín Giráldez). Atenció: el títol català és 'Germans', no 'Germà'.",
+   "per_que": "Un tirailleur senegalès a les trinxeres de la Primera Guerra Mundial: breu, hipnòtica i durísima. Premi Booker Internacional 2021 i Goncourt des Lycéens; dona context sobre els soldats colonials, clau per entendre Thiaroye.",
+   "fonts": [
+    {
+     "nom": "Editorial Anagrama – Germans d'ànima",
+     "url": "https://www.anagrama-ed.es/libro/llibres-anagrama/germans-d-anima/9788433915764/LA_66"
+    },
+    {
+     "nom": "Wikipedia – At Night All Blood Is Black",
+     "url": "https://en.wikipedia.org/wiki/At_Night_All_Blood_Is_Black"
+    }
+   ]
+  },
+  {
+   "titol": "La porta del viatge sense retorn",
+   "titol_original": "La Porte du voyage sans retour",
+   "autor": "David Diop",
+   "any": 2021,
+   "genere": "novel·la",
+   "traduccions": "Català: La porta del viatge sense retorn (Anagrama). Castellà: La puerta del viaje sin retorno (Anagrama).",
+   "per_que": "Un botànic francès del segle XVIII al Senegal i la seva fascinació per una jove que va escapar de l'esclavitud. Lectura ideal abans de visitar Gorée i Saint-Louis.",
+   "fonts": [
+    {
+     "nom": "Cerca: fitxes Anagrama de David Diop (català i castellà)",
+     "url": "https://www.anagrama-ed.es/libro/llibres-anagrama/germans-d-anima/9788433915764/LA_66"
+    }
+   ]
+  },
+  {
+   "titol": "L'aventura ambigua",
+   "titol_original": "L'Aventure ambiguë",
+   "autor": "Cheikh Hamidou Kane",
+   "any": 1961,
+   "genere": "novel·la",
+   "traduccions": "Castellà: La aventura ambigua (Elipsis, Barcelona, 2006, trad. Patricia de Gispert). No hem trobat edició catalana.",
+   "per_que": "Clàssic sobre un noi del país dels Diallobé educat a l'escola coràncica i després a l'escola francesa: el xoc entre l'islam sufí i Occident. L'autor va morir a Dakar l'octubre de 2026 (segons Burkina24), cosa que el fa especialment present aquest any.",
+   "fonts": [
+    {
+     "nom": "Anika entre libros – La aventura ambigua",
+     "url": "https://anikaentrelibros.com/la-aventura-ambigua"
+    },
+    {
+     "nom": "Wikipedia – L'Aventure ambiguë",
+     "url": "https://en.wikipedia.org/wiki/L%27Aventure_ambigu%C3%AB"
+    },
+    {
+     "nom": "Burkina24 – mort de Cheikh Hamidou Kane",
+     "url": "https://burkina24.com/2026/10/04/litterature-africaine-cheikh-hamidou-kane-lauteur-de-laventure-ambigue-sest-eteint-a-98-ans/"
+    }
+   ]
+  },
+  {
+   "titol": "Les bouts de bois de Dieu",
+   "titol_original": "Les bouts de bois de Dieu",
+   "autor": "Ousmane Sembène",
+   "any": 1960,
+   "genere": "novel·la",
+   "traduccions": "No hem trobat traducció al català ni al castellà. Anglès: God's Bits of Wood (trad. Francis Price).",
+   "per_que": "Èpica de la vaga dels ferroviaris de la línia Dakar–Níger (1947-48), amb un paper central de les dones. És la gran novel·la social de Sembène i una porta d'entrada al Senegal obrer i anticolonial.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – God's Bits of Wood",
+     "url": "https://en.wikipedia.org/wiki/God%27s_Bits_of_Wood"
+    }
+   ]
+  },
+  {
+   "titol": "Xala",
+   "titol_original": "Xala",
+   "autor": "Ousmane Sembène",
+   "any": 1973,
+   "genere": "novel·la",
+   "traduccions": "No hem verificat traducció catalana ni castellana; existeix l'adaptació cinematogràfica del mateix autor (1975).",
+   "per_que": "Sàtira ferotge de la nova elit post-independència: un home de negocis de Dakar queda maleït el dia que es casa amb la tercera esposa. Combina'l amb la pel·lícula.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Xala (pel·lícula i novel·la)",
+     "url": "https://en.wikipedia.org/wiki/Xala"
+    }
+   ]
+  },
+  {
+   "titol": "La huelga de los mendigos",
+   "titol_original": "La Grève des bàttu",
+   "autor": "Aminata Sow Fall",
+   "any": 1979,
+   "genere": "novel·la",
+   "traduccions": "Castellà: La huelga de los mendigos (Wanafrica, 2017). No hem trobat edició catalana.",
+   "per_que": "Un funcionari decideix 'netejar' la ciutat de captaires i aquests es declaren en vaga: sàtira sobre l'almoina, la religió i el poder. L'autora és de Saint-Louis.",
+   "fonts": [
+    {
+     "nom": "Quelibroleo – La huelga de los mendigos",
+     "url": "https://quelibroleo.com/la-huelga-de-los-mendigos"
+    },
+    {
+     "nom": "La Prensa / EFE – entrevista",
+     "url": "https://www.laprensani.com/2019/03/13/cultura/2532857-aminata-sow-fall-la-sociedad-ha-cambiado-porque-solo-cuenta-el-dinero-no-la-humanidad"
+    },
+    {
+     "nom": "Wikipedia – Aminata Sow Fall",
+     "url": "https://en.wikipedia.org/wiki/Aminata_Sow_Fall"
+    }
+   ]
+  },
+  {
+   "titol": "El vientre del Atlántico / En un lugar del Atlántico",
+   "titol_original": "Le Ventre de l'Atlantique",
+   "autor": "Fatou Diome",
+   "any": 2003,
+   "genere": "novel·la",
+   "traduccions": "Castellà: hi ha traducció (Casa África la cita com 'En un lugar del Atlántico'), però no hem pogut verificar editorial. No hem trobat edició catalana.",
+   "per_que": "Des de França, una dona originària de l'illa de Niodior (delta del Saloum) intenta dissuadir el seu germà, obsessionat amb el futbol, d'emigrar. Imprescindible per al tram del Saloum i per entendre la migració.",
+   "fonts": [
+    {
+     "nom": "Casa África – Fatou Diome",
+     "url": "https://www.casafrica.es/en/person/fatou-diome"
+    },
+    {
+     "nom": "Wikipedia – Fatou Diome",
+     "url": "https://en.wikipedia.org/wiki/Fatou_Diome"
+    }
+   ]
+  },
+  {
+   "titol": "Murambi, le livre des ossements",
+   "titol_original": "Murambi, le livre des ossements",
+   "autor": "Boubacar Boris Diop",
+   "any": 2000,
+   "genere": "novel·la",
+   "traduccions": "No hem trobat traducció catalana ni castellana. Anglès: Murambi, The Book of Bones (Indiana University Press, trad. Fiona McLaughlin).",
+   "per_que": "Novel·la sobre el genocidi de Ruanda escrita per un dels grans intel·lectuals senegalesos. No tracta del Senegal, però mostra la mirada crítica d'aquesta generació d'autors i el seu compromís panafricà.",
+   "fonts": [
+    {
+     "nom": "Logos Journal – Murambi",
+     "url": "https://logosjournal.com/article/murambi-the-book-of-bones/"
+    },
+    {
+     "nom": "Literaturfestival – Boubacar Boris Diop",
+     "url": "https://literaturfestival.com/en/authors/boubacar-boris-diop/"
+    }
+   ]
+  },
+  {
+   "titol": "El baobab loco",
+   "titol_original": "Le Baobab fou",
+   "autor": "Ken Bugul",
+   "any": 1982,
+   "genere": "novel·la",
+   "traduccions": "Castellà: El baobab que enloqueció (Zanzíbar, 2002) i El baobab loco (Baile del Sol, 2018; trad. Antonio Lozano). També Riwan o el camino de arena (Zanzíbar, 2005). No hem trobat edició catalana.",
+   "per_que": "Novel·la autobiogràfica d'una noia d'un poble senegalès que marxa a estudiar a Europa i s'hi perd. Riwan, sobre la vida en una concessió d'un marabú, és un bon complement per entendre el poder religiós.",
+   "fonts": [
+    {
+     "nom": "Casa del Libro – El baobab loco",
+     "url": "https://www.casadellibro.com.co/libro-el-baobab-loco/9788417263393/6804046"
+    },
+    {
+     "nom": "Quelibroleo – El baobab que enloqueció",
+     "url": "https://quelibroleo.com/el-baobab-que-enloquecio"
+    },
+    {
+     "nom": "Wikipedia – Ken Bugul",
+     "url": "https://en.wikipedia.org/wiki/Ken_Bugul"
+    }
+   ]
+  },
+  {
+   "titol": "Maïmouna",
+   "titol_original": "Maïmouna",
+   "autor": "Abdoulaye Sadji",
+   "any": 1953,
+   "genere": "novel·la",
+   "traduccions": "Només en francès (no hem trobat traducció).",
+   "per_que": "Una noia de províncies descobreix el Dakar dels anys quaranta i la seva cara amarga. Clàssic de la primera generació de novel·listes senegalesos.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Abdoulaye Sadji",
+     "url": "https://en.wikipedia.org/wiki/Abdoulaye_Sadji"
+    }
+   ]
+  },
+  {
+   "titol": "Poesia (Chants d'ombre, Hosties noires, Éthiopiques)",
+   "titol_original": "Œuvre poétique",
+   "autor": "Léopold Sédar Senghor",
+   "any": 1945,
+   "genere": "poesia",
+   "traduccions": "No hem pogut verificar una antologia actual en català o castellà; fàcil de trobar en francès (Œuvre poétique). Any = primer recull, Chants d'ombre.",
+   "per_que": "Poeta de la Négritude i primer president del Senegal. Llegir 'Femme noire' o 'Joal' abans de passar per la Petite Côte (Joal-Fadiouth és el seu poble natal) dona una altra dimensió al viatge.",
+   "fonts": [
+    {
+     "nom": "Viquipèdia – Léopold Sédar Senghor",
+     "url": "https://ca.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor"
+    },
+    {
+     "nom": "Wikipedia – Léopold Sédar Senghor",
+     "url": "https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor"
+    }
+   ]
+  },
+  {
+   "titol": "Indestructibles",
+   "titol_original": "Indestructibles",
+   "autor": "Xavier Aldekoa",
+   "any": 2017,
+   "genere": "crònica",
+   "traduccions": "Original en català i castellà (Edicions 62 / Península, Grup 62).",
+   "per_que": "El corresponsal de La Vanguardia a l'Àfrica recull històries de persones de vint països africans. No és específic del Senegal, però és la millor porta d'entrada catalana a l'Àfrica contemporània lluny dels tòpics.",
+   "fonts": [
+    {
+     "nom": "Grup 62 – sinopsi Indestructibles",
+     "url": "https://proapi.grup62.cat/descargas/sala-prensa-libro/sinopsis-y-biografia/290271/indestructibles.pdf"
+    },
+    {
+     "nom": "Viquipèdia – Xavier Aldekoa",
+     "url": "https://ca.wikipedia.org/wiki/Xavier_Aldekoa"
+    }
+   ]
+  },
+  {
+   "titol": "Océano África",
+   "titol_original": "Océano África",
+   "autor": "Xavier Aldekoa",
+   "any": 2014,
+   "genere": "crònica",
+   "traduccions": "Castellà (Península). No hem verificat edició catalana.",
+   "per_que": "Primer llibre d'Aldekoa: cròniques de viatge per l'Àfrica subsahariana. Bona lectura d'avió per afinar la mirada de periodista.",
+   "fonts": [
+    {
+     "nom": "Planeta de Libros – Océano África",
+     "url": "https://www.planetadelibros.com/libro-oceano-africa/306268"
+    },
+    {
+     "nom": "Viquipèdia – Xavier Aldekoa",
+     "url": "https://ca.wikipedia.org/wiki/Xavier_Aldekoa"
+    }
+   ]
+  },
+  {
+   "titol": "De Mallorca al Senegal. Viatge al país dels noon i dels wòlof",
+   "titol_original": "De Mallorca al Senegal. Viatge al país dels noon i dels wòlof",
+   "autor": "Bartomeu Prohens Perelló",
+   "any": 1994,
+   "genere": "crònica",
+   "traduccions": "Original en català (Lleonard Muntaner Editor).",
+   "per_que": "Rara crònica de viatge en català: un mallorquí visita el país d'origen dels seus companys senegalesos. Curiositat per veure com ha canviat el país en 30 anys.",
+   "fonts": [
+    {
+     "nom": "Lleonard Muntaner Editor",
+     "url": "https://www.lleonardmuntanereditor.cat/producte/de-mallorca-al-senegal-viatge-al-pais-dels-noon-i-dels-wolof/"
+    }
+   ]
+  },
+  {
+   "titol": "Senegal (Bradt Travel Guide), 3a edició",
+   "titol_original": "Senegal",
+   "autor": "Sean Connolly",
+   "any": 2025,
+   "genere": "guia",
+   "traduccions": "Només en anglès. 3a edició: 19/12/2025, 392 p., ISBN 9781804692967 (també en versió digital a l'app de Bradt).",
+   "per_que": "L'única guia monogràfica i actualitzada del Senegal en anglès; inclou el nou aeroport i el pont sobre el riu Gàmbia (clau per anar a Casamance per carretera). Molt bona per a Saloum i Casamance.",
+   "fonts": [
+    {
+     "nom": "Bradt Guides – Senegal",
+     "url": "https://www.bradtguides.com/product/bradt-senegal-guidebook-3/"
+    },
+    {
+     "nom": "De Zwerver – fitxa 3a ed.",
+     "url": "https://www.dezwerver.nl/r/afrika/senegal/c/boeken/reisgidsen/9781804692967/reisgids-senegal-bradt-travel-guides/"
+    }
+   ]
+  }
+ ],
+ "pellicules": [
+  {
+   "titol": "La negra de…",
+   "titol_original": "La Noire de…",
+   "director": "Ousmane Sembène",
+   "any": 1966,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "Considerat el primer llargmetratge d'un cineasta de l'Àfrica subsahariana: una jove de Dakar treballa de minyona per a una família francesa a Antibes. Curt, punyent i fonamental.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Black Girl",
+     "url": "https://en.wikipedia.org/wiki/Black_Girl_(1966_film)"
+    }
+   ]
+  },
+  {
+   "titol": "Xala",
+   "titol_original": "Xala",
+   "director": "Ousmane Sembène",
+   "any": 1975,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "Comèdia satírica sobre la burgesia de Dakar després de la independència, adaptació de la novel·la del mateix Sembène. Mostra el Dakar dels anys 70 i el wòlof vs. el francès com a marca de classe.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Xala",
+     "url": "https://en.wikipedia.org/wiki/Xala"
+    }
+   ]
+  },
+  {
+   "titol": "Camp de Thiaroye",
+   "titol_original": "Camp de Thiaroye",
+   "director": "Ousmane Sembène i Thierno Faty Sow",
+   "any": 1988,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "Reconstrueix la massacre de tirailleurs senegalesos per l'exèrcit francès l'1 de desembre de 1944 a Thiaroye, als afores de Dakar. Molt present en el debat memorial senegalès actual.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Camp de Thiaroye",
+     "url": "https://en.wikipedia.org/wiki/Camp_de_Thiaroye"
+    }
+   ]
+  },
+  {
+   "titol": "Faat Kiné",
+   "titol_original": "Faat Kiné",
+   "director": "Ousmane Sembène",
+   "any": 2000,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "Retrat d'una dona de classe mitjana que porta una gasolinera al Dakar contemporani: tradició i modernitat, riquesa i pobresa. El Sembène més proper al Dakar que veureu.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Faat Kiné",
+     "url": "https://en.wikipedia.org/wiki/Faat_Kin%C3%A9"
+    }
+   ]
+  },
+  {
+   "titol": "Moolaadé",
+   "titol_original": "Moolaadé",
+   "director": "Ousmane Sembène",
+   "any": 2004,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "Segons JustWatch, no disponible en streaming a Espanya.",
+   "per_que": "Darrera pel·lícula de Sembène: una dona protegeix unes nenes de l'escissió. Rodada a Burkina Faso, però és un retrat potent de la vida rural de l'Àfrica occidental.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Moolaadé",
+     "url": "https://en.wikipedia.org/wiki/Moolaad%C3%A9"
+    },
+    {
+     "nom": "JustWatch ES – Moolaadé",
+     "url": "https://www.justwatch.com/es/pelicula/moolaade"
+    }
+   ]
+  },
+  {
+   "titol": "Touki Bouki",
+   "titol_original": "Touki Bouki",
+   "director": "Djibril Diop Mambéty",
+   "any": 1973,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "MUBI (hi va arribar el gener de 2026 segons AlloCiné; cal confirmar el catàleg espanyol).",
+   "per_que": "Obra mestra avantguardista: una parella jove de Dakar somia escapar a París. Restaurada per la World Cinema Foundation de Scorsese i al número 66 de la llista de Sight and Sound 2022.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Touki Bouki",
+     "url": "https://en.wikipedia.org/wiki/Touki_Bouki"
+    },
+    {
+     "nom": "MUBI – Touki Bouki",
+     "url": "https://mubi.com/es/us/films/touki-bouki"
+    },
+    {
+     "nom": "AlloCiné",
+     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=1555.html"
+    }
+   ]
+  },
+  {
+   "titol": "Hienas",
+   "titol_original": "Hyènes",
+   "director": "Djibril Diop Mambéty",
+   "any": 1992,
+   "tipus": "pel·lícula",
+   "durada_min": 110,
+   "on_veure": "Filmin té una fitxa 'Hienas' (filmin.es/pelicula/hienas); no hem pogut confirmar que sigui aquesta pel·lícula: comproveu-ho.",
+   "per_que": "Adaptació de 'La visita de la vella dama' de Dürrenmatt a un poble senegalès: crítica del neocolonialisme i del consumisme. Va competir a Canes 1992.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Hyènes",
+     "url": "https://en.wikipedia.org/wiki/Hy%C3%A8nes"
+    },
+    {
+     "nom": "Festival de Cannes – Hyènes",
+     "url": "https://www.festival-cannes.com/en/f/hyenes-2/"
+    },
+    {
+     "nom": "Filmin – Hienas",
+     "url": "https://www.filmin.es/pelicula/hienas"
+    }
+   ]
+  },
+  {
+   "titol": "Kaddu Beykat (Carta camperola)",
+   "titol_original": "Kaddu Beykat / Lettre paysanne",
+   "director": "Safi Faye",
+   "any": 1975,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "Primer llargmetratge d'una dona negra africana distribuït comercialment, a mig camí entre la ficció i l'etnografia, sobre la crisi del cacauet en un poble serer. Premi FIPRESCI a Berlín 1976.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Kaddu Beykat",
+     "url": "https://en.wikipedia.org/wiki/Kaddu_Beykat"
+    },
+    {
+     "nom": "Wikipedia – Safi Faye",
+     "url": "https://en.wikipedia.org/wiki/Safi_Faye"
+    }
+   ]
+  },
+  {
+   "titol": "Karmen Geï",
+   "titol_original": "Karmen Geï",
+   "director": "Joseph Gaï Ramaka",
+   "any": 2001,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "'Carmen' de Bizet transportada al Senegal, amb música i dansa sabar. El director és de Saint-Louis.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Karmen Geï",
+     "url": "https://en.wikipedia.org/wiki/Karmen_Ge%C3%AF"
+    },
+    {
+     "nom": "Wikipedia – Joseph Gaï Ramaka",
+     "url": "https://en.wikipedia.org/wiki/Joseph_Ga%C3%AF_Ramaka"
+    }
+   ]
+  },
+  {
+   "titol": "Tey (Avui)",
+   "titol_original": "Tey / Aujourd'hui",
+   "director": "Alain Gomis",
+   "any": 2012,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "Un home sap que morirà aquest mateix dia i recorre Dakar per acomiadar-se'n. Una manera poètica de conèixer la ciutat abans d'arribar-hi; va competir a la Berlinale 2012.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Today (Tey)",
+     "url": "https://en.wikipedia.org/wiki/Tey_(film)"
+    }
+   ]
+  },
+  {
+   "titol": "La piragua",
+   "titol_original": "La Pirogue",
+   "director": "Moussa Touré",
+   "any": 2012,
+   "tipus": "pel·lícula",
+   "durada_min": 87,
+   "on_veure": "No hem trobat plataforma a Espanya (s'ha projectat al CCCB amb subtítols en català).",
+   "per_que": "Un pescador d'un poble als afores de Dakar ha de portar trenta homes en piragua fins a Espanya. Molt rellevant per a nosaltres: el destí és Canàries/Espanya. Un Certain Regard, Canes 2012.",
+   "fonts": [
+    {
+     "nom": "CCCB – La pirogue (La piragua)",
+     "url": "https://www.cccb.org/en/activities/file/la-pirogue-la-piragua/218594"
+    },
+    {
+     "nom": "Wikipedia – The Pirogue",
+     "url": "https://en.wikipedia.org/wiki/La_Pirogue"
+    }
+   ]
+  },
+  {
+   "titol": "Atlàntics",
+   "titol_original": "Atlantique",
+   "director": "Mati Diop",
+   "any": 2019,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "Netflix (estrenada a Netflix Espanya el 29/11/2019; cal comprovar si encara hi és).",
+   "per_que": "Obrers de la construcció d'una torre de Dakar desapareixen al mar i tornen com a esperits. Gran Premi a Canes 2019; Dakar i el seu litoral hi apareixen magnífics.",
+   "fonts": [
+    {
+     "nom": "Netflix – adquisició d'Atlantics",
+     "url": "https://about.netflix.com/news/netflix-acquires-cannes-film-festival-award-winners-atlantics-and-i-lost-my-body"
+    },
+    {
+     "nom": "Decine21 – Atlantics",
+     "url": "https://decine21.com/peliculas/atlantics-40163"
+    },
+    {
+     "nom": "Wikipedia – Mati Diop",
+     "url": "https://en.wikipedia.org/wiki/Mati_Diop"
+    }
+   ]
+  },
+  {
+   "titol": "Dahomey",
+   "titol_original": "Dahomey",
+   "director": "Mati Diop",
+   "any": 2024,
+   "tipus": "documental",
+   "durada_min": null,
+   "on_veure": "Filmin (des del 14/02/2025 segons Decine21; fitxa activa a filmin.es).",
+   "per_que": "Os d'Or a la Berlinale 2024: el retorn a Benín de 26 tresors reials espoliats per França. Coproducció senegalesa; ideal per pensar la restitució abans de visitar el Museu de les Civilitzacions Negres de Dakar.",
+   "fonts": [
+    {
+     "nom": "Filmin – Dahomey",
+     "url": "https://www.filmin.es/pelicula/dahomey"
+    },
+    {
+     "nom": "Decine21 – Dahomey",
+     "url": "https://decine21.com/peliculas/dahomey-48258"
+    },
+    {
+     "nom": "Wikipedia – Dahomey",
+     "url": "https://en.wikipedia.org/wiki/Dahomey_(film)"
+    }
+   ]
+  },
+  {
+   "titol": "Banel i Adama",
+   "titol_original": "Banel & Adama",
+   "director": "Ramata-Toulaye Sy",
+   "any": 2023,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "Filmin té una fitxa (filmin.es/pelicula/banel-adama), però no hem pogut confirmar que estigui disponible.",
+   "per_que": "Història d'amor en un poble remot del nord del Senegal, en llengua pulaar; seleccionada a competició a Canes 2023 i candidata senegalesa a l'Oscar.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Banel & Adama",
+     "url": "https://en.wikipedia.org/wiki/Banel_%26_Adama"
+    },
+    {
+     "nom": "Filmin – Banel & Adama",
+     "url": "https://www.filmin.es/pelicula/banel-adama"
+    }
+   ]
+  },
+  {
+   "titol": "Jo capità",
+   "titol_original": "Io capitano",
+   "director": "Matteo Garrone",
+   "any": 2023,
+   "tipus": "pel·lícula",
+   "durada_min": null,
+   "on_veure": "Filmin (fitxa activa a filmin.es/pelicula/yo-capitan); JustWatch també l'ha llistat a Amazon Prime Video i va passar per Movistar Plus+ (juliol 2024).",
+   "per_que": "Dos cosins adolescents de Dakar emprenen el viatge cap a Europa pel desert i Líbia. Rodatge començat a Dakar amb actors senegalesos; Lleó de Plata a Venècia i nominada a l'Oscar.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Io capitano",
+     "url": "https://en.wikipedia.org/wiki/Io_capitano"
+    },
+    {
+     "nom": "Filmin – Yo capitán",
+     "url": "https://www.filmin.es/pelicula/yo-capitan"
+    },
+    {
+     "nom": "Decine21 – Io capitano",
+     "url": "https://decine21.com/peliculas/el-capitan-46442"
+    }
+   ]
+  },
+  {
+   "titol": "Sembene!",
+   "titol_original": "Sembene!",
+   "director": "Samba Gadjigo i Jason Silverman",
+   "any": 2015,
+   "tipus": "documental",
+   "durada_min": null,
+   "on_veure": "No hem trobat disponibilitat verificada a Espanya.",
+   "per_que": "Documental sobre la vida de Sembène, 'pare del cinema africà', estrenat a Sundance. Bon punt de partida abans de veure les seves pel·lícules.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Sembene!",
+     "url": "https://en.wikipedia.org/wiki/Sembene!"
+    }
+   ]
+  },
+  {
+   "titol": "Maîtresse d'un homme marié",
+   "titol_original": "Maîtresse d'un homme marié",
+   "director": "Kalista Sy (creadora), produïda per Marodi",
+   "any": 2019,
+   "tipus": "sèrie",
+   "durada_min": null,
+   "on_veure": "YouTube (canal de Marodi), gratuït; en wòlof (versió francesa a A+).",
+   "per_que": "Fenomen televisiu senegalès sobre poligàmia, violència masclista i llibertat de les dones a Dakar, amb milions de visualitzacions. Perfecte per sentir wòlof i veure el Dakar d'avui.",
+   "fonts": [
+    {
+     "nom": "Wikipédia – Maîtresse d'un homme marié",
+     "url": "https://fr.wikipedia.org/wiki/Ma%C3%AEtresse_d%27un_homme_mari%C3%A9"
+    }
+   ]
+  }
+ ],
+ "musica": [
+  {
+   "artista": "Youssou N'Dour",
+   "tema": "7 Seconds (amb Neneh Cherry, 1994) i Immigrés (1984)",
+   "per_que": "La gran veu del mbalax i el músic senegalès més universal (també és polític). '7 Seconds' és el seu gran èxit internacional; 'Immigrés' parla de la diàspora.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Youssou N'Dour",
+     "url": "https://en.wikipedia.org/wiki/Youssou_N%27Dour"
+    },
+    {
+     "nom": "Wikipedia – 7 Seconds",
+     "url": "https://en.wikipedia.org/wiki/7_Seconds_(song)"
+    }
+   ]
+  },
+  {
+   "artista": "Orchestra Baobab",
+   "tema": "Utrus Horas (àlbum Pirates Choice, enregistrat el 1982)",
+   "per_que": "L'orquestra afrocubana del club Baobab de Dakar (1970); reunida el 2001 amb 'Specialist in All Styles'. So de salsa senegalesa per a les nits de Dakar.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Orchestra Baobab",
+     "url": "https://en.wikipedia.org/wiki/Orchestra_Baobab"
+    }
+   ]
+  },
+  {
+   "artista": "Baaba Maal",
+   "tema": "Baayo (àlbum Baayo, 1991, amb Mansour Seck)",
+   "per_que": "Cantant peul de Podor, a la vora del riu Senegal (prop de Saint-Louis). Acústic i hipnòtic; també va posar veu a la banda sonora de Black Panther.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Baaba Maal",
+     "url": "https://en.wikipedia.org/wiki/Baaba_Maal"
+    }
+   ]
+  },
+  {
+   "artista": "Ismaël Lô",
+   "tema": "Tajabone",
+   "per_que": "La seva cançó «Tajabone» surt a 'Todo sobre mi madre' d'Almodóvar, així que segur que la reconeixereu.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Ismaël Lô",
+     "url": "https://en.wikipedia.org/wiki/Isma%C3%ABl_L%C3%B4"
+    }
+   ]
+  },
+  {
+   "artista": "Cheikh Lô",
+   "tema": "Ne La Thiass (1995)",
+   "per_que": "Músic baye fall (branca mouride amb rastes): el seu primer disc, produït per Youssou N'Dour, va ser un èxit mundial. Ajuda a entendre el sufisme que veureu a tot arreu.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Cheikh Lô",
+     "url": "https://en.wikipedia.org/wiki/Cheikh_L%C3%B4"
+    }
+   ]
+  },
+  {
+   "artista": "Wally Seck",
+   "tema": "Bo - Dioudo",
+   "per_que": "El rei actual del mbalax (fill de Thione Seck), el que sona als taxis i a les discoteques de Dakar. 'Bo - Dioudo' va ser el seu primer gran èxit.",
+   "fonts": [
+    {
+     "nom": "Wikipédia – Wally Seck",
+     "url": "https://fr.wikipedia.org/wiki/Wally_Seck"
+    }
+   ]
+  },
+  {
+   "artista": "Positive Black Soul (Didier Awadi i Duggy Tee)",
+   "tema": "Boul Falé",
+   "per_que": "Pioners del hip-hop senegalès (1989). 'Boul Falé' va donar nom a tota una generació de joves de Dakar.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Positive Black Soul",
+     "url": "https://en.wikipedia.org/wiki/Positive_Black_Soul"
+    }
+   ]
+  },
+  {
+   "artista": "Didier Awadi",
+   "tema": "Un autre monde est possible (2005)",
+   "per_que": "Rap polític i panafricanista; la seva música ajuda a entendre la mobilització juvenil senegalesa.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Didier Awadi",
+     "url": "https://en.wikipedia.org/wiki/Didier_Awadi"
+    }
+   ]
+  },
+  {
+   "artista": "Omar Pene & Super Diamono",
+   "tema": "Géédy Dayaan (primer àlbum de Super Diamono, 1979)",
+   "per_que": "Veu dels barris populars de Dakar; Super Diamono va ser als 80 l'únic gran rival de Youssou N'Dour.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Omar Pene",
+     "url": "https://en.wikipedia.org/wiki/Omar_Pene"
+    }
+   ]
+  },
+  {
+   "artista": "Daara J (Daara J Family)",
+   "tema": "Boomerang (2003)",
+   "per_que": "Hip-hop amb ritmes afrocubans i reggae; 'Boomerang' és la idea que el rap va néixer a l'Àfrica i hi torna.",
+   "fonts": [
+    {
+     "nom": "Wikipedia – Daara J",
+     "url": "https://en.wikipedia.org/wiki/Daara_J"
+    }
+   ]
+  }
+ ]
+}

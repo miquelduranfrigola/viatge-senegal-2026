@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Senegal 2026</title>
+<meta name="description" content="Guia en català per al viatge de quatre amics al Senegal, del 27 de desembre de 2026 al 4 de gener de 2027.">
+<meta name="theme-color" content="#9A4A1C">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400,0..1,0&display=block" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="index">
+<main>
+
+<section class="hero">
+  <div class="hero-inner">
+    <img id="hero-img" src="assets/img/hero.jpg" alt="Pirogues de colors a la platja del Senegal">
+    <div class="hero-content">
+      <span class="label">27 des. 2026 – 4 gen. 2027 · Dakar · 4 amics</span>
+      <h1>Viatge a Senegal</h1>
+      <p class="lead">Una guia feta a mida: què fer, què menjar, on escoltar música i com moure's pel país de la <em>teranga</em>, de Gorée a Saint-Louis, del Saloum a la Casamance.</p>
+      <div class="countdown" id="countdown" aria-live="polite"></div>
+      <div class="btn-row">
+        <a class="btn btn-light" href="cataleg.html"><span class="msym">grid_view</span> Explora el catàleg</a>
+        <a class="btn btn-primary" href="itinerari.html"><span class="msym">route</span> Itineraris</a>
+      </div>
+    </div>
+    <span class="hero-credit" id="hero-credit"></span>
+  </div>
+</section>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num" id="stat-acts">–</div><div class="muted">activitats</div></div>
+    <div class="stat"><div class="num" id="stat-total">–</div><div class="muted">fitxes en total (inclou menjar, nit i allotjament)</div></div>
+    <div class="stat"><div class="num" id="stat-regions">–</div><div class="muted">regions</div></div>
+    <div class="stat"><div class="num">9</div><div class="muted">dies, Cap d'Any inclòs</div></div>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="label">El millor de cada regió</span><h2>Imprescindibles</h2>
+      <p class="lead">Una tria per començar a somiar. Toca una targeta per veure la fitxa completa, amb fotos, preus, consells i fonts.</p></div>
+    <div class="grid" id="must-grid"></div>
+    <div class="btn-row"><a class="btn btn-tonal" href="cataleg.html?imprescindible"><span class="msym">star</span> Tots els imprescindibles</a><a class="btn btn-tonal" href="cataleg.html?autentic"><span class="msym">eco</span> Llocs autèntics i fora dels circuits</a></div>
+  </div>
+</section>
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="section-head"><span class="label">27 des. – 4 gen.</span><h2>Què passa aquells dies</h2>
+      <p class="lead">Cap d'Any, festivals, lluita i música. A 1 de novembre encara no hi ha gairebé res anunciat oficialment: marquem què és segur, què es fa cada any i què és possible.</p></div>
+    <div class="media-list" id="agenda-teaser"></div>
+    <div class="btn-row"><a class="btn btn-tonal" href="agenda.html"><span class="msym">event</span> Tota l'agenda</a></div>
+  </div>
+</section>
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="section-head"><span class="label">Mapa</span><h2>Tot el catàleg, sobre el mapa</h2></div>
+    <div class="map" id="map" role="region" aria-label="Mapa del Senegal amb totes les fitxes"></div>
+  </div>
+</section>
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="info-grid">
+      <a class="info" href="coneix.html" style="text-decoration:none;color:inherit"><h3><span class="msym">menu_book</span> Coneix el Senegal</h3><p class="muted">Història, gent, religió, gastronomia, música, art, lluita i natura: els capítols de context d'una bona guia.</p></a>
+      <a class="info" href="cultura.html" style="text-decoration:none;color:inherit"><h3><span class="msym">movie</span> Llegir, mirar i escoltar</h3><p class="muted">Novel·les, pel·lícules i música per arribar-hi amb el cap ja al Senegal.</p></a>
+      <a class="info" href="practic.html" style="text-decoration:none;color:inherit"><h3><span class="msym">luggage</span> Informació pràctica</h3><p class="muted">Visat, salut, diners, transport, seguretat, pressupost, calendari de les festes i wolof bàsic.</p></a>
+    </div>
+  </div>
+</section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

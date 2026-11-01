@@ -1,0 +1,1459 @@
+[
+ {
+  "id": "gran-classic",
+  "nom": "El gran clàssic: Dakar, desert de Lompoul, Saint-Louis i Saloum",
+  "resum": "La volta que proposen gairebé totes les guies i agències per a 9-10 dies: una mica de Dakar, nit al petit desert de Lompoul, el Saint-Louis colonial i pesquer, i acabar a les illes i manglars del Sine-Saloum. Cap d'Any a Saint-Louis o a la Langue de Barbarie.",
+  "per_a_qui": "Primer viatge al Senegal; volen veure paisatges molt diferents (dunes, ciutat colonial, delta) i no els fa por un parell de dies llargs de carretera.",
+  "ruta": "AIBD → Dakar (Ngor) → Lac Rose / Kayar → Lompoul → Saint-Louis → Langue de Barbarie → Ndangane / Mar Lodj → Joal-Fadiouth → Toubab Dialaw → AIBD",
+  "transport": "Ideal: cotxe amb xofer 7-8 dies (≈80 €/dia de xofer segons un fil Routard de 2026 + combustible + allotjament/menjar del xofer; compteu 110-150 €/dia per al grup, és a dir ≈30-40 €/persona/dia). Alternativa barata: sept-place des de la gare routière des Baux Maraîchers (Pikine) comprant les 7 places per sortir de seguida i anar amples (preu per plaça orientatiu Dakar–Saint-Louis ≈5.000-7.000 FCFA, no verificat 2026) + taxis locals. El tram Saint-Louis → Saloum (≈6 h) és el més pesat; amb transport públic implica canvis a Thiès i Mbour/Fatick.",
+  "ritme": "moderat",
+  "km_aprox": 950,
+  "dies": [
+   {
+    "data": "Dg 27 des.",
+    "titol": "Aterratge i Ngor",
+    "plans": [
+     {
+      "text": "Arribada a l'AIBD (Diass), canvi de diners i targeta SIM (Orange/Free) a l'aeroport.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     },
+     {
+      "text": "Trasllat a Ngor/Almadies; si hi ha llum, posta de sol a la Pointe des Almadies (punt més occidental del continent).",
+      "lloc": "Pointe des Almadies",
+      "id": "dkr-pointe-almadies"
+     },
+     {
+      "text": "Sopar de peix a la platja de Ngor.",
+      "lloc": "Ngor",
+      "id": "dkr-ile-ngor"
+     }
+    ],
+    "transport": "Taxi AIBD–Ngor ≈45-60 min (autopista de peatge); el blog Pilot Who Explores parla de ≈20.000-25.000 FCFA per taxi privat (preu 2022).",
+    "dormir": "Ngor: allotjament petit a l'illa de Ngor (pirogue de 5 min, 1.000 FCFA anada i tornada) o guesthouse al poble de Ngor/Yoff (p. ex. Via Via Dakar a Yoff)."
+   },
+   {
+    "data": "Dl 28 des.",
+    "titol": "Dakar: Gorée, mercats i Soumbédioune",
+    "plans": [
+     {
+      "text": "Chaloupe a l'illa de Gorée (≈20-25 min; 5.200 FCFA no residents) i passejada per l'illa i la Maison des Esclaves.",
+      "lloc": "Île de Gorée",
+      "id": "dkr-goree"
+     },
+     {
+      "text": "Mercats del centre: Kermel i Sandaga; teixits al mercat HLM.",
+      "lloc": "Marché Kermel",
+      "id": "dkr-sandaga-kermel"
+     },
+     {
+      "text": "Museu de les Civilisacions Negres (3.000 FCFA).",
+      "lloc": "Musée des Civilisations noires",
+      "id": "dkr-mcn"
+     },
+     {
+      "text": "Al vespre, arribada de pirogues i peix a la brasa a la platja de Soumbédioune.",
+      "lloc": "Soumbédioune",
+      "id": "dkr-soumbedioune"
+     }
+    ],
+    "transport": "Taxis urbans negociats (2.000-4.000 FCFA el trajet).",
+    "dormir": "Mateix allotjament a Ngor/Yoff."
+   },
+   {
+    "data": "Dt 29 des.",
+    "titol": "Lac Rose, Kayar i nit a les dunes",
+    "plans": [
+     {
+      "text": "Sortida d'hora cap a Kayar: platja de pescadors i mercat de peix al matí (un dels ports artesanals més actius del país).",
+      "lloc": "Kayar",
+      "id": "vlt-kayar"
+     },
+     {
+      "text": "Parada al Lac Rose (Retba) i les salines; el color és millor en estació seca.",
+      "lloc": "Lac Rose",
+      "id": "vlt-lac-rose"
+     },
+     {
+      "text": "Teixits a Mboro / Kandio si hi passeu (recomanat pel blog Pilot Who Explores).",
+      "lloc": "Mboro",
+      "id": "otb-niayes-mboro"
+     },
+     {
+      "text": "Arribada a Lompoul a mitja tarda: caminada per les dunes i posta de sol; nit en tenda maura.",
+      "lloc": "Désert de Lompoul",
+      "id": "nord-lompoul"
+     }
+    ],
+    "transport": "Dakar–Lompoul ≈3 h (Pilot Who Explores). Les últimes pistes de sorra es fan amb 4x4 del campament (ell us recull al poble de Lompoul).",
+    "dormir": "Campament en tendes maures a Lompoul en mitja pensió: Ecolodge de Lompoul (ara redirigeix a Eden Lodge), o altres camps del desert. Reserveu: per Cap d'Any i entre festes s'omplen."
+   },
+   {
+    "data": "Dc 30 des.",
+    "titol": "Saint-Louis, l'illa i Guet Ndar",
+    "plans": [
+     {
+      "text": "Sortida del desert al matí i ruta cap a Saint-Louis.",
+      "lloc": "Lompoul",
+      "id": "nord-lompoul"
+     },
+     {
+      "text": "Passejada per l'illa de Saint-Louis (patrimoni UNESCO) i el pont Faidherbe; volta en calessa.",
+      "lloc": "Saint-Louis",
+      "id": "nord-saint-louis-illa"
+     },
+     {
+      "text": "Barri pesquer de Guet Ndar a la Langue de Barbarie: arribada de les grans pirogues a la tarda.",
+      "lloc": "Guet Ndar",
+      "id": "nord-guet-ndar"
+     }
+    ],
+    "transport": "Lompoul–Saint-Louis ≈1 h 30-2 h.",
+    "dormir": "Saint-Louis illa: hotelets en cases colonials (p. ex. Siki Hôtel, Hôtel de la Poste, Auberge La Louisiane) o, fora de la ciutat, Zebrabar (20 km al sud, dins el Parc de la Langue de Barbarie)."
+   },
+   {
+    "data": "Dj 31 des.",
+    "titol": "Langue de Barbarie i Cap d'Any",
+    "plans": [
+     {
+      "text": "Pirogue pel Parc Nacional de la Langue de Barbarie (pelicans, corbs marins); des de Zebrabar 1 h 30 per 7.500 FCFA (1-3 pers.) + 2.500 per persona addicional + entrada 5.000 FCFA.",
+      "lloc": "Langue de Barbarie",
+      "id": "nord-langue-de-barbarie"
+     },
+     {
+      "text": "Alternativa: Reserva de Guembeul (gaseles dorques, tortugues).",
+      "lloc": "Réserve de Guembeul",
+      "id": "nord-guembeul"
+     },
+     {
+      "text": "Cap d'Any: o bé ambient de carrer i bars a l'illa de Saint-Louis, o bé el réveillon 'al cor de la natura' del Lodge Océan & Savane, a la desembocadura del riu (citat a la guia de festes d'Au-Sénégal 2025).",
+      "lloc": "Saint-Louis",
+      "id": "nord-saint-louis-illa"
+     }
+    ],
+    "transport": "Taxi Saint-Louis–Zebrabar ≈3.000 FCFA.",
+    "dormir": "Saint-Louis, Zebrabar o Océan & Savane (aquest és un lodge en tendes a la Langue de Barbarie, cal reservar el réveillon)."
+   },
+   {
+    "data": "Dv 1 gen.",
+    "titol": "Gran trasllat cap al Saloum",
+    "plans": [
+     {
+      "text": "Dia d'1 de gener: sortida tranquil·la (molts transports van mig buits o tarden a omplir-se).",
+      "lloc": "Saint-Louis",
+      "id": "nord-saint-louis-illa"
+     },
+     {
+      "text": "Ruta per Thiès i Mbour fins a Fimela/Ndangane.",
+      "lloc": "Ndangane",
+      "id": "sal-mar-lodj-ndangane"
+     },
+     {
+      "text": "Posta de sol al bolong des del campament.",
+      "lloc": "Ndangane",
+      "id": "sal-mar-lodj-ndangane"
+     }
+    ],
+    "transport": "Saint-Louis–Ndangane ≈6 h amb cotxe (≈330 km). En sept-place: Saint-Louis–Thiès/Mbour i canvi; tot el dia.",
+    "dormir": "Ndangane o l'illa de Mar Lodj (pirogue de 20 min des de Ndangane): Campement Essamaye (familiar, Mar Lodj) o Ecolodge de Simal (Fimela)."
+   },
+   {
+    "data": "Ds 2 gen.",
+    "titol": "Pirogues per les illes del Saloum",
+    "plans": [
+     {
+      "text": "Sortida en pirogue pels bolongs: Mar Lodj, illa dels ocells i amuntegaments de petxines (shell middens).",
+      "lloc": "Mar Lodj",
+      "id": "sal-mar-lodj-ndangane"
+     },
+     {
+      "text": "Passejada en carreta pels pobles serers i baobabs de Mar Lodj.",
+      "lloc": "Mar Lodj",
+      "id": "sal-mar-lodj-ndangane"
+     },
+     {
+      "text": "Opcional: caiac pel manglar al capvespre.",
+      "lloc": "Delta du Saloum",
+      "id": "sal-delta-saloum"
+     }
+    ],
+    "transport": "Pirogue negociada (moltes vegades a través del campament).",
+    "dormir": "Mateix campament a Mar Lodj / Simal."
+   },
+   {
+    "data": "Dg 3 gen.",
+    "titol": "Joal-Fadiouth i cap a la costa",
+    "plans": [
+     {
+      "text": "Illa de petxines de Fadiouth (pont de fusta, cementiri mixt cristià-musulmà, graners sobre pilotis).",
+      "lloc": "Joal-Fadiouth",
+      "id": "ptc-joal-fadiouth"
+     },
+     {
+      "text": "Opcional: salines i reserva de Palmarin.",
+      "lloc": "Palmarin",
+      "id": "sal-palmarin-reserva"
+     },
+     {
+      "text": "Última nit a la costa a prop de l'aeroport.",
+      "lloc": "Toubab Dialaw",
+      "id": "ptc-toubab-dialaw"
+     }
+    ],
+    "transport": "Ndangane–Joal ≈1 h; Joal–Toubab Dialaw ≈1 h 30.",
+    "dormir": "Toubab Dialaw: Sobo Badè (centre cultural i hotel de l'artista Gérard Chenet, citat per Bradt) o Popenguine."
+   },
+   {
+    "data": "Dl 4 gen.",
+    "titol": "Matí de platja i vol",
+    "plans": [
+     {
+      "text": "Matí a la reserva natural de Popenguine o última caminada per la platja.",
+      "lloc": "Popenguine",
+      "id": "ptc-popenguine"
+     },
+     {
+      "text": "Trasllat a l'AIBD.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     }
+    ],
+    "transport": "Toubab Dialaw–AIBD ≈18 km, 20-30 min.",
+    "dormir": "—"
+   }
+  ],
+  "notes": [
+   "És l'itinerari més estàndard: el forum Routard està dividit sobre el nord (un viatger va trobar Saint-Louis 'decebedor' i Lompoul 'petit però agradable'; altres el recomanen).",
+   "El tram Saint-Louis → Saloum de l'1 de gener és dur; alternativa: dormir l'1 a Lompoul o Toubab Dialaw i fer el Saloum els dies 2-3.",
+   "Djoudj queda fora per temps; si us interessen els ocells, mireu l'itinerari 'Nord salvatge'.",
+   "Es perd la Casamance (la regió que més recomanen els foros per a viatgers independents).",
+   "El dia d'arribada depèn de l'hora del vol: si aterreu de nit, aneu directament a dormir a prop (Toubab Dialaw/Popenguine són a 20-30 min d'AIBD; Dakar-Ngor a 45-60 min per l'autopista de peatge)."
+  ],
+  "fonts": [
+   {
+    "nom": "The Pilot Who Explores – Senegal & The Gambia 2-week itinerary",
+    "url": "https://thepilotwhoexplores.com/senegal-the-gambia-the-ultimate-2-week-itinerary-2022"
+   },
+   {
+    "nom": "Forum Routard – 9 jours au Sénégal",
+    "url": "https://www.routard.com/forums/t/9-jours-au-senegal/195699"
+   },
+   {
+    "nom": "Forum Routard – 7 jours au Sénégal : où aller ?",
+    "url": "https://www.routard.com/forums/t/7-jours-au-senegal-ou-aller-itineraire/33546"
+   },
+   {
+    "nom": "Forum Routard – Itinéraire 12 jours au Sénégal",
+    "url": "https://www.routard.com/forums/t/itineraire-12-jours-au-senegal/120963"
+   },
+   {
+    "nom": "Forum Routard – Conseils pour organiser un voyage au Sénégal (2026)",
+    "url": "https://www.routard.com/forums/t/conseils-pour-organiser-un-voyage-au-senegal/483824"
+   },
+   {
+    "nom": "Zebrabar (Langue de Barbarie)",
+    "url": "https://www.zebrabar.net/"
+   },
+   {
+    "nom": "Au-Sénégal – Fêtes de fin d'année : tables et menus pour Noël et le Nouvel An (des. 2025)",
+    "url": "https://www.au-senegal.com/fetes-de-fin-d-annee-au-senegal-guide-des-tables-et-menus-pour-noel-et-le-nouvel-an,17920.html"
+   },
+   {
+    "nom": "Bradt Guides – Coastal explorer: two weeks in Senegal",
+    "url": "https://www.bradtguides.com/coastal-explorer-two-weeks-in-senegal/"
+   },
+   {
+    "nom": "Au-Sénégal – Une escapade dans les îles du Saloum (Campement Essamaye, Mar Lodj)",
+    "url": "https://www.au-senegal.com/une-escapade-dans-les-iles-du-saloum,16262.html"
+   }
+  ]
+ },
+ {
+  "id": "nord-salvatge",
+  "nom": "Nord salvatge: Niayes, Lompoul, Djoudj, Langue de Barbarie i el riu Senegal",
+  "resum": "Ruta naturalista pel nord: la costa de les Niayes i el port de Kayar, dunes de Lompoul, el Parc del Djoudj (3r santuari d'ocells del món, en plena temporada de migració) i la Langue de Barbarie, i un salt a la vall del riu Senegal (Podor, illa a Morphil). Cap d'Any a la Langue de Barbarie.",
+  "per_a_qui": "Amants dels ocells, els paisatges oberts i el Sahel; volen evitar la Petite Côte turística i no els importa no veure manglars del sud.",
+  "ruta": "AIBD → Lac Rose → Kayar → Lompoul → Saint-Louis → Djoudj → Langue de Barbarie → Richard-Toll → Podor → Saint-Louis → (Thiès) → AIBD",
+  "transport": "Cotxe de lloguer o amb xofer recomanat (Djoudj i Podor són mal comunicats en transport públic). Lloguer: citadine 20.000-35.000 FCFA/dia, 4x4 40.000-80.000 FCFA/dia (Au-Sénégal); els eixos Dakar–Thiès–Saint-Louis estan en bon estat. Amb sept-place: Baux Maraîchers → Saint-Louis i després taxis 'brousse' locals; Djoudj caldrà llogar un taxi per mig dia.",
+  "ritme": "moderat",
+  "km_aprox": 1150,
+  "dies": [
+   {
+    "data": "Dg 27 des.",
+    "titol": "AIBD → Lac Rose",
+    "plans": [
+     {
+      "text": "Arribada i trasllat directe al Lac Rose sense passar pel centre de Dakar.",
+      "lloc": "Lac Rose",
+      "id": "vlt-lac-rose"
+     },
+     {
+      "text": "Capvespre a les salines i les dunes del llac.",
+      "lloc": "Lac Rose",
+      "id": "vlt-lac-rose"
+     }
+    ],
+    "transport": "AIBD–Lac Rose ≈1 h (≈60 km).",
+    "dormir": "Gîte du Lac (Bonaba, Lac Rose) o campament al llac."
+   },
+   {
+    "data": "Dl 28 des.",
+    "titol": "Kayar i la costa de les Niayes fins a Lompoul",
+    "plans": [
+     {
+      "text": "Matinada a la platja de Kayar: tornada de pirogues i mercat de peix.",
+      "lloc": "Kayar",
+      "id": "vlt-kayar"
+     },
+     {
+      "text": "Interior de les Niayes: horts, llacs interdunars i mercat setmanal de Mboro/Kandio (teixits).",
+      "lloc": "Mboro",
+      "id": "otb-niayes-mboro"
+     },
+     {
+      "text": "Lompoul: caminada per les dunes, sandboard, nit sota les estrelles.",
+      "lloc": "Désert de Lompoul",
+      "id": "nord-lompoul"
+     }
+    ],
+    "transport": "Lac Rose–Kayar ≈45 min; Kayar–Lompoul ≈2 h 30.",
+    "dormir": "Campament de tendes maures al desert de Lompoul (Ecolodge de Lompoul / Eden Lodge o similar)."
+   },
+   {
+    "data": "Dt 29 des.",
+    "titol": "Saint-Louis",
+    "plans": [
+     {
+      "text": "Illa colonial, pont Faidherbe, calessa.",
+      "lloc": "Saint-Louis",
+      "id": "nord-saint-louis-illa"
+     },
+     {
+      "text": "Guet Ndar i el cementiri de pescadors amb xarxes.",
+      "lloc": "Guet Ndar",
+      "id": "nord-guet-ndar"
+     },
+     {
+      "text": "Mercat de Sor (a la part continental), molt local.",
+      "lloc": "Saint-Louis",
+      "id": "nord-saint-louis-illa"
+     }
+    ],
+    "transport": "Lompoul–Saint-Louis ≈1 h 30-2 h.",
+    "dormir": "Saint-Louis illa (Siki Hôtel, Auberge La Louisiane) o Zebrabar."
+   },
+   {
+    "data": "Dc 30 des.",
+    "titol": "Parc Nacional dels Ocells del Djoudj",
+    "plans": [
+     {
+      "text": "Sortida a les 7 h cap al Djoudj (65 km, en part pista): pirogue fins a l'illa dels pelicans; flamencs, ànecs migradors europeus.",
+      "lloc": "Parc national du Djoudj",
+      "id": "nord-djoudj"
+     },
+     {
+      "text": "Tornada per la carretera del riu i pobles peuls/wolofs.",
+      "lloc": "Djoudj",
+      "id": "nord-djoudj"
+     },
+     {
+      "text": "Tarda: trasllat a la Langue de Barbarie.",
+      "lloc": "Langue de Barbarie",
+      "id": "nord-langue-de-barbarie"
+     }
+    ],
+    "transport": "Saint-Louis–Djoudj ≈1 h-1 h 30 (Routard 'mitja jornada'). El parc obre la temporada a partir de novembre.",
+    "dormir": "Zebrabar (bungalows i cabanes dins el parc de la Langue de Barbarie, 20 km al sud de Saint-Louis)."
+   },
+   {
+    "data": "Dj 31 des.",
+    "titol": "Langue de Barbarie i Cap d'Any",
+    "plans": [
+     {
+      "text": "Pirogue pel parc (1 h 30) i platja salvatge de la llengua de sorra.",
+      "lloc": "Langue de Barbarie",
+      "id": "nord-langue-de-barbarie"
+     },
+     {
+      "text": "Reserva de Guembeul.",
+      "lloc": "Réserve de Guembeul",
+      "id": "nord-guembeul"
+     },
+     {
+      "text": "Cap d'Any: foguera i sopar a Zebrabar (punt de trobada d'overlanders; pregunteu si fan festa) o réveillon a Océan & Savane, o festa a l'illa de Saint-Louis.",
+      "lloc": "Langue de Barbarie",
+      "id": "nord-langue-de-barbarie"
+     }
+    ],
+    "transport": "Taxi Saint-Louis–Zebrabar ≈3.000 FCFA.",
+    "dormir": "Zebrabar o Océan & Savane."
+   },
+   {
+    "data": "Dv 1 gen.",
+    "titol": "Remuntant el riu: Richard-Toll i Podor",
+    "plans": [
+     {
+      "text": "Ruta N2 per la vall: arrossars, plantacions de sucre de Richard-Toll i el 'Château du Baron Roger'.",
+      "lloc": "Richard-Toll",
+      "id": null
+     },
+     {
+      "text": "Podor: moll colonial sobre el riu, fort, comerços antics; Mauritània a l'altra riba.",
+      "lloc": "Podor",
+      "id": "nord-podor"
+     },
+     {
+      "text": "Posta de sol al moll.",
+      "lloc": "Podor",
+      "id": "nord-podor"
+     }
+    ],
+    "transport": "Saint-Louis–Podor ≈210 km, 3-4 h.",
+    "dormir": "Podor: guesthouse en cases de comerciants del moll (pocs llits; reserveu per telèfon/WhatsApp)."
+   },
+   {
+    "data": "Ds 2 gen.",
+    "titol": "Illa a Morphil i tornada a Saint-Louis",
+    "plans": [
+     {
+      "text": "Pobles toucouleur de l'illa a Morphil (cases de fang, mesquites sudaneses) i, si hi ha sort, mercat setmanal.",
+      "lloc": "Île à Morphil",
+      "id": "nord-podor"
+     },
+     {
+      "text": "Tornada a Saint-Louis per la tarda.",
+      "lloc": "Saint-Louis",
+      "id": "nord-saint-louis-illa"
+     }
+    ],
+    "transport": "Podor–Saint-Louis ≈3-4 h.",
+    "dormir": "Saint-Louis illa."
+   },
+   {
+    "data": "Dg 3 gen.",
+    "titol": "Baixada a la costa",
+    "plans": [
+     {
+      "text": "Parada al mercat de Mpal (N2) i a Thiès (Manufactures Sénégalaises des Arts Décoratifs, tapissos).",
+      "lloc": "Thiès",
+      "id": "vlt-thies-tapisseries"
+     },
+     {
+      "text": "Última nit tranquil·la a prop de l'AIBD.",
+      "lloc": "Toubab Dialaw",
+      "id": "ptc-toubab-dialaw"
+     }
+    ],
+    "transport": "Saint-Louis–Thiès ≈3 h; Thiès–Toubab Dialaw ≈1 h.",
+    "dormir": "Toubab Dialaw (Sobo Badè) o guesthouse a Popenguine."
+   },
+   {
+    "data": "Dl 4 gen.",
+    "titol": "Vol de tornada",
+    "plans": [
+     {
+      "text": "Matí de platja i cap a l'aeroport.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     }
+    ],
+    "transport": "Toubab Dialaw–AIBD 20-30 min.",
+    "dormir": "—"
+   }
+  ],
+  "notes": [
+   "Molts km (≈1.150): amb cotxe propi va bé; amb transport públic, traieu Podor i feu 2 nits al Djoudj/Langue de Barbarie.",
+   "Al forum Routard alguns aconsellen deixar el nord per a un segon viatge; aquest itinerari és per als qui sí el volen.",
+   "Kayaks a Zebrabar: el web diu que ara no es poden fer perquè la desembocadura s'està movent.",
+   "Podor està a la frontera de Mauritània: porteu el passaport a sobre; no hi ha problemes de seguretat coneguts, però consulteu exteriors.gob.es abans de sortir.",
+   "Es perd el Saloum i la Casamance (no hi ha manglars tropicals).",
+   "El dia d'arribada depèn de l'hora del vol: si aterreu de nit, aneu directament a dormir a prop (Toubab Dialaw/Popenguine són a 20-30 min d'AIBD; Dakar-Ngor a 45-60 min per l'autopista de peatge)."
+  ],
+  "fonts": [
+   {
+    "nom": "Zebrabar (Langue de Barbarie)",
+    "url": "https://www.zebrabar.net/"
+   },
+   {
+    "nom": "Forum Routard – 7 jours au Sénégal : où aller ?",
+    "url": "https://www.routard.com/forums/t/7-jours-au-senegal-ou-aller-itineraire/33546"
+   },
+   {
+    "nom": "Forum Routard – Itinéraire 12 jours au Sénégal",
+    "url": "https://www.routard.com/forums/t/itineraire-12-jours-au-senegal/120963"
+   },
+   {
+    "nom": "Forum Routard – Conseils pour organiser un voyage au Sénégal (2026)",
+    "url": "https://www.routard.com/forums/t/conseils-pour-organiser-un-voyage-au-senegal/483824"
+   },
+   {
+    "nom": "Au-Sénégal – Louer une voiture au Sénégal : prix, conseils",
+    "url": "https://www.au-senegal.com/louer-une-voiture-au-senegal-prix-conseils-et-erreurs-a-eviter,18326.html"
+   },
+   {
+    "nom": "The Pilot Who Explores – Senegal & The Gambia 2-week itinerary",
+    "url": "https://thepilotwhoexplores.com/senegal-the-gambia-the-ultimate-2-week-itinerary-2022"
+   },
+   {
+    "nom": "Au-Sénégal – Fêtes de fin d'année : tables et menus pour Noël et le Nouvel An (des. 2025)",
+    "url": "https://www.au-senegal.com/fetes-de-fin-d-annee-au-senegal-guide-des-tables-et-menus-pour-noel-et-le-nouvel-an,17920.html"
+   }
+  ]
+ },
+ {
+  "id": "saloum-lent",
+  "nom": "Saloum a fons i Petite Côte autèntica",
+  "resum": "Ritme lent i sense carreteres llargues: Toubab Dialaw, Joal-Fadiouth, Palmarin i Djiffer, i després pirogue cap a les illes del sud del delta (Dionewar/Niodior) i els bolongs de Toubacouta i l'àrea marina de Bamboung. Cap d'Any en una illa sense cotxes.",
+  "per_a_qui": "Grup que vol natura, pirogues, caiac i pobles, i dormir en campements, sense passar mig viatge dins un cotxe. Perfecte per a l'aterratge a l'AIBD, que és a tocar de la Petite Côte.",
+  "ruta": "AIBD → Toubab Dialaw → Joal-Fadiouth → Palmarin → Djiffer → (pirogue) Dionewar/Niodior → (pirogue) Toubacouta / Keur Bamboung → Popenguine → AIBD",
+  "transport": "Sense cotxe: taxis 'brousse' i sept-place curts (Mbour–Joal–Palmarin) + pirogues (negociar preu per pirogue sencera; els foros diuen que les pirogues de poble són molt més barates que les 'turístiques'). Pirogues llargues Djiffer–Dionewar o Dionewar–Toubacouta: organitzeu-les amb el campement. Taxi privat AIBD–Toubab Dialaw ≈10.000-15.000 FCFA. Opcional: cotxe amb xofer només per al dia 3 de gener (Toubacouta–costa).",
+  "ritme": "tranquil",
+  "km_aprox": 450,
+  "dies": [
+   {
+    "data": "Dg 27 des.",
+    "titol": "Aterratge a Toubab Dialaw",
+    "plans": [
+     {
+      "text": "Arribada a l'AIBD i trasllat curt a la costa.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     },
+     {
+      "text": "Toubab Dialaw: penya-segats, platja i bars de platja.",
+      "lloc": "Toubab Dialaw",
+      "id": "ptc-toubab-dialaw"
+     }
+    ],
+    "transport": "AIBD–Toubab Dialaw 20-30 min (18 km).",
+    "dormir": "Sobo Badè (Toubab Dialaw), recomanat per Bradt."
+   },
+   {
+    "data": "Dl 28 des.",
+    "titol": "Joal-Fadiouth",
+    "plans": [
+     {
+      "text": "Illa de petxines de Fadiouth i graners sobre pilotis; cementiri mixt.",
+      "lloc": "Joal-Fadiouth",
+      "id": "ptc-joal-fadiouth"
+     },
+     {
+      "text": "Mercat i port de pesca de Joal a la tarda (un dels més grans del país).",
+      "lloc": "Joal",
+      "id": "ptc-joal-fadiouth"
+     },
+     {
+      "text": "Continuació fins a Palmarin.",
+      "lloc": "Palmarin",
+      "id": "sal-palmarin-reserva"
+     }
+    ],
+    "transport": "Toubab Dialaw–Joal ≈1 h 30 (taxi o sept-place via Mbour); Joal–Palmarin ≈30-45 min.",
+    "dormir": "Palmarin: Lodge des Collines de Niassam (cabanes als baobabs i sobre pilotis), King Baobab Lodge o Campement Nanaay."
+   },
+   {
+    "data": "Dt 29 des.",
+    "titol": "Palmarin i Djiffer",
+    "plans": [
+     {
+      "text": "Reserva Natural Comunitària de Palmarin: salines, manglar, ocells; caiac o bicicleta.",
+      "lloc": "Palmarin",
+      "id": "sal-palmarin-reserva"
+     },
+     {
+      "text": "Djiffer: tornada de les pirogues d'alta mar a la tarda (Moxon el considera el millor tram de la costa).",
+      "lloc": "Djiffer",
+      "id": "sal-djiffer-pescadors"
+     },
+     {
+      "text": "Posta de sol a la Pointe de Sangomar (des de Djiffer).",
+      "lloc": "Pointe de Sangomar",
+      "id": "sal-sangomar"
+     }
+    ],
+    "transport": "Palmarin–Djiffer ≈20 min.",
+    "dormir": "Mateix lodge a Palmarin."
+   },
+   {
+    "data": "Dc 30 des.",
+    "titol": "Pirogue cap a les illes del sud",
+    "plans": [
+     {
+      "text": "Pirogue Djiffer → Dionewar (illes Bétanti/Gandoul, delta sud).",
+      "lloc": "Dionewar",
+      "id": "sal-dionewar-niodior"
+     },
+     {
+      "text": "Passeig per Dionewar i, a peu o en carreta, fins a Niodior (amuntegaments de petxines, poble de l'escriptora Fatou Diome).",
+      "lloc": "Niodior",
+      "id": "sal-dionewar-niodior"
+     }
+    ],
+    "transport": "Pirogue Djiffer–Dionewar ≈45 min-1 h (pirogue col·lectiva diària o privada).",
+    "dormir": "Keur Papaye (illa de Dionewar)."
+   },
+   {
+    "data": "Dj 31 des.",
+    "titol": "Illa i Cap d'Any sense cotxes",
+    "plans": [
+     {
+      "text": "Caiac/pirogue pels bolongs i l'illa dels ocells; pesca amb els pescadors.",
+      "lloc": "Delta du Saloum",
+      "id": "sal-delta-saloum"
+     },
+     {
+      "text": "Cap d'Any a Keur Papaye: réveillon 'calme et proche de la nature' (guia de festes Au-Sénégal 2025).",
+      "lloc": "Dionewar",
+      "id": "sal-dionewar-niodior"
+     },
+     {
+      "text": "Alternativa: tornar a Palmarin per al réveillon amb música i animació del Lodge des Collines de Niassam.",
+      "lloc": "Palmarin",
+      "id": "sal-palmarin-reserva"
+     }
+    ],
+    "transport": "A peu / pirogue.",
+    "dormir": "Keur Papaye (Dionewar)."
+   },
+   {
+    "data": "Dv 1 gen.",
+    "titol": "Travessa del delta en pirogue fins a Toubacouta",
+    "plans": [
+     {
+      "text": "Pirogue llarga pels bolongs interiors (Bassoul, Djirnda) fins al bolong de Bamboung i Toubacouta.",
+      "lloc": "Bolong de Bamboung",
+      "id": "sal-toubacouta"
+     },
+     {
+      "text": "Picnic de peix a la brasa en una illa de petxines.",
+      "lloc": "Delta du Saloum",
+      "id": "sal-delta-saloum"
+     }
+    ],
+    "transport": "Pirogue privada ≈3-4 h (organitzar el dia abans amb el campement; preu per pirogue, negociar).",
+    "dormir": "Toubacouta: hotel-campement al poble o Écolodge de Keur Bamboung (cabanes a l'Àrea Marina Protegida; des de 17.000 FCFA/hab.; avís: 'en cours de rénovation')."
+   },
+   {
+    "data": "Ds 2 gen.",
+    "titol": "Àrea Marina Protegida de Bamboung i Toubacouta",
+    "plans": [
+     {
+      "text": "Caminada guiada i pirogue a l'AMP de Bamboung (entrada 2.000 FCFA); possibles dofins i, amb sort, manatís.",
+      "lloc": "Keur Bamboung",
+      "id": "sal-allot-keur-bamboung"
+     },
+     {
+      "text": "Centre d'interpretació del Delta del Saloum i poble de Toubacouta.",
+      "lloc": "Toubacouta",
+      "id": "sal-toubacouta"
+     },
+     {
+      "text": "Capvespre amb milers d'ocells tornant a dormir a l'illa dels ocells.",
+      "lloc": "Toubacouta",
+      "id": "sal-toubacouta"
+     }
+    ],
+    "transport": "Pirogue/a peu.",
+    "dormir": "Mateix allotjament a Toubacouta."
+   },
+   {
+    "data": "Dg 3 gen.",
+    "titol": "Tornada a la costa",
+    "plans": [
+     {
+      "text": "Carretera per Sokone i Fatick (o pel pont de Foundiougne, obert el 2022).",
+      "lloc": "Foundiougne",
+      "id": "sal-foundiougne"
+     },
+     {
+      "text": "Tarda a la reserva natural de Popenguine (caminada pels penya-segats).",
+      "lloc": "Popenguine",
+      "id": "ptc-popenguine"
+     }
+    ],
+    "transport": "Toubacouta–Popenguine ≈3 h 30 amb cotxe/taxi privat (≈200 km); en transport públic, sept-place Sokone → Mbour i taxi.",
+    "dormir": "Popenguine o Toubab Dialaw."
+   },
+   {
+    "data": "Dl 4 gen.",
+    "titol": "Vol",
+    "plans": [
+     {
+      "text": "Matí tranquil i cap a l'AIBD.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     }
+    ],
+    "transport": "20-30 min.",
+    "dormir": "—"
+   }
+  ],
+  "notes": [
+   "L'itinerari més coherent amb aterrar a l'AIBD (aeroport a mig camí entre Dakar i la Petite Côte).",
+   "Pirogues: confirmeu sempre el preu total abans de pujar i que porti armilles; el mar a la sortida de Djiffer pot moure's.",
+   "Keur Bamboung pot estar en obres i és difícil de contactar (comentari 2024); alternativa: allotjaments al poble de Toubacouta.",
+   "Es perd Dakar (només Gorée si afegiu un dia) i tot el nord.",
+   "Variant amb Mar Lodj: substituir Dionewar per Mar Lodj (Campement Essamaye, pirogue de 20 min des de Ndangane)."
+  ],
+  "fonts": [
+   {
+    "nom": "Bradt Guides – Coastal explorer: two weeks in Senegal",
+    "url": "https://www.bradtguides.com/coastal-explorer-two-weeks-in-senegal/"
+   },
+   {
+    "nom": "Moxon – Senegal Petite Côte journey",
+    "url": "https://www.moxon.net/journeys/senegal_petite_cote.html"
+   },
+   {
+    "nom": "Au-Sénégal – Fêtes de fin d'année : tables et menus pour Noël et le Nouvel An (des. 2025)",
+    "url": "https://www.au-senegal.com/fetes-de-fin-d-annee-au-senegal-guide-des-tables-et-menus-pour-noel-et-le-nouvel-an,17920.html"
+   },
+   {
+    "nom": "Au-Sénégal – Écolodge de Keur Bamboung",
+    "url": "https://www.au-senegal.com/ecolodge-de-keur-bamboung,720.html"
+   },
+   {
+    "nom": "Au-Sénégal – Une escapade dans les îles du Saloum (Campement Essamaye, Mar Lodj)",
+    "url": "https://www.au-senegal.com/une-escapade-dans-les-iles-du-saloum,16262.html"
+   },
+   {
+    "nom": "Au-Sénégal – Les plus beaux villages du Sénégal",
+    "url": "https://www.au-senegal.com/les-plus-beaux-villages-du-senegal-a-decouvrir,18473.html"
+   },
+   {
+    "nom": "Au-Sénégal – Les écolodges au Sénégal",
+    "url": "https://www.au-senegal.com/les-ecolodges-au-senegal-une-filiere-d-avenir,13259.html"
+   },
+   {
+    "nom": "Forum Routard – 11 jours de Dakar à Cap Skirring",
+    "url": "https://www.routard.com/forums/t/11-jours-de-dakar-a-cap-skirring/46782"
+   },
+   {
+    "nom": "Au-Sénégal – Transport maritime (horaris Aline Sitoé Diatta, Gorée)",
+    "url": "https://au-senegal.com/se-deplacer-en-ferry,106.html"
+   }
+  ]
+ },
+ {
+  "id": "casamance",
+  "nom": "Casamance: regne diola, illes de l'estuari i Festival d'Abéné",
+  "resum": "Vol curt a Ziguinchor i 6 dies a la Baixa Casamance: Oussouye i el regne diola, Mlomp i la Pointe Saint-Georges amb bicicleta, l'illa de Carabane, i Cap d'Any al Festival d'Abéné (habitualment del 26 de desembre al 2 de gener). Tornada amb el ferri nocturn Aline Sitoé Diatta.",
+  "per_a_qui": "Els més 'viatgers': la regió més verda, més cultural i més recomanada pels foros per a qui va pel seu compte; campements villageois, bicicleta, pirogues i música.",
+  "ruta": "AIBD → (vol) Ziguinchor → Oussouye → Mlomp / Pointe Saint-Georges → Elinkine → Carabane → Ziguinchor → Abéné → Kafountine → Ziguinchor → (ferri nocturn) Dakar → AIBD",
+  "transport": "Anada: vol AIBD–Ziguinchor (≈35-60 min; Air Sénégal i Transair; el forum Routard parlava de ≈200 € anada i tornada) — reserveu ja, les dates de festes s'omplen. Alternativa per carretera: sept-place Baux Maraîchers–Ziguinchor (8.000 FCFA segons Au-Sénégal, preu antic) per la Transgambienne i el pont de Farafenni: 'una jornada molt grossa' (≈8-10 h, frontera Keur Ayib–Sénoba amb mala pista, 1.000 FCFA per entrar i sortir de Gàmbia). Tornada: ferri Aline Sitoé Diatta Ziguinchor dg 3 gen. 13:00 → Dakar dl 4 ≈07:00 (cabina de 4 ≈28.900 FCFA/persona no resident; reserva a batobi.sn, només Orange Money). Allà: taxis 'brousse', 'clandos', bicicleta i pirogues; taxi privat per a 4 per als salts Ziguinchor–Abéné (≈2 h).",
+  "ritme": "moderat",
+  "km_aprox": 1100,
+  "dies": [
+   {
+    "data": "Dg 27 des.",
+    "titol": "Aterratge i Dakar",
+    "plans": [
+     {
+      "text": "Arribada a l'AIBD; si l'horari ho permet, connexió el mateix dia a Ziguinchor.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     },
+     {
+      "text": "Si no, nit a prop de l'aeroport o a Ngor.",
+      "lloc": "Ngor",
+      "id": "dkr-ile-ngor"
+     }
+    ],
+    "transport": "—",
+    "dormir": "Ngor/Yoff o Toubab Dialaw (a 20 min de l'AIBD)."
+   },
+   {
+    "data": "Dl 28 des.",
+    "titol": "Vol a Ziguinchor",
+    "plans": [
+     {
+      "text": "Vol matinal AIBD → Ziguinchor.",
+      "lloc": "Ziguinchor",
+      "id": "cas-ferri-aline-sitoe-diatta"
+     },
+     {
+      "text": "Ziguinchor: mercat Saint-Maur, port de pirogues, el riu Casamance des de la terrassa d'un hotel colonial.",
+      "lloc": "Ziguinchor",
+      "id": "cas-ferri-aline-sitoe-diatta"
+     },
+     {
+      "text": "Tarda: trasllat a Oussouye.",
+      "lloc": "Oussouye",
+      "id": "cas-oussouye"
+     }
+    ],
+    "transport": "Vol ≈35-60 min. Ziguinchor–Oussouye ≈45 min en taxi 'brousse'.",
+    "dormir": "Campement villageois d'Oussouye (cases de fang de dos pisos) o Campement La Casamance."
+   },
+   {
+    "data": "Dt 29 des.",
+    "titol": "Oussouye i el regne diola en bicicleta",
+    "plans": [
+     {
+      "text": "Lloguer de bicicleta: Edioungou (terrisseria), mercat d'Oussouye.",
+      "lloc": "Oussouye",
+      "id": "cas-oussouye"
+     },
+     {
+      "text": "Cases a impluvium de Niambalang/Enampore.",
+      "lloc": "Enampore",
+      "id": "cas-enampore"
+     },
+     {
+      "text": "Visita (respectuosa i amb guia local) a l'entorn del rei d'Oussouye si és possible.",
+      "lloc": "Oussouye",
+      "id": "cas-oussouye"
+     }
+    ],
+    "transport": "Bicicleta.",
+    "dormir": "Mateix campament a Oussouye o Campement villageois d'Enampore."
+   },
+   {
+    "data": "Dc 30 des.",
+    "titol": "Mlomp, Pointe Saint-Georges i Carabane",
+    "plans": [
+     {
+      "text": "Cases a pisos (cases à étage) de Mlomp i petit museu.",
+      "lloc": "Mlomp",
+      "id": "cas-mlomp"
+     },
+     {
+      "text": "Plataforma de Kanoufa dalt d'un fromager (25 m) i Pointe Saint-Georges, observatori de manatís.",
+      "lloc": "Pointe Saint-Georges",
+      "id": "cas-pointe-saint-georges"
+     },
+     {
+      "text": "Elinkine (port de pesca) i pirogue cap a l'illa de Carabane (≈30 min).",
+      "lloc": "Elinkine",
+      "id": "cas-elinkine-bolongs"
+     }
+    ],
+    "transport": "Oussouye–Mlomp–Elinkine ≈1 h en taxi o bici; pirogue Elinkine–Carabane ≈30 min (col·lectiva o privada).",
+    "dormir": "Carabane: campements de l'illa (sense cotxes); alternativa: Le Lamantin o Chez Clara a la Pointe Saint-Georges."
+   },
+   {
+    "data": "Dj 31 des.",
+    "titol": "Carabane → Abéné: Cap d'Any al festival",
+    "plans": [
+     {
+      "text": "Matí a Carabane: església i cementiri colonial, baobabs, manglar.",
+      "lloc": "Carabane",
+      "id": "cas-carabane"
+     },
+     {
+      "text": "Pirogue a Elinkine i cotxe fins a Abéné passant per Ziguinchor i Bignona.",
+      "lloc": "Abéné",
+      "id": "cas-festival-abene"
+     },
+     {
+      "text": "Cap d'Any al Festival d'Abéné: danses diola i mandinga, Karone i Balante, grups de països veïns; ambient de platja i concerts.",
+      "lloc": "Festival d'Abéné",
+      "id": "cas-festival-abene"
+     }
+    ],
+    "transport": "Elinkine–Ziguinchor ≈1 h 15; Ziguinchor–Abéné ≈2 h. Total ≈4 h amb la pirogue: sortiu d'hora.",
+    "dormir": "Abéné: Abéné Shudyma Lodge, Campement Les Baobabs o campements del poble (reserveu: és la setmana del festival)."
+   },
+   {
+    "data": "Dv 1 gen.",
+    "titol": "Abéné i el fromager sagrat",
+    "plans": [
+     {
+      "text": "Ressaca a la platja d'Abéné (llarga i quasi buida).",
+      "lloc": "Abéné",
+      "id": "cas-festival-abene"
+     },
+     {
+      "text": "Fromager (ceiba) gegant d'Abéné i bosc sagrat.",
+      "lloc": "Abéné",
+      "id": "cas-festival-abene"
+     },
+     {
+      "text": "Vespre: més festival.",
+      "lloc": "Festival d'Abéné",
+      "id": "cas-festival-abene"
+     }
+    ],
+    "transport": "A peu / bicicleta.",
+    "dormir": "Mateix campament a Abéné."
+   },
+   {
+    "data": "Ds 2 gen.",
+    "titol": "Kafountine: port de pesca i bolongs",
+    "plans": [
+     {
+      "text": "Port de pesca de Kafountine a la tarda (fumaderos de peix, pirogues, comerciants de tota l'Àfrica de l'Oest).",
+      "lloc": "Kafountine",
+      "id": "cas-kafountine"
+     },
+     {
+      "text": "Pirogue als bolongs i l'illa dels ocells (Kassel) o caminada a la reserva.",
+      "lloc": "Kafountine",
+      "id": "cas-kafountine"
+     },
+     {
+      "text": "Música i djembé: Kafountine és un niu de percussionistes.",
+      "lloc": "Kafountine",
+      "id": "cas-kafountine"
+     }
+    ],
+    "transport": "Abéné–Kafountine ≈15-20 min.",
+    "dormir": "Kafountine: Esperanto Lodge (entre bolong, bosc i oceà)."
+   },
+   {
+    "data": "Dg 3 gen.",
+    "titol": "Tornada a Ziguinchor i ferri nocturn",
+    "plans": [
+     {
+      "text": "Sortida d'hora cap a Ziguinchor (≈2 h 30) per agafar el ferri de les 13:00 (embarcament 11:30-13:00).",
+      "lloc": "Ziguinchor",
+      "id": "cas-ferri-aline-sitoe-diatta"
+     },
+     {
+      "text": "Ferri Aline Sitoé Diatta riu avall amb parada a Carabane (≈1 h) i sortida a l'oceà de capvespre.",
+      "lloc": "Carabane",
+      "id": "cas-carabane"
+     }
+    ],
+    "transport": "Kafountine–Ziguinchor ≈2 h 30 en taxi privat; ferri 13:00 → Dakar ≈07:00.",
+    "dormir": "Cabina de 4 (2a classe) al ferri."
+   },
+   {
+    "data": "Dl 4 gen.",
+    "titol": "Arribada a Dakar i vol",
+    "plans": [
+     {
+      "text": "Arribada al port de Dakar cap a les 7 h.",
+      "lloc": "Port de Dakar",
+      "id": "cas-kafountine"
+     },
+     {
+      "text": "Esmorzar al Plateau i, si queda temps, Gorée (chaloupe des del mateix port) abans d'anar a l'aeroport.",
+      "lloc": "Île de Gorée",
+      "id": "dkr-goree"
+     }
+    ],
+    "transport": "Port de Dakar–AIBD ≈1 h (més amb trànsit).",
+    "dormir": "—"
+   }
+  ],
+  "notes": [
+   "Dates del Festival d'Abéné 2026-27 encara no anunciades; les edicions anteriors van del 26/12 al 2/01 (31a edició 26/12/2025–02/01/2026). Confirmeu-ho abans de reservar.",
+   "El ferri de tornada arriba dl 4 cap a les 07:00 (horari publicat a Au-Sénégal i Scoot West Africa): només val si el vol surt a partir de migdia-tarda. Si no, torneu en avió Ziguinchor–Dakar dg 3 i dormiu a Dakar/Ngor.",
+   "Horaris del ferri: Dakar → Ziguinchor dt i dv a les 20:00 (arribada ≈10:00); Ziguinchor → Dakar dj i dg a les 13:00. Una altra pàgina d'Au-Sénégal dona horaris diferents: verifiqueu a batobi.sn. Les cabines de 2 i 4 s'esgoten setmanes abans.",
+   "Variant d'anada en ferri: dt 29 des. 20:00 des de Dakar (arribada dc 30 ≈10:00) i dies 27-29 a Dakar; perdeu Oussouye o Kafountine.",
+   "Variant per carretera via Gàmbia (pont de Farafenni, 07:00-19:00): permet passar per Toubacouta i el Saloum a l'anada, però suma un dia sencer de carretera i dues fronteres.",
+   "Es perd tot el nord i el Saloum. La Casamance és tranquil·la per al turisme, però consulteu les recomanacions d'Exteriors abans de marxar (zones frontereres)."
+  ],
+  "fonts": [
+   {
+    "nom": "Au-Sénégal – Comment se rendre en Casamance ?",
+    "url": "https://au-senegal.com/comment-se-rendre-en-casamance,2382.html"
+   },
+   {
+    "nom": "Au-Sénégal – Transport maritime (horaris Aline Sitoé Diatta, Gorée)",
+    "url": "https://au-senegal.com/se-deplacer-en-ferry,106.html"
+   },
+   {
+    "nom": "Scoot West Africa – Overnight ferry Dakar–Ziguinchor (actualitzat amb batobi.sn)",
+    "url": "https://scootwestafrica.com/dakar-ziguinchor-ferry/"
+   },
+   {
+    "nom": "Au-Sénégal – Festival d'Abéné (31a edició, 26/12/2025–02/01/2026)",
+    "url": "https://au-senegal.com/festival-d-abene,17672.html"
+   },
+   {
+    "nom": "Au-Sénégal – Les plus beaux villages du Sénégal",
+    "url": "https://www.au-senegal.com/les-plus-beaux-villages-du-senegal-a-decouvrir,18473.html"
+   },
+   {
+    "nom": "Au-Sénégal – La Casamance",
+    "url": "https://www.au-senegal.com/la-casamance,026.html"
+   },
+   {
+    "nom": "Au-Sénégal – Vacances en Casamance 2026 (hotels oberts, batobi.sn)",
+    "url": "https://www.au-senegal.com/vacances-d-ete-en-casamance-les-hotels-ouverts-les-activites-et-les-evenements-a-ne-pas-manquer-en,18509.html"
+   },
+   {
+    "nom": "Forum Routard – 11 jours de Dakar à Cap Skirring",
+    "url": "https://www.routard.com/forums/t/11-jours-de-dakar-a-cap-skirring/46782"
+   },
+   {
+    "nom": "Forum Routard – 9 jours au Sénégal",
+    "url": "https://www.routard.com/forums/t/9-jours-au-senegal/195699"
+   },
+   {
+    "nom": "Forum Routard – Itinéraire 15 jours Sénégal",
+    "url": "https://www.routard.com/forums/t/itineraire-15-jours-senegal/198101"
+   },
+   {
+    "nom": "The Pilot Who Explores – Senegal & The Gambia 2-week itinerary",
+    "url": "https://thepilotwhoexplores.com/senegal-the-gambia-the-ultimate-2-week-itinerary-2022"
+   },
+   {
+    "nom": "Scoot West Africa – Senegal, Gambia & Casamance 8 days",
+    "url": "https://scootwestafrica.com/one-week-tour-senegal-gambia-casamance/"
+   },
+   {
+    "nom": "Au-Sénégal – Les écolodges au Sénégal",
+    "url": "https://www.au-senegal.com/les-ecolodges-au-senegal-une-filiere-d-avenir,13259.html"
+   }
+  ]
+ },
+ {
+  "id": "fora-circuits",
+  "nom": "Fora dels circuits: Thiès, Touba, Kaolack i el Saloum interior",
+  "resum": "El Senegal de l'interior que gairebé cap turista veu: Thiès i els seus tapissos, la ciutat santa mouride de Touba, el gran mercat de Kaolack i les salines, i després el Saloum interior i el sud del delta (Djilor, Foundiougne, Toubacouta, Missirah i el bosc de Fathala) amb pirogues de poble. Cap d'Any en un lodge del delta.",
+  "per_a_qui": "Grup curiós que prioritza mercats, vida quotidiana i religió popular abans que platges; accepten menys comoditats i transport públic.",
+  "ruta": "AIBD → Thiès → Touba → Kaolack → Foundiougne → Djilor → Toubacouta / Missirah → (pirogue) illes de Bétenti → Popenguine → AIBD",
+  "transport": "Perfecte per a transport públic: sept-place Thiès–Touba, Touba–Kaolack, Kaolack–Foundiougne són trajectes curts i freqüents (Kaolack és el gran nus de transport del país). Comprar les 7 places si voleu sortir sense esperar. Cotxe amb xofer opcional (≈110-150 €/dia per al grup, tot inclòs).",
+  "ritme": "moderat",
+  "km_aprox": 700,
+  "dies": [
+   {
+    "data": "Dg 27 des.",
+    "titol": "AIBD → Thiès",
+    "plans": [
+     {
+      "text": "Arribada i trasllat a Thiès, la 'ciutat del rail'.",
+      "lloc": "Thiès",
+      "id": "vlt-thies-tapisseries"
+     },
+     {
+      "text": "Passeig per l'antiga estació i el mercat central.",
+      "lloc": "Thiès",
+      "id": "vlt-thies-tapisseries"
+     }
+    ],
+    "transport": "AIBD–Thiès ≈40 min.",
+    "dormir": "Thiès: hotel senzill del centre (p. ex. Hôtel Rex, citat al forum Routard; comproveu-ne l'estat)."
+   },
+   {
+    "data": "Dl 28 des.",
+    "titol": "Thiès: tapissos i Touba",
+    "plans": [
+     {
+      "text": "Manufactures Sénégalaises des Arts Décoratifs (tapissos tissats a mà).",
+      "lloc": "Thiès",
+      "id": "vlt-thies-tapisseries"
+     },
+     {
+      "text": "Sept-place cap a Touba: Gran Mesquita (vestits llargs, dones amb mocador; guia oficial a l'entrada).",
+      "lloc": "Touba",
+      "id": "nord-touba"
+     },
+     {
+      "text": "Mercat Ocass de Touba, un dels més grans del país.",
+      "lloc": "Touba",
+      "id": "nord-touba"
+     }
+    ],
+    "transport": "Thiès–Touba ≈2 h (autopista Ila Touba).",
+    "dormir": "Touba és ciutat santa (sense alcohol ni tabac): dormiu a Mbacké, a tocar, en auberge senzilla."
+   },
+   {
+    "data": "Dt 29 des.",
+    "titol": "Kaolack: mercat i salines",
+    "plans": [
+     {
+      "text": "Sept-place Mbacké → Kaolack.",
+      "lloc": "Kaolack",
+      "id": "sal-kaolack"
+     },
+     {
+      "text": "Gran mercat de Kaolack (un dels més grans de l'Àfrica de l'Oest) i gran mesquita de Médina Baye.",
+      "lloc": "Kaolack",
+      "id": "sal-kaolack"
+     },
+     {
+      "text": "Salines de Kaolack a la tarda (muntanyes de sal i treballadores).",
+      "lloc": "Kaolack",
+      "id": "sal-kaolack"
+     }
+    ],
+    "transport": "Mbacké–Kaolack ≈2 h.",
+    "dormir": "Kaolack: Hôtel Le Saloum (citat al Routard) o similar."
+   },
+   {
+    "data": "Dc 30 des.",
+    "titol": "Foundiougne i Djilor, el Saloum interior",
+    "plans": [
+     {
+      "text": "Kaolack → Foundiougne pel pont nou (2022).",
+      "lloc": "Foundiougne",
+      "id": "sal-foundiougne"
+     },
+     {
+      "text": "Djilor: poble natal de Senghor, museu Mahicao, baobabs i bolongs.",
+      "lloc": "Djilor",
+      "id": "sal-mahicao-djilor"
+     },
+     {
+      "text": "Pirogue al capvespre pel Saloum.",
+      "lloc": "Djilor",
+      "id": "sal-mahicao-djilor"
+     }
+    ],
+    "transport": "Kaolack–Foundiougne ≈1 h; Foundiougne–Djilor ≈30 min.",
+    "dormir": "Djilor: La Source aux Lamantins, Fagapa Lodge o Mbind Chana."
+   },
+   {
+    "data": "Dj 31 des.",
+    "titol": "Cap a Toubacouta i Cap d'Any al delta",
+    "plans": [
+     {
+      "text": "Ruta Djilor → Sokone → Toubacouta; mercat de Sokone.",
+      "lloc": "Sokone",
+      "id": null
+     },
+     {
+      "text": "Toubacouta: passeig pel poble i el bolong.",
+      "lloc": "Toubacouta",
+      "id": "sal-toubacouta"
+     },
+     {
+      "text": "Cap d'Any: sopar al lodge i música; o festa al poble amb els joves (Cap d'Any se celebra molt als barris).",
+      "lloc": "Toubacouta",
+      "id": "sal-toubacouta"
+     }
+    ],
+    "transport": "Djilor–Toubacouta ≈1 h 30.",
+    "dormir": "Toubacouta: hotels-campements del poble o Écolodge de Keur Bamboung (comproveu si ha reobert)."
+   },
+   {
+    "data": "Dv 1 gen.",
+    "titol": "Illes de Bétenti en pirogue",
+    "plans": [
+     {
+      "text": "Pirogue de poble cap a les illes de Bétenti i Sipo (pobles niominka, pescadors).",
+      "lloc": "Bétenti",
+      "id": "otb-bas-saloum-illes"
+     },
+     {
+      "text": "Bany en un banc de sorra i dinar de peix al poble.",
+      "lloc": "Bétenti",
+      "id": "otb-bas-saloum-illes"
+     }
+    ],
+    "transport": "Pirogue des de Toubacouta o Missirah, ≈1-2 h cada sentit (negociar).",
+    "dormir": "Missirah: Gîte de Bandiala (a tocar del bosc de Fathala) o tornar a Toubacouta."
+   },
+   {
+    "data": "Ds 2 gen.",
+    "titol": "Missirah: fromager gegant i bosc de Fathala",
+    "plans": [
+     {
+      "text": "El fromager gegant de Missirah i el port de pesca.",
+      "lloc": "Missirah",
+      "id": null
+     },
+     {
+      "text": "Caminada guiada pel bosc de Fathala (Parc Nacional del Delta del Saloum): micos verds, colobus vermells.",
+      "lloc": "Forêt de Fathala",
+      "id": "sal-fathala"
+     },
+     {
+      "text": "Opcional: AMP de Bamboung.",
+      "lloc": "Keur Bamboung",
+      "id": "sal-allot-keur-bamboung"
+     }
+    ],
+    "transport": "Local.",
+    "dormir": "Mateix allotjament."
+   },
+   {
+    "data": "Dg 3 gen.",
+    "titol": "Tornada cap a la costa",
+    "plans": [
+     {
+      "text": "Carretera per Sokone–Fatick–Mbour; parada al 'baobab sagrat' i mercats de carretera.",
+      "lloc": "Fatick",
+      "id": null
+     },
+     {
+      "text": "Capvespre a Popenguine.",
+      "lloc": "Popenguine",
+      "id": "ptc-popenguine"
+     }
+    ],
+    "transport": "Missirah–Popenguine ≈4 h.",
+    "dormir": "Popenguine o Toubab Dialaw."
+   },
+   {
+    "data": "Dl 4 gen.",
+    "titol": "Vol",
+    "plans": [
+     {
+      "text": "Matí tranquil i a l'AIBD.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     }
+    ],
+    "transport": "20-30 min.",
+    "dormir": "—"
+   }
+  ],
+  "notes": [
+   "Loumas (mercats setmanals rurals): cada poble té el seu dia; pregunteu als campements del Saloum quin louma cau aquells dies a prop (Sokone, Passy, Ndiosmone...). El de Diaobé (dimecres) és el més famós però queda massa a l'est.",
+   "A Touba: vestimenta llarga, sense alcohol ni tabac; les dones han de cobrir-se el cap i les cames.",
+   "Molts allotjaments de l'interior no tenen web: cal trucar o escriure per WhatsApp.",
+   "Es perd la platja (fins a l'últim dia), el nord i la Casamance.",
+   "Alternativa per a Cap d'Any: anar el 31 a Palmarin (Lodge des Collines de Niassam fa réveillon amb música) i invertir l'ordre (Toubacouta abans)."
+  ],
+  "fonts": [
+   {
+    "nom": "Au-Sénégal – Les plus beaux villages du Sénégal",
+    "url": "https://www.au-senegal.com/les-plus-beaux-villages-du-senegal-a-decouvrir,18473.html"
+   },
+   {
+    "nom": "Au-Sénégal – Écolodge de Keur Bamboung",
+    "url": "https://www.au-senegal.com/ecolodge-de-keur-bamboung,720.html"
+   },
+   {
+    "nom": "Forum Routard – Road trip de 10 jours au Sénégal",
+    "url": "https://www.routard.com/forums/t/conseils-pour-un-road-trip-de-10-jours-au-senegal/28580"
+   },
+   {
+    "nom": "Forum Routard – Conseils pour organiser un voyage au Sénégal (2026)",
+    "url": "https://www.routard.com/forums/t/conseils-pour-organiser-un-voyage-au-senegal/483824"
+   },
+   {
+    "nom": "Forum Routard – Itinéraire 15 jours Sénégal",
+    "url": "https://www.routard.com/forums/t/itineraire-15-jours-senegal/198101"
+   },
+   {
+    "nom": "Au-Sénégal – Fêtes de fin d'année : tables et menus pour Noël et le Nouvel An (des. 2025)",
+    "url": "https://www.au-senegal.com/fetes-de-fin-d-annee-au-senegal-guide-des-tables-et-menus-pour-noel-et-le-nouvel-an,17920.html"
+   },
+   {
+    "nom": "Au-Sénégal – Transport maritime (horaris Aline Sitoé Diatta, Gorée)",
+    "url": "https://au-senegal.com/se-deplacer-en-ferry,106.html"
+   }
+  ]
+ },
+ {
+  "id": "base-dakar",
+  "nom": "Base a Dakar: la ciutat a fons i excursions d'un dia",
+  "resum": "Allotjament fix (illa de Ngor o Yoff) i cada dia una cosa: Gorée, mercats i museus, el port de Kayar i el Lac Rose, l'illa de la Madeleine, Toubab Dialaw i Popenguine, i un dia llarg a Joal-Fadiouth. Cap d'Any a la Dakar festiva.",
+  "per_a_qui": "Si prefereixen no fer maletes cada dia, volen vida urbana, música en directe, surf i un Cap d'Any amb festa gran.",
+  "ruta": "AIBD → Dakar (Ngor/Yoff) amb excursions: Gorée, Kayar–Lac Rose, Madeleine, Toubab Dialaw–Popenguine, Joal-Fadiouth → AIBD",
+  "transport": "Taxis negociats per la ciutat (Yango/Heetch també funcionen a Dakar), BRT i TER; per a les excursions, taxi o cotxe amb xofer per dia (≈50.000-70.000 FCFA/dia per a 4, combustible inclòs, orientatiu). Gorée: chaloupe des del port (5.200 FCFA no residents). Ngor: pirogue 1.000 FCFA.",
+  "ritme": "tranquil",
+  "km_aprox": 550,
+  "dies": [
+   {
+    "data": "Dg 27 des.",
+    "titol": "Arribada i illa de Ngor",
+    "plans": [
+     {
+      "text": "AIBD → Ngor; pirogue a l'illa.",
+      "lloc": "Île de Ngor",
+      "id": "dkr-ile-ngor"
+     },
+     {
+      "text": "Posta de sol a la Pointe des Almadies.",
+      "lloc": "Pointe des Almadies",
+      "id": "dkr-pointe-almadies"
+     }
+    ],
+    "transport": "AIBD–Ngor 45-60 min.",
+    "dormir": "Illa de Ngor (cases d'hostes petites, sense cotxes) o Via Via Dakar a Yoff."
+   },
+   {
+    "data": "Dl 28 des.",
+    "titol": "Plateau, mercats i museus",
+    "plans": [
+     {
+      "text": "Mercats Kermel i Sandaga; teixits a HLM.",
+      "lloc": "Marché Kermel",
+      "id": "dkr-sandaga-kermel"
+     },
+     {
+      "text": "IFAN (Musée Théodore Monod) i Museu de les Civilisacions Negres.",
+      "lloc": "Musée des Civilisations noires",
+      "id": "dkr-mcn"
+     },
+     {
+      "text": "Soumbédioune al vespre (pirogues i peix a la brasa) i artesania.",
+      "lloc": "Soumbédioune",
+      "id": "dkr-soumbedioune"
+     }
+    ],
+    "transport": "Taxis.",
+    "dormir": "Ngor/Yoff."
+   },
+   {
+    "data": "Dt 29 des.",
+    "titol": "Gorée i Ouakam",
+    "plans": [
+     {
+      "text": "Gorée al matí (abans dels grups).",
+      "lloc": "Île de Gorée",
+      "id": "dkr-goree"
+     },
+     {
+      "text": "Ouakam: mesquita de la Divinitat i Monument de la Renaixença Africana (des de baix).",
+      "lloc": "Ouakam",
+      "id": "dkr-mosquee-divinite"
+     },
+     {
+      "text": "Concert a la nit (mbalax en directe en algun club de Dakar).",
+      "lloc": "Dakar",
+      "id": null
+     }
+    ],
+    "transport": "Chaloupe 20-25 min.",
+    "dormir": "Ngor/Yoff."
+   },
+   {
+    "data": "Dc 30 des.",
+    "titol": "Kayar i Lac Rose",
+    "plans": [
+     {
+      "text": "Kayar a primera hora: pirogues i mercat de peix.",
+      "lloc": "Kayar",
+      "id": "vlt-kayar"
+     },
+     {
+      "text": "Lac Rose: recol·lectors de sal i dunes.",
+      "lloc": "Lac Rose",
+      "id": "vlt-lac-rose"
+     },
+     {
+      "text": "Tornada pel poble lebou de Yoff i la seva platja.",
+      "lloc": "Yoff",
+      "id": "dkr-yoff-lebou"
+     }
+    ],
+    "transport": "Dakar–Kayar ≈1 h; Kayar–Lac Rose ≈45 min.",
+    "dormir": "Ngor/Yoff."
+   },
+   {
+    "data": "Dj 31 des.",
+    "titol": "Surf, Yoff i Cap d'Any a Dakar",
+    "plans": [
+     {
+      "text": "Classe de surf a Ngor o Yoff.",
+      "lloc": "Ngor",
+      "id": "dkr-ile-ngor"
+     },
+     {
+      "text": "Mausoleu layène de Yoff i platja dels pescadors.",
+      "lloc": "Yoff",
+      "id": "dkr-yoff-lebou"
+     },
+     {
+      "text": "Cap d'Any: festes a les platges i clubs d'Almadies/Ngor, o els grans réveillons d'hotel (Pullman Teranga amb Viviane Chidid, Novotel amb Elage Diouf, Terrou-Bi, segons la guia d'Au-Sénégal 2025).",
+      "lloc": "Almadies",
+      "id": "dkr-pointe-almadies"
+     }
+    ],
+    "transport": "Taxis (tarifes de Cap d'Any més altes; pacteu la tornada).",
+    "dormir": "Ngor/Yoff."
+   },
+   {
+    "data": "Dv 1 gen.",
+    "titol": "Illa de la Madeleine",
+    "plans": [
+     {
+      "text": "Parc Nacional de les Illes de la Madeleine: baobabs nans, ocells marins, snorkel (sortides amb pirogue des de la platja de Soumbédioune / Anse Bernard, segons condicions del mar).",
+      "lloc": "Îles de la Madeleine",
+      "id": "dkr-iles-madeleine"
+     },
+     {
+      "text": "Tarda tranquil·la de recuperació.",
+      "lloc": "Dakar",
+      "id": null
+     }
+    ],
+    "transport": "Pirogue ≈20 min (confirmeu si opera l'1 de gener).",
+    "dormir": "Ngor/Yoff."
+   },
+   {
+    "data": "Ds 2 gen.",
+    "titol": "Toubab Dialaw i Popenguine",
+    "plans": [
+     {
+      "text": "Caminada pels penya-segats de la reserva natural de Popenguine.",
+      "lloc": "Popenguine",
+      "id": "ptc-popenguine"
+     },
+     {
+      "text": "Toubab Dialaw: Sobo Badè i bars de platja.",
+      "lloc": "Toubab Dialaw",
+      "id": "ptc-toubab-dialaw"
+     }
+    ],
+    "transport": "Dakar–Popenguine ≈1 h 30.",
+    "dormir": "Ngor/Yoff (o última nit a Toubab Dialaw, més a prop de l'AIBD)."
+   },
+   {
+    "data": "Dg 3 gen.",
+    "titol": "Excursió llarga a Joal-Fadiouth",
+    "plans": [
+     {
+      "text": "Joal-Fadiouth: illa de petxines i graners.",
+      "lloc": "Joal-Fadiouth",
+      "id": "ptc-joal-fadiouth"
+     },
+     {
+      "text": "Mercat de peix de Mbour a la tornada (tarda).",
+      "lloc": "Mbour",
+      "id": "ptc-mbour-peix"
+     }
+    ],
+    "transport": "Dakar–Joal ≈2 h-2 h 30 cada sentit.",
+    "dormir": "Ngor/Yoff o Toubab Dialaw."
+   },
+   {
+    "data": "Dl 4 gen.",
+    "titol": "Vol",
+    "plans": [
+     {
+      "text": "Últim esmorzar i AIBD.",
+      "lloc": "Aeroport AIBD",
+      "id": "vlt-ter-diamniadio"
+     }
+    ],
+    "transport": "45-60 min des de Dakar; 20-30 min des de Toubab Dialaw.",
+    "dormir": "—"
+   }
+  ],
+  "notes": [
+   "L'opció més còmoda però la menys 'natura': només hi ha manglars i illes salvatges si afegiu una nit al Saloum (p. ex. dg 3 a Palmarin).",
+   "Lac Rose: el Routard i altres viatgers el troben decebedor; feu-lo combinat amb Kayar.",
+   "Variant: canviar un dia per Saint-Louis amb nit (Dakar–Saint-Louis ≈4-5 h; massa per anar i tornar en un dia, com adverteix Pilot Who Explores).",
+   "Comproveu si el TER ja arriba a l'AIBD el desembre de 2026 (projecte en curs)."
+  ],
+  "fonts": [
+   {
+    "nom": "The Pilot Who Explores – Senegal & The Gambia 2-week itinerary",
+    "url": "https://thepilotwhoexplores.com/senegal-the-gambia-the-ultimate-2-week-itinerary-2022"
+   },
+   {
+    "nom": "Au-Sénégal – Fêtes de fin d'année : tables et menus pour Noël et le Nouvel An (des. 2025)",
+    "url": "https://www.au-senegal.com/fetes-de-fin-d-annee-au-senegal-guide-des-tables-et-menus-pour-noel-et-le-nouvel-an,17920.html"
+   },
+   {
+    "nom": "Forum Routard – Itinéraire 12 jours au Sénégal",
+    "url": "https://www.routard.com/forums/t/itineraire-12-jours-au-senegal/120963"
+   },
+   {
+    "nom": "Forum Routard – 9 jours au Sénégal",
+    "url": "https://www.routard.com/forums/t/9-jours-au-senegal/195699"
+   },
+   {
+    "nom": "Forum Routard – Conseils pour organiser un voyage au Sénégal (2026)",
+    "url": "https://www.routard.com/forums/t/conseils-pour-organiser-un-voyage-au-senegal/483824"
+   },
+   {
+    "nom": "Bradt Guides – Coastal explorer: two weeks in Senegal",
+    "url": "https://www.bradtguides.com/coastal-explorer-two-weeks-in-senegal/"
+   },
+   {
+    "nom": "Au-Sénégal – Transport maritime (horaris Aline Sitoé Diatta, Gorée)",
+    "url": "https://au-senegal.com/se-deplacer-en-ferry,106.html"
+   }
+  ]
+ }
+]

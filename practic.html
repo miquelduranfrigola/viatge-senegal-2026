@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informació pràctica · Senegal 2026</title>
+<meta name="description" content="Visat, salut, diners, transport, seguretat, pressupost, calendari i wolof bàsic per al viatge al Senegal.">
+<meta name="theme-color" content="#9A4A1C">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400,0..1,0&display=block" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="practic">
+<main>
+
+<div class="container page-hero">
+  <span class="label">Pràctic</span>
+  <h1>Informació pràctica</h1>
+  <p class="lead">Tot el que cal tenir resolt abans d'aterrar a l'AIBD. <strong>Verifiqueu sempre els requisits d'entrada i sanitaris a les fonts oficials abans de marxar.</strong></p>
+  <div class="toc" id="toc"></div>
+</div>
+<div class="container">
+  <div class="callout"><strong><span class="msym">partly_cloudy_day</span> El temps a finals de desembre</strong><p id="clima"></p></div>
+  <div class="info-grid" id="seccions"></div>
+</div>
+<section class="section container" id="calendari" style="scroll-margin-top:80px">
+  <h2>Calendari dels nostres dies</h2>
+  <div class="table-wrap"><table class="tbl"><tbody id="cal"></tbody></table></div>
+</section>
+<section class="container" id="pressupost" style="scroll-margin-top:80px">
+  <h2>Pressupost orientatiu</h2>
+  <p class="muted">1 € = 655,957 FCFA (canvi fix). Preus aproximats recollits de fonts recents; poden variar.</p>
+  <div class="table-wrap"><table class="tbl"><thead><tr><th>Concepte</th><th>Preu aprox.</th></tr></thead><tbody id="budget"></tbody></table></div>
+</section>
+<section class="section container" id="plats" style="scroll-margin-top:80px">
+  <h2>Què menjar i beure</h2>
+  <div class="items" id="plats-grid"></div>
+</section>
+<section class="container" id="wolof" style="scroll-margin-top:80px">
+  <h2>Wolof bàsic</h2>
+  <p class="lead">El francès és la llengua oficial, però unes paraules de wolof obren totes les portes.</p>
+  <div class="phrase-grid" id="wolof-grid"></div>
+</section>
+</main>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
