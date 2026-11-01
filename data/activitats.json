@@ -12,6 +12,7 @@
   "resum": "A vint minuts de ferri, carrers de sorra, buguenvíl·lees i sense cotxes: el lloc de memòria més potent del Senegal, Patrimoni de la UNESCO des de 1978.",
   "descripcio": "Gorée és una petita illa davant del port de Dakar on no circulen cotxes i on les cases colonials de colors ocre i grana s'amaguen darrere de buguenvíl·lees. Va ser un enclavament comercial europeu durant segles i avui és el gran símbol de la memòria del tràfic d'esclaus a l'Àfrica occidental; la UNESCO la va declarar Patrimoni Mundial el 1978.\n\nEl recorregut clàssic combina la Maison des Esclaves, el Museu Històric del Senegal (al Fort d'Estrées, a l'extrem nord) i la pujada al Castel, el turó del sud amb búnquers, canons i el Memorial Gorée-Almadies, des d'on hi ha la millor vista de Dakar. Entremig, places tranquil·les, artistes que pinten amb sorra i una platjeta just al costat del moll on la gent local es banya.\n\nCal comptar dues o tres hores per veure-ho tot, però val la pena quedar-s'hi fins a la tarda i dinar en algun dels restaurants del moll: quan marxen els grups, l'illa canvia completament de ritme.\n\nAvís honest: és el lloc més turístic de Dakar; al moll us abordaran guies i venedors. Un «non merci» amable i seguir caminant funciona.",
   "consells": [
+   "Actualització (Routard/LP): Consell del Routard (comunitat): agafeu el primer ferri (7.30-8.00) per evitar els grups i rebutgeu els guies autoproclamats del moll. Wikivoyage (fr): els museus de l'illa tanquen els dilluns. La LP indicava ferris cada ~90 min de 7.30 a 22.30, amb més freqüència els diumenges",
    "Porteu el passaport: el demanen per entrar a la terminal marítima del port de Dakar.",
    "Els bitllets del ferri no es reserven: es compren a taquilla i s'embarca per ordre d'arribada. Els caps de setmana i festius aneu-hi d'hora.",
    "A més del bitllet, cal pagar una taxa municipal de 500 FCFA per persona en una finestreta a part.",
@@ -42,6 +43,10 @@
    {
     "nom": "Lonely Planet – Île de Gorée day trip",
     "url": "https://www.lonelyplanet.com/articles/ile-de-goree-day-trip-dakar"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/dakar"
    }
   ],
   "pel_teu_compte": "Taxi o BRT fins al port, bitllet de ferri a taquilla i guia contractat al moll només si en voleu (negociat).",
@@ -126,6 +131,7 @@
   "resum": "Dos extrems de l'illa: el fort circular que explica la història del país i el turó del Castel, amb canons, el memorial i la millor vista de Dakar.",
   "descripcio": "A l'extrem nord de Gorée, el Fort d'Estrées, un fort circular del segle XIX, acull des de 1989 el Museu Històric del Senegal, gestionat per l'IFAN. Una desena de sales segueixen un recorregut cronològic: prehistòria, grans imperis sahelians, tràfic d'esclaus, colonització i independència. És la millor classe d'història ràpida que trobareu al país.\n\nAl sud, el Castel és el punt més alt de l'illa: un altiplà amb restes de fortificacions, canons enormes de la Segona Guerra Mundial i el Memorial Gorée-Almadies. Hi viuen alguns artistes i des de dalt es veu tot el skyline de Dakar i el Monument de la Renaissance. Hi ha un camí costerut però curt des del poble.",
   "consells": [
+   "Actualització (Routard/LP): Wikivoyage (fr): els museus de Gorée tanquen els dilluns; eviteu planificar la visita en dilluns",
    "Museu: de dimarts a diumenge, 10.30-16.30 (horari d'au-senegal, a confirmar).",
    "Pugeu al Castel a última hora de la tarda per la llum sobre Dakar, però vigileu l'horari de l'últim ferri.",
    "Al Castel us oferiran quadres de sorra; negocieu sense pressa."
@@ -150,6 +156,10 @@
    {
     "nom": "Routard – Fort d'Estrées",
     "url": "https://www.routard.com/guide_voyage_lieu/20923-fort_d_estrees_(musee_historique_du_senegal).htm"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
    }
   ],
   "pel_teu_compte": "A peu des del moll: 10 minuts al Fort d'Estrées i 15 de pujada al Castel.",
@@ -775,6 +785,7 @@
   "resum": "Pirogues pintades, pescadors al capvespre i el mausoleu blanc dels Layène sobre la sorra: el Dakar lebou que resisteix.",
   "descripcio": "Yoff és un antic poble lebou (el poble pescador originari de la península del Cap Vert) engolit per la ciutat, prop de l'antic aeroport. La platja és un dels grans centres de pesca artesanal: centenars de pirogues de colors, descàrregues de peix a última hora del dia i una activitat frenètica.\n\nAl barri de Yoff Layène, damunt la sorra, hi ha el mausoleu blanc de Seydina Limamou Laye, fundador de la confraria sufí Layène. Durant l'«Appel» anual, milers de fidels s'hi reuneixen. Yoff manté institucions tradicionals pròpies, i les cerimònies tenen lloc a la platja i a l'illot de Teuguene, al davant.",
   "consells": [
+   "Actualització (Routard/LP): Wikivoyage (fr): la platja de Yoff és molt concorreguda pels kitesurfistes de desembre a març, però no s'hi recomana el bany (corrents i risc de taurons)",
    "No és platja de bany: corrents perillosos (ho adverteix au-senegal).",
    "Al mausoleu, roba discreta i descalçar-se on se us indiqui; demaneu permís abans de fer fotos.",
    "Millor anar-hi amb algú del barri o un guia local per entendre el funcionament del poble.",
@@ -804,6 +815,10 @@
    {
     "nom": "Wikivoyage – Dakar",
     "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
    }
   ],
   "autentic": true,
@@ -1968,6 +1983,7 @@
   "resum": "El llac salat que va fer famós el París-Dakar: aigua rosada (quan vol), muntanyes de sal, pirogues i dunes fins a l'Atlàntic.",
   "descripcio": "A uns 35 km al nord-est de Dakar, el Lac Retba és una llacuna d'uns 5 km de llarg i 800 m d'ample, separada de l'oceà per un cordó de dunes amb filaos. La salinitat és altíssima i el color rosat el donen microorganismes que hi prosperen, sobretot l'alga Dunaliella salina. El to canvia amb la llum i el temps: amb cel ben clar i sol fort el contrast és més espectacular; amb núvols pot semblar gairebé marronós.\n\nL'activitat estrella és creuar el llac en pirogua per veure els recol·lectors de sal treballant amb l'aigua al pit (s'unten amb mantega de karité per protegir la pell) i els munts blancs a la vora. Després, el clàssic és pujar a les dunes en quad, 4x4 o buggy fins a la platja de la Grande Côte; també hi ha passejades a cavall, en camell o en BTT, i es pot surar a l'aigua com al Mar Mort.\n\nAvís important: el 2022 l'Estat hi va abocar aigua de les inundacions de Dakar, el nivell va pujar de 2,5 a 6 m i el llac va perdre el color, i la collita de sal es va desplomar. Segons Le Soleil (maig 2025) el rosa ha tornat, però el color no està mai garantit: depèn de la sal, la calor i la pluja de l'estació humida anterior.\n\nAvís honest: és el lloc més turístic dels voltants de Dakar. A les hores punta i els caps de setmana hi ha autocars, ganxos i venedors de souvenirs; anar-hi d'hora o entre setmana i allunyar-se de la zona dels campaments millora molt l'experiència.",
   "consells": [
+   "Actualització (Routard/LP): Routard (fitxes de Dakar i M'Boro): el llac va perdre el color rosa després de les inundacions del 2022; el color torna a poc a poc però no està garantit. Viatgers del fòrum (2023) també ho confirmen. Comproveu-ne l'estat abans de pagar una excursió",
    "Pel vostre compte: bus 61 des del rond-point des Mamelles fins a Keur Massar i allà el Tata 73 o el Dem Dikk 311 fins al llac (menys de 1.000 FCFA, segons comentaris no datats). En taxi, negocieu l'anada i tornada amb espera (un viatger va pagar 7.000 FCFA; avui compteu més).",
    "No pagueu cap 'excursió' per avançat als ganxos que us aborden a l'arribada: aneu directament a la riba i pacteu la pirogua amb un salinaire.",
    "Per tenir més opcions de veure'l rosa, ves-hi a migdia amb sol fort i cel clar; el desembre-gener és estació seca, cosa que hi ajuda.",
@@ -1998,6 +2014,10 @@
    {
     "nom": "Synonyme-du-mot: comment visiter le Lac Rose",
     "url": "https://www.synonyme-du-mot.com/les-articles/comment-visiter-lac-rose"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/m-boro"
    }
   ],
   "pel_teu_compte": "Bus 61 fins a Keur Massar i després el Tata 73 o el Dem Dikk 311 fins al llac (aprox. 1.000 FCFA en total), o taxi negociat; la pirogua es pacta amb els salinaires a la vora.",
@@ -2248,6 +2268,7 @@
   "resum": "Tapissos monumentals teixits a mà al punt d'Aubusson, un llegat de Senghor, i la ciutat que va créixer al voltant del tren.",
   "descripcio": "Les Manufactures Sénégalaises des Arts Décoratifs (MSAD) de Thiès van néixer sota Senghor per teixir tapissos d'art inspirats en pintors senegalesos. Encara avui s'hi pot veure els lliçers treballant als telers sobre cartrons de colors, i les peces s'exposen en una galeria en rotonda. Són obres de luxe (un article parla d'uns 500.000 FCFA el m² subvencionat i peces de més d'un milió), però també hi ha catifes, batiks i ceràmica més assequibles.\n\nAprofiteu per veure la ciutat: el fort Faidherbe (1864), avui museu regional amb ceràmica, eines i instruments tradicionals; la gara i el museu del ferrocarril, amb locomotores antigues; i el mercat central. Thiès és a uns 70 km de Dakar per autopista.",
   "consells": [
+   "Actualització (Routard/LP): El Routard hi afegeix el Musée régional de Thiès (en un antic fort militar, obert el 1995, amb una sala sobre el ferrocarril Dakar-Níger) i el mercat central Kër Mame El Hadj",
    "Pel vostre compte: els sept-places cap a Thiès surten de la gare des Baux Maraîchers (Pikine) quan s'omplen; pagueu també el seient buit si teniu pressa.",
    "Les MSAD obren de dilluns a divendres (8-13 h i 14:30-17 h): els dies útils del viatge són 28, 29, 30 i 31 de desembre i 4 de gener. L'1 de gener és festiu.",
    "Truqueu abans: +221 33 951 08 62 o +221 77 333 32 07; els horaris i preus de les fonts poden estar desfasats.",
@@ -2277,6 +2298,10 @@
    {
     "nom": "Dakaractu",
     "url": "https://www.dakaractu.com/Senegal-le-nouveau-souffle-des-manufactures-de-Thies-fleuron-culturel-de-Senghor_a247804.html"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/thies"
    }
   ],
   "autentic": true,
@@ -3236,6 +3261,7 @@
   "resum": "Caos colorit i olorós: pirogues que arriben carregades, peixateres i subhastes a peu de platja.",
   "descripcio": "Mbour és la ciutat de la Petite Côte, a uns 80 km de Dakar, i el seu quai de pêche és el segon port del país en volum de captures després de Joal. Té zona de desembarcament, cambres frigorífiques, mercat i un gran aparcament de camions frigorífics.\n\nL'espectacle és a la platja quan arriben les pirogues: Wikivoyage recomana venir a última hora de la tarda, quan tornen les barques i la sorra s'omple de compradors, carretes, caixes de gel i dones que netegen i fumen el peix. Altres guies recomanen l'alba, per a les subhastes del peix fresc. Les dues franges valen la pena; el capvespre té, a més, la posta de sol sobre les pirogues.",
   "consells": [
+   "Actualització (Routard/LP): El Routard situa el retorn de les pirogues cap a les 17 h (entre les 16 i les 18 h); és el moment d'anar-hi",
    "Pel vostre compte: no calen guies; si en voleu un, contracteu un noi del barri al moment i acordeu la propina abans.",
    "Demaneu permís abans de fer retrats; és un lloc de treball.",
    "Calçat tancat que es pugui embrutar i res de valor a la vista entre la multitud.",
@@ -3266,6 +3292,10 @@
    {
     "nom": "Senego: prix des billets de transport",
     "url": "https://senego.com/services/prix-billets-transport"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/mbour"
    }
   ],
   "autentic": true,
@@ -3369,6 +3399,7 @@
   "resum": "Un poble sobre una illa feta de petxines, unit per un pont de fusta, amb un cementiri on reposen cristians i musulmans.",
   "descripcio": "Fadiouth és una illa artificial: el sòl són capes de petxines acumulades durant segles. S'hi arriba des de Joal a peu per un pont de fusta de més de 600 m, i no hi entren cotxes. Un 90% dels habitants són cristians i conviuen amb musulmans, i la millor prova és el cementiri mixt, en un illot de petxines unit per un segon pont, on les creus blanques i les tombes amb mitja lluna comparteixen terra amb vista sobre la llacuna.\n\nAltres llocs: els graners de mill sobre pilots (per protegir la collita del foc, els rosegadors i la humitat), visibles des del pont o en pirogua; l'església de Sant Francesc Xavier; i les places de reunió dels ancians. Es pot fer una volta en pirogua pels bolongs i mangles. A Joal hi ha la casa natal de Léopold Sédar Senghor.\n\nAvís: l'erosió costanera amenaça el cementiri mixt, segons la premsa local.",
   "consells": [
+   "Actualització (Routard/LP): El Routard recomana veure els graners de mill sobre pilots des d'una pirogua, i recorda que Joal és la ciutat natal de Senghor",
    "Pel vostre compte: des de Mbour hi ha transport col·lectiu cap a Joal; un car directe des de Dakar (Terminus Liberté 5) apareix a aprox. 5.000 FCFA en llistats no datats. La pirogua pels bolongs es negocia amb els pescadors de la riba.",
    "Contracteu el guia al Syndicat d'initiative a l'entrada del pont: no és obligatori, però sí molt recomanable i evita guies insistents.",
    "Aneu-hi al matí o a última hora de la tarda, quan fa menys calor.",
@@ -3399,6 +3430,10 @@
    {
     "nom": "Senego: prix des billets de transport",
     "url": "https://senego.com/services/prix-billets-transport"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote"
    }
   ],
   "autentic": true,
@@ -4175,6 +4210,7 @@
   "resum": "Girafes, elands de Derby, un rinoceront blanc i l'opció (polèmica però popular) de caminar al costat de lleons.",
   "descripcio": "La reserva de Fathala, creada el 2000 entre Toubacouta i la frontera de Gàmbia, ocupa unes 6.000 ha de bosc classificat (uns 2.000 ha tancats i explotats per al safari). Aquí viuen elands de Derby, girafes, facoquers, búfals i un rinoceront blanc mascle portat de Sud-àfrica (la femella va morir). Els safaris es fan en vehicle per uns 70 km de pistes.\n\nL'activitat estrella és la «marxa amb els lleons»: caminar amb cuidadors al costat de lleons joves. Diversos visitants la descriuen com a extra a part del safari. Hi ha qui la critica per qüestions de benestar animal; informeu-vos i decidiu. Hi ha un centre de dia (Gnima) amb bar, dinar i piscina, i el Fathala Lodge de tendes de luxe per a qui vulgui dormir-hi.\n\nPreus: un article de Le Soleil xifra la marxa amb lleons en 25.000 FCFA, i un blog en 40 $ el safari més 30 $ els lleons. Les excursions organitzades des de Dakar (bus, safari, lleons, dinar i piscina) surten per 65.000 FCFA per persona.",
   "consells": [
+   "Actualització (Routard/LP): El Routard avisa que el \"passeig amb lleons\" planteja qüestions ètiques; convé dir-ho amb honestedat a la fitxa",
    "Avís honest: és el lloc més turístic i car del Saloum, amb fauna introduïda i tancada; si busqueu autenticitat, prioritzeu la reserva de Palmarin o Bamboung.",
    "Reserveu amb antelació, sobretot la marxa amb lleons i en vacances de Nadal.",
    "Info oficial (francès/anglès): +221 75 748 3220; centre de dia Gnima: +221 77 329 4297.",
@@ -4205,6 +4241,10 @@
    {
     "nom": "Matador Travelstoke - Fathala",
     "url": "https://travelstoke.matadornetwork.com/experiences/GzW2YbwL/fathala-wildlife-reserve/"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum"
    }
   ],
   "autentic": false,
@@ -5384,6 +5424,7 @@
   "resum": "Pirogua per l'estuari del riu Senegal entre pelicans, gavines i xatracs, amb platges salvatges on nien tortugues marines.",
   "descripcio": "Al sud de Saint-Louis, la Langue de Barbarie és una llengua de sorra que separa el riu de l'oceà. El parc nacional (2.000 ha) ocupa la punta sud, amb l'estuari, dos illots i part del continent, a uns 20-25 km de la ciutat (uns 40 minuts per carretera, per Gandiol/Mouit).\n\nLa visita clàssica és una sortida en pirogua d'1h30 fins a l'illot dels ocells, on de novembre a juliol crien milers de gavines i xatracs (gavina capgrisa, gavina riallera, xatracs reials i caspis), a més de pelicans, corbs marins, agrons i limícoles migratoris. A les platges atlàntiques hi nien tortugues marines (verda, babaua i llaüt) aproximadament d'octubre a febrer, i de vegades s'organitzen sortides nocturnes guiades.\n\nTambé es pot dormir al costat del parc (Zebrabar, Océan et Savane) i fer-hi la sortida en pirogua directament des del campament.",
   "consells": [
+   "Actualització (Routard/LP): El Routard avisa que la bretxa oberta a la llengua de sorra el 2003 per protegir la ciutat de les inundacions no ha parat d'eixamplar-se i altera l'ecosistema (i l'aspecte de la zona)",
    "En grup de 4 surt més a compte: segons au-senegal, la pirogua baixa de 7.500 a 2.500 FCFA per persona a partir de 4 persones.",
    "Aneu-hi al matí, quan hi ha més activitat d'ocells i menys vent.",
    "Combineu-ho amb la Reserva de Guembeul (a uns 10 km) en una mateixa mitja jornada.",
@@ -5410,6 +5451,10 @@
    {
     "nom": "Ramsar – PN Langue de Barbarie",
     "url": "https://rsis.ramsar.org/ris/2467"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/saint-louis"
    }
   ],
   "pel_teu_compte": "Taxi o clando des de Saint-Louis fins a Mouit/Gandiol (aprox. 40 min) i allà negocieu la pirogua amb els barquers del parc o del vostre campement.",
@@ -5493,6 +5538,7 @@
   "resum": "Un dels grans santuaris d'ocells del món: milers de pelicans i flamencs, i desembre-gener és just la temporada alta.",
   "descripcio": "El Djoudj és una zona humida del delta del riu Senegal, a uns 55-60 km al nord de Saint-Louis, tocant a Mauritània. És Patrimoni Mundial de la UNESCO i un dels primers punts d'arribada dels ocells que travessen el Sàhara: s'hi han comptabilitzat més de 395 espècies i, segons les fonts, fins a 3 milions d'ocells en temporada.\n\nDe desembre a gener és el millor moment: s'hi poden veure fins a uns 13.500 pelicans blancs, gairebé 19.000 flamencs, grues coronades, corbs marins, anhingues, agrons, jabirus i pigargs africans, a més de varans, micos patas, facoquers i fins i tot cocodrils del Nil. La sortida en pirogua d'1h30 us acosta a les colònies de pelicans, i els flamencs es veuen millor des dels miradors i els circuits a peu o en cotxe, sobretot prop de l'entrada.\n\nEl parc obre de novembre a juny (de 8 a 18 h) i tanca en època de pluges. Es fa en una jornada des de Saint-Louis, ja que no hi ha allotjament recomanable a dins.\n\nAvís: és la visita estrella del nord i en temporada alta hi arriben molts grups d'agència a la mateixa hora; sortiu ben d'hora per tenir la pirogua més tranquil·la.",
   "consells": [
+   "Actualització (Routard/LP): Viatgers del fòrum del Routard (2023): el parc sol tancar cap a finals d'abril (no afecta les dates del viatge); la visita és en pirogua, i a més d'ocells s'hi veuen facoceros, varans i cocodrils",
    "Sortiu de Saint-Louis ben d'hora: la pista d'1-1h30 és llarga i els ocells són més actius al matí.",
    "Porteu prismàtics, teleobjectiu, barret i crema solar; no hi ha gaires serveis al parc.",
    "La manera més senzilla és una excursió d'agència des de Saint-Louis (transport + guia + pirogua), p.ex. Sahel Découverte.",
@@ -5519,6 +5565,10 @@
    {
     "nom": "Globe-Trotting – Djoudj (2025)",
     "url": "https://www.globe-trotting.com/post/senegal-djoudj"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/forums/t/circuit-dans-le-nord-du-senegal/342478"
    }
   ],
   "pel_teu_compte": "Sense tour: llogueu un taxi o cotxe amb xofer per tot el dia a Saint-Louis (negocieu-lo la vigília) i contracteu guia i pirogua a l'entrada del parc.",
@@ -5559,6 +5609,7 @@
   "resum": "Dunes taronges en miniatura a mig camí entre Dakar i Saint-Louis: dromedari, sandboard, cuscús a la jaima i un cel ple d'estrelles.",
   "descripcio": "Lompoul és un petit desert de dunes de sorra ataronjada a uns 150 km al nord de Dakar (unes 3 hores), a prop de Kébémer i a pocs quilòmetres de l'oceà. És la parada clàssica entre el Lac Rose i Saint-Louis. Des del poble de Lompoul s'hi arriba amb 4x4 per un tram curt de sorra.\n\nEl pla és arribar a la tarda, fer un passeig curt en dromedari, provar el sandboard, veure la posta de sol des de dalt d'una duna, sopar un cuscús a la gran jaima i acabar al voltant del foc amb percussions, cants i te senegalès, sota un cel estrellat sense contaminació lumínica.\n\nAVÍS IMPORTANT: l'extracció de zircó (Eramet Grande Côte Opérations) ha destruït part de les dunes i ha obligat alguns campaments a traslladar-se més lluny del lloc original. Au-senegal va informar que els campaments del lloc històric no podien operar des de novembre de 2023, i el Routard avisa que des del 2025 el lloc està directament amenaçat. Alguns campaments (com Camp Rêve de Nomade) continuaven funcionant el 2025 en una nova ubicació.",
   "consells": [
+   "Actualització (Routard/LP): El Routard avisa que des del 2025 hi ha un projecte d'explotació minera de zircó que està alterant les dunes; part de l'activitat turística s'ha traslladat a un nou complex i hi ha un fil al fòrum titulat \"Loumpoul c'est fini\". La fitxa de M'Boro diu que les dunes estan molt danyades i que l'interès ecoturístic ara és \"mínim\". Cal comprovar l'estat del campament abans de reservar",
    "Confirmeu per escrit que el campament està obert i on és exactament abans de reservar.",
    "Feu-ho com a parada d'una nit en el trajecte Dakar → Saint-Louis.",
    "A les nits de desembre fa fresca al desert: porteu jersei.",
@@ -5743,6 +5794,7 @@
   "resum": "Un antic port fluvial colonial a tocar de Mauritània, amb un fort restaurat, cases de comerciants al moll i l'illa de Morphil.",
   "descripcio": "Podor és l'última gran parada del riu Senegal abans de les terres peul del Fouta. La ciutat conserva un moll amb antics comptoirs colonials restaurats davant del riu i de la riba mauritana, i un fort restaurat amb ajuda de la cooperació francesa (inaugurat el 2006) que acull una exposició sobre la història local.\n\nDes de Podor es pot explorar l'illa de Morphil, encerclada pel riu Senegal i el Doué, un territori rústic i preservat de pobles peul. S'hi accedeix per pista des de Podor o per transbordador des de Ndioum. Per dormir, la Maison Guillaume Foy i La Cour du Fleuve són cases de comerciants restaurades al mateix moll.\n\nÉs lluny: Podor està a l'extrem del corredor del riu, i només té sentit si dediqueu 2-3 dies al nord o si feu la ruta pel riu.",
   "consells": [
+   "Actualització (Routard/LP): El Routard detalla què es pot visitar: Maison Guillaume Foy (punt d'informació, antiga Auberge du Tékrour; guies locals i caminades), fort de 1744/1854 amb museu, Écomusée du commerce fluvial, i caminades a Ngawlé (9 km, amb àpat en família) i Donaye (12 km); al mercat, tintorers de \"thioub\" i terrisseres",
    "Calculeu-hi com a mínim 2 nits: és lluny i el trajecte és llarg.",
    "Reserveu l'allotjament amb antelació: hi ha poca oferta.",
    "La Maison Guillaume Foy organitza circuits amb l'associació Lappôl Podor.",
@@ -5768,6 +5820,10 @@
    {
     "nom": "Routard – Fort de Podor",
     "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/podor/fort-de-podor"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/podor"
    }
   ],
   "autentic": true,
@@ -5802,6 +5858,7 @@
   "resum": "Un vaixell llegendari que remunta el riu Senegal fins a Podor en 8 dies: preciós, però difícil d'encaixar en un viatge de 9 dies.",
   "descripcio": "El Bou El Mogdad és un vaixell històric que fa creuers d'una setmana pel riu Senegal entre Saint-Louis i Podor (en un sentit o l'altre segons la setmana), amb parades al Djoudj, Richard-Toll i la seva sucrera, Dagana, pobles peul i antics forts i comptoirs. La temporada va de finals d'octubre a principis de maig, amb sortides setmanals.\n\nFormat: 7 nits / 8 dies en tot inclòs, cabina doble, guia en francès, anglès o castellà. Atenció: a la temporada 2025-26 els creuers sortien de Richard-Toll o de Podor (no de Saint-Louis) per obres al pont de Rosso. Per al vostre viatge (27/12–04/01) és pràcticament inviable: ocuparia gairebé tota l'estada. El deixem com a referència o per a un altre viatge.",
   "consells": [
+   "Actualització (Routard/LP): El Routard (fitxa de Podor) diu que unes obres a la carretera han canviat l'itinerari: l'embarcament es fa a Richard Toll i algunes visites es fan en bus",
    "Només té sentit si voleu dedicar tot el viatge al riu; confirmeu dates de la temporada 2026-27 directament amb la Compagnie du Fleuve.",
    "Wikivoyage menciona que quan el vaixell és amarrat al moll Roume de Saint-Louis s'hi pot sopar (amb jazz els dissabtes); pregunteu-ho a Sahel Découverte.",
    "Contacte: Compagnie du Fleuve, rue Blaise Diagne, Saint-Louis, +221 33 961 56 89."
@@ -5826,6 +5883,10 @@
    {
     "nom": "Wikivoyage – Saint-Louis",
     "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/podor"
    }
   ],
   "pel_teu_compte": "És un creuer organitzat; l'alternativa independent és fer el riu per carretera parant a Richard-Toll, Dagana i Podor.",
@@ -6267,6 +6328,7 @@
   "resum": "Jaimes sobre pilotis amb bany i energia solar enmig de les dunes, o cabanes de palla prop de la platja de Lompoul-sur-Mer.",
   "descripcio": "Les opcions de referència: el Lodge de Lompoul (grup Horizons Bleus), de gamma alta, amb 20 jaimes sobre pilotis amb bany privat, energia 100% solar i restaurant d'inspiració berber, més una zona de càmping més senzilla. Camp Rêve de Nomade (gestionat per l'agència Nomadays) té una desena de jaimes tradicionals amb bany privat i energia solar, sense aigua calenta, amb sopar de cuscús i vetllada de percussions.\n\nUna alternativa més econòmica és VITEL Lompoul, un campament ecològic de cabanes de palla a Lompoul-sur-Mer, en un bosc de filaos a pocs centenars de metres de la platja i a uns 6 km del desert, que admet famílies i grups.\n\nATENCIÓ: per culpa de l'explotació de zircó, l'estat i la ubicació dels campaments ha canviat (alguns s'han desplaçat més lluny de les dunes originals). Confirmeu-ho tot abans de reservar.",
   "consells": [
+   "Actualització (Routard/LP): Igual que a nord-lompoul: la mineria de zircó (des del 2025) ha fet traslladar part dels campaments; verifiqueu-ne la ubicació i els serveis actuals en reservar",
    "Exigiu confirmació escrita que el campament opera el desembre 2026 i a quina ubicació.",
    "Demaneu si el preu inclou el trasllat 4x4 des del poble (abans 5.000 FCFA) i el passeig en dromedari.",
    "Per a 4, dues jaimes dobles; algunes plataformes indiquen aprox. 55.000 FCFA/persona per a 2026 a Rêve de Nomade (estimació, per confirmar)."
@@ -6458,6 +6520,7 @@
   "resum": "Avió de 45 minuts, ferri nocturn de 15 hores o una jornada sencera de carretera creuant Gàmbia: tria bé, perquè amb 9 dies cada opció es nota.",
   "descripcio": "La Casamance és el sud verd i frondós del Senegal, separada de Dakar per Gàmbia. Hi ha tres maneres d'arribar-hi. L'avió és la més ràpida: Air Sénégal vola Dakar–Ziguinchor (uns 40-45 minuts en ATR 72) i també opera cap a Cap Skirring; au-senegal.com anunciava per al 2026 bitllets d'anada des de 39.500 fins a 101.500 FCFA (aprox. 60-155 €), i els comparadors mostren anades i tornades des d'uns 93-104 € per a dates de finals del 2026. Comprova-ho a la web d'Air Sénégal: els preus de Nadal pugen ràpid.\n\nEl ferri Aline Sitoe Diatta (vegeu l'entrada pròpia) surt de Dakar dimarts i divendres a les 20 h i arriba l'endemà al migdia, amb parada a l'illa de Carabane. Per carretera, la Transgambienne són uns 450 km via Kaolack i el pont de Senegàmbia a Farafenni (peatge 2.500 FCFA, obert de 7 a 19 h; els no membres de la CEDEAO paguen 1.000 FCFA d'entrada i 1.000 de sortida a Gàmbia): au-senegal.com ho descriu com «una jornada molt llarga», unes 9-10 hores fins a Ziguinchor i una hora més fins a Cap Skirring. El set-places des de la gare des Baux Maraîchers costa uns 8.000 FCFA fins a Ziguinchor i 15.000 fins a Cap Skirring.\n\nSEGURETAT: la recomanació de viatge del Ministeri d'Afers Exteriors d'Espanya (actualitzada el 24/04/2026) classifica la Casamance (Ziguinchor, Sédhiou, Kolda) com a zona de risc mitjà, i dins la regió de Ziguinchor posa com a risc alt («a evitar») la mateixa ciutat de Ziguinchor, les carreteres secundàries i pistes (de dia o de nit), els desplaçaments nocturns per les vies principals i les zones frontereres amb Guinea Bissau. Demana viatjar sempre de dia, preferiblement en grup de vehicles, informar-se abans de fer servir la N5 (Bignona–Gàmbia), la N4 i la R20 (Ziguinchor–Oussouye–Cap Skirring), i, més enllà de les zones turístiques properes a Cap Skirring, no sortir mai de l'asfalt pel risc de mines. Per anar-hi des de Dakar recomana l'avió o el ferri, i si es creua Gàmbia, fer-ho pel pont de Farafenni.",
   "consells": [
+   "Actualització (Routard/LP): El Routard (principis del 2026) desaconsella moure's fora dels eixos principals (Ziguinchor, Cap Skirring, Oussouye) i a prop de les fronteres pel risc de mines; viatgeu de dia i per carreteres asfaltades",
    "Amb 9 dies, la Casamance només té sentit si li dediqueu com a mínim 3-4 nits: l'avió és l'única opció que no us menja dos dies de viatge.",
    "Llegiu la recomanació d'Exteriors just abans de marxar i registreu-vos al Registre de Viatgers; la ciutat de Ziguinchor hi apareix com a zona a evitar.",
    "Mai circuleu de nit per carretera a la Casamance i no sortiu de l'asfalt fora de la zona de Cap Skirring (mines).",
@@ -6487,6 +6550,10 @@
    {
     "nom": "Bourse des Vols – Dakar Ziguinchor",
     "url": "https://www.bourse-des-vols.com/depart-dakar/senegal/vol-dakar-ziguinchor.php"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance"
    }
   ],
   "pel_teu_compte": "Compreu el vol a Air Sénégal o el bitllet de ferri a batobi.sn; per carretera, set-place des de la gare des Baux Maraîchers (aprox. 8.000 FCFA fins a Ziguinchor).",
@@ -6513,6 +6580,7 @@
   "resum": "Una nit de mar i un matí remuntant el riu Casamance entre manglars i dofins: el viatge ja és part de la destinació.",
   "descripcio": "L'Aline Sitoe Diatta, de la companyia pública COSAMA, és el vaixell de referència entre Dakar i Ziguinchor (porta el nom de l'heroïna diola de la resistència anticolonial). Segons Scoot West Africa (actualitzat el setembre del 2026, quan era l'únic ferri en servei), surt de Dakar dimarts i divendres a les 20 h i torna de Ziguinchor dijous i diumenge a les 13 h. Au-senegal.com calcula unes 15 hores de travessia, amb arribada a Ziguinchor cap a les 11 h i una parada d'una hora a l'illa de Carabane.\n\nPreus per a no residents (Scoot West Africa, 2026): seient 15.000 FCFA, llitera en cabina de 8 uns 18.000 FCFA i fins a 30.900 FCFA per persona en cabina de 2; les cabines de 2 i 4 tenen bany propi. Des del juliol del 2026 es pot comprar en línia a batobi.sn (en aquell moment només amb Orange Money); si no, a les estacions marítimes de Dakar o Ziguinchor, a algunes agències o a l'hotel Le Perroquet de Ziguinchor, amb passaport.\n\nEl sopar se serveix de 20 a 22 h al restaurant (arribeu-hi d'hora, s'omple), i al matí l'entrada al riu Casamance és un espectacle de manglars, ocells i sovint dofins. Per a quatre persones, una cabina de 4 és la manera més còmoda de fer-ho.",
   "consells": [
+   "Actualització (Routard/LP): Wikivoyage (des. 2024): sortides de Dakar dimarts i divendres a les 20.00, uns 15 h de travessia; els bitllets s'esgoten sovint i no es podien reservar en línia",
    "Amb les vostres dates, l'opció lògica és sortir dimarts 29/12 a les 20 h i arribar dimecres 30 al migdia.",
    "Per tornar, el diumenge 3/1 a les 13 h arriba a Dakar l'endemà de matinada: massa just si el vol de tornada és el 4/1. El dijous 31/12 us faria passar Cap d'Any al vaixell.",
    "Les lliteres en cabina s'esgoten setmanes abans: reserveu ja (batobi.sn o via agència).",
@@ -6539,6 +6607,10 @@
    {
     "nom": "Au-Senegal – Reprise des rotations de l'Aline Sitoe Diatta",
     "url": "https://au-senegal.com/reprise-des-rotations-du-navire-aline-sitoe-diatta,17697.html"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://en.wikivoyage.org/wiki/Ziguinchor"
    }
   ],
   "autentic": true,
@@ -6690,6 +6762,7 @@
   "resum": "Un rei animista que viu en un bosc sagrat, cases de fang i arrossars: el cor de la cultura diola, millor en bicicleta.",
   "descripcio": "Oussouye és el centre del regne de Kassa i la capital espiritual dels diola animistes. El rei actual, Sibiloumbaye Diédhiou (abans Olivier; havia estat mecànic i guarda, i fins i tot gerent del campement villageois del poble), va ser entronitzat el 17 de gener del 2001. És l'intèrpret dels esperits, resol conflictes amb els consellers i féticheurs, i els arrossars que conreen els veïns alimenten la gent necessitada, sigui de la religió que sigui.\n\nViu en un bosc sagrat on només s'entra per invitació; s'hi dirigeix com a «Mane» o «Sa Majestat» i rep assegut en un tamboret de fusta. Algunes visites guiades de la zona (per exemple les de Mlomp) inclouen una trobada amb el rei: no és una atracció, és una audiència, i cal anar-hi amb respecte i a través d'un contacte local.\n\nLa millor manera de recórrer el país diola és en bicicleta: Casamance VTT, una empresa local d'Oussouye molt recomanada als fòrums, lloga bicis i organitza sortides en bici, caiac i piragua pels bolongs (braços de riu entre manglars) cap a Mlomp, Elinkine o la Pointe Saint-Georges.",
   "consells": [
+   "Actualització (Routard/LP): El Routard situa l'Humabel (festa del rei) entre setembre i octubre, no a les dates del viatge; l'audiència amb el rei Sibilumbaï Diédhiou es demana amb protocol a través de guies locals",
    "No us presenteu al bosc sagrat pel vostre compte: demaneu al campement o a un guia que gestioni la invitació.",
    "Lloguer de bici a Casamance VTT: aprox. 6.000 FCFA mig dia i 8.000 FCFA el dia (tarifes 2025/26); fan trasllats des de Cap Skirring o Ziguinchor.",
    "Una excursió d'un dia en bici per a un grup de 4 surt a uns 21.000 FCFA per persona; en caiac, uns 25.000.",
@@ -6716,6 +6789,10 @@
    {
     "nom": "Le Petit Journal – Oussouye, Mlomp, Pointe Saint-Georges: la Casamance à vélo",
     "url": "https://lepetitjournal.com/dakar/oussouye-mlomp-pointe-saint-georges-la-casamance-en-velo-258311"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/oussouye"
    }
   ],
   "autentic": true,
@@ -6735,6 +6812,7 @@
   "resum": "Cases de fang de dues plantes, úniques a l'Àfrica occidental, sota fromagers sagrats gegants.",
   "descripcio": "Entre Oussouye i Elinkine, el poble de Mlomp guarda unes construccions sorprenents: cases de banco (fang) de dos pisos, inscrites al patrimoni històric del Senegal. La primera la va construir el 1945 Pascal Diédhiou, un antic tirador senegalès que havia vist edificis de pisos durant el servei militar. Avui en queden unes poques (les fonts en compten entre quatre i gairebé una desena).\n\nUna d'aquestes cases es pot visitar, i al costat hi ha un petit museu instal·lat en una case à impluvium (la casa diola circular amb el sostre en embut que recull l'aigua de pluja). Les visites les fan els néts d'Étienne Assimo Diédhiou i poden incloure el fromager sagrat, la farga, una trobada amb el rei i un pícnic sota els arbres.\n\nEs combina perfectament amb una ruta en bici des d'Oussouye i amb Elinkine o la Pointe Saint-Georges el mateix dia.",
   "consells": [
+   "Actualització (Routard/LP): La Lonely Planet llista el Musée de la Tradition Diola de Mlomp amb el telèfon +221 77 407 3174 (útil per confirmar obertura)",
    "Contacte per a visites (au-senegal.com): Marie-Angèle Sambou, +221 78 571 80 61.",
    "Deixeu una contribució per al manteniment: no hi ha tarifa oficial publicada.",
    "Feu-ho en bici des d'Oussouye (uns 10 km d'asfalt).",
@@ -6760,6 +6838,10 @@
    {
     "nom": "Seneweb – Le charme des cases à étage de Mlomp",
     "url": "https://www.seneweb.com/en/news/Culture/oussouye-le-charme-des-cases-a-etage-de-mlomp_n_206682.html"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.lonelyplanet.com/points-of-interest/mlomp-musee-de-la-tradition-diola/1558291"
    }
   ],
   "autentic": true,
@@ -7129,6 +7211,7 @@
   "resum": "Bosc subguineà amb micos i ocells prop d'Oussouye, tancat durant anys pel conflicte: comproveu si es pot visitar.",
   "descripcio": "Creat el 1970, el parc protegeix unes 5.000 ha de bosc dens, sabana i manglar entre Oussouye i Cap Skirring, i és una Àrea Important per a les Aus (BirdLife). El conflicte armat de la Casamance el va deixar tancat durant molts anys; es van formar ecoguardes als pobles veïns i es van fer operacions de desminatge amb vista a una reobertura.\n\nNo hem trobat cap font fiable i recent que confirmi que estigui obert al públic el 2026. Tenint en compte l'avís d'Exteriors sobre les mines fora de l'asfalt, només hi aniríeu si un operador local de confiança (Casamance VTT, el vostre campement) us confirma que la visita és possible i segura.",
   "consells": [
+   "Actualització (Routard/LP): El Routard (fitxa de Ziguinchor) diu que el parc està tancat al públic des del 1993 i que a principis del 2026 no hi havia cap reobertura oficial confirmada; la fitxa de Djembering hi afegeix \"tancat des de fa anys pel conflicte\"",
    "Pregunteu a Oussouye o Cap Skirring per l'estat del parc abans de planificar-hi res.",
    "Mai camineu per pistes o boscos sense guia local a la Casamance (risc de mines).",
    "Si està tancat, els bolongs d'Elinkine i la reserva de Kalissaye són bones alternatives naturals."
@@ -7153,6 +7236,10 @@
    {
     "nom": "BirdLife – Parc National de Basse Casamance IBA",
     "url": "https://datazone.birdlife.org/site/factsheet/parc-national-de-basse-casamance-iba-senegal"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/ziguinchor"
    }
   ],
   "pel_teu_compte": "Només amb un guia local de confiança contractat a Oussouye, i si es confirma que està obert.",
@@ -7557,6 +7644,7 @@
   "resum": "El gran parc salvatge del Senegal: hipopòtams, cocodrils, antílops i, amb molta sort, lleons i ximpanzés al riu Gàmbia.",
   "descripcio": "Amb més de 9.000 km², el Niokolo-Koba és el parc més gran del Senegal, Patrimoni Mundial de la UNESCO des del 1981. Va estar a la llista del patrimoni en perill des del 2007 pel braconatge i els projectes de desenvolupament, i el juliol del 2024 la UNESCO el va retirar d'aquesta llista reconeixent la millora de la conservació (tot i que el braconatge, els incendis i l'agricultura continuen pressionant-lo). El travessen el riu Gàmbia i els seus afluents.\n\nRoutard hi compta més de 80 espècies de mamífers (elan de Derby, lleons, lleopards, licaons, ximpanzés, búfals, hipopòtams) i més de 330 d'ocells. Siguem realistes: hipopòtams, cocodrils, antílops, facoquers i babuins es veuen fàcilment; els grans felins i els ximpanzés no estan garantits. L'entrada principal és a Dar Salam, on es paga i s'assigna el guarda-guia obligatori; cal vehicle propi, idealment 4x4, i les pistes són dolentes. Hi ha taxa per persona i per vehicle (una web de tarifes estima 5.000 FCFA per persona i dia i 10.000 FCFA per 4x4, xifres no oficials).\n\nDISTÀNCIA I SEGURETAT: el parc és a uns 650 km de Dakar; Tambacounda (unes 8 hores de carretera) és la porta d'entrada i des d'allà queda encara més d'una hora fins a Dar Salam. Exteriors classifica com a risc alt («a evitar») les zones frontereres amb Mali de les regions de Tambacounda i Kédougou. Amb 9 dies, això vol dir pràcticament dos dies sencers només d'anar i tornar.",
   "consells": [
+   "Actualització (Routard/LP): El Routard indica que el parc va sortir de la Llista del Patrimoni Mundial en Perill de la UNESCO el juliol del 2024",
    "Contracteu un operador amb 4x4 i xofer: el guia del parc és obligatori i les pistes no són per a un cotxe de lloguer normal.",
    "Mínim 2 nits a la zona per compensar el viatge; sortiu a primera hora, que és quan es mou la fauna.",
    "Desembre és bona època (temporada seca; el parc sol tancar de mitjan juny a mitjan novembre).",
@@ -7587,6 +7675,10 @@
    {
     "nom": "Travel Cost Calculator – Niokolo-Koba fees",
     "url": "https://travelcostcalculator.org/unesco/niokolo-koba-national-park"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental"
    }
   ],
   "autentic": true,
@@ -7685,6 +7777,7 @@
   "resum": "Un salt d'aigua d'uns 100 metres enmig del bosc, amb una piscina natural per banyar-se i ximpanzés al voltant.",
   "descripcio": "A uns 35 km de Kédougou, prop de la frontera amb Guinea, la cascada de Dindéfelo cau uns 100 metres per una paret de roca envoltada de bosc fins a una bassa natural on es pot nedar. És l'atractiu principal del País Bassari i forma part de la Reserva Natural Comunitària de Dindéfelo (creada el 2010), on viuen ximpanzés.\n\nDes del poble hi ha una hora de caminada pel bosc entre roques. Cal passar primer pel centre d'acollida, on es paga l'entrada i s'organitza el guia local certificat (obligatori dins la reserva i per veure ximpanzés). L'entrada era de 500 FCFA i es parlava de pujar-la a 1.000 FCFA; confirmeu el preu actual. Routard avisa que els incendis de matolls del març del 2026 poden haver deixat el camí perillós o tancat.",
   "consells": [
+   "Actualització (Routard/LP): El Routard (fitxa de Kédougou) avisa que l'accés és incert per culpa d'incendis a principis del 2026 a la reserva comunitària de Dindéfelo: confirmeu-ho abans d'anar-hi",
    "Consulteu al centre d'acollida l'estat del camí després dels incendis del 2026.",
    "Bon calçat: el sender passa per roques relliscoses.",
    "Hi ha hagut ofegaments a la bassa: no nedeu sota el raig d'aigua.",
@@ -7710,6 +7803,10 @@
    {
     "nom": "Seneweb – Kédougou: la cascade de Dindéfélo",
     "url": "https://www.seneweb.com/news/Societe/kedougou-la-casacade-de-dindefelo-enregi_n_344644.html"
+   },
+   {
+    "nom": "Routard / Lonely Planet (esmena)",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental/kedougou"
    }
   ],
   "autentic": true,
