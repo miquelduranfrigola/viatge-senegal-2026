@@ -1,0 +1,1057 @@
+{
+ "compres": {
+  "intro": "Al Senegal es compra al mercat, i al mercat es parla. Les teles són el gran tresor: el wax estampat i el bazin brillant que es converteixen, en pocs dies i per pocs diners, en una camisa o un boubou fet a mida per un sastre de barri. Al costat hi ha una artesania molt viva (talla de fusta, joieria de filigrana, cuir, djembés i kores, pintura sota vidre o souwère) i un munt de petits plaers per endur-se a la maleta: bissap sec, cafè Touba, espècies, mantega de karité o una memòria USB plena de mbalax.\n\nEl preu gairebé mai no està escrit: es pacta, amb paciència i bon humor, i unes poques paraules de wòlof canvien completament la conversa. Penseu en dos tipus de compra: la del «poble artesanal» (Soumbédioune, Kermel, Gorée), còmoda però amb preu turista i venedors insistents, i la del mercat de debò (HLM per a teles, Tilène per a espècies, Saint-Maur a Ziguinchor), on compren els senegalesos i on hi ha poca artesania però molta vida. Vigileu també els objectes importats que es venen com a «fets a mà» i tot el que provingui de fauna protegida.",
+  "regatejar": [
+   "Saludeu abans de res, i si pot ser en wòlof (Salaamaalekum, Na nga def?). Entrar directament a preguntar el preu es considera brusc i fa pujar el primer preu.",
+   "Pregunteu «Ñaata la?» (quant val?) i no feu contraoferta d'una cosa que no voleu: un cop dieu una xifra, el venedor considera que hi ha tracte a la vista.",
+   "El primer preu de l'artesania per a turistes sol ser molt alt (la guia de Dakar d'aquesta mateixa web avisa que pot doblar el raonable). Una regla pràctica: contraoferiu una fracció clara del primer preu i pugeu a poc a poc; si el preu final us sembla just, és un bon preu.",
+   "Frases útils: «Dafa jafe» o «Jafe na» (és car), «Wàññi ko» (rebaixa-ho), «Dinaa dellusi» (tornaré). També funciona el francès: «C'est trop cher», «Faites-moi un prix».",
+   "No tot es regateja: menjar, aigua, transport urbà a preu conegut i molts productes de botiga tenen preu fix o gairebé fix. Les teles de les botigues de l'HLM sovint tenen preu per peça o per metre que es negocia poc.",
+   "Compreu diverses peces al mateix venedor i demaneu un preu global: és la manera més fàcil d'aconseguir descompte.",
+   "Porteu bitllets petits (500, 1.000 i 2.000 FCFA): els caixers donen bitllets de 5.000 i 10.000 i molts venedors no tenen canvi. No ensenyeu el feix de bitllets i no tingueu els diners a la mà mentre negocieu.",
+   "Marxar amb un somriure és part del joc: sovint el preu baixa quan us gireu. Si no baixa, no passa res.",
+   "Els «guies» espontanis que us acompanyen a una botiga cobren comissió, que acaba al vostre preu. Un «non merci» ferm o «Bàyyi ma, jërëjëf» basta.",
+   "Molts comerços accepten pagament per mòbil (Wave, Orange Money), però cal un número senegalès; per a la majoria de compres, efectiu."
+  ],
+  "objectes": [
+   {
+    "nom": "Teles wax",
+    "descripcio": "El cotó estampat de colors vius que vesteix mig Àfrica occidental. Es ven per peces (pagnes) o per metres, i al Senegal sovint es compra per portar-lo directament al sastre. Hi ha wax holandès de marca, molt més car, i còpies asiàtiques barates: toqueu la tela i compareu.",
+    "on": "Marché HLM (Dakar), Sandaga, mercat central de Kaolack (molt famós pel wax) i qualsevol mercat de ciutat.",
+    "preu": "Aprox. 1.000 FCFA el metre és un preu raonable segons Wikivoyage (dada sense data); la majoria de venedors no tallen menys de 3-6 m. A Kaolack, aprox. 1.500 FCFA per 2 m o 3.500 FCFA per 6 m (Wikivoyage, 2015). El wax de marca pot costar molt més."
+   },
+   {
+    "nom": "Bazin",
+    "descripcio": "Damasc de cotó tenyit a mà, midonat i picat amb maces de fusta fins que brilla. És la tela de les grans ocasions: el bazin «riche», sovint brodat amb fil de seda, és el dels boubous elegants de les festes. Es tenyeix sobretot a Mali i se cus al Senegal.",
+    "on": "Marché HLM i Sandaga (Dakar); botigues de teles de qualsevol mercat gran.",
+    "preu": "Molt variable segons qualitat; el bazin riche és clarament més car que el wax. No hem trobat una font fiable de preus per metre actualitzada: compareu en dues o tres parades abans de comprar."
+   },
+   {
+    "nom": "Roba a mida (sastre)",
+    "descripcio": "Un dels millors records del viatge: trieu la tela, porteu-la a un sastre (n'hi ha desenes al voltant de l'HLM i a tots els barris), us pren mides en cinc minuts i en pocs dies teniu camisa, vestit o boubou. Porteu una peça vostra que us vagi bé com a model, o una foto.",
+    "on": "Tallers del voltant del Marché HLM (Dakar) i sastres de barri a qualsevol ciutat. Pregunteu a l'allotjament per un de confiança.",
+    "preu": "Orientatiu: un sastre de Dakar explicava que un vestit correcte, que abans costava 10.000 FCFA, ara costa 15.000-20.000 FCFA (premsa local, sense data); un boubou d'home gran en bazin, aprox. 15.000 FCFA de confecció (Seneweb). Peces molt brodades o de disseny pugen molt més. Demaneu el preu total abans i pagueu una bestreta, no tot."
+   },
+   {
+    "nom": "Boubous i roba feta",
+    "descripcio": "El boubou és la túnica llarga i ampla, d'home o de dona. N'hi ha de batik barats per a turistes i de bazin brodat carríssims. Compte amb la roba «tradicional» feta en sèrie a l'Àsia: mireu les costures i les etiquetes del coll.",
+    "on": "Sandaga, HLM, Soumbédioune i botigues de moda de Dakar (Plateau, Point E).",
+    "preu": "Boubou de batik des d'aprox. 3.000 FCFA (au-senegal.com, preus indicatius sense data). Els brodats de qualitat són cars."
+   },
+   {
+    "nom": "Joieria de plata i or (filigrana)",
+    "descripcio": "Els joiers senegalesos treballen la filigrana d'or i plata, una tradició molt lligada a Saint-Louis i a les signares. Penjolls, arracades i polseres es venen sovint al pes. Demaneu el pes i el preu per gram abans de negociar.",
+    "on": "Soumbédioune i Kermel (Dakar), joiers del barri de la Médina i botigues de Saint-Louis.",
+    "preu": "Orientatiu (au-senegal.com, sense data): plata treballada aprox. 1.800-2.000 FCFA/g; or treballat aprox. 18.000 FCFA/g. Amb el preu de l'or actual, probablement més."
+   },
+   {
+    "nom": "Souwère (pintura sota vidre)",
+    "descripcio": "Pintura feta al revers d'un vidre, nascuda a Saint-Louis i Dakar a principis del segle XX. Temes clàssics: Cheikh Amadou Bamba, Lat Dior, signares, escenes de mercat i de pesca. És lleugera, barata i molt senegalesa. Emboliqueu-la bé: és vidre.",
+    "on": "Soumbédioune (Dakar), Village Artisanal de Thiès i artistes del Village des Arts.",
+    "preu": "Des d'aprox. 2.500 FCFA les petites (au-senegal.com, sense data)."
+   },
+   {
+    "nom": "Escultura de fusta",
+    "descripcio": "Màscares, estatuetes, animals, caps i figures de tots els mides. Gairebé tot és artesania recent feta per a la venda, fins i tot quan us diuen que és «molt antic»; si fos realment antic, necessitaria permís d'exportació. Mireu la qualitat de la talla i el pes (la fusta bona pesa).",
+    "on": "Soumbédioune, Kermel i voltants (Dakar), Mbour, Saly, Ziguinchor (Centre artisanal).",
+    "preu": "Estatueta des d'aprox. 12.000 FCFA segons au-senegal.com (sense data); les peces petites de souvenir costen molt menys després de regatejar."
+   },
+   {
+    "nom": "Djembés i instruments (kora, sabar)",
+    "descripcio": "El djembé és el gran souvenir musical; el sabar és el tambor wòlof per excel·lència, que es toca amb una mà i un bastó; la kora, arpa-llaüt de 21 cordes dels griots mandinga, és una peça seriosa i delicada. A Soumbédioune també venen tama (tambor parlant) i xalam.",
+    "on": "Village Artisanal de Soumbédioune (Dakar), tallers d'instruments a Dakar i Ziguinchor.",
+    "preu": "Orientatiu (au-senegal.com, sense data): djembé de 38 cm aprox. 20.000 FCFA; de 70 cm 35.000-100.000 FCFA; funda aprox. 500 FCFA."
+   },
+   {
+    "nom": "Cuir",
+    "descripcio": "Bosses, sandàlies, cinturons, babutxes i coixins de pell. A Soumbédioune també en venen de pell de varà, serp i cocodril: eviteu-les (vegeu «Què no comprar»).",
+    "on": "Soumbédioune i Sandaga (Dakar); artesans de Ziguinchor i Saint-Louis.",
+    "preu": "Babutxes des d'uns 5 € segons un fòrum del Routard (2013); la resta, a negociar."
+   },
+   {
+    "nom": "Ceràmica d'Edioungou",
+    "descripcio": "Al barri d'Edioungou, a tocar d'Oussouye (Casamance), la terrissa és un ofici exclusivament femení: argila dels manglars barrejada amb pols de petxina, modelada a mà amb colombins i cuita a l'aire lliure. Gerres, plats i figures amb un to rogenc. Es pot veure treballar les terrisseres i fer-hi un taller curt.",
+    "on": "Edioungou (Oussouye) i, en menor mesura, Centre artisanal de Ziguinchor.",
+    "preu": "A negociar directament amb les terrisseres. Pregunteu abans si la visita al taller té preu: un viatger del Routard es va queixar de pagar unes 1.500 FCFA per una visita de pocs minuts sense que s'hagués anunciat."
+   },
+   {
+    "nom": "Cistelleria",
+    "descripcio": "Cistells de fibres vegetals i plàstic reciclat de colors, safates i estores. També joguines i miniatures fetes amb llaunes reciclades (cars rapides, pirogues, avions), molt típiques.",
+    "on": "Soumbédioune i Kermel (Dakar); mercats de Thiès i de la Petite Côte.",
+    "preu": "Maleta feta amb llaunes reciclades aprox. 3.500 FCFA (au-senegal.com, sense data); cistells a negociar."
+   },
+   {
+    "nom": "Tapissos de Thiès",
+    "descripcio": "Les Manufactures Sénégalaises des Arts Décoratifs (MSAD), creades per Senghor el 1966, teixeixen a mà tapissos d'art amb la tècnica dels Gobelins a partir d'obres de pintors senegalesos. Són peces de luxe, però també hi ha catifes, batiks i ceràmica més assequibles.",
+    "on": "MSAD, Thiès (de dilluns a divendres; truqueu abans).",
+    "preu": "Tapissos molt cars (un article parla d'uns 500.000 FCFA el m² i peces de més d'un milió); visita aprox. 1.000-2.000 FCFA (preus antics, a confirmar)."
+   },
+   {
+    "nom": "Sabó i mantega de karité",
+    "descripcio": "La mantega de karité crua i els sabons artesanals (de karité, de neem, d'oli de palma) es venen a pes o en pastilles als mercats d'alimentació. Pesen poc i fan bon regal.",
+    "on": "Tilène i Sandaga (Dakar), Saint-Maur (Ziguinchor), mercats de setmana (louma).",
+    "preu": "A negociar; és barat al mercat i molt més car a les botigues per a turistes."
+   },
+   {
+    "nom": "Cafè Touba",
+    "descripcio": "Cafè torrat amb djar (Xylopia aethiopica, un pebre de Guinea) i de vegades clau. Té origen en la confraria mouride i el xeic Amadou Bamba; avui se'n beu arreu, en gotets, a les cantonades. Es pot comprar en bosses ja barrejat.",
+    "on": "Venedors de carrer, botigues de barri i mercats (Tilène, Sandaga, Kaolack...).",
+    "preu": "Molt barat; un gotet al carrer és qüestió de monedes."
+   },
+   {
+    "nom": "Bissap sec, espècies i productes del mercat",
+    "descripcio": "Flor d'hibisc seca per fer bissap a casa, pebre de djar, tamarinde, baobab en pols (bouye), anacards de la Casamance i barreges d'espècies per al thieboudienne. Són els records més barats i més celebrats en tornar.",
+    "on": "Marché Tilène i Kermel (Dakar), Saint-Maur (Ziguinchor, anacards), mercat central de Kaolack.",
+    "preu": "Barat. Una bossa de bissap artesanal per beure costa aprox. 150 FCFA (au-senegal.com); la flor seca es ven a pes."
+   },
+   {
+    "nom": "Música",
+    "descripcio": "El mbalax de Youssou N'Dour, Omar Pène o Wally Seck es ven als voltants de Sandaga en CD (sovint còpies) i, cada cop més, en memòries USB. Els vinils originals d'Orchestra Baobab o Star Band són peces de col·leccionista difícils de trobar al carrer.",
+    "on": "Voltants de Sandaga (Dakar).",
+    "preu": "A negociar; les còpies són barates però no paguen els artistes."
+   },
+   {
+    "nom": "Art contemporani",
+    "descripcio": "Dakar té una escena potent: el Village des Arts (uns 52 tallers d'artistes residents on podeu comprar directament), l'OH Gallery i la Galerie Cécile Fakhoury al Plateau, i RAW Material Company. Molts espais tanquen diumenge i dilluns i alguns fan vacances entre Nadal i Cap d'Any.",
+    "on": "Village des Arts (carretera de l'aeroport) i galeries del Plateau.",
+    "preu": "Des de petites obres sobre paper fins a milers d'euros. Als tallers es negocia; a les galeries, no gaire."
+   }
+  ],
+  "llocs": [
+   {
+    "nom": "Village Artisanal de Soumbédioune",
+    "regio": "dakar",
+    "detall": "Creat el 1961 a la Corniche Ouest, sota el control de la Chambre des métiers: uns 2.000 artesans de fusta, cuir, joieria, instruments, souwère, cistelleria i miniatures reciclades. Còmode i complet, però molt turístic i amb venedors insistents. Diàriament aprox. 8-19 h; al capvespre, mercat de peix a la platja del costat.",
+    "lat": 14.683,
+    "lng": -17.463
+   },
+   {
+    "nom": "Marché HLM",
+    "regio": "dakar",
+    "detall": "La «ciutat del teixit»: wax, bazin, brodats i desenes de sastres al voltant. Menys caòtic que Sandaga. El lloc per encarregar roba a mida el primer dia a Dakar i recollir-la abans de tornar.",
+    "lat": 14.713,
+    "lng": -17.444
+   },
+   {
+    "nom": "Marché Kermel",
+    "regio": "dakar",
+    "detall": "Mercat cobert colonial de planta circular, a prop del port. Dins, fruita, peix i flors; al voltant, parades de màscares, joies i records amb una «taxa turista» als preus.",
+    "lat": 14.6695,
+    "lng": -17.43
+   },
+   {
+    "nom": "Marché Sandaga",
+    "regio": "dakar",
+    "detall": "El gran mercat del centre: teles, sabates, electrònica, espècies, CD i samarretes de futbol als carrers del voltant. Intens i amb carteristes: porteu el mínim.",
+    "lat": 14.6714,
+    "lng": -17.437
+   },
+   {
+    "nom": "Marché de Colobane",
+    "regio": "dakar",
+    "detall": "Mercat de puces i de roba de segona mà (fëgg jaay). Poc turístic i gens bonic, però un retrat de l'economia informal. Atenció als carteristes; per a wax, millor l'HLM.",
+    "lat": 14.693,
+    "lng": -17.449
+   },
+   {
+    "nom": "Marché Tilène (Médina)",
+    "regio": "dakar",
+    "detall": "Mercat d'alimentació i de tot una mica, molt menys turístic que Sandaga: el millor lloc de Dakar per comprar espècies, bissap sec, cafè Touba i karité.",
+    "lat": 14.6862,
+    "lng": -17.4497
+   },
+   {
+    "nom": "Village des Arts",
+    "regio": "dakar",
+    "detall": "Uns 52 tallers d'artistes en els antics allotjaments dels obrers que van construir l'estadi Léopold Sédar Senghor. Es compra directament a l'artista; galeria d'exposicions temporals. Millor en dia feiner.",
+    "lat": 14.7445,
+    "lng": -17.456
+   },
+   {
+    "nom": "MSAD i mercat central de Thiès",
+    "regio": "petite-cote",
+    "detall": "Manufactures Sénégalaises des Arts Décoratifs: tapissos fets a mà i botiga amb catifes i batiks. El mercat central (Kër Mame El Hadj), enorme i local, és bo per a teles i espècies.",
+    "lat": 14.791,
+    "lng": -16.935
+   },
+   {
+    "nom": "Mercat i port de pesca de Mbour",
+    "regio": "petite-cote",
+    "detall": "Al capvespre, l'arribada de les pirogues; al centre, mercat local de teles i productes. A la veïna Saly hi ha botigues d'artesania per a turistes, més cares.",
+    "lat": 14.413,
+    "lng": -16.968
+   },
+   {
+    "nom": "Mercat central de Kaolack",
+    "regio": "saloum",
+    "detall": "Un dels mercats coberts més grans de l'Àfrica occidental, famós pel wax (els venedors de teles són a l'anella exterior) i per una secció de gris-gris. Val la pena si hi passeu de camí.",
+    "lat": 14.146,
+    "lng": -16.073
+   },
+   {
+    "nom": "Village artisanal de Saint-Louis",
+    "regio": "nord",
+    "detall": "A la corniche de Sor, davant del riu i del cementiri de Marmyal. El 2025 la premsa local el descrivia molt degradat i amb poca activitat, i hi ha un projecte de reconstrucció en marxa: comproveu-ne l'estat. A l'illa hi ha botigues d'art i joieria.",
+    "lat": 16.03,
+    "lng": -16.497
+   },
+   {
+    "nom": "Marché Saint-Maur-des-Fossés i Centre artisanal (Ziguinchor)",
+    "regio": "casamance",
+    "detall": "El mercat de referència de la Casamance (barri de Néma): fruita, oli de palma, anacards, peix, sabó. El Centre artisanal de la ciutat té records de la regió, terrissa i teixits.",
+    "lat": 12.565,
+    "lng": -16.268
+   },
+   {
+    "nom": "Edioungou (Oussouye)",
+    "regio": "casamance",
+    "detall": "Barri de terrisseres diola: veure com es modela l'argila dels manglars i comprar directament. Uns 20 minuts a peu des d'Oussouye. Pregunteu el preu de la visita abans.",
+    "lat": 12.49,
+    "lng": -16.53
+   }
+  ],
+  "evitar": [
+   "Ivori, corall, closca de tortuga marina i qualsevol objecte fet amb animals protegits: estan regulats pel conveni CITES i, sense permís, la duana de la UE els confisca i pot imposar multes.",
+   "Pells de rèptil (varà, serp, cocodril) i objectes de pell de felí: a Soumbédioune se'n venen, però moltes espècies necessiten permís CITES d'exportació i d'importació. No val la pena el risc.",
+   "Animals dessecats, ous, plomes, banyes o cranis, i qualsevol «ingredient» de les seccions de gris-gris dels mercats.",
+   "Petxines dels amuntegaments (amas coquilliers) del Saloum i de Joal-Fadiouth: són part del patrimoni protegit (el delta del Saloum és Patrimoni de la Humanitat). No us emporteu petxines d'aquests llocs.",
+   "Antiguitats i màscares «antigues»: gairebé tot el que es ven és artesania recent, i si una peça fos realment antiga caldria autorització d'exportació (el Senegal aplica la convenció de la UNESCO de 1970 sobre béns culturals). Desconfieu del «molt antic, de la família».",
+   "Roba i bijuteria «tradicional» importada de l'Àsia venuda com a feta a mà: munts de peces idèntiques en molts colors, etiquetes al coll i costures de màquina industrial són senyals d'alerta.",
+   "Carn, embotits, formatges i làctics: no es poden entrar a la UE des de fora de la UE com a equipatge personal. Espècies, bissap sec, cafè i anacards sí."
+  ],
+  "portar_a_casa": [
+   "Franquícia de duana per a viatgers que entren a la UE per via aèria: béns per valor de fins a 430 € per persona sense pagar impostos; per sobre, s'han de declarar.",
+   "Djembés i instruments grans: comproveu la franquícia i les mides d'equipatge de la vostra companyia; demaneu la funda (aprox. 500 FCFA) i protegiu la pell.",
+   "Souwères i ceràmica: emboliqueu-les amb roba (un pagne de wax serveix i després és un record més) i porteu-les a la cabina si podeu.",
+   "Mantega de karité i pastes: a l'equipatge de mà compten com a líquids (màxim 100 ml per envàs); poseu-les a la maleta facturada ben tancades.",
+   "Tapissos o obres d'art cares: demaneu factura i informació sobre l'enviament i els documents per a la duana."
+  ],
+  "fonts": [
+   {
+    "nom": "Wikivoyage (en) – Dakar: Buy",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (en) – Senegal",
+    "url": "https://en.wikivoyage.org/wiki/Senegal"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Sénégal",
+    "url": "https://fr.wikivoyage.org/wiki/S%C3%A9n%C3%A9gal"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (en) – Ziguinchor",
+    "url": "https://en.wikivoyage.org/wiki/Ziguinchor"
+   },
+   {
+    "nom": "Wikivoyage (en) – Kaolack",
+    "url": "https://en.wikivoyage.org/wiki/Kaolack"
+   },
+   {
+    "nom": "au-senegal.com – Niata la? Combien ça coûte?",
+    "url": "https://au-senegal.com/quelques-prix-utiles,048.html"
+   },
+   {
+    "nom": "au-senegal.com – Cadeaux et souvenirs: le village de Soumbédioune",
+    "url": "https://au-senegal.com/cadeaux-et-souvenirs-pensez-au-village-de-soumbedioune,6923.html"
+   },
+   {
+    "nom": "au-senegal.com – Village des Arts",
+    "url": "https://au-senegal.com/village-des-arts,1921.html"
+   },
+   {
+    "nom": "au-senegal.com – Au cœur des MSAD",
+    "url": "https://au-senegal.com/au-coeur-des-manufactures-senegalaises-des-arts-decoratifs,10763.html"
+   },
+   {
+    "nom": "Wikipedia (fr) – Manufactures sénégalaises des arts décoratifs",
+    "url": "https://fr.wikipedia.org/wiki/Manufactures_s%C3%A9n%C3%A9galaises_des_arts_d%C3%A9coratifs"
+   },
+   {
+    "nom": "Wikipedia (fr) – Café Touba",
+    "url": "https://fr.wikipedia.org/wiki/Caf%C3%A9_Touba"
+   },
+   {
+    "nom": "Wikipedia (en) – Bazin (fabric)",
+    "url": "https://en.wikipedia.org/wiki/Bazin_(fabric)"
+   },
+   {
+    "nom": "Routard – Édioungou",
+    "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/edioungou"
+   },
+   {
+    "nom": "Routard (fòrum) – Poterie à Édioungou",
+    "url": "https://www.routard.com/forums/t/poterie-a-edioungou/91750"
+   },
+   {
+    "nom": "Routard (fòrum) – Prix de vêtements au Sénégal",
+    "url": "https://www.routard.com/forums/t/prix-de-vetements-au-senegal/43362"
+   },
+   {
+    "nom": "Senego – À Dakar, les tailleurs en effervescence à l'approche de la Korité",
+    "url": "https://senego.com/a-dakar-les-tailleurs-en-effervescence-a-lapproche-de-la-korite_1820475.html"
+   },
+   {
+    "nom": "Seneweb – Korité: quelles tendances cette année",
+    "url": "https://www.seneweb.com/fr/news/Style-Mode/korite-quelles-tendances-cette-annee_n_131640.html"
+   },
+   {
+    "nom": "Al Jazeera – Senegal's handicrafts: Made in China? (2016)",
+    "url": "https://www.aljazeera.com/features/2016/5/10/senegals-handicrafts-made-in-china"
+   },
+   {
+    "nom": "Ndarinfo – Saint-Louis: le village artisanal tombe en ruine",
+    "url": "https://www.ndarinfo.com/Saint-Louis-le-village-artisanal-tombe-en-ruine-les-artisans-lancent-un-cri-d-alarme_a40740.html"
+   },
+   {
+    "nom": "AllAfrica – Île de Saint-Louis: NGE sélectionné par l'Apix",
+    "url": "https://fr.allafrica.com/stories/202506260420.html"
+   },
+   {
+    "nom": "Lonely Planet (fr) – Sénégal: argent",
+    "url": "https://www.lonelyplanet.fr/destinations/afrique/senegal/argent/generalites"
+   },
+   {
+    "nom": "Comissió Europea – Wildlife trade",
+    "url": "https://environment.ec.europa.eu/topics/nature-and-biodiversity/wildlife-trade_en"
+   },
+   {
+    "nom": "UNESCO – Livret pour les forces de l'ordre (trafic de biens culturels, 2020)",
+    "url": "https://webarchive.unesco.org/web/20211225200939/https://fr.unesco.org/sites/default/files/livret_des_forces_de_lordre_et_de_securite_septembre_2020.pdf"
+   },
+   {
+    "nom": "Vie publique Sénégal – Loi 84-31 (ratificació convenció UNESCO 1970)",
+    "url": "https://www.vie-publique.sn/documents/7728/loi-n-84-31-du-24-mars-1984-ratification-convention-unesco-biens-culturels"
+   },
+   {
+    "nom": "Culture Trip – Best art galleries in Dakar",
+    "url": "https://theculturetrip.com/articles/the-best-art-galleries-in-dakar-senegal"
+   }
+  ]
+ },
+ "idioma": {
+  "intro": "El francès és la llengua oficial (administració, escola, rètols), però la llengua del carrer és el wòlof: el parla com a primera o segona llengua la gran majoria de senegalesos i és la llengua franca dels mercats, els taxis i els cars rapides. Al sud i a l'interior hi ha moltes altres llengües (serer al Sine-Saloum, diola a la Casamance, pulaar al nord i a l'est, mandinga, soninke), i fora de Dakar el francès no sempre és fàcil de trobar. Amb el francès us en sortireu a tot arreu on hi hagi turisme, però dir quatre paraules de wòlof (sobretot la salutació) obre portes, fa riure, fa amics i, al mercat, fa baixar preus. La salutació no és un tràmit: saltar-se-la es considera molt maleducat. Preneu-vos-hi temps, encara que sigui en francès.",
+  "pronuncia": [
+   "Convenció d'aquesta guia: la columna de pronúncia està pensada per llegir-la en català; la síl·laba en MAJÚSCULES és la que es marca més, i «ə» és la vocal neutra del català central (la «a» de «casa»).",
+   "ë sona com la vocal neutra catalana: kër (casa) ≈ «kər». Avantatge per als catalanoparlants!",
+   "e és oberta com la è de «cafè»; é és tancada com la de «bé». o és oberta (ò) i ó tancada.",
+   "u sempre és «u», mai «ü»: suba (matí) ≈ «SU-ba».",
+   "Vocals dobles (aa, ee, oo...) són llargues: cal allargar-les, perquè canvien el sentit (toog, seure, ≠ tog, cuinar).",
+   "Consonants dobles (kk, dd, mm...) es pronuncien més fortes i més marcades: jàmm (pau) ≈ «djamm».",
+   "c sona com «tx» suau, gairebé «ti» ràpid: ceebu jën ≈ «TXEE-bu djən».",
+   "j sona com «dj» (com la «tj» de «platja» però sonora): jërëjëf ≈ «djə-rə-DJƏF».",
+   "x és la jota castellana (no existeix en català): xaalis (diners) ≈ «KHAA-lis».",
+   "ñ és la nostra «ny»: ñaar (dos) ≈ «nyaar».",
+   "ŋ i ng a principi de paraula són una nasal velar com la de «sang»: per als principiants n'hi ha prou de dir una «ng» suau.",
+   "g sempre és dura (com «guerra») i r és bategada o vibrant com en català.",
+   "q és una «k» feta al fons de la gola.",
+   "L'accent recau gairebé sempre a la primera síl·laba de l'arrel; no us hi capfiqueu, l'entonació amable és més important.",
+   "L'ortografia del wòlof varia molt al carrer (Jërëjëf, Jere jef, Djerejef): totes us les trobareu."
+  ],
+  "dërëm": "Aquí hi ha el truc que desconcerta tots els visitants: en wòlof, els diners no es compten en francs sinó en dërëm, una vella unitat que ve de l'àrab dirham, i 1 dërëm = 5 FCFA. Quan un venedor diu un preu en wòlof sense especificar la unitat, s'entén que parla de dërëm. Per passar a francs, multipliqueu per 5; per dir un preu en wòlof, dividiu els francs entre 5. Exemples: 50 FCFA = fukki dërëm (10 dërëm); 100 FCFA = ñaar fukki dërëm (20); 250 FCFA = juróom fukki dërëm (50); 500 FCFA = téeméeri dërëm o simplement «téeméer» (100 dërëm: la paraula que vol dir «cent» al mercat vol dir 500 francs!); 1.000 FCFA = ñaari téeméer (200 dërëm); 2.500 FCFA = juróom téeméer (500); 5.000 FCFA = junni (1.000 dërëm: «mil» vol dir 5.000 francs!); 10.000 FCFA = ñaari junni (2.000 dërëm). Si sentiu «junni» per un objecte que creieu que val 1.000 francs, no és una estafa: us demanen 5.000. A la pràctica, molts venedors amb turistes diuen els preus en francès i en milers («deux mille»), però als mercats populars i als cars rapides us trobareu els dërëm. Quan dubteu, pregunteu «en francs?» o feu que us escriguin la xifra al mòbil.",
+  "situacions": [
+   {
+    "titol": "Salutacions",
+    "frases": [
+     {
+      "catala": "Hola (la pau sigui amb tu)",
+      "wolof": "Salaamaalekum",
+      "pronuncia": "sa-laa-ma-LÈ-kum",
+      "frances": "Salam aleykoum / Bonjour"
+     },
+     {
+      "catala": "Resposta a la salutació",
+      "wolof": "Maalekum salaam",
+      "pronuncia": "maa-lè-kum sa-LAAM",
+      "frances": "Aleykoum salam"
+     },
+     {
+      "catala": "Com estàs?",
+      "wolof": "Na nga def?",
+      "pronuncia": "na nga DÈF",
+      "frances": "Comment ça va ?"
+     },
+     {
+      "catala": "Estic bé (literalment: només sóc aquí)",
+      "wolof": "Maa ngi fi rekk",
+      "pronuncia": "maa-ngi fi RÈKK",
+      "frances": "Je vais bien"
+     },
+     {
+      "catala": "Estàs en pau? / Només pau",
+      "wolof": "Jàmm nga am? / Jàmm rekk",
+      "pronuncia": "djamm nga AM / djamm RÈKK",
+      "frances": "Tu vas bien ? / La paix seulement"
+     },
+     {
+      "catala": "I la família?",
+      "wolof": "Ana sa waa kër?",
+      "pronuncia": "A-na sa uaa KƏR",
+      "frances": "Et la famille ?"
+     },
+     {
+      "catala": "Estan bé (hi són)",
+      "wolof": "Ñu ngi fa",
+      "pronuncia": "nyu-ngi FA",
+      "frances": "Ils vont bien"
+     },
+     {
+      "catala": "Gràcies a Déu",
+      "wolof": "Alxamdulilaay",
+      "pronuncia": "al-kham-du-li-LAAI",
+      "frances": "Dieu merci"
+     },
+     {
+      "catala": "Bon dia (com ha anat el matí?)",
+      "wolof": "Naka suba si?",
+      "pronuncia": "NA-ka su-ba SI",
+      "frances": "Bonjour (bonne matinée ?)"
+     },
+     {
+      "catala": "I tu?",
+      "wolof": "Yow nag?",
+      "pronuncia": "IOU nag",
+      "frances": "Et toi ?"
+     },
+     {
+      "catala": "Fins una altra / adéu",
+      "wolof": "Ba beneen yoon",
+      "pronuncia": "ba bè-nèèn IOON",
+      "frances": "À la prochaine / Au revoir"
+     },
+     {
+      "catala": "Fins demà",
+      "wolof": "Ba suba",
+      "pronuncia": "ba SU-ba",
+      "frances": "À demain"
+     },
+     {
+      "catala": "Fins després",
+      "wolof": "Ba ci kanam",
+      "pronuncia": "ba txi KA-nam",
+      "frances": "À plus tard"
+     }
+    ]
+   },
+   {
+    "titol": "Cortesia i presentar-se",
+    "frases": [
+     {
+      "catala": "Gràcies",
+      "wolof": "Jërëjëf",
+      "pronuncia": "djə-rə-DJƏF",
+      "frances": "Merci"
+     },
+     {
+      "catala": "De res (literalment: és cosa de tots dos)",
+      "wolof": "Ñoo ko bokk",
+      "pronuncia": "nyoo ko BÒKK",
+      "frances": "De rien (c'est partagé)"
+     },
+     {
+      "catala": "Perdó / ho sento",
+      "wolof": "Baal ma",
+      "pronuncia": "BAAL ma",
+      "frances": "Pardon / Excusez-moi"
+     },
+     {
+      "catala": "Sí / No",
+      "wolof": "Waaw / Déedéet",
+      "pronuncia": "UAAU / dée-DÉET",
+      "frances": "Oui / Non"
+     },
+     {
+      "catala": "Com et dius?",
+      "wolof": "Naka nga tudd?",
+      "pronuncia": "NA-ka nga TUDD",
+      "frances": "Comment tu t'appelles ?"
+     },
+     {
+      "catala": "Em dic Marta",
+      "wolof": "Maa ngi tudd Marta",
+      "pronuncia": "maa-ngi tudd MAR-ta",
+      "frances": "Je m'appelle Marta"
+     },
+     {
+      "catala": "D'on vens?",
+      "wolof": "Fan nga jóge?",
+      "pronuncia": "fan nga DJÓ-guè",
+      "frances": "D'où viens-tu ?"
+     },
+     {
+      "catala": "Vinc de Barcelona",
+      "wolof": "Maa ngi jóge Barcelone",
+      "pronuncia": "maa-ngi djó-guè bar-sə-LO-nə",
+      "frances": "Je viens de Barcelone"
+     },
+     {
+      "catala": "No ho entenc",
+      "wolof": "Dégguma",
+      "pronuncia": "DÉG-gu-ma",
+      "frances": "Je ne comprends pas"
+     },
+     {
+      "catala": "Parles francès?",
+      "wolof": "Dégg nga farañse?",
+      "pronuncia": "dégg nga fa-ra-NYSÉ",
+      "frances": "Tu parles français ?"
+     },
+     {
+      "catala": "Parlo una mica de wòlof",
+      "wolof": "Dégg naa wolof tuuti",
+      "pronuncia": "dégg naa UÒ-lòf TUU-ti",
+      "frances": "Je parle un peu wolof"
+     },
+     {
+      "catala": "A poc a poc, si us plau",
+      "wolof": "Ndank ndank",
+      "pronuncia": "ndank NDANK",
+      "frances": "Doucement"
+     },
+     {
+      "catala": "Amic meu",
+      "wolof": "Sama xarit",
+      "pronuncia": "sa-ma kha-RIT",
+      "frances": "Mon ami"
+     }
+    ]
+   },
+   {
+    "titol": "Números",
+    "frases": [
+     {
+      "catala": "1",
+      "wolof": "benn",
+      "pronuncia": "bènn",
+      "frances": "un"
+     },
+     {
+      "catala": "2",
+      "wolof": "ñaar",
+      "pronuncia": "nyaar",
+      "frances": "deux"
+     },
+     {
+      "catala": "3",
+      "wolof": "ñett",
+      "pronuncia": "nyètt",
+      "frances": "trois"
+     },
+     {
+      "catala": "4",
+      "wolof": "ñeent",
+      "pronuncia": "nyèènt",
+      "frances": "quatre"
+     },
+     {
+      "catala": "5",
+      "wolof": "juróom",
+      "pronuncia": "dju-RÓÓM",
+      "frances": "cinq"
+     },
+     {
+      "catala": "6 (5+1)",
+      "wolof": "juróom benn",
+      "pronuncia": "dju-róóm BÈNN",
+      "frances": "six"
+     },
+     {
+      "catala": "7 (5+2)",
+      "wolof": "juróom ñaar",
+      "pronuncia": "dju-róóm NYAAR",
+      "frances": "sept"
+     },
+     {
+      "catala": "8 (5+3)",
+      "wolof": "juróom ñett",
+      "pronuncia": "dju-róóm NYÈTT",
+      "frances": "huit"
+     },
+     {
+      "catala": "9 (5+4)",
+      "wolof": "juróom ñeent",
+      "pronuncia": "dju-róóm NYÈÈNT",
+      "frances": "neuf"
+     },
+     {
+      "catala": "10",
+      "wolof": "fukk",
+      "pronuncia": "fukk",
+      "frances": "dix"
+     },
+     {
+      "catala": "20",
+      "wolof": "ñaar fukk",
+      "pronuncia": "nyaar FUKK",
+      "frances": "vingt"
+     },
+     {
+      "catala": "50",
+      "wolof": "juróom fukk",
+      "pronuncia": "dju-róóm FUKK",
+      "frances": "cinquante"
+     },
+     {
+      "catala": "100",
+      "wolof": "téeméer",
+      "pronuncia": "TÉE-méér",
+      "frances": "cent"
+     },
+     {
+      "catala": "500",
+      "wolof": "juróom téeméer",
+      "pronuncia": "dju-róóm TÉE-méér",
+      "frances": "cinq cents"
+     },
+     {
+      "catala": "1.000",
+      "wolof": "junni",
+      "pronuncia": "DJUN-ni",
+      "frances": "mille"
+     },
+     {
+      "catala": "5.000",
+      "wolof": "juróom junni",
+      "pronuncia": "dju-róóm DJUN-ni",
+      "frances": "cinq mille"
+     },
+     {
+      "catala": "10.000",
+      "wolof": "fukki junni",
+      "pronuncia": "fuk-ki DJUN-ni",
+      "frances": "dix mille"
+     },
+     {
+      "catala": "100 FCFA (= 20 dërëm)",
+      "wolof": "ñaar fukki dërëm",
+      "pronuncia": "nyaar fuk-ki DƏ-rəm",
+      "frances": "cent francs"
+     },
+     {
+      "catala": "500 FCFA (= 100 dërëm)",
+      "wolof": "téeméer (dërëm)",
+      "pronuncia": "TÉE-méér (DƏ-rəm)",
+      "frances": "cinq cents francs"
+     },
+     {
+      "catala": "1.000 FCFA (= 200 dërëm)",
+      "wolof": "ñaari téeméer",
+      "pronuncia": "nyaa-ri TÉE-méér",
+      "frances": "mille francs"
+     },
+     {
+      "catala": "5.000 FCFA (= 1.000 dërëm)",
+      "wolof": "junni",
+      "pronuncia": "DJUN-ni",
+      "frances": "cinq mille francs"
+     },
+     {
+      "catala": "10.000 FCFA (= 2.000 dërëm)",
+      "wolof": "ñaari junni",
+      "pronuncia": "nyaa-ri DJUN-ni",
+      "frances": "dix mille francs"
+     }
+    ]
+   },
+   {
+    "titol": "Al mercat i regatejant",
+    "frases": [
+     {
+      "catala": "Quant val?",
+      "wolof": "Ñaata la?",
+      "pronuncia": "NYAA-ta la",
+      "frances": "C'est combien ?"
+     },
+     {
+      "catala": "És massa car!",
+      "wolof": "Dafa jafe! / Jafe na!",
+      "pronuncia": "da-fa DJA-fè / DJA-fè na",
+      "frances": "C'est trop cher !"
+     },
+     {
+      "catala": "Rebaixa-ho",
+      "wolof": "Wàññi ko",
+      "pronuncia": "UA-nyi ko",
+      "frances": "Baisse le prix"
+     },
+     {
+      "catala": "Regatejar",
+      "wolof": "waxaale",
+      "pronuncia": "ua-KHAA-lè",
+      "frances": "marchander"
+     },
+     {
+      "catala": "Només miro",
+      "wolof": "Maa ngi xool rekk",
+      "pronuncia": "maa-ngi khòòl RÈKK",
+      "frances": "Je regarde seulement"
+     },
+     {
+      "catala": "El vull / No el vull",
+      "wolof": "Bëgg naa ko / Bëgguma ko",
+      "pronuncia": "bəgg naa KO / BƏG-gu-ma ko",
+      "frances": "Je le veux / Je n'en veux pas"
+     },
+     {
+      "catala": "No tinc diners",
+      "wolof": "Amuma xaalis",
+      "pronuncia": "A-mu-ma KHAA-lis",
+      "frances": "Je n'ai pas d'argent"
+     },
+     {
+      "catala": "Tens canvi?",
+      "wolof": "Am nga weccit?",
+      "pronuncia": "am nga UÈT-txit",
+      "frances": "Tu as la monnaie ?"
+     },
+     {
+      "catala": "D'acord, està bé",
+      "wolof": "Waaw, baax na",
+      "pronuncia": "uaau, BAAKH na",
+      "frances": "D'accord, c'est bon"
+     },
+     {
+      "catala": "Tornaré",
+      "wolof": "Dinaa dellusi",
+      "pronuncia": "di-naa DÈL-lu-si",
+      "frances": "Je reviendrai"
+     }
+    ]
+   },
+   {
+    "titol": "Menjar i beure",
+    "frases": [
+     {
+      "catala": "Tinc gana",
+      "wolof": "Dama xiif",
+      "pronuncia": "da-ma KHIIF",
+      "frances": "J'ai faim"
+     },
+     {
+      "catala": "Tinc set",
+      "wolof": "Dama mar",
+      "pronuncia": "da-ma MAR",
+      "frances": "J'ai soif"
+     },
+     {
+      "catala": "Aigua",
+      "wolof": "ndox",
+      "pronuncia": "ndòkh",
+      "frances": "eau"
+     },
+     {
+      "catala": "Arròs amb peix (el plat nacional)",
+      "wolof": "ceebu jën",
+      "pronuncia": "TXEE-bu djən",
+      "frances": "riz au poisson (thiéboudienne)"
+     },
+     {
+      "catala": "Te (a la senegalesa)",
+      "wolof": "attaaya",
+      "pronuncia": "at-TAA-ia",
+      "frances": "thé"
+     },
+     {
+      "catala": "Sense picant, si us plau",
+      "wolof": "Bul def kaani",
+      "pronuncia": "bul dèf KAA-ni",
+      "frances": "Sans piment, s'il vous plaît"
+     },
+     {
+      "catala": "Està boníssim!",
+      "wolof": "Dafa neex!",
+      "pronuncia": "da-fa NÈÈKH",
+      "frances": "C'est délicieux !"
+     },
+     {
+      "catala": "Estic ple, gràcies",
+      "wolof": "Suur naa, jërëjëf",
+      "pronuncia": "SUUR naa, djə-rə-DJƏF",
+      "frances": "J'ai bien mangé, merci"
+     },
+     {
+      "catala": "Vine a menjar! (invitació habitual quan passes per davant)",
+      "wolof": "Kaay lekk!",
+      "pronuncia": "kaai LÈKK",
+      "frances": "Viens manger !"
+     },
+     {
+      "catala": "Quant et dec?",
+      "wolof": "Ñaata laa la war?",
+      "pronuncia": "NYAA-ta laa la UAR",
+      "frances": "Je vous dois combien ?"
+     }
+    ]
+   },
+   {
+    "titol": "Transport i direccions",
+    "frases": [
+     {
+      "catala": "On és...?",
+      "wolof": "Ana...?",
+      "pronuncia": "A-na",
+      "frances": "Où est... ?"
+     },
+     {
+      "catala": "Vull anar a...",
+      "wolof": "Dama bëgg dem...",
+      "pronuncia": "da-ma bəgg DÈM",
+      "frances": "Je veux aller à..."
+     },
+     {
+      "catala": "Quant costa fins a...?",
+      "wolof": "Ñaata ba...?",
+      "pronuncia": "NYAA-ta ba",
+      "frances": "C'est combien jusqu'à... ?"
+     },
+     {
+      "catala": "És lluny?",
+      "wolof": "Ndax sori na?",
+      "pronuncia": "ndakh SÒ-ri na",
+      "frances": "C'est loin ?"
+     },
+     {
+      "catala": "A la dreta / a l'esquerra",
+      "wolof": "ndijoor / càmmooñ",
+      "pronuncia": "ndi-DJÒÒR / txam-MÒÒNY",
+      "frances": "à droite / à gauche"
+     },
+     {
+      "catala": "Tot recte",
+      "wolof": "Dem ci kanam",
+      "pronuncia": "dèm txi KA-nam",
+      "frances": "Tout droit"
+     },
+     {
+      "catala": "Pari aquí",
+      "wolof": "Taxawal fii",
+      "pronuncia": "ta-kha-UAL fii",
+      "frances": "Arrêtez-vous ici"
+     },
+     {
+      "catala": "Espera un moment",
+      "wolof": "Xaaral tuuti",
+      "pronuncia": "KHAA-ral TUU-ti",
+      "frances": "Attends un peu"
+     },
+     {
+      "catala": "Som-hi! / Anem!",
+      "wolof": "Nañu dem!",
+      "pronuncia": "NA-nyu dèm",
+      "frances": "On y va !"
+     }
+    ]
+   },
+   {
+    "titol": "Allotjament",
+    "frases": [
+     {
+      "catala": "Teniu habitació?",
+      "wolof": "Am ngeen néeg?",
+      "pronuncia": "am nguéén NÉEG",
+      "frances": "Vous avez une chambre ?"
+     },
+     {
+      "catala": "Per a dues nits",
+      "wolof": "Ngir ñaari guddi",
+      "pronuncia": "nguir nyaa-ri GUD-di",
+      "frances": "Pour deux nuits"
+     },
+     {
+      "catala": "Hi ha aigua calenta?",
+      "wolof": "Ndax am na ndox mu tàng?",
+      "pronuncia": "ndakh am na ndòkh mu TANG",
+      "frances": "Il y a de l'eau chaude ?"
+     },
+     {
+      "catala": "No hi ha llum",
+      "wolof": "Kuraŋ amul",
+      "pronuncia": "ku-RANG A-mul",
+      "frances": "Il n'y a pas d'électricité"
+     },
+     {
+      "catala": "La clau",
+      "wolof": "caabi ji",
+      "pronuncia": "TXAA-bi dji",
+      "frances": "la clé"
+     },
+     {
+      "catala": "Estic cansat/da",
+      "wolof": "Dama sonn",
+      "pronuncia": "da-ma SÒNN",
+      "frances": "Je suis fatigué(e)"
+     }
+    ]
+   },
+   {
+    "titol": "Emergències i salut",
+    "frases": [
+     {
+      "catala": "Ajuda!",
+      "wolof": "Wallu ma! / Dimbali ma!",
+      "pronuncia": "UAL-lu ma / dim-BA-li ma",
+      "frances": "Au secours !"
+     },
+     {
+      "catala": "Estic malalt/a",
+      "wolof": "Dama feebar",
+      "pronuncia": "da-ma FÉE-bar",
+      "frances": "Je suis malade"
+     },
+     {
+      "catala": "Em fa mal aquí",
+      "wolof": "Fii dafa metti",
+      "pronuncia": "fii da-fa MÈT-ti",
+      "frances": "J'ai mal ici"
+     },
+     {
+      "catala": "Necessito un metge",
+      "wolof": "Dama soxla doktoor",
+      "pronuncia": "da-ma SÒKH-la dok-TÒÒR",
+      "frances": "J'ai besoin d'un médecin"
+     },
+     {
+      "catala": "Hospital / farmàcia",
+      "wolof": "loppitaan / farmasi",
+      "pronuncia": "lop-pi-TAAN / far-ma-SI",
+      "frances": "hôpital / pharmacie"
+     },
+     {
+      "catala": "Truqueu a la policia",
+      "wolof": "Wooleel polis bi",
+      "pronuncia": "uòò-LÈÈL po-LIS bi",
+      "frances": "Appelez la police"
+     },
+     {
+      "catala": "M'he perdut",
+      "wolof": "Dama réer",
+      "pronuncia": "da-ma RÉER",
+      "frances": "Je suis perdu(e)"
+     },
+     {
+      "catala": "Al lladre!",
+      "wolof": "Sàcc bi!",
+      "pronuncia": "SATX bi",
+      "frances": "Au voleur !"
+     },
+     {
+      "catala": "Deixa'm en pau",
+      "wolof": "Bàyyi ma!",
+      "pronuncia": "BAI-ii ma",
+      "frances": "Laisse-moi tranquille !"
+     }
+    ]
+   },
+   {
+    "titol": "Expressions útils i humor",
+    "frases": [
+     {
+      "catala": "Cap problema / no té importància",
+      "wolof": "Amul solo",
+      "pronuncia": "A-mul SÒ-lò",
+      "frances": "Pas de problème"
+     },
+     {
+      "catala": "No és res",
+      "wolof": "Amul dara",
+      "pronuncia": "A-mul DA-ra",
+      "frances": "Ce n'est rien"
+     },
+     {
+      "catala": "Si Déu vol",
+      "wolof": "Inshallah / Su Yàlla soobee",
+      "pronuncia": "in-xal-LA / su IAL-la sòò-BÉE",
+      "frances": "Si Dieu le veut"
+     },
+     {
+      "catala": "És bonic!",
+      "wolof": "Dafa rafet!",
+      "pronuncia": "da-fa ra-FÈT",
+      "frances": "C'est beau !"
+     },
+     {
+      "catala": "Fa calor",
+      "wolof": "Dafa tàng",
+      "pronuncia": "da-fa TANG",
+      "frances": "Il fait chaud"
+     },
+     {
+      "catala": "Estem junts (l'expressió de complicitat per excel·lència)",
+      "wolof": "Ñoo far",
+      "pronuncia": "nyoo FAR",
+      "frances": "On est ensemble"
+     },
+     {
+      "catala": "Hospitalitat (l'orgull nacional)",
+      "wolof": "teraanga",
+      "pronuncia": "tè-RAAN-ga",
+      "frances": "hospitalité (la teranga)"
+     },
+     {
+      "catala": "Estranger, blanc (no és un insult; us ho diran sovint)",
+      "wolof": "tubaab",
+      "pronuncia": "tu-BAAB",
+      "frances": "toubab"
+     },
+     {
+      "catala": "A poc a poc s'atrapa el mico al bosc (proverbi: paciència!)",
+      "wolof": "Ndank ndank mooy jàpp golo ci ñaay",
+      "pronuncia": "ndank ndank mooi djapp GÒ-lò txi NYAAI",
+      "frances": "Doucement, doucement, on attrape le singe dans la brousse"
+     }
+    ]
+   }
+  ],
+  "nota": "Hem omès «nopp na», que apareixia a la llista inicial, perquè no l'hem pogut documentar com a expressió habitual (nopp vol dir «orella» i noppi vol dir «callar-se»). L'ortografia del wòlof de carrer és molt variable i algunes formes d'aquesta llista (sobretot les de transport, allotjament i emergències) són de coneixement general i no han pogut ser verificades una per una en les fonts citades: si un senegalès us corregeix, feu-li cas a ell.",
+  "fonts": [
+   {
+    "nom": "Xavier Bry – Initiation au Wolof, méthode rapide (Univ. Montpellier, PDF)",
+    "url": "https://imag.umontpellier.fr/~bry/fichiers/INIWOLOF.pdf"
+   },
+   {
+    "nom": "Jangawolof – Numbers (dërëm)",
+    "url": "https://jangawolof.org/numbers/"
+   },
+   {
+    "nom": "Le Quotidien – La monnaie F CFA, une question éminemment linguistique",
+    "url": "https://lequotidien.sn/la-monnaie-f-cfa-une-question-eminemment-linguistique/"
+   },
+   {
+    "nom": "Wikivoyage (en) – Wolof phrasebook",
+    "url": "https://en.wikivoyage.org/wiki/Wolof_phrasebook"
+   },
+   {
+    "nom": "Wikipedia (en) – Wolof language",
+    "url": "https://en.wikipedia.org/wiki/Wolof_language"
+   },
+   {
+    "nom": "Listen & Learn – Wolof phrases and basics",
+    "url": "https://www.listenandlearn.org/blog/wolof-language-phrases-and-basics-for-first-time-learners/"
+   },
+   {
+    "nom": "CECI – Words in Wolof to know if you visit Senegal",
+    "url": "https://ceci.org/en/volunteer-blog/words-in-wolof-to-know-if-you-visit-senegal"
+   },
+   {
+    "nom": "au-senegal.com – Niata la? (Jaafe na, Waañi ko)",
+    "url": "https://au-senegal.com/quelques-prix-utiles,048.html"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Dakar (Dafa cher)",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage (fr) – Sénégal: Parler",
+    "url": "https://fr.wikivoyage.org/wiki/S%C3%A9n%C3%A9gal"
+   },
+   {
+    "nom": "Wikivoyage (en) – Senegal: Talk",
+    "url": "https://en.wikivoyage.org/wiki/Senegal"
+   }
+  ]
+ }
+}

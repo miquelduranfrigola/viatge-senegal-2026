@@ -1,0 +1,1788 @@
+{
+ "intro": "Finals de desembre és un dels millors moments de l'any per moure's a l'aire lliure al Senegal. L'estació seca ja s'ha instal·lat (les pluges van de maig-juny a octubre-novembre), la calor és suportable a la costa, els aiguamolls encara són plens després de l'hivernatge i milions d'ocells europeus hi passen l'hivern: el Djoudj, la Langue de Barbarie, el Saloum i la Somone estan en plena temporada. L'Atlàntic porta onades regulars (el període de novembre a març és el més favorable per al surf a Dakar) i l'aigua és fresca però agradable, uns 23 °C de mitjana a Dakar i la Petite Côte, una mica menys a Saint-Louis i més a Casamance.\n\nNo és un país de grans muntanyes ni de safaris clàssics: la gran fauna sobreviu sobretot al remot Niokolo-Koba i, en versió reintroduïda i tancada, a Bandia i Fathala. El que el Senegal ofereix és una altra cosa: pirogues entre manglars, caminades per penya-segats i pobles de pescadors, rutes en bicicleta per arrossars diola, platges salvatges de quilòmetres i cels foscos. Tres avisos generals: l'Atlàntic de la Grande Côte (de Dakar a Saint-Louis) té corrents molt perillosos; l'harmattan, el vent sec i polsós del Sàhara, pot enterbolir el cel aquests dies; i molts preus d'entrada no es publiquen o canvien sovint, així que preneu les xifres d'aquesta secció com a orientatives.",
+ "seccions": [
+  {
+   "id": "surf",
+   "titol": "Surf",
+   "intro": "Dakar és la capital del surf de l'Àfrica occidental: la península de Cap-Vert rep onatge de nord i d'oest i, segons l'orientació, sempre hi ha algun spot que funciona. Novembre-març es considera la millor temporada per la regularitat de les onades. L'aigua a Dakar al desembre fa uns 23 °C de mitjana (entre 21 i 25 °C); a Saint-Louis baixa a uns 21,5 °C i a Cap Skirring puja a 25 °C. Hi ha fonts que parlen de temperatures més baixes per l'aflorament d'aigües fredes que comença a l'hivern, de manera que un neoprè curt (shorty de 2 mm) o un lycra de màniga llarga és la tria prudent, sobretot a primera hora i si fa vent. Molts spots de Dakar són de fons de roca i esculls: escarpins i molta prudència.",
+   "llocs": [
+    {
+     "nom": "Ngor Right",
+     "regio": "dakar",
+     "nivell": "avançat",
+     "detall": "La dreta llarga i regular a l'illa de Ngor, probablement el spot més famós del Senegal (sortia a la pel·lícula The Endless Summer, 1966). S'hi arriba amb pirogua des de la platja de Ngor (uns 500 FCFA el trajecte, 5 min) i després remant. Fons de roca; amb mida, només per a surfistes experimentats.",
+     "lat": 14.757,
+     "lng": -17.517
+    },
+    {
+     "nom": "Secret Spot (Almadies)",
+     "regio": "dakar",
+     "nivell": "intermedi",
+     "detall": "Spot de les Almadies conegut per la qualitat de l'onada i punt de trobada de la comunitat local de surfistes. Fons de roca.",
+     "lat": 14.741,
+     "lng": -17.523
+    },
+    {
+     "nom": "Ouakam",
+     "regio": "dakar",
+     "nivell": "avançat",
+     "detall": "Onades potents davant la mesquita de la Divinitat; reservat a surfistes amb experiència. Fons de roca i molt de respecte pels pescadors i la comunitat local.",
+     "lat": 14.718,
+     "lng": -17.498
+    },
+    {
+     "nom": "Les Mamelles",
+     "regio": "dakar",
+     "nivell": "intermedi",
+     "detall": "Diversos pics veïns sota el far de les Mamelles, que funcionen segons la direcció del mar de fons. Wikivoyage avisa de les onades grans a la platja.",
+     "lat": 14.725,
+     "lng": -17.505
+    },
+    {
+     "nom": "Plage du Virage",
+     "regio": "dakar",
+     "nivell": "intermedi",
+     "detall": "Platja una mica rocosa i més neta que d'altres, amb un bar a prop; segons Wikivoyage és més per surfejar que per banyar-se.",
+     "lat": 14.753,
+     "lng": -17.488
+    },
+    {
+     "nom": "Yoff",
+     "regio": "dakar",
+     "nivell": "principiant",
+     "detall": "Beach break de sorra, sovint recomanat per a principiants i per progressar amb seguretat. Atenció: la platja es tanca de vegades al bany per brutícia, aigües residuals i ofegaments.",
+     "lat": 14.762,
+     "lng": -17.471
+    },
+    {
+     "nom": "Toubab Dialaw",
+     "regio": "petite-cote",
+     "nivell": "intermedi",
+     "detall": "Poble d'artistes al peu de penya-segats ocres on es practica surf i paddle; ambient tranquil, a uns 55 km de Dakar i a prop de l'aeroport AIBD.",
+     "lat": 14.606,
+     "lng": -17.15
+    },
+    {
+     "nom": "Popenguine i La Somone",
+     "regio": "petite-cote",
+     "nivell": "principiant",
+     "detall": "A la Petite Côte el mar és més assequible i tranquil que a Dakar; bons llocs per a les primeres sessions si no hi ha mar de fons fort.",
+     "lat": 14.553,
+     "lng": -17.113
+    },
+    {
+     "nom": "Cap Skirring",
+     "regio": "casamance",
+     "nivell": "principiant",
+     "detall": "Platges llargues, aigua més calenta (uns 25 °C al desembre) i ambient relaxat. Casamance Surf ofereix classes i lloguer.",
+     "lat": 12.39,
+     "lng": -16.746
+    }
+   ],
+   "consells": [
+    "Escarpins o botins de neoprè: la majoria de spots de Dakar tenen roca, eriçons i corall.",
+    "Un shorty de 2 mm o un lycra de màniga llarga: l'aigua sol rondar els 21-25 °C, però pot refredar-se amb vent i a primera hora.",
+    "Ngor Right i Ouakam no són per aprendre: si sou principiants, demaneu classe a Yoff, Ngor platja o la Petite Côte.",
+    "Respecteu les prioritats i els locals; a Ouakam i Ngor la comunitat surfista senegalesa és molt present.",
+    "Crema solar resistent a l'aigua i barret per a les esperes: el sol de desembre a 14° de latitud crema igualment.",
+    "No us banyeu a la Grande Côte (de Yoff/Malika cap a Saint-Louis) sense coneixement local: corrents molt forts."
+   ],
+   "on_llogar": [
+    {
+     "nom": "École Surf Attitude (Almadies, davant la platja dels Viviers)",
+     "detall": "Des del 2000; surf, bodyboard i paddle a Ngor, Almadies o Mamelles segons el mar. Classe amb material: 15.000 FCFA la sessió (paquet de 10: 130.000 FCFA); infants des de 10.000 FCFA (preus de la fitxa d'au-senegal.com)."
+    },
+    {
+     "nom": "Take Off Ngor (platja de Ngor, Corniche des Almadies)",
+     "detall": "Escola de surf per a tots els nivells. Preu no publicat; consulteu-lo directament."
+    },
+    {
+     "nom": "Ngor Island Surf Camp / Ngor Right Surf House (illa de Ngor)",
+     "detall": "Surf camps a l'illa, amb allotjament, àpats i guiatge als spots. Un portal de reserves indicava classes en grup de 2 h des de 25 € (aprox. 16.400 FCFA) i guiatge des de 60 €/dia, amb mínim de 3 nits (preus a confirmar)."
+    },
+    {
+     "nom": "Casamance Surf (Cap Skirring)",
+     "detall": "Classes i lloguer de material per a principiants i surfistes amb experiència. Preu no publicat."
+    },
+    {
+     "nom": "Referència de preus antiga",
+     "detall": "Un article d'AFP del 2015 situava les classes a Dakar entre 10.000 i 15.000 FCFA la sessió (aprox., probablement desactualitzat)."
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Au-Sénégal: Surf au Sénégal, pourquoi Dakar est devenue l'une des destinations les plus prisées",
+     "url": "https://au-senegal.com/surf-au-senegal-pourquoi-dakar-est-devenue-l-une-des-destinations-les-plus-prisees-d-afrique-de-l,18412.html"
+    },
+    {
+     "nom": "Au-Sénégal: École Surf Attitude",
+     "url": "https://au-senegal.com/ecole-surf-attitude,2362.html"
+    },
+    {
+     "nom": "Au-Sénégal: Take Off Ngor",
+     "url": "https://au-senegal.com/take-off-ngor,6816.html"
+    },
+    {
+     "nom": "Au-Sénégal: Ngor Island Surf Camp",
+     "url": "https://au-senegal.com/ngor-island-surf-camp,1619.html"
+    },
+    {
+     "nom": "Seatemperatu.re: temperatura del mar al Senegal al desembre",
+     "url": "https://www.seatemperatu.re/africa/senegal/month/december/"
+    },
+    {
+     "nom": "TripBase: Dakar beaches",
+     "url": "https://www.tripbase.com/destinations/dakar-senegal/beach/"
+    },
+    {
+     "nom": "Wikivoyage (en): Dakar",
+     "url": "https://en.wikivoyage.org/wiki/Dakar"
+    },
+    {
+     "nom": "The National: Surf schools finally making waves in Senegal (AFP, 2015)",
+     "url": "https://www.thenationalnews.com/world/surf-schools-finally-making-waves-in-senegal-1.98178"
+    }
+   ]
+  },
+  {
+   "id": "ocells",
+   "titol": "Observació d'ocells",
+   "intro": "El Senegal és a la ruta migratòria de l'Atlàntic oriental i al desembre els aiguamolls estan a vessar: limícoles, ànecs i ardeids europeus s'hi sumen a les espècies residents africanes. El Djoudj, amb uns 395 espècies registrades i prop de tres milions d'ocells, és considerat la tercera reserva ornitològica del món. Però no cal anar tan lluny: la Technopole de Pikine, a Dakar mateix, té més de 230 espècies, i la llacuna de la Somone, a una hora de la capital, és perfecta per a una primera presa de contacte. Porteu prismàtics (a Saint-Louis l'oficina de turisme i algunes agències en presten) i sortiu a primera hora o al capvespre.",
+   "llocs": [
+    {
+     "nom": "Parc National des Oiseaux du Djoudj",
+     "regio": "nord",
+     "detall": "16.000 ha d'aiguamolls a la riba del riu Senegal, uns 60 km al nord-est de Saint-Louis. Patrimoni Mundial i lloc Ramsar. Al desembre: pelicans vulgars (els més visibles, amb colònia al Grand Lac), flamencs, ànecs hivernants a milers (cuallargs, xarrasclets), cigonyes, ardeids, limícoles i la boscarla d'aigua, que hi té el seu principal lloc d'hivernada conegut. També hi viuen cocodrils i manatins. La visita clàssica és en pirogua. Preus orientatius: entrada uns 5.000 FCFA i pirogua compartida 6.000-8.000 FCFA (estimació 2026 d'un portal, no oficial).",
+     "que_veure_desembre": "Pelicans, flamencs, ànecs europeus, cigonyes, limícoles",
+     "lat": 16.37,
+     "lng": -16.28
+    },
+    {
+     "nom": "Parc National de la Langue de Barbarie",
+     "regio": "nord",
+     "detall": "2.000 ha a l'extrem sud de la Langue de Barbarie, a uns 20-25 km de Saint-Louis. Pelicans vulgars i dorsirosats, gavina capgrisa (uns 3.000 parells), gavina capblanca (uns 2.000 parells), xatracs (reial, gros), corbs marins, martinets, becplaners i limícoles migrants. Pirogua d'1 h 30 des de Gandiol o des dels allotjaments de la llacuna. Preus: au-senegal.com indica 2.000 F d'entrada i 7.500 F de pirogua (2.500 F/persona a partir de 4); un blog del 2025 parla de 5.000 FCFA d'entrada. Obert de 8 a 18 h.",
+     "que_veure_desembre": "Pelicans, gavines, xatracs, limícoles",
+     "lat": 15.89,
+     "lng": -16.51
+    },
+    {
+     "nom": "Réserve Spéciale de Faune de Guembeul",
+     "regio": "nord",
+     "detall": "720 ha tancats amb un llac, a uns 12 km al sud de Saint-Louis per la carretera de Gandiol. A més de la fauna reintroduïda, el llac atrau limícoles i ardeids. Entrada 5.000 F + guia obligatori 5.000 F; circuit a peu de 45 o 90 min. Obert cada dia de 8 a 18.30 h.",
+     "que_veure_desembre": "Limícoles, ardeids, flamencs al llac",
+     "lat": 15.95,
+     "lng": -16.47
+    },
+    {
+     "nom": "Delta del Saloum i Île aux Oiseaux",
+     "regio": "saloum",
+     "detall": "Laberint de bolongs, manglars i més de 200 illes. L'Île aux Oiseaux acull la colònia de cria de xatrac reial més gran del món (uns 40.000 parells, però d'abril a juny); el delta també és lloc d'hivernada del xatrac reial i parada de limícoles europeus. Al desembre: becplaners, flamencs, agrons goliat, corbs marins, alcions, àguila pescadora africana, àguila pescadora i voltor de les palmeres. Excursions en pirogua des de Djiffer, Ndangane o Toubacouta.",
+     "que_veure_desembre": "Xatracs hivernants, limícoles, becplaners, rapinyaires",
+     "lat": 13.88,
+     "lng": -16.73
+    },
+    {
+     "nom": "Réserve Naturelle Communautaire de Palmarin",
+     "regio": "saloum",
+     "detall": "Llacunes, salines i manglars a la porta nord del Saloum. Es fan recomptes d'ocells aquàtics al gener; s'hi ha citat la gavina corsa, rara però en augment. Bon lloc per a flamencs i limícoles a les salines.",
+     "que_veure_desembre": "Flamencs, limícoles, gavines",
+     "lat": 14.01,
+     "lng": -16.77
+    },
+    {
+     "nom": "Réserve Ornithologique de Kalissaye",
+     "regio": "casamance",
+     "detall": "Illots sorrencs a la desembocadura del marigot de Kalissaye, a prop de Kafountine; s'hi arriba en pirogua per bolongs. Creada el 1978, és el segon espai senegalès dedicat als ocells després del Djoudj. Colònies de xatracs, gavines, becplaners i pelicans; uns 15.000 migrants de 76 espècies hi hivernen cada any.",
+     "que_veure_desembre": "Migrants hivernants, xatracs, pelicans",
+     "lat": 12.98,
+     "lng": -16.76
+    },
+    {
+     "nom": "Technopole de Pikine (Grande Niaye)",
+     "regio": "dakar",
+     "detall": "Llacs permanents enmig de la ciutat, amb més de 230 espècies citades, moltes aquàtiques i marines. Al desembre, gavines, xatracs i limícoles europeus. Entorn urbà i degradat en part; aneu-hi de dia i sense objectes de valor a la vista.",
+     "que_veure_desembre": "Gavines, xatracs, limícoles",
+     "lat": 14.76,
+     "lng": -17.41
+    },
+    {
+     "nom": "Réserve Naturelle de la Somone",
+     "regio": "petite-cote",
+     "detall": "Llacuna de 700 ha protegida des del 1999, a uns 30 min de l'AIBD. Més de 170 espècies: pelicans dorsirosats, agrons, martinets, becplaners, cigonyes, corbs marins, xatracs, l'àguila pescadora (emblema del lloc) i, segons l'època, flamencs. Pirogua d'una hora (5.000-7.000 FCFA per persona amb entrada, aprox.) o sender ecològic d'1,2 km (1.500 F).",
+     "que_veure_desembre": "Pelicans, àguila pescadora, xatracs, becplaners",
+     "lat": 14.48,
+     "lng": -17.08
+    },
+    {
+     "nom": "Réserve Naturelle de Popenguine",
+     "regio": "petite-cote",
+     "detall": "1.009 ha de sabana i penya-segats gestionats per un grup de dones del poble. Prop de 200 espècies; des dels penya-segats es poden veure el merla roquera, el merla blava i el sit d'Alexander, a més de rapinyaires.",
+     "que_veure_desembre": "Ocells de sabana, rapinyaires, ocells marins",
+     "lat": 14.56,
+     "lng": -17.1
+    },
+    {
+     "nom": "Lac Rose (Lac Retba)",
+     "regio": "dakar",
+     "detall": "Llacuna hipersalina a 35 km de Dakar, més rosa en temporada seca i amb sol. No és un gran punt ornitològic, però les dunes i les vores atrauen limícoles i ocells de sabana. Atenció als falsos guies.",
+     "que_veure_desembre": "Limícoles, ocells de sabana",
+     "lat": 14.839,
+     "lng": -17.231
+    },
+    {
+     "nom": "Parc National des Îles de la Madeleine",
+     "regio": "dakar",
+     "detall": "Illots volcànics davant de Dakar: únic lloc de cria d'Àfrica del faetó becvermell. Pirogua d'uns 5.000 CFA; el trajecte en mar obert pot impressionar.",
+     "que_veure_desembre": "Faetó becvermell, corbs marins, ocells marins",
+     "lat": 14.655,
+     "lng": -17.471
+    }
+   ],
+   "especies": [
+    {
+     "nom_catala": "Pelicà vulgar",
+     "nom_cientific": "Pelecanus onocrotalus",
+     "on": "Djoudj (colònia), Langue de Barbarie",
+     "quan": "Tot l'any; molt visible a l'estació seca"
+    },
+    {
+     "nom_catala": "Pelicà dorsirosat (pélican gris)",
+     "nom_cientific": "Pelecanus rufescens",
+     "on": "Somone, Saloum, Langue de Barbarie",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Flamenc",
+     "nom_cientific": "Phoenicopterus roseus",
+     "on": "Djoudj, Palmarin, Saloum, Somone",
+     "quan": "Estació seca (desembre, bé)"
+    },
+    {
+     "nom_catala": "Flamenc menut",
+     "nom_cientific": "Phoeniconaias minor",
+     "on": "Bolongs del Saloum, Djoudj",
+     "quan": "Irregular"
+    },
+    {
+     "nom_catala": "Becplaner (espàtula)",
+     "nom_cientific": "Platalea leucorodia",
+     "on": "Saloum, Djoudj, Somone, Kalissaye",
+     "quan": "Hivernant (novembre-març)"
+    },
+    {
+     "nom_catala": "Xatrac reial",
+     "nom_cientific": "Thalasseus maximus albididorsalis",
+     "on": "Saloum, Langue de Barbarie, Somone, platges",
+     "quan": "Tot l'any; cria a l'Île aux Oiseaux d'abril a juny"
+    },
+    {
+     "nom_catala": "Xatrac gros",
+     "nom_cientific": "Hydroprogne caspia",
+     "on": "Langue de Barbarie, Saloum",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Gavina capgrisa",
+     "nom_cientific": "Chroicocephalus cirrocephalus",
+     "on": "Langue de Barbarie, Dakar, Technopole",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Gavina capblanca",
+     "nom_cientific": "Chroicocephalus genei",
+     "on": "Langue de Barbarie",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Corriol gros",
+     "nom_cientific": "Charadrius hiaticula",
+     "on": "Platges i llacunes de tota la costa",
+     "quan": "Hivernant"
+    },
+    {
+     "nom_catala": "Martinet dels esculls",
+     "nom_cientific": "Egretta gularis",
+     "on": "Tota la costa, manglars (formes blanca i fosca)",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Agró goliat",
+     "nom_cientific": "Ardea goliath",
+     "on": "Delta del Saloum",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Àguila pescadora africana",
+     "nom_cientific": "Haliaeetus vocifer",
+     "on": "Saloum, Casamance, Djoudj",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Àguila pescadora",
+     "nom_cientific": "Pandion haliaetus",
+     "on": "Somone, Saloum, Langue de Barbarie",
+     "quan": "Hivernant (octubre-abril)"
+    },
+    {
+     "nom_catala": "Voltor de les palmeres",
+     "nom_cientific": "Gypohierax angolensis",
+     "on": "Saloum, Casamance",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Cigonya blanca",
+     "nom_cientific": "Ciconia ciconia",
+     "on": "Djoudj, vall del riu Senegal",
+     "quan": "Hivernant"
+    },
+    {
+     "nom_catala": "Tàntal africà",
+     "nom_cientific": "Mycteria ibis",
+     "on": "Djoudj, Saloum",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Boscarla d'aigua",
+     "nom_cientific": "Acrocephalus paludicola",
+     "on": "Djoudj (principal lloc d'hivernada conegut)",
+     "quan": "Hivernant; molt discreta"
+    },
+    {
+     "nom_catala": "Faetó becvermell",
+     "nom_cientific": "Phaethon aethereus",
+     "on": "Îles de la Madeleine (Dakar)",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Abellerol gola blanca",
+     "nom_cientific": "Merops albicollis",
+     "on": "Petite Côte, Saloum, Casamance",
+     "quan": "Sobretot en pas i a l'estació seca"
+    },
+    {
+     "nom_catala": "Gaig blau d'Abissínia",
+     "nom_cientific": "Coracias abyssinicus",
+     "on": "Sabanes de tot el país, fils elèctrics",
+     "quan": "Tot l'any; molt visible a l'estació seca"
+    },
+    {
+     "nom_catala": "Calau becvermell",
+     "nom_cientific": "Tockus kempi / T. erythrorhynchus",
+     "on": "Popenguine, Saloum, Bandia",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Calau gris",
+     "nom_cientific": "Lophoceros nasutus",
+     "on": "Sabanes i boscos de tot el país",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Turac de Guinea",
+     "nom_cientific": "Tauraco persa",
+     "on": "Boscos de Casamance, Fathala",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Turac violaci",
+     "nom_cientific": "Musophaga violacea",
+     "on": "Casamance, Saloum",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Lloro del Senegal",
+     "nom_cientific": "Poicephalus senegalus",
+     "on": "Saloum, Casamance",
+     "quan": "Tot l'any"
+    },
+    {
+     "nom_catala": "Vídua de cua llarga",
+     "nom_cientific": "Vidua macroura",
+     "on": "Jardins, camps i sabanes",
+     "quan": "Mascles amb la cua llarga sobretot a l'època de pluges"
+    },
+    {
+     "nom_catala": "Alció garser",
+     "nom_cientific": "Ceryle rudis",
+     "on": "Llacunes, bolongs i rius de tot el país",
+     "quan": "Tot l'any"
+    }
+   ],
+   "consells": [
+    "Aneu-hi a primera hora (7-10 h) o a partir de les 16 h: més activitat i millor llum.",
+    "Una guia de camp d'ocells de l'Àfrica occidental (p. ex. Borrow & Demey) o una app com Merlin amb el paquet d'Àfrica occidental.",
+    "Al Saloum i a la Langue de Barbarie, demaneu al piroguier que no s'acosti als bancs de sorra on reposen els ocells.",
+    "Els noms catalans d'algunes espècies africanes són poc fixats: feu servir el nom científic per buscar-les.",
+    "Entrades i pirogues: els preus varien molt segons la font; porteu efectiu (FCFA) i confirmeu-los a l'oficina del parc."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikipedia (en): Djoudj National Bird Sanctuary",
+     "url": "https://en.wikipedia.org/wiki/Djoudj_National_Bird_Sanctuary"
+    },
+    {
+     "nom": "Wikipedia (en): Langue de Barbarie National Park",
+     "url": "https://en.wikipedia.org/wiki/Langue_de_Barbarie_National_Park"
+    },
+    {
+     "nom": "Wikipedia (en): Saloum Delta",
+     "url": "https://en.wikipedia.org/wiki/Saloum_Delta"
+    },
+    {
+     "nom": "Au-Sénégal: Parc national de la Langue de Barbarie et réserve de Guembeul",
+     "url": "https://www.au-senegal.com/parc-national-de-la-langue-de-barbarie-et-reserve-de-guembeul,011.html"
+    },
+    {
+     "nom": "Au-Sénégal: Les oiseaux du Sénégal, destination d'exception",
+     "url": "https://au-senegal.com/les-oiseaux-du-senegal-destination-d-exception,15309.html"
+    },
+    {
+     "nom": "Au-Sénégal: Le delta du Saloum, joyau du Sénégal",
+     "url": "https://au-senegal.com/le-delta-du-saloum-joyau-du-senegal,12407.html"
+    },
+    {
+     "nom": "Globe-trotting: Langue de Barbarie (2025)",
+     "url": "https://www.globe-trotting.com/post/senegal-langue-barbarie"
+    },
+    {
+     "nom": "Travel Cost Calculator: Djoudj",
+     "url": "https://travelcostcalculator.org/unesco/djoudj-national-bird-sanctuary"
+    },
+    {
+     "nom": "AllAfrica/APS: La réserve ornithologique de Kalissaye (2024)",
+     "url": "https://fr.allafrica.com/stories/202406050184.html"
+    },
+    {
+     "nom": "RAMPAO: Étude ornithologique de Kalissaye",
+     "url": "https://rampao.org/app/uploads/2024/01/Etude-hornitologique-dans-le-reserve-hornitologique-de-Kalissaye-Casamance-Senegal.pdf"
+    },
+    {
+     "nom": "Routard: Réserve naturelle de la Somone",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/la-somone/reserve-naturelle-de-la-somone"
+    },
+    {
+     "nom": "Le Petit Journal: La lagune de la Somone",
+     "url": "https://lepetitjournal.com/dakar/a-voir-a-faire/entre-terre-et-mer-la-lagune-de-la-somone-242323"
+    },
+    {
+     "nom": "Wikivoyage (en): Dakar",
+     "url": "https://en.wikivoyage.org/wiki/Dakar"
+    }
+   ]
+  },
+  {
+   "id": "fauna",
+   "titol": "Fauna (mamífers i rèptils)",
+   "intro": "Sigueu realistes: la gran fauna salvatge del Senegal es concentra al Parc National du Niokolo-Koba, a uns 650 km de Dakar, massa lluny per a un viatge de vuit dies. A la costa, el que veureu sobretot són micos (verds i patas), facoquers, varans, dofins al Saloum i, amb sort, manatins. Les reserves de Bandia i Fathala tenen girafes, rinoceronts i antílops, però són espais tancats amb animals reintroduïts: bonics per a fotos, no un safari salvatge. Principis ètics bàsics: no doneu menjar als micos, no toqueu ni us feu fotos amb animals salvatges, mantingueu la distància i no pagueu per activitats amb animals captius manipulats.",
+   "llocs": [
+    {
+     "nom": "Réserve de Bandia",
+     "regio": "petite-cote",
+     "detall": "3.500 ha tancades a uns 65 km de Dakar, a la carretera de Mbour. Rinoceronts, girafes (portades de Sud-àfrica), búfals, elands de Derby i altres antílops, zebres, hienes, facoquers, micos patas i verds, estruços, tortugues gegants, varans i cocodrils. Visita només en vehicle. Fauna reintroduïda, no autòctona en molts casos.",
+     "lat": 14.58,
+     "lng": -17.01
+    },
+    {
+     "nom": "Réserve de Fathala",
+     "regio": "saloum",
+     "detall": "Bosc a la vora del delta del Saloum amb fauna africana reintroduïda (safari en camió 4x4 d'unes 2 h). També ofereix passejades amb lleons: és una activitat amb lleons criats en captivitat que moltes organitzacions de benestar animal desaconsellen. Preus antics de fòrum: uns 40 € el safari; agències la venen per uns 65.000 FCFA amb transport.",
+     "lat": 13.65,
+     "lng": -16.43
+    },
+    {
+     "nom": "Réserve de Guembeul",
+     "regio": "nord",
+     "detall": "Recinte tancat de 720 ha prop de Saint-Louis on es crien espècies saheliques amenaçades: gaseles dama, òrixs, tortugues esperonades (que poden viure més de 100 anys), micos patas, facoquers, mangostes, guineus i varans del desert. Entrada 5.000 F + guia 5.000 F.",
+     "lat": 15.95,
+     "lng": -16.47
+    },
+    {
+     "nom": "Delta del Saloum",
+     "regio": "saloum",
+     "detall": "Dofí geperut de l'Atlàntic (Sousa teuszii, espècie en perill crític), vist amb regularitat; manatins prop de les fonts d'aigua dolça (cal paciència i sort); micos verds i patas, colobus vermell occidental, facoquers, servals, porcs espins, gats mesquers, varans i pitons al bosc.",
+     "lat": 13.88,
+     "lng": -16.73
+    },
+    {
+     "nom": "Palmarin: hienes",
+     "regio": "saloum",
+     "detall": "Excursions vespertines per observar hienes tacades a la zona de la reserva de Palmarin. Entrada uns 2.000 FCFA per persona i uns 15.000 FCFA el lloguer de la carreta (preus d'un blog del 2026).",
+     "lat": 14.01,
+     "lng": -16.77
+    },
+    {
+     "nom": "Djoudj",
+     "regio": "nord",
+     "detall": "A més dels ocells, poblacions importants de cocodrils i manatins (aquests, molt difícils de veure).",
+     "lat": 16.37,
+     "lng": -16.28
+    },
+    {
+     "nom": "Pointe Saint-Georges (Casamance)",
+     "regio": "casamance",
+     "detall": "Petit poble a l'estuari de la Casamance; segons Le Petit Journal, amb marea baixa s'hi poden veure manatins. Accessible en bicicleta des d'Oussouye (vegeu la secció de bicicleta).",
+     "lat": 12.61,
+     "lng": -16.56
+    },
+    {
+     "nom": "Parc National du Niokolo-Koba",
+     "regio": "est",
+     "detall": "El gran parc del país (a uns 650 km de Dakar): unes 80 espècies de mamífers, entre les quals lleons, lleopards, ximpanzés, babuins de Guinea, hipopòtams, búfals, kobs, hipotragus i l'eland de Derby (últim refugi al Mont Assirik), on també sobreviuen els darrers elefants del Senegal. Va sortir de la llista del Patrimoni Mundial en perill el 2024. Simenti és l'única bassa permanent i el millor lloc per veure animals.",
+     "lat": 13.03,
+     "lng": -13.29
+    },
+    {
+     "nom": "Réserve Naturelle Communautaire de Dindéfélo",
+     "regio": "est",
+     "detall": "Dos grups de ximpanzés salvatges (almenys 53 adults identificats). Visita d'interpretació amb ecoguia: 30.000 FCFA per persona, màxim tres persones majors de 15 anys. Al març de 2026 grans incendis van afectar la reserva i el plató de Dandé: confirmeu l'estat abans d'anar-hi.",
+     "lat": 12.38,
+     "lng": -12.33
+    }
+   ],
+   "especies": [
+    {
+     "nom_catala": "Manatí africà",
+     "nom_cientific": "Trichechus senegalensis",
+     "on": "Saloum, Djoudj, Casamance (Pointe Saint-Georges)",
+     "quan": "Tot l'any; observació difícil i amb sort",
+     "etica": "Si en veieu un des de la pirogua, demaneu que s'apagui el motor i no us hi acosteu."
+    },
+    {
+     "nom_catala": "Dofí geperut de l'Atlàntic",
+     "nom_cientific": "Sousa teuszii",
+     "on": "Delta del Saloum",
+     "quan": "Tot l'any",
+     "etica": "Espècie en perill crític: cap persecució amb la barca."
+    },
+    {
+     "nom_catala": "Tortuga verda, babaua i llaüt",
+     "nom_cientific": "Chelonia mydas, Caretta caretta, Dermochelys coriacea",
+     "on": "Langue de Barbarie, Saloum (Sangomar)",
+     "quan": "La posta és sobretot a l'època de pluges; al desembre és molt improbable veure-les a la platja",
+     "etica": "Cap llum ni flaix de nit a les platges de posta."
+    },
+    {
+     "nom_catala": "Hipopòtam",
+     "nom_cientific": "Hippopotamus amphibius",
+     "on": "Riu Gàmbia al Niokolo-Koba",
+     "quan": "Estació seca",
+     "etica": "Animal perillós: mai entre ell i l'aigua."
+    },
+    {
+     "nom_catala": "Ximpanzé",
+     "nom_cientific": "Pan troglodytes verus",
+     "on": "Dindéfélo, Niokolo-Koba (sud-est)",
+     "quan": "Tot l'any",
+     "etica": "Només amb ecoguia, grups petits, sense menjar i sense anar-hi si esteu refredats."
+    },
+    {
+     "nom_catala": "Babuí de Guinea",
+     "nom_cientific": "Papio papio",
+     "on": "Niokolo-Koba, sud-est",
+     "quan": "Tot l'any",
+     "etica": "No els doneu menjar."
+    },
+    {
+     "nom_catala": "Colobus vermell occidental",
+     "nom_cientific": "Piliocolobus badius",
+     "on": "Boscos del Saloum (Fathala) i Casamance",
+     "quan": "Tot l'any",
+     "etica": ""
+    },
+    {
+     "nom_catala": "Mico verd (callítrix)",
+     "nom_cientific": "Chlorocebus sabaeus",
+     "on": "Tot el país: Somone, Saloum, Casamance",
+     "quan": "Tot l'any",
+     "etica": "Vigileu les motxilles i no els alimenteu."
+    },
+    {
+     "nom_catala": "Mico patas",
+     "nom_cientific": "Erythrocebus patas",
+     "on": "Guembeul, Saloum, Bandia",
+     "quan": "Tot l'any",
+     "etica": ""
+    },
+    {
+     "nom_catala": "Facoquer",
+     "nom_cientific": "Phacochoerus africanus",
+     "on": "Guembeul, Saloum, Bandia",
+     "quan": "Tot l'any",
+     "etica": ""
+    },
+    {
+     "nom_catala": "Hiena tacada",
+     "nom_cientific": "Crocuta crocuta",
+     "on": "Palmarin, Bandia",
+     "quan": "Al vespre",
+     "etica": "Sortides sense esquers ni llums excessius."
+    },
+    {
+     "nom_catala": "Eland de Derby",
+     "nom_cientific": "Taurotragus derbianus",
+     "on": "Bandia i Fathala (reintroduïts), Niokolo-Koba (salvatges)",
+     "quan": "Tot l'any",
+     "etica": ""
+    },
+    {
+     "nom_catala": "Gasela dama i òrix",
+     "nom_cientific": "Nanger dama, Oryx dammah",
+     "on": "Guembeul (cria en semillibertat)",
+     "quan": "Tot l'any",
+     "etica": ""
+    },
+    {
+     "nom_catala": "Tortuga esperonada",
+     "nom_cientific": "Centrochelys sulcata",
+     "on": "Guembeul, Bandia",
+     "quan": "Tot l'any",
+     "etica": ""
+    },
+    {
+     "nom_catala": "Cocodril del Nil / de l'oest",
+     "nom_cientific": "Crocodylus niloticus / C. suchus",
+     "on": "Djoudj, Bandia",
+     "quan": "Tot l'any",
+     "etica": ""
+    },
+    {
+     "nom_catala": "Varà del Nil",
+     "nom_cientific": "Varanus niloticus",
+     "on": "Somone, Saloum, Casamance",
+     "quan": "Tot l'any",
+     "etica": ""
+    }
+   ],
+   "consells": [
+    "Bandia es fa fàcilment entre Dakar i la Petite Côte; Fathala, des de Toubacouta.",
+    "Si teniu dubtes ètics, salteu-vos la passejada amb lleons de Fathala: són animals de cria en captivitat.",
+    "Els micos de la Somone i del Saloum estan acostumats a la gent: no deixeu menjar a la vista.",
+    "Les tortugues marines són pràcticament inobservables al desembre; no pagueu excursions que les prometin."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikipedia (fr): Réserve de Bandia",
+     "url": "https://fr.wikipedia.org/wiki/R%C3%A9serve_de_Bandia"
+    },
+    {
+     "nom": "Wikipedia (fr): Parc national du Niokolo-Koba",
+     "url": "https://fr.wikipedia.org/wiki/Parc_national_du_Niokolo-Koba"
+    },
+    {
+     "nom": "Au-Sénégal: Le delta du Saloum, joyau du Sénégal",
+     "url": "https://au-senegal.com/le-delta-du-saloum-joyau-du-senegal,12407.html"
+    },
+    {
+     "nom": "Au-Sénégal: Langue de Barbarie et Guembeul",
+     "url": "https://www.au-senegal.com/parc-national-de-la-langue-de-barbarie-et-reserve-de-guembeul,011.html"
+    },
+    {
+     "nom": "Au-Sénégal: Réserve naturelle communautaire de Dindéfélo",
+     "url": "https://au-senegal.com/reserve-naturelle-communautaire-de-dindefelo,6888.html"
+    },
+    {
+     "nom": "AllAfrica/APS: incendis a Dindéfélo (març 2026)",
+     "url": "https://fr.allafrica.com/stories/202603030187.html"
+    },
+    {
+     "nom": "Routard forum: Réserve de Fathala ou Niokolo Koba",
+     "url": "https://www.routard.com/forums/t/reserve-de-fathala-ou-parc-de-niokolo-koba-au-senegal/119831"
+    },
+    {
+     "nom": "Au-Sénégal: Excursion à la réserve de Fathala",
+     "url": "https://au-senegal.com/excursion-a-la-reserve-de-fathala,17965.html"
+    },
+    {
+     "nom": "Generation Voyage: Visiter le Sine Saloum (2026)",
+     "url": "https://generationvoyage.fr/visiter-sine-saloum-faire-voir/"
+    },
+    {
+     "nom": "Le Petit Journal: Oussouye, Mlomp, Pointe Saint-Georges à vélo",
+     "url": "https://lepetitjournal.com/dakar/oussouye-mlomp-pointe-saint-georges-la-casamance-en-velo-258311"
+    },
+    {
+     "nom": "Wikipedia (en): Djoudj National Bird Sanctuary",
+     "url": "https://en.wikipedia.org/wiki/Djoudj_National_Bird_Sanctuary"
+    }
+   ]
+  },
+  {
+   "id": "caminar",
+   "titol": "Caminades i trekking",
+   "intro": "El Senegal és pla, però això no vol dir que no s'hi pugui caminar bé. Les millors caminades de la costa segueixen penya-segats (Cap-Vert, Petite Côte), platges infinites (Casamance) i pobles de pescadors (Saint-Louis), i es fan perfectament pel vostre compte. El trekking de veritat és al sud-est, al país Bassari i Bédik (Kédougou), amb turons, cascades i pobles enfilats, però queda a més de 700 km de Dakar. Al desembre la calor és moderada, però camineu a primera hora o a la tarda, porteu dos litres d'aigua per persona i vigileu les marees a les rutes de platja.",
+   "llocs": [
+    {
+     "nom": "Penya-segats de la Petite Côte: Toubab Dialaw – Ndayane – Cap de Naze – Popenguine",
+     "regio": "petite-cote",
+     "inici": "Toubab Dialaw (platja, sota el poble)",
+     "final": "Popenguine (platja i basílica)",
+     "km": 10,
+     "durada": "3-4 h (sense parades)",
+     "dificultat": "moderada",
+     "descripcio_ruta": "Sortiu de bon matí de la platja de Toubab Dialaw, amb marea baixant, i camineu cap al sud pel peu dels penya-segats vermells i ocres. En uns 3-4 km arribareu a Ndayane, un poble de pescadors amb pirogues a la sorra: bon lloc per a un te o un esmorzar senzill. A partir d'aquí la costa s'enfila cap al Cap de Naze, el punt més alt de la Petite Côte, que forma part de la Réserve Naturelle de Popenguine: els senders ben mantinguts pugen des de la sabana fins dalt dels penya-segats, amb vistes sobre l'oceà i búnquers de la Segona Guerra Mundial. Si voleu fer la part alta, pagueu l'entrada a l'accés de la reserva (gestionada per un grup de dones del poble, que també ofereix guies). Baixeu cap a Popenguine, banyeu-vos a la seva platja de sorra fina (mar més tranquil que a Dakar) i dineu peix a la brasa en algun restaurant de platja. Tornada: taxi o 'clando' (taxi col·lectiu) cap a Toubab Dialaw o Dakar per la carretera interior; demaneu-lo al poble.",
+     "punts": [
+      [
+       14.606,
+       -17.15
+      ],
+      [
+       14.592,
+       -17.14
+      ],
+      [
+       14.58,
+       -17.13
+      ],
+      [
+       14.566,
+       -17.118
+      ],
+      [
+       14.558,
+       -17.112
+      ],
+      [
+       14.553,
+       -17.113
+      ]
+     ],
+     "consells": "Mireu les marees: amb marea alta alguns trams sota el penya-segat queden tallats; aleshores pugeu pels camins de dalt. No camineu just a la vora del penya-segat, que és d'argila i s'esfondra.",
+     "fonts": [
+      {
+       "nom": "Routard: Toubab Dialaw",
+       "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/toubab-dialaw"
+      },
+      {
+       "nom": "Routard: Popenguine",
+       "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/popenguine"
+      },
+      {
+       "nom": "Wikipedia (fr): Réserve naturelle de Popenguine",
+       "url": "https://fr.wikipedia.org/wiki/R%C3%A9serve_naturelle_de_Popenguine"
+      }
+     ]
+    },
+    {
+     "nom": "Réserve Naturelle de Popenguine i Cap de Naze (circuit curt)",
+     "regio": "petite-cote",
+     "inici": "Accés a la reserva / Ker Cupaam (Popenguine)",
+     "final": "Popenguine",
+     "km": 5,
+     "durada": "2-2,5 h",
+     "dificultat": "fàcil",
+     "descripcio_ruta": "Versió curta per a qui dorm a Popenguine. Des del poble, aneu a l'espai comunitari Ker Cupaam del grup de dones que gestiona la reserva (1.009 ha, creada el 1986 per regenerar una zona molt degradada). Pagueu l'entrada i, si voleu, contracteu un guia ornitològic. El sender puja per sabana sudano-saheliana (hi han tornat les pintades, el xacal i el porc espí) fins als miradors del Cap de Naze, d'on es veuen ocells marins, rapinyaires i, des del penya-segat, merles roqueres. Torneu pel mateix camí o baixeu cap a la platja i acabeu amb un bany. La reserva té també un campament gestionat per les dones.",
+     "punts": [
+      [
+       14.553,
+       -17.113
+      ],
+      [
+       14.558,
+       -17.108
+      ],
+      [
+       14.563,
+       -17.112
+      ],
+      [
+       14.566,
+       -17.118
+      ],
+      [
+       14.558,
+       -17.112
+      ]
+     ],
+     "consells": "Preu d'entrada no publicat: pregunteu a la recepció. Aneu-hi d'hora per als ocells.",
+     "fonts": [
+      {
+       "nom": "Wikipedia (fr): Réserve naturelle de Popenguine",
+       "url": "https://fr.wikipedia.org/wiki/R%C3%A9serve_naturelle_de_Popenguine"
+      },
+      {
+       "nom": "Au-Sénégal: Les oiseaux du Sénégal",
+       "url": "https://au-senegal.com/les-oiseaux-du-senegal-destination-d-exception,15309.html"
+      },
+      {
+       "nom": "Routard: Popenguine",
+       "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/popenguine"
+      }
+     ]
+    },
+    {
+     "nom": "Dakar: Ouakam – Les Mamelles – Corniche Ouest – Soumbédioune",
+     "regio": "dakar",
+     "inici": "Mesquita de la Divinitat (Ouakam)",
+     "final": "Marché de Soumbédioune / village artisanal",
+     "km": 8,
+     "durada": "2,5-3 h",
+     "dificultat": "fàcil (una pujada curta al far)",
+     "descripcio_ruta": "Comenceu davant la mesquita de la Divinitat, a la platja d'Ouakam, on es poden veure els surfistes. Pugeu cap al turó de les Mamelles: el Phare des Mamelles ofereix vistes magnífiques sobre l'oceà i la ciutat (el Monument de la Renaixença Africana és al turó veí). Baixeu a la platja de les Mamelles, molt popular per a la posta de sol (onades grans: no us hi banyeu si hi ha mar). Continueu cap al sud per la Corniche Ouest, el passeig marítim que voreja penya-segats baixos i parcs esportius plens de gent fent exercici, passant per Fann i la Université. Acabeu al mercat de peix de Soumbédioune (obert de 8 a 19 h; molta animació quan tornen les pirogues a la tarda) i al poble artesanal veí. Tornada en taxi.",
+     "punts": [
+      [
+       14.718,
+       -17.498
+      ],
+      [
+       14.723,
+       -17.497
+      ],
+      [
+       14.716,
+       -17.487
+      ],
+      [
+       14.7,
+       -17.477
+      ],
+      [
+       14.685,
+       -17.467
+      ],
+      [
+       14.677,
+       -17.459
+      ]
+     ],
+     "consells": "Feu-la de dia: Wikivoyage desaconsella caminar per la Corniche al vespre i de nit, sobretot entre l'International School of Dakar i el Club Olympique.",
+     "fonts": [
+      {
+       "nom": "Wikivoyage (en): Dakar",
+       "url": "https://en.wikivoyage.org/wiki/Dakar"
+      }
+     ]
+    },
+    {
+     "nom": "Volta a l'Île de Ngor a peu",
+     "regio": "dakar",
+     "inici": "Embarcadère de l'Île de Ngor (platja de Ngor)",
+     "final": "Embarcadère de l'Île de Ngor",
+     "km": 2,
+     "durada": "1-1,5 h (més bany)",
+     "dificultat": "fàcil",
+     "descripcio_ruta": "Agafeu la pirogua a l'embarcador de Ngor (uns 500 CFA, 5 minuts). Desembarcareu a la platja petita de l'illa, amb bars i restaurants. Seguiu els carrerons entre cases pintades i murals cap a l'oest fins a la costa rocosa, des d'on es veu l'onada de Ngor Right i, els dies clars, Almadies. Envolteu l'illa pels camins de roca (calçat que agafi) i torneu a la platja per banyar-vos (és l'aigua més tranquil·la de la zona) i dinar peix. Última pirogua cap al capvespre: confirmeu l'horari.",
+     "punts": [
+      [
+       14.751,
+       -17.513
+      ],
+      [
+       14.755,
+       -17.515
+      ],
+      [
+       14.758,
+       -17.519
+      ],
+      [
+       14.757,
+       -17.513
+      ],
+      [
+       14.753,
+       -17.511
+      ]
+     ],
+     "consells": "Ideal el primer o l'últim dia, a 20 min de l'aeroport en taxi des d'Almadies.",
+     "fonts": [
+      {
+       "nom": "Wikivoyage (en): Dakar",
+       "url": "https://en.wikivoyage.org/wiki/Dakar"
+      },
+      {
+       "nom": "Au-Sénégal: Surf au Sénégal",
+       "url": "https://au-senegal.com/surf-au-senegal-pourquoi-dakar-est-devenue-l-une-des-destinations-les-plus-prisees-d-afrique-de-l,18412.html"
+      }
+     ]
+    },
+    {
+     "nom": "Saint-Louis: l'illa – Guet Ndar – Hydrobase",
+     "regio": "nord",
+     "inici": "Pont Faidherbe (illa de Saint-Louis)",
+     "final": "Platja de l'Hydrobase",
+     "km": 7,
+     "durada": "2,5-3 h",
+     "dificultat": "fàcil",
+     "descripcio_ruta": "Comenceu a la punta nord-est de l'illa, al pont Faidherbe, i passegeu pels carrers colonials fins a l'altra banda de l'illa. Creueu el braç petit del riu cap a la Langue de Barbarie i entreu a Guet Ndar, el barri de pescadors més dens del país: centenars de pirogues pintades, peix assecant-se i un enrenou constant (demaneu permís abans de fotografiar). Continueu cap al sud per la llengua de sorra, entre l'oceà i el riu, fins a l'Hydrobase, la gran platja on es reuneix la gent quan fa calor. Atureu-vos a un dels hotels o bars de la platja per beure o dinar. Tornada a peu pel mateix camí o en taxi. L'oficina de turisme proposa dues rutes guiades d'1 h 30 a 3 h (les dues illes i el poble de pescadors), a peu, amb bicicleta o amb calessa.",
+     "punts": [
+      [
+       16.024,
+       -16.502
+      ],
+      [
+       16.027,
+       -16.506
+      ],
+      [
+       16.03,
+       -16.511
+      ],
+      [
+       16.018,
+       -16.51
+      ],
+      [
+       16.005,
+       -16.508
+      ],
+      [
+       15.995,
+       -16.507
+      ]
+     ],
+     "consells": "No us banyeu a l'oceà a l'Hydrobase: l'Atlàntic és molt perillós en aquesta zona.",
+     "fonts": [
+      {
+       "nom": "Wikivoyage (fr): Saint-Louis (Sénégal)",
+       "url": "https://fr.wikivoyage.org/wiki/Saint-Louis_(S%C3%A9n%C3%A9gal)"
+      },
+      {
+       "nom": "Figaro Nautisme: Saint-Louis du Sénégal, entre fleuve et océan",
+       "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-escales/2025-03-25/32927-saint-louis-du-senegal-entre-fleuve-et-ocean"
+      }
+     ]
+    },
+    {
+     "nom": "Sender ecològic de la Somone",
+     "regio": "petite-cote",
+     "inici": "Parcs d'ostres, nord de la Somone",
+     "final": "Mirador sobre la llacuna",
+     "km": 2.4,
+     "durada": "1 h (anar i tornar)",
+     "dificultat": "fàcil",
+     "descripcio_ruta": "Sender senyalitzat d'1,2 km amb plafons explicatius pel manglar de la reserva (entrada 1.500 F, obert cada dia; es pot fer sol o amb guia). S'hi accedeix per la llacuna, al costat dels parcs d'ostres al nord de la Somone. Veureu crancs violinistes a la sorra amb marea baixa, micos verds, varans, i ocells com pelicans, becplaners i àguiles pescadores. Al final, un mirador sobre els bancs de sorra on reposen els ocells. Combineu-ho amb una pirogua d'una hora per la llacuna i un bany a la platja de la Somone o de Ngaparou.",
+     "punts": [
+      [
+       14.488,
+       -17.083
+      ],
+      [
+       14.484,
+       -17.08
+      ],
+      [
+       14.48,
+       -17.078
+      ],
+      [
+       14.478,
+       -17.075
+      ]
+     ],
+     "consells": "Contacte: Bureau des eaux et forêts de Ngaparou, 33 958 55 92. Millor a primera hora o al capvespre.",
+     "fonts": [
+      {
+       "nom": "Au-Sénégal: Le sentier écologique de la réserve naturelle de la Somone",
+       "url": "https://au-senegal.com/le-sentier-ecologique-de-la-reserve-naturelle-de-la-somone,15706.html"
+      },
+      {
+       "nom": "Routard: Réserve naturelle de la Somone",
+       "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/la-somone/reserve-naturelle-de-la-somone"
+      }
+     ]
+    },
+    {
+     "nom": "Mar Lodj a peu: tres pobles i manglar",
+     "regio": "saloum",
+     "inici": "Embarcador de Mar Lodj (pirogua des de Ndangane)",
+     "final": "Embarcador de Mar Lodj",
+     "km": 8,
+     "durada": "3-4 h",
+     "dificultat": "fàcil (sorra)",
+     "descripcio_ruta": "Arribeu en pirogua des de Ndangane (uns 20 min) o des de l'embarcador d'Akoulé a Palmarin (uns 45 min). El poble principal de Mar Lodj es visita a peu en 1 h 30: cases de tova, baobabs, l'església de la Sainte-Famille i la mesquita gairebé de costat, símbol de la convivència religiosa de l'illa. Continueu per camins de sorra entre palmeres i baobabs cap a Mar Fafaco i Mar Soulou (les distàncies són curtes, però si fa calor la carreta de cavall és el mitjà més pràctic). Molts campements ofereixen passejades guiades pel manglar (una font indica 9.000 FCFA per a una persona). Dineu al vostre campament o en un de l'illa i banyeu-vos al bolong als punts que us indiquin.",
+     "punts": [
+      [
+       14.085,
+       -16.625
+      ],
+      [
+       14.08,
+       -16.63
+      ],
+      [
+       14.07,
+       -16.635
+      ],
+      [
+       14.06,
+       -16.64
+      ],
+      [
+       14.085,
+       -16.625
+      ]
+     ],
+     "consells": "Porteu barret i aigua: no hi ha gaire ombra fora dels pobles. La distància i els noms exactes dels camins, demaneu-los al campament.",
+     "fonts": [
+      {
+       "nom": "Generation Voyage: Visiter le Sine Saloum (2026)",
+       "url": "https://generationvoyage.fr/visiter-sine-saloum-faire-voir/"
+      }
+     ]
+    },
+    {
+     "nom": "Diembéring – Boucotte – Cap Skirring per la platja",
+     "regio": "casamance",
+     "inici": "Diembéring (poble diola)",
+     "final": "Cap Skirring",
+     "km": 11,
+     "durada": "3-3,5 h",
+     "dificultat": "fàcil (sorra, sense ombra)",
+     "descripcio_ruta": "Arribeu a Diembéring en taxi des de Cap Skirring a primera hora i passegeu pel poble diola tradicional, més tranquil que la zona turística, amb els seus grans fromagers (ceibes). Baixeu a la platja i camineu cap al sud per una de les platges més salvatges del país: dunes, palmeres i cocoters, pirogues de pescadors i pocs edificis. A mig camí passareu per davant de Boucotte. Atureu-vos per banyar-vos on l'aigua estigui calmada (aigua a uns 25 °C al desembre) i acabeu a Cap Skirring, on els bars i restaurants de la platja serveixen marisc i peix fresc.",
+     "punts": [
+      [
+       12.478,
+       -16.783
+      ],
+      [
+       12.465,
+       -16.785
+      ],
+      [
+       12.445,
+       -16.777
+      ],
+      [
+       12.42,
+       -16.765
+      ],
+      [
+       12.4,
+       -16.752
+      ],
+      [
+       12.39,
+       -16.746
+      ]
+     ],
+     "consells": "Feu-la amb marea baixa (sorra ferma) i a primera hora. Les distàncies són aproximades.",
+     "fonts": [
+      {
+       "nom": "Routard: Cap Skirring",
+       "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/cap-skirring"
+      }
+     ]
+    },
+    {
+     "nom": "Cascada de Dindéfelo (Kédougou)",
+     "regio": "est",
+     "inici": "Poble de Dindéfelo",
+     "final": "Peu de la cascada",
+     "km": 4,
+     "durada": "2 h (anar i tornar)",
+     "dificultat": "fàcil-moderada",
+     "descripcio_ruta": "Des del poble, una caminada d'aproximadament una hora per bosc porta fins a la cascada, d'uns 100-115 m, amb un gorg al peu (al desembre, a l'inici de l'estació seca, encara porta aigua). Guia local llicenciat obligatori a la reserva. Des del poble també s'organitzen excursions a les Dents de Dandé, amb vistes panoràmiques, i visites per veure ximpanzés (30.000 FCFA/persona). La reserva té sis campaments, dos de comunitaris (+221 77 168 18 10).",
+     "punts": [
+      [
+       12.383,
+       -12.325
+      ],
+      [
+       12.375,
+       -12.322
+      ],
+      [
+       12.368,
+       -12.32
+      ]
+     ],
+     "consells": "ATENCIÓ: al març de 2026 grans incendis van afectar la reserva i el plató de Dandé; el Routard diu que l'accés pot ser perillós o impossible i que les caminades pel plató probablement estan suspeses. Confirmeu-ho abans. Queda a més de 700 km de Dakar: només si allargueu el viatge al sud-est.",
+     "fonts": [
+      {
+       "nom": "Routard: Cascade de Dindéfélo",
+       "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental/dindefelo"
+      },
+      {
+       "nom": "Au-Sénégal: Réserve naturelle communautaire de Dindéfélo",
+       "url": "https://au-senegal.com/reserve-naturelle-communautaire-de-dindefelo,6888.html"
+      },
+      {
+       "nom": "AllAfrica/APS: incendis a Dindéfélo (2026)",
+       "url": "https://fr.allafrica.com/stories/202603030187.html"
+      }
+     ]
+    },
+    {
+     "nom": "Bandafassi – Iwol (país bédik)",
+     "regio": "est",
+     "inici": "Bandafassi",
+     "final": "Iwol",
+     "km": 8,
+     "durada": "3-4 h (anar i tornar)",
+     "dificultat": "moderada (pujada)",
+     "descripcio_ruta": "Iwol, fundat al segle XIII i considerat la capital del país bédik, és un poble enfilat a un turó entre el Niokolo-Koba i Guinea, al districte de Bandafassi. La caminada clàssica surt de Bandafassi i puja per un camí de pedra fins al poble, amb cases de palla, grans gerres de fang per fer cervesa de mill i vistes sobre la plana. Cal anar-hi amb guia local i demanar permís al cap del poble abans de fer fotos. La distància i el desnivell són aproximats: confirmeu-los a Kédougou o Bandafassi.",
+     "punts": [
+      [
+       12.54,
+       -12.31
+      ],
+      [
+       12.545,
+       -12.33
+      ],
+      [
+       12.545,
+       -12.355
+      ]
+     ],
+     "consells": "Molt lluny per a aquest viatge (Kédougou). No hem trobat fonts recents fiables amb el traçat exacte.",
+     "fonts": [
+      {
+       "nom": "Wikipedia (fr): Iwol",
+       "url": "https://fr.wikipedia.org/wiki/Iwol"
+      }
+     ]
+    }
+   ],
+   "consells": [
+    "Calçat: sandàlies de trekking serveixen per a platja i sorra; per als penya-segats i Kédougou, sabatilles de muntanya.",
+    "Aigua i ombra: 2 litres per persona, barret i crema; no hi ha fonts.",
+    "Marees: consulteu-les (apps de marees per a Dakar) abans de les rutes de platja.",
+    "Tornada: a la costa sempre hi ha taxis o 'clandos' a la carretera; porteu bitllets petits.",
+    "Fotos: als pobles, demaneu sempre permís, sobretot a dones i infants."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage (en): Dakar",
+     "url": "https://en.wikivoyage.org/wiki/Dakar"
+    },
+    {
+     "nom": "Routard: Popenguine",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/popenguine"
+    },
+    {
+     "nom": "Routard: Toubab Dialaw",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/toubab-dialaw"
+    },
+    {
+     "nom": "Routard: Cap Skirring",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/cap-skirring"
+    },
+    {
+     "nom": "Wikivoyage (fr): Saint-Louis (Sénégal)",
+     "url": "https://fr.wikivoyage.org/wiki/Saint-Louis_(S%C3%A9n%C3%A9gal)"
+    }
+   ]
+  },
+  {
+   "id": "aigua",
+   "titol": "Caiac, pirogua, natació i pesca",
+   "intro": "La pirogua és el mitjà de transport natural del Senegal: per arribar a illes (Ngor, Gorée, Mar Lodj), per entrar als parcs (Djoudj, Langue de Barbarie, Saloum) i per pescar. El caiac permet ficar-se en bolongs del Saloum i de Casamance on les pirogues de motor no hi arriben, en aigües tranquil·les aptes per a principiants. Pel que fa al bany, la regla d'or és: Petite Côte, Saloum i Casamance, sí (amb seny); Grande Côte (de Dakar a Saint-Louis), no.",
+   "llocs": [
+    {
+     "nom": "Caiac als bolongs del Saloum",
+     "regio": "saloum",
+     "detall": "Sortides des de Ndangane, Palmarin, Djiffer o Toubacouta. Sangomar Kayak ofereix mitges jornades, amb dinar o bivac opcional; preu indicat de 10.000 FCFA per a un caiaquista.",
+     "lat": 13.97,
+     "lng": -16.75
+    },
+    {
+     "nom": "Caiac i pirogua a Casamance (Casamance VTT, Oussouye)",
+     "regio": "casamance",
+     "detall": "Mitja jornada en caiac des de 8.000 FCFA per persona i jornada sencera des de 25.000 FCFA (base 4 persones); jornada de trek en pirogua des de 33.000 FCFA (tarifes 2025/26).",
+     "lat": 12.485,
+     "lng": -16.546
+    },
+    {
+     "nom": "Pirogua a la Langue de Barbarie",
+     "regio": "nord",
+     "detall": "1 h 30 per la llacuna fins als illots dels ocells; 5.000-10.000 FCFA segons el grup (blog 2025) o 7.500 F (2.500 F/persona a partir de 4) segons au-senegal. El Zebrabar (Mouit) i Océan et Savane, a la vora del parc, ofereixen pirogua i caiac.",
+     "lat": 15.89,
+     "lng": -16.51
+    },
+    {
+     "nom": "Pirogua al Djoudj",
+     "regio": "nord",
+     "detall": "Pirogua motoritzada compartida fins a la colònia de pelicans (6.000-8.000 FCFA, estimació 2026).",
+     "lat": 16.37,
+     "lng": -16.28
+    },
+    {
+     "nom": "Pirogua a la llacuna de la Somone",
+     "regio": "petite-cote",
+     "detall": "Una hora entre manglars; 5.000-7.000 FCFA per persona amb entrada (aprox.).",
+     "lat": 14.48,
+     "lng": -17.08
+    },
+    {
+     "nom": "Îles de la Madeleine",
+     "regio": "dakar",
+     "detall": "Pirogua d'uns 5.000 CFA fins al parc nacional; trajecte en mar obert que pot impressionar.",
+     "lat": 14.655,
+     "lng": -17.471
+    },
+    {
+     "nom": "Île de Ngor",
+     "regio": "dakar",
+     "detall": "Pirogua de 5 min, uns 500 CFA; la platja de l'illa és de les millors de Dakar per banyar-se.",
+     "lat": 14.755,
+     "lng": -17.513
+    },
+    {
+     "nom": "Lac Rose",
+     "regio": "dakar",
+     "detall": "Passejades en barca per veure els recol·lectors de sal treballant a mà (amb l'aigua fins al pit i el cos untat de karité). Salinitat fins a 463 g/L.",
+     "lat": 14.839,
+     "lng": -17.231
+    },
+    {
+     "nom": "Pesca a Djiffer i Cap Skirring",
+     "regio": "saloum",
+     "detall": "A Djiffer cal organitzar les sortides de pesca amb antelació; Cap Skirring és conegut per la pesca d'altura ('pêche au gros'). Preus no publicats.",
+     "lat": 13.96,
+     "lng": -16.76
+    }
+   ],
+   "consells": [
+    "Exigiu armilles salvavides a les pirogues, especialment en mar obert (Madeleine, Saloum fins a Sangomar).",
+    "Grande Côte: el Routard avisa que el bany és molt perillós per corrents forts i onades potents (Lompoul, Saint-Louis, Hydrobase).",
+    "Yoff i algunes platges de Dakar es tanquen al bany per contaminació; preferiu Ngor illa, Anse Bernard o la Voile d'Or.",
+    "No us banyeu de nit ni sols, i pregunteu als pescadors on hi ha corrents.",
+    "Negocieu el preu de la pirogua abans de pujar i aclariu si és per persona o per barca."
+   ],
+   "fonts": [
+    {
+     "nom": "Au-Sénégal: Sangomar Kayak",
+     "url": "https://au-senegal.com/sangomar-kayak,5296.html"
+    },
+    {
+     "nom": "Au-Sénégal: Casamance VTT",
+     "url": "https://au-senegal.com/casamance-vtt,312.html"
+    },
+    {
+     "nom": "Au-Sénégal: Langue de Barbarie et Guembeul",
+     "url": "https://www.au-senegal.com/parc-national-de-la-langue-de-barbarie-et-reserve-de-guembeul,011.html"
+    },
+    {
+     "nom": "Globe-trotting: Langue de Barbarie (2025)",
+     "url": "https://www.globe-trotting.com/post/senegal-langue-barbarie"
+    },
+    {
+     "nom": "Wikivoyage (en): Dakar",
+     "url": "https://en.wikivoyage.org/wiki/Dakar"
+    },
+    {
+     "nom": "Wikipedia (fr): Lac Rose",
+     "url": "https://fr.wikipedia.org/wiki/Lac_Rose"
+    },
+    {
+     "nom": "Generation Voyage: Visiter le Sine Saloum (2026)",
+     "url": "https://generationvoyage.fr/visiter-sine-saloum-faire-voir/"
+    },
+    {
+     "nom": "Routard: Cap Skirring",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/cap-skirring"
+    },
+    {
+     "nom": "Routard: Désert de Lompoul",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/desert-de-lompoul"
+    }
+   ]
+  },
+  {
+   "id": "bici",
+   "titol": "Bicicleta",
+   "intro": "El relleu pla i les pistes de sorra compactada fan del Senegal rural un bon terreny per a la bicicleta de muntanya, sempre que eviteu les carreteres principals (trànsit dens i sense voral). El millor lloc és la Baixa Casamance al voltant d'Oussouye: arrossars, boscos de fromagers, pobles diola i bolongs, amb un llogater consolidat. A Saint-Louis i al Saloum també es pot pedalar per pistes entre sabana, dunes i salines. Pedaleu de 8 a 12 h i a partir de les 16 h; al migdia, ombra i bany.",
+   "llocs": [
+    {
+     "nom": "Oussouye – Mlomp – Pointe Saint-Georges",
+     "regio": "casamance",
+     "inici": "Oussouye (Casamance VTT, quartier Souleuck)",
+     "final": "Pointe Saint-Georges (tornada a Oussouye)",
+     "km": 40,
+     "durada": "Jornada sencera (4-5 h pedalant)",
+     "dificultat": "moderada; l'últim tram, per a ciclistes amb experiència",
+     "descripcio_ruta": "Llogueu la bici a Casamance VTT i proveu-la abans de sortir; us donen una bossa amb càmera de recanvi i bomba. Sortiu cap al nord per la carretera de Mlomp. Als 2 km, atureu-vos a 'Chez Joseph', un taller a l'aire lliure de transformació d'anacard: visita guiada i venda de mel, licor i suc d'anacard. En uns tres quarts d'hora des d'Oussouye arribeu a Mlomp, on el paisatge passa de verd exuberant a gairebé desèrtic. A Mlomp: quatre 'cases à étage' tradicionals de dos pisos (la més antiga del 1947, construïdes per tiradors senegalesos tornats de la Segona Guerra Mundial), un museu de tradicions diola en una casa impluvium i un fromager enorme al centre amb fetitxes al voltant (no els trepitgeu). Continueu uns 6 km fins a les ruïnes de l'hotel de Djiromaït, abandonat abans d'obrir. L'últim tram fins a Pointe Saint-Georges, poble a l'estuari de la Casamance amb platja de palmeres i torre de fusta, és per a ciclistes amb experiència: amb marea alta us hi podeu quedar atrapats i, amb marea baixa, potser veureu manatins. Mengeu a Mlomp o porteu pícnic; torneu pel mateix camí.",
+     "on_llogar_bici": "Casamance VTT (Oussouye): 1 h 3.000 FCFA; ½ dia 6.000; dia 8.000; 24 h 10.000; 2-5 dies 7.000/dia; kit de reparació inclòs. Tel. +221 33 993 10 04 / WhatsApp +221 77 572 11 96, casamancevtt.com. Sortida guiada d'un dia des de 21.000 FCFA/persona (base 4).",
+     "punts": [
+      [
+       12.485,
+       -16.546
+      ],
+      [
+       12.5,
+       -16.555
+      ],
+      [
+       12.53,
+       -16.575
+      ],
+      [
+       12.556,
+       -16.59
+      ],
+      [
+       12.585,
+       -16.575
+      ],
+      [
+       12.61,
+       -16.56
+      ]
+     ],
+     "fonts": [
+      {
+       "nom": "Le Petit Journal: Oussouye, Mlomp, Pointe Saint-Georges, la Casamance en vélo (2019, act. 2021)",
+       "url": "https://lepetitjournal.com/dakar/oussouye-mlomp-pointe-saint-georges-la-casamance-en-velo-258311"
+      },
+      {
+       "nom": "Au-Sénégal: Casamance VTT",
+       "url": "https://au-senegal.com/casamance-vtt,312.html"
+      }
+     ]
+    },
+    {
+     "nom": "Circuit dels pobles al voltant d'Oussouye (Edioungou i arrossars)",
+     "regio": "casamance",
+     "inici": "Oussouye",
+     "final": "Oussouye",
+     "km": 15,
+     "durada": "Mig dia (2-3 h)",
+     "dificultat": "fàcil",
+     "descripcio_ruta": "Volta curta recomanada als fòrums com el 'circuit dels sis pobles' d'Oussouye, ideal per a la primera tarda. Des d'Oussouye, pedaleu per pistes entre arrossars i palmerars cap a Edioungou, el poble de les terrisseres diola, on es pot veure com fan els atuells de fang a mà, i continueu pels pobles veïns abans de tornar a Oussouye. Una agència de viatges proposa una passejada en BTT de 2 h per arrossars al voltant d'Oussouye. El traçat exacte, demaneu-lo a Casamance VTT, que coneix els camins que són practicables després de l'hivernatge. Acabeu amb un suc de bissap o vi de palma a Oussouye. Recordeu: Oussouye és la seu del rei diola; eviteu vestir de vermell, color reservat al rei.",
+     "on_llogar_bici": "Casamance VTT (Oussouye): mig dia 6.000 FCFA; sortida guiada de mig dia des de 8.000 FCFA/persona (base 4).",
+     "punts": [
+      [
+       12.485,
+       -16.546
+      ],
+      [
+       12.48,
+       -16.565
+      ],
+      [
+       12.47,
+       -16.56
+      ],
+      [
+       12.475,
+       -16.535
+      ],
+      [
+       12.485,
+       -16.546
+      ]
+     ],
+     "fonts": [
+      {
+       "nom": "Au-Sénégal: Casamance VTT",
+       "url": "https://au-senegal.com/casamance-vtt,312.html"
+      },
+      {
+       "nom": "Routard forum: Retour sur un circuit en Casamance",
+       "url": "https://www.routard.com/forums/t/retour-sur-un-circuit-en-casamance/190000"
+      },
+      {
+       "nom": "Le Petit Journal: la Casamance en vélo",
+       "url": "https://lepetitjournal.com/dakar/oussouye-mlomp-pointe-saint-georges-la-casamance-en-velo-258311"
+      }
+     ]
+    },
+    {
+     "nom": "Saint-Louis – Guembeul – Langue de Barbarie (Zebrabar, Mouit)",
+     "regio": "nord",
+     "inici": "Saint-Louis (sud de la ciutat, Sor)",
+     "final": "Zebrabar, a la vora del Parc de la Langue de Barbarie",
+     "km": 20,
+     "durada": "Matí pedalant + tarda de bany; tornada a la tarda",
+     "dificultat": "fàcil-moderada (sorra)",
+     "descripcio_ruta": "Sortiu cap al sud de Saint-Louis per la carretera de Gandiol i, a pocs minuts, deixeu-la per les pistes que passen per darrere la reserva de Guembeul (si teniu temps, feu-hi la visita de 45 min a peu amb guia per veure gaseles dama, òrixs i tortugues esperonades). Pedalareu per sabana saheliana amb acàcies, petits baobabs, dunes i algun punt d'aigua; atureu-vos a les dunes per fer fotos i mireu els llacs, on sovint hi ha flamencs. Compte amb els micos verds i les vostres coses. Dineu al campament Zebrabar, a la riba del riu dins la zona del parc, i passeu-hi la tarda: bany a la llacuna, hamaca i, pagant a part, sortida en pirogua amb ecoguarda o caiac. Tornada a Saint-Louis a la tarda (o feu-hi nit). Per als més forts, hi ha una variant de 60 km.",
+     "on_llogar_bici": "A Saint-Louis hi ha llogaters locals per dia o mig dia (pregunteu al vostre allotjament o a l'oficina de turisme). Sahel Découverte organitza aquesta ruta amb BTT, casc, guia, 4x4 d'assistència i dinar al Zebrabar: 95 €/persona per a 2, 75 € per a 3, 65 € per a 4.",
+     "punts": [
+      [
+       16.01,
+       -16.5
+      ],
+      [
+       15.97,
+       -16.48
+      ],
+      [
+       15.95,
+       -16.47
+      ],
+      [
+       15.93,
+       -16.475
+      ],
+      [
+       15.92,
+       -16.485
+      ]
+     ],
+     "fonts": [
+      {
+       "nom": "Sahel Découverte: Bike Adventure (20 km)",
+       "url": "https://www.saheldecouverte.com/?p=2971"
+      },
+      {
+       "nom": "Au-Sénégal: Langue de Barbarie et Guembeul",
+       "url": "https://www.au-senegal.com/parc-national-de-la-langue-de-barbarie-et-reserve-de-guembeul,011.html"
+      },
+      {
+       "nom": "Wikivoyage (fr): Saint-Louis (Sénégal)",
+       "url": "https://fr.wikivoyage.org/wiki/Saint-Louis_(S%C3%A9n%C3%A9gal)"
+      }
+     ]
+    },
+    {
+     "nom": "Palmarin – Djiffer (Saloum)",
+     "regio": "saloum",
+     "inici": "Palmarin Ngallou",
+     "final": "Djiffer (tornada a Palmarin)",
+     "km": 30,
+     "durada": "Mig dia llarg (3-4 h amb parades)",
+     "dificultat": "fàcil (pla, asfalt i sorra)",
+     "descripcio_ruta": "Des de Palmarin, seguiu cap al sud la carretera que recorre la llengua de terra entre l'oceà i els bolongs, passant pels pobles de Palmarin (Ngounoumane, Diakhanor) i per les salines i llacunes de la reserva comunitària, bones per veure flamencs i limícoles. Atureu-vos a la platja de Diakhanor per banyar-vos. Arribeu a Djiffer, port pesquer a la punta, amb arribada de pirogues i assecadors de peix (fortes olors!). Dineu peix al port i torneu pel mateix camí, o amb el vent a favor, que sol bufar del nord. Distància aproximada; no hem trobat cap font que en descrigui el traçat en bicicleta.",
+     "on_llogar_bici": "No hem trobat llogaters verificats a Palmarin: pregunteu al vostre campament amb antelació. Si no, porteu-les llogades des d'un altre lloc o feu el trajecte amb carreta.",
+     "punts": [
+      [
+       14.04,
+       -16.77
+      ],
+      [
+       14.02,
+       -16.772
+      ],
+      [
+       14.0,
+       -16.773
+      ],
+      [
+       13.98,
+       -16.77
+      ],
+      [
+       13.96,
+       -16.76
+      ]
+     ],
+     "fonts": [
+      {
+       "nom": "Generation Voyage: Visiter le Sine Saloum (2026)",
+       "url": "https://generationvoyage.fr/visiter-sine-saloum-faire-voir/"
+      },
+      {
+       "nom": "Au-Sénégal: Les oiseaux du Sénégal (Palmarin)",
+       "url": "https://au-senegal.com/les-oiseaux-du-senegal-destination-d-exception,15309.html"
+      }
+     ]
+    }
+   ],
+   "consells": [
+    "Proveu frens i canvis abans de sortir i porteu sempre càmera, bomba i desmuntables.",
+    "Aigua (2 l/persona), crema i ulleres: la reverberació de la sorra és intensa.",
+    "Eviteu les carreteres nacionals: trànsit de camions i 'cars rapides' sense marge.",
+    "La sorra tova és esgotadora: deixeu anar una mica les rodes a les pistes.",
+    "Altres operadors citats per au-senegal.com: Téranga Bike i Thiop Thiop Bike (sense preus publicats)."
+   ],
+   "on_llogar": [
+    {
+     "nom": "Casamance VTT (Oussouye)",
+     "detall": "Dia 8.000 FCFA, mig dia 6.000, 1 h 3.000 (temporada 2025/26); sortides guiades de BTT, caiac i trekking."
+    },
+    {
+     "nom": "Sahel Découverte (Saint-Louis)",
+     "detall": "Sortida guiada de 20 km amb dinar al Zebrabar: 65-95 €/persona segons el grup."
+    },
+    {
+     "nom": "Téranga Bike / Thiop Thiop Bike",
+     "detall": "Operadors de lloguer i sortides en BTT llistats a au-senegal.com; preu a consultar."
+    }
+   ],
+   "fonts": [
+    {
+     "nom": "Au-Sénégal: Casamance VTT",
+     "url": "https://au-senegal.com/casamance-vtt,312.html"
+    },
+    {
+     "nom": "Au-Sénégal: Sorties et randonnées vélo et VTT au Sénégal",
+     "url": "https://au-senegal.com/velo-vtt,326.html"
+    },
+    {
+     "nom": "Le Petit Journal: la Casamance en vélo",
+     "url": "https://lepetitjournal.com/dakar/oussouye-mlomp-pointe-saint-georges-la-casamance-en-velo-258311"
+    },
+    {
+     "nom": "Sahel Découverte: Bike Adventure (20 km)",
+     "url": "https://www.saheldecouverte.com/?p=2971"
+    }
+   ]
+  },
+  {
+   "id": "platges",
+   "titol": "Les millors platges",
+   "intro": "El Senegal té més de 500 km de costa, però no totes les platges són per banyar-s'hi. La Grande Côte, de Dakar a Saint-Louis, és salvatge i espectacular però amb corrents molt perillosos. La Petite Côte, al sud de Dakar, té mar més tranquil i és on hi ha els centres turístics (Saly). Casamance té les platges de sorra fina i palmeres més boniques i l'aigua més calenta (uns 25 °C al desembre). A Dakar, triareu entre platges urbanes animades i algunes amb problemes de contaminació. Recordeu: res de topless a les platges públiques, i eviteu les platges de nit.",
+   "llocs": [
+    {
+     "nom": "Île de Ngor",
+     "regio": "dakar",
+     "tipus": "per banyar-se",
+     "detall": "Platja petita i protegida, amb bars i restaurants, a 5 min de pirogua (uns 500 CFA). La millor opció de bany a Dakar.",
+     "lat": 14.753,
+     "lng": -17.513
+    },
+    {
+     "nom": "Plage de l'Anse Bernard",
+     "regio": "dakar",
+     "tipus": "per banyar-se",
+     "detall": "Tranquil·la, amb onades petites, al Plateau.",
+     "lat": 14.662,
+     "lng": -17.427
+    },
+    {
+     "nom": "Plage de la Voile d'Or",
+     "regio": "dakar",
+     "tipus": "per banyar-se",
+     "detall": "Bona per al bany, amb Gorée a la vista.",
+     "lat": 14.705,
+     "lng": -17.44
+    },
+    {
+     "nom": "Plage des Mamelles",
+     "regio": "dakar",
+     "tipus": "urbana, onades grans",
+     "detall": "Sorra i ambient, famosa per les postes de sol; compte amb les onades grans.",
+     "lat": 14.725,
+     "lng": -17.505
+    },
+    {
+     "nom": "Plage de Yoff",
+     "regio": "dakar",
+     "tipus": "urbana, de vegades tancada",
+     "detall": "Bonica, però sovint tancada al bany per brossa, aigües residuals i ofegaments. Bona per surfejar (principiants) i passejar.",
+     "lat": 14.762,
+     "lng": -17.471
+    },
+    {
+     "nom": "Toubab Dialaw",
+     "regio": "petite-cote",
+     "tipus": "salvatge, sota penya-segats",
+     "detall": "Platja llarga al peu de penya-segats ocres, ambient d'artistes; apta per al bany amb mar calmat.",
+     "lat": 14.606,
+     "lng": -17.15
+    },
+    {
+     "nom": "Popenguine",
+     "regio": "petite-cote",
+     "tipus": "per banyar-se",
+     "detall": "Sorra fina, poble tranquil, al costat de la reserva i el Cap de Naze.",
+     "lat": 14.553,
+     "lng": -17.113
+    },
+    {
+     "nom": "La Somone / Ngaparou",
+     "regio": "petite-cote",
+     "tipus": "per banyar-se",
+     "detall": "Platja ampla al costat de la llacuna; mar generalment tranquil.",
+     "lat": 14.483,
+     "lng": -17.09
+    },
+    {
+     "nom": "Saly",
+     "regio": "petite-cote",
+     "tipus": "turística",
+     "detall": "L'estació balneària més concorreguda del país: hotels, serveis, poc autèntica.",
+     "lat": 14.445,
+     "lng": -17.015
+    },
+    {
+     "nom": "Palmarin (Diakhanor)",
+     "regio": "saloum",
+     "tipus": "salvatge",
+     "detall": "Platja llarga i poc freqüentada entre palmeres, a l'entrada del Saloum.",
+     "lat": 13.98,
+     "lng": -16.77
+    },
+    {
+     "nom": "Cap Skirring",
+     "regio": "casamance",
+     "tipus": "per banyar-se",
+     "detall": "Platges immenses de sorra fina amb cocoters, aigua agradable tot l'any i xiringuitos de marisc.",
+     "lat": 12.39,
+     "lng": -16.746
+    },
+    {
+     "nom": "Diembéring – Boucotte",
+     "regio": "casamance",
+     "tipus": "salvatge, pesquera",
+     "detall": "Platja verge amb dunes i pirogues de pescadors, al nord de Cap Skirring; ideal per caminar.",
+     "lat": 12.45,
+     "lng": -16.778
+    },
+    {
+     "nom": "Hydrobase (Saint-Louis)",
+     "regio": "nord",
+     "tipus": "corrents perillosos!",
+     "detall": "Gran platja de la Langue de Barbarie on es reuneix la gent quan fa calor; l'Atlàntic hi és molt perillós. Per passejar, no per nedar.",
+     "lat": 15.995,
+     "lng": -16.507
+    },
+    {
+     "nom": "Langue de Barbarie (costat oceà i costat llacuna)",
+     "regio": "nord",
+     "tipus": "salvatge; corrents perillosos a l'oceà",
+     "detall": "Platges verges a l'Atlàntic i aigües més calmades al costat de la llacuna (millor per banyar-se), accessibles des dels campaments de Gandiol/Mouit.",
+     "lat": 15.9,
+     "lng": -16.51
+    }
+   ],
+   "consells": [
+    "Grande Côte = no us banyeu sense coneixement local: corrents i onades molt forts.",
+    "Platges de pescadors (Mbour, Joal, Guet Ndar, Djiffer): espectaculars per l'arribada de pirogues, no per banyar-se.",
+    "Banyador fora de la platja, no: tapeu-vos per anar al poble.",
+    "Wikivoyage avisa que a la Pointe des Almadies alguns vigilants d'obres demanen una 'taxa' que no és legítima."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage (en): Dakar",
+     "url": "https://en.wikivoyage.org/wiki/Dakar"
+    },
+    {
+     "nom": "Wikivoyage (fr): Sénégal",
+     "url": "https://fr.wikivoyage.org/wiki/S%C3%A9n%C3%A9gal"
+    },
+    {
+     "nom": "Routard: Toubab Dialaw",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/toubab-dialaw"
+    },
+    {
+     "nom": "Routard: Popenguine",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/popenguine"
+    },
+    {
+     "nom": "Routard: Cap Skirring",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/cap-skirring"
+    },
+    {
+     "nom": "Routard: Désert de Lompoul (avís bany Grande Côte)",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/desert-de-lompoul"
+    },
+    {
+     "nom": "Figaro Nautisme: Saint-Louis du Sénégal, entre fleuve et océan",
+     "url": "https://figaronautisme.meteoconsult.fr/actus-nautisme-escales/2025-03-25/32927-saint-louis-du-senegal-entre-fleuve-et-ocean"
+    },
+    {
+     "nom": "Seatemperatu.re: temperatura del mar al desembre",
+     "url": "https://www.seatemperatu.re/africa/senegal/month/december/"
+    }
+   ]
+  },
+  {
+   "id": "estrelles",
+   "titol": "Cel nocturn i desert",
+   "intro": "Fora de Dakar, el cel del Senegal és fosc i, a 12-16° de latitud nord, mostra estrelles del sud que des de Catalunya no es veuen mai. Durant el vostre viatge (27/12/2026 - 04/01/2027) la Lluna estarà en fase minvant: la lluna plena és el 24 de desembre, el quart minvant cap a l'1 de gener i la lluna nova cap al 7 de gener, de manera que cada nit la Lluna sortirà més tard i les primeres hores de la nit seran cada cop més fosques. La pluja d'estels de les Quadràntides té el màxim la nit del 3 al 4 de gener, amb una lluna minvant molt prima que no molestarà gaire. L'enemic és l'harmattan: quan bufa, la pols en suspensió pot enterbolir el cel durant dies.",
+   "llocs": [
+    {
+     "nom": "Desert de Lompoul",
+     "regio": "nord",
+     "detall": "Petit mar de dunes ataronjades a mig camí entre Dakar i Saint-Louis, amb campaments de tendes (khaïmas) on s'arriba en 4x4 des del poble de Lompoul. Condicions excel·lents per observar el cel per l'absència de contaminació lumínica. ATENCIÓ: au-senegal.com afirma que els campaments històrics no poden operar des de novembre de 2023 per l'explotació de zircó, i el Routard diu que des del 2025 el lloc està amenaçat i que l'activitat s'ha traslladat en part a un complex nou. El campament Rêve de Nomade organitza caps de setmana d'astronomia el 2026 (55.000 FCFA/persona segons una font, a confirmar). Comproveu l'estat abans de reservar.",
+     "lat": 15.42,
+     "lng": -16.68
+    },
+    {
+     "nom": "Langue de Barbarie i Gandiol",
+     "regio": "nord",
+     "detall": "Els campaments entre la llacuna i l'oceà, lluny de Saint-Louis, tenen cels foscos i horitzó marí al sud-oest.",
+     "lat": 15.9,
+     "lng": -16.5
+    },
+    {
+     "nom": "Illes del Saloum (Mar Lodj, Palmarin)",
+     "regio": "saloum",
+     "detall": "Molts campaments tenen poca electricitat (solar): nits fosques, silenci i, amb sort, bivac en un illot deshabitat amb operadors de caiac.",
+     "lat": 14.08,
+     "lng": -16.62
+    },
+    {
+     "nom": "Basse Casamance (Oussouye, Diembéring)",
+     "regio": "casamance",
+     "detall": "Pobles sense enllumenat públic; latitud més meridional (12,5° N), ideal per veure l'horitzó sud.",
+     "lat": 12.48,
+     "lng": -16.6
+    }
+   ],
+   "que_mirar": [
+    "Orió, el Toro (Aldebaran i les Plèiades) i Sírius, alts al cel a primera hora de la nit.",
+    "Canopus, la segona estrella més brillant del cel, visible al sud des del Senegal i invisible des de Catalunya.",
+    "Abans de l'alba, la Creu del Sud i Alfa i Beta del Centaure, baixes a l'horitzó sud (millor des de Casamance).",
+    "La Via Làctia d'hivern, travessant Orió i Bessons, en nits sense pols.",
+    "Quadràntides: màxim la nit del 3 al 4 de gener, millor després de mitjanit."
+   ],
+   "consells": [
+    "Les dades de fases lunars són calculades; comproveu-les amb una app d'astronomia (Stellarium, SkySafari).",
+    "Porteu un frontal amb llum vermella i una jaqueta: al desert i a la costa nord les nits poden ser fresques.",
+    "Lompoul: confirmeu per WhatsApp que el campament és obert i on és exactament abans d'anar-hi.",
+    "Si l'harmattan enterboleix el cel, aposteu per la costa (Langue de Barbarie, Saloum), on la brisa marina neteja l'aire."
+   ],
+   "fonts": [
+    {
+     "nom": "Au-Sénégal: Lompoul, des nuits sous les étoiles (maig 2026)",
+     "url": "https://au-senegal.com/lompoul-des-nuits-sous-les-etoiles-pour-explorer-le-ciel-autrement,18347.html"
+    },
+    {
+     "nom": "Au-Sénégal: Le désert de Lompoul",
+     "url": "https://au-senegal.com/le-desert-de-lompoul,15569.html"
+    },
+    {
+     "nom": "Routard: Désert de Lompoul",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/desert-de-lompoul"
+    },
+    {
+     "nom": "Pixidia: Rêve de Nomade (Lompoul)",
+     "url": "https://pixidia.com/?p=91746"
+    },
+    {
+     "nom": "Generation Voyage: Visiter le Sine Saloum (2026)",
+     "url": "https://generationvoyage.fr/visiter-sine-saloum-faire-voir/"
+    }
+   ]
+  }
+ ],
+ "fonts": [
+  {
+   "nom": "Wikivoyage (fr): Sénégal",
+   "url": "https://fr.wikivoyage.org/wiki/S%C3%A9n%C3%A9gal"
+  },
+  {
+   "nom": "Wikivoyage (en): Dakar",
+   "url": "https://en.wikivoyage.org/wiki/Dakar"
+  },
+  {
+   "nom": "Wikivoyage (fr): Saint-Louis (Sénégal)",
+   "url": "https://fr.wikivoyage.org/wiki/Saint-Louis_(S%C3%A9n%C3%A9gal)"
+  },
+  {
+   "nom": "Wikipedia (en): Djoudj National Bird Sanctuary",
+   "url": "https://en.wikipedia.org/wiki/Djoudj_National_Bird_Sanctuary"
+  },
+  {
+   "nom": "Wikipedia (en): Saloum Delta",
+   "url": "https://en.wikipedia.org/wiki/Saloum_Delta"
+  },
+  {
+   "nom": "Wikipedia (fr): Parc national du Niokolo-Koba",
+   "url": "https://fr.wikipedia.org/wiki/Parc_national_du_Niokolo-Koba"
+  },
+  {
+   "nom": "Au-Sénégal (portal turístic)",
+   "url": "https://www.au-senegal.com/"
+  },
+  {
+   "nom": "Routard: guia del Senegal",
+   "url": "https://www.routard.com/fr/guide/afrique/senegal"
+  },
+  {
+   "nom": "Seatemperatu.re: temperatura del mar al Senegal al desembre",
+   "url": "https://www.seatemperatu.re/africa/senegal/month/december/"
+  },
+  {
+   "nom": "Au-Sénégal: Casamance VTT",
+   "url": "https://au-senegal.com/casamance-vtt,312.html"
+  },
+  {
+   "nom": "Le Petit Journal Dakar: la Casamance en vélo",
+   "url": "https://lepetitjournal.com/dakar/oussouye-mlomp-pointe-saint-georges-la-casamance-en-velo-258311"
+  }
+ ]
+}
