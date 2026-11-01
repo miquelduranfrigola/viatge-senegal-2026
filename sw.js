@@ -1,9 +1,9 @@
 /* Service worker: la guia funciona sense connexió un cop visitada. */
-const VERSION = "v2";
+const VERSION = "v3";
 const CORE = `core-${VERSION}`;
 const RUNTIME = `runtime-${VERSION}`;
-const PAGES = ["./", "index.html", "cataleg.html", "regions.html", "guies.html", "itinerari.html", "agenda.html", "natura.html", "coneix.html", "cultura.html", "compres.html", "practic.html", "fonts.html"];
-const DATA = ["activitats", "regions", "itineraris", "esdeveniments", "coneix", "cultura", "practic", "experiencies", "alias", "hero", "ciutats", "directori", "aire_lliure", "compres_idioma"].map((n) => `data/${n}.json`);
+const PAGES = ["./", "index.html", "cataleg.html", "regions.html", "guies.html", "itinerari.html", "agenda.html", "natura.html", "coneix.html", "cultura.html", "compres.html", "practic.html", "fonts.html", "curiositats.html"];
+const DATA = ["activitats", "regions", "itineraris", "esdeveniments", "coneix", "cultura", "practic", "experiencies", "alias", "hero", "ciutats", "directori", "aire_lliure", "compres_idioma", "curiositats"].map((n) => `data/${n}.json`);
 const ASSETS = ["assets/css/style.css", "assets/js/app.js", "manifest.webmanifest", "assets/img/hero.jpg"];
 
 self.addEventListener("install", (e) => {

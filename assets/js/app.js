@@ -10,11 +10,14 @@
     ["itinerari.html", "Itineraris"],
     ["agenda.html", "Agenda"],
     ["natura.html", "Natura i rutes", "aire_lliure"],
-    ["coneix.html", "Coneix"],
-    ["cultura.html", "Llegir i mirar"],
-    ["compres.html", "Compres i frases", "compres_idioma"],
     ["practic.html", "Pràctic"],
-    ["fonts.html", "Fonts"],
+  ];
+  const NAV_MORE = [
+    ["coneix.html", "Coneix el Senegal"],
+    ["curiositats.html", "Curiositats", "curiositats"],
+    ["compres.html", "Compres i frases", "compres_idioma"],
+    ["cultura.html", "Llegir, mirar i escoltar"],
+    ["fonts.html", "Fonts i crèdits"],
   ];
 
   const REGIONS = {
@@ -56,18 +59,22 @@
   /* ---------- Layout ---------- */
   function layout() {
     const here = location.pathname.split("/").pop() || "index.html";
+    const link = ([h, t, need]) => `<a href="${h}"${need ? ` data-need="${need}" hidden` : ""}${h === here ? ' aria-current="page"' : ""}>${t}</a>`;
     const header = document.createElement("header");
     header.className = "topbar";
     header.innerHTML = `
       <div class="container">
         <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span>Senegal 2026</a>
-        <nav class="nav" id="nav">${NAV.map(([h, t, need]) => `<a href="${h}"${need ? ` data-need="${need}" hidden` : ""}${h === here ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
+        <nav class="nav" id="nav">${NAV.map(link).join("")}
+          <details class="more"${NAV_MORE.some(([h]) => h === here) ? ' data-current="1"' : ""}><summary>Més ${icon("expand_more")}</summary><div class="more-menu">${NAV_MORE.map(link).join("")}</div></details>
+          <div class="nav-flat">${NAV_MORE.map(link).join("")}</div></nav>
         <button class="search-pill" aria-label="Cerca a tota la guia">${icon("search")}<span>Cerca</span><kbd>/</kbd></button>
         <button class="icon-btn menu-btn" aria-label="Menú" aria-controls="nav" aria-expanded="false">${icon("menu")}</button>
         <button class="icon-btn theme-btn" aria-label="Canvia el tema">${icon("dark_mode")}</button>
       </div>`;
     document.body.prepend(header);
     const nav = $("#nav"), mb = $(".menu-btn", header);
+    document.addEventListener("click", (e) => { const d = $(".more", nav); if (d && d.open && !d.contains(e.target)) d.open = false; });
     $$("[data-need]", nav).forEach((a) => fetch(`data/${a.dataset.need}.json`, { method: "HEAD" }).then((r) => { if (r.ok) a.hidden = false; }).catch(() => {}));
     mb.addEventListener("click", () => {
       const open = nav.classList.toggle("open");
@@ -349,6 +356,7 @@
       (ci.compres.llocs || []).forEach((o) => add({ kind: "On comprar", icon: "storefront", title: o.nom, body: o.detall, url: "compres.html#llocs" }));
       add({ kind: "Compres", icon: "sell", title: "Com regatejar", tags: "regateig preu", body: (ci.compres.regatejar || []).join(" "), url: "compres.html#regatejar" });
     }
+    (await get("curiositats") || []).forEach((f) => add({ kind: "Curiositat", icon: "lightbulb", title: f.fet.length > 90 ? f.fet.slice(0, 88) + "…" : f.fet, tags: (FCAT[f.categoria] || [f.categoria])[0], body: [f.fet, f.detall].join(" \u2022 "), url: `curiositats.html#fet-${f.n}` }));
     (ci?.idioma?.situacions || []).forEach((sit) => sit.frases.forEach((f) => add({ kind: `Frases · ${sit.titol}`, icon: "translate", title: `${f.catala}`, tags: `${f.wolof} ${f.frances}`, body: `Wòlof: ${f.wolof} [${f.pronuncia || ""}] · Francès: ${f.frances}`, url: "compres.html#idioma" })));
     searchIndex = docs;
     return docs;
@@ -492,6 +500,37 @@
   }
 
 
+  /* ---------- Curiositats ---------- */
+  const FCAT = { geografia: ["Geografia", "public"], historia: ["Història", "history_edu"], llengua: ["Llengua", "translate"], natura: ["Natura", "forest"],
+    "religio-societat": ["Religió i societat", "diversity_3"], menjar: ["Menjar", "restaurant"], "musica-art": ["Música i art", "music_note"],
+    esport: ["Esport", "sports_soccer"], "vida-quotidiana": ["Vida quotidiana", "storefront"], "catalunya-senegal": ["Catalunya i Senegal", "favorite"] };
+  const factHTML = (f) => {
+    const [cat, ic] = FCAT[f.categoria] || [f.categoria, "lightbulb"];
+    return `<article class="fact-card" id="fet-${f.n}">
+      <div class="fact-top"><span class="fact-n">${f.n}</span><span class="badge badge-type">${icon(ic)} ${esc(cat)}</span></div>
+      <p class="fact-text">${esc(f.fet)}</p>
+      ${f.detall ? `<p class="muted fact-det">${esc(f.detall)}</p>` : ""}
+      ${f.font?.url ? `<a class="fact-src" href="${esc(f.font.url)}" target="_blank" rel="noopener">${icon("link")} ${esc(f.font.nom || "Font")}</a>` : ""}
+    </article>`;
+  };
+  async function pageCuriositats() {
+    const fets = await load("curiositats");
+    $("#n-fets").textContent = fets.length;
+    const cats = [...new Set(fets.map((f) => f.categoria))];
+    const sel = new Set();
+    const filt = $("#f-filters");
+    filt.innerHTML = cats.map((c) => `<button class="chip" data-k="${c}" aria-pressed="false">${icon((FCAT[c] || [0, "lightbulb"])[1])} ${esc((FCAT[c] || [c])[0])} <small>${fets.filter((f) => f.categoria === c).length}</small></button>`).join("");
+    const grid = $("#fets");
+    const render = () => { grid.innerHTML = fets.filter((f) => !sel.size || sel.has(f.categoria)).map(factHTML).join(""); };
+    filt.addEventListener("click", (e) => { const b = e.target.closest(".chip[data-k]"); if (!b) return; sel.has(b.dataset.k) ? sel.delete(b.dataset.k) : sel.add(b.dataset.k); b.setAttribute("aria-pressed", sel.has(b.dataset.k)); render(); });
+    render();
+    $("#random-fet").addEventListener("click", () => {
+      sel.clear(); $$(".chip", filt).forEach((c) => c.setAttribute("aria-pressed", "false")); render();
+      const f = fets[Math.floor(Math.random() * fets.length)];
+      const el = document.getElementById(`fet-${f.n}`); el.scrollIntoView({ behavior: "smooth", block: "center" }); flash(el);
+    });
+  }
+
   /* ---------- Guies de ciutat ---------- */
   const kvList = (arr, a, b) => (arr || []).length ? `<dl class="kv">${arr.map((x) => `<dt>${esc(x[a])}</dt><dd>${esc(x[b])}</dd>`).join("")}</dl>` : "";
   const srcLine = (f) => f?.length ? `<p class="muted" style="font-size:13px">Fonts: ${f.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nom)}</a>`).join(" · ")}</p>` : "";
@@ -621,6 +660,12 @@
     const [items, regions] = await Promise.all([load("activitats"), load("regions")]);
     setRegionImgs(regions);
     load("hero").then((h) => { $("#hero-credit").innerHTML = `Foto: ${credit(h)}`; }).catch(() => {});
+    load("curiositats").then((fets) => {
+      const box = $("#sabies"); if (!box || !fets.length) return;
+      const show = () => { const f = fets[Math.floor(Math.random() * fets.length)]; $("#sabies-text").textContent = f.fet; $("#sabies-n").textContent = `#${f.n}`; };
+      box.hidden = false; show();
+      $("#sabies-next").addEventListener("click", show);
+    }).catch(() => {});
     load("esdeveniments").then((ev) => {
       const el = $("#agenda-teaser"); if (!el) return;
       const top = ev.filter((e) => ["cap-d-any", "festival", "lluita", "musica"].includes(e.categoria)).slice(0, 6);
@@ -942,7 +987,7 @@
   }
 
   async function pageFonts() {
-    const names = ["activitats", "practic", "cultura", "coneix", "regions", "itineraris", "esdeveniments", "hero", "ciutats", "directori", "aire_lliure", "compres_idioma"];
+    const names = ["activitats", "practic", "cultura", "coneix", "regions", "itineraris", "esdeveniments", "hero", "ciutats", "directori", "aire_lliure", "compres_idioma", "curiositats"];
     const all = await Promise.all(names.map((n) => load(n).catch(() => null)));
     const links = new Map(), photos = new Map();
     const walk = (o) => {
@@ -973,7 +1018,7 @@
   }
   document.addEventListener("DOMContentLoaded", () => {
     layout();
-    const pages = { guies: pageGuies, natura: pageNatura, compres: pageCompres, agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
+    const pages = { curiositats: pageCuriositats, guies: pageGuies, natura: pageNatura, compres: pageCompres, agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
     const fn = pages[document.body.dataset.page];
     if (fn) fn().then(scrollToHash).catch((e) => {
       console.error(e);
