@@ -1,0 +1,631 @@
+{
+ "intro": "Per a quatre amics que aterren a l'AIBD el 27/12/2026 i en marxen el 04/01/2027, hi ha dues opcions raonables: llogar un cotxe sense xofer (a l'aeroport mateix hi ha Sixt, Hertz, Europcar, OK Mobility, AutoRent i d'altres) o contractar un cotxe amb xofer. Abans de res, cal saber que el Ministeri d'Afers Exteriors espanyol diu textualment que el carnet de conduir espanyol no és reconegut per les autoritats senegaleses i que cal el permís internacional de conduir (PIC), vàlid un any. A més, recomana llogar el vehicle amb un xofer local. Els fòrums francòfons (Routard, novembre del 2025) coincideixen que el circuit clàssic Dakar–Lompoul–Petite Côte–Saloum es pot fer sense xofer, i que anar més lluny ja és «une autre histoire».\n\nRecomanació honesta. Si el grup segueix un dels circuits clàssics de la guia (Dakar–Lompoul–Saint-Louis–Saloum–Petite Côte, uns 950 km), conduir-ho vosaltres és viable si: (1) tothom qui condueixi porta el PIC; (2) llogueu un SUV compacte o un cotxe alt, no un utilitari; (3) negocieu per escrit el quilometratge il·limitat o com a mínim 200–300 km/dia, i (4) no conduïu mai de nit. Per al nord salvatge, per a pistes de sorra (Lompoul, illes del Saloum) i sobretot per a la Casamance, el cotxe amb xofer és clarament millor. El xofer coneix les pistes, els controls i els ferris, i a més us estalvia el límit de km, la franquícia de 250.000 a 1.000.000 FCFA i les «multes» als controls. Una alternativa mixta que funciona molt bé: cotxe amb xofer per als trams llargs o per a la Casamance, i taxi o TER per a Dakar.\n\nCost orientatiu per a 9 dies. Un SUV llogat a un comparador costa entre 90 i 115 € al dia (Sixt, OK Mobility i Avis a l'octubre del 2026), és a dir entre 800 i 1.050 € en total, més uns 120 € de benzina per a 950 km, els peatges i la franquícia. Un cotxe amb xofer costa entre 46 € al dia (2024, sense benzina ni peatges) i 50.000–60.000 FCFA al dia (76–92 €, sovint amb benzina inclosa), segons els testimonis del Routard del 2018 al 2024. Entre quatre persones, la diferència per cap és petita, i amb xofer el risc i l'estrès són molt menors. Totes les tarifes s'han de confirmar amb pressupost escrit: no hem trobat cap tarifa oficial publicada per a aquestes dates.",
+ "km_explicacio": "Al Senegal, el quilometratge il·limitat NO és la norma a les agències locals, i a les internacionals no està garantit. Hem trobat tres esquemes. (1) Forfait amb km inclosos per dia: AutoRent (a l'aeroport de Diass) inclou 100 km/dia i cobra els km extra segons la categoria del vehicle, sense publicar-ne el preu; Dakar Location ofereix forfaits amb 100 km/dia; Sixt Senegal va pressupostar un Pajero Sport amb 100 km/dia (2017); Hertz a l'AIBD va donar 300 km/dia a una viatgera, que va pagar «molts diners» per haver-los superat (blog del 2022, actualitzat el 2025). (2) Tarifa diària més preu per km recorregut: a la graella de Dakar Location, un Suzuki Grand Vitara costa 27.000 FCFA al dia més 270 FCFA per km, més un 18% d'IVA. Amb aquesta tarifa, 950 km sumen uns 300.000 FCFA (uns 460 €) només en km. (3) Km il·limitat: alguns comparadors (VIPCars, Liligo) diuen que les seves ofertes a l'AIBD l'inclouen, o el troben a Europcar, Sixt i OK Mobility. Sixt, però, el ven com un extra opcional, i un usuari de Hertz es queixava a Kayak (2022) que l'oferta no deia que els km no eren gratuïts. La trampa principal: 100 km/dia sembla molt, però en 9 dies són 900 km, MENYS que els ~950 km del circuit clàssic, i no hi compten les voltes per Dakar, les anades i tornades a les platges ni les desviacions. 300 km/dia (2.700 km) són suficients per a qualsevol itinerari de la guia. Altres trampes: el límit pot ser diari i no acumulable (si un dia no us moveu, perdeu els km); el preu del km extra no apareix a la reserva; i una pàgina de Sixt menciona un impost estatal per km recorregut a partir de l'1/1/2026, que no hem pogut confirmar per al Senegal. Abans de pagar, demaneu per escrit: km inclosos, si es compten per dia o en total, i el preu exacte del km extra.",
+ "opcions": [
+  {
+   "nom": "Comparadors: Kayak / Momondo",
+   "tipus": "comparador",
+   "on": "AIBD (Hertz, Sixt, Europcar, OK Mobility, Keddy by Europcar) i Dakar (Avis, Budget, Green Motion)",
+   "web": "https://www.kayak.fr/location-voiture-Dakar.28457.cars.ksp",
+   "preu": "Kayak (consultat l'1/11/2026): des de 57 €/dia (Hyundai i10), SUV econòmic 67 €, Nissan Qashqai 77 €, Suzuki Grand Vitara 100 €, Mitsubishi Montero 175 €. Febrer és el mes més car (~70 €/dia). Per a 9 dies: ~515 € (utilitari) a ~900 € (Grand Vitara). Momondo: des de 39 € a l'AIBD, mitjana ~63 €/dia.",
+   "km": "Cap de les dues pàgines publica la política de km. Momondo permet filtrar per «kilométrage illimité». Una ressenya de Hertz (febrer del 2022) a Kayak i Momondo diu que els km no eren gratuïts i que l'oferta no ho deia. Cal llegir les condicions de cada oferta abans de pagar.",
+   "franquicia": "No publicada. Kayak avisa que la CDW i el robatori no sempre estan inclosos.",
+   "diposit": "Una ressenya de Hertz (2022) diu que el dipòsit va ser d'unes 10 vegades el preu diari.",
+   "pros": [
+    "Permeten comparar moltes agències de l'AIBD de cop",
+    "Hertz té taulell 24 h a l'aeroport",
+    "Es pot filtrar per km il·limitat"
+   ],
+   "contres": [
+    "Política de km poc visible",
+    "Valoracions baixes d'algunes agències (Hertz 3,2/10 a Kayak)",
+    "Els preus mostrats són orientatius"
+   ],
+   "notes": "Kayak indica que els taulells de lloguer són a la terminal d'arribades, a la dreta en sortir.",
+   "fonts": [
+    {
+     "nom": "Kayak – location voiture Dakar",
+     "url": "https://www.kayak.fr/location-voiture-Dakar.28457.cars.ksp"
+    },
+    {
+     "nom": "Momondo – location de voiture Dakar",
+     "url": "https://www.momondo.fr/location-de-voiture/Dakar-28457"
+    }
+   ]
+  },
+  {
+   "nom": "DiscoverCars",
+   "tipus": "comparador",
+   "on": "AIBD (OK Mobility) i Dakar centre (Avis)",
+   "web": "https://www.discovercars.com/senegal/Dakar",
+   "preu": "Preus orientatius a 31/10/2026: Suzuki Ciaz (Avis) 71 €/dia, Toyota Rush 90 €, Nissan Qashqai (OK Mobility, AIBD) 90 €, Suzuki Vitara 94 €, pick-up Ram (OK Mobility) 96 €, Toyota RAV4 107 €. Per a 9 dies, un SUV costa ~810–960 €.",
+   "km": "No s'indica a la pàgina general. Cal mirar la «mileage policy» de cada oferta abans de reservar.",
+   "franquicia": "No indicada a la pàgina general.",
+   "diposit": "Qualitatiu: Avis «Average deposit», OK Mobility (AIBD) «High deposit».",
+   "pros": [
+    "Ofertes de SUV i pick-up a l'aeroport",
+    "Mostra el nivell de dipòsit"
+   ],
+   "contres": [
+    "OK Mobility demana un dipòsit alt",
+    "No mostra la política de km a la pàgina general"
+   ],
+   "notes": "Avis té una oficina a Diass, però DiscoverCars en llista les ofertes al centre de Dakar.",
+   "fonts": [
+    {
+     "nom": "DiscoverCars – Dakar",
+     "url": "https://www.discovercars.com/senegal/Dakar"
+    }
+   ]
+  },
+  {
+   "nom": "VIPCars (ofertes de Sixt i Europcar)",
+   "tipus": "comparador",
+   "on": "AIBD",
+   "web": "https://www.vipcars.com/en-gb/car-rental/senegal/dakar/dakar-blaise-diagne-airport",
+   "preu": "Ofertes de Sixt: Hyundai i10 63,92 €/dia, Citroën C-Elysée 70,07 €, Nissan Almera 98,42 €, Nissan Kicks 103,34 €, Toyota Hilux 115,01 € (pàgina consultada l'1/11/2026; la versió francesa mostrava entre 56,68 i 102 €). Per a 9 dies: ~575 € (i10) a ~930 € (Kicks).",
+   "km": "Segons el resum del cercador, VIPCars anuncia que els seus preus al Senegal inclouen CDW, robatori i km il·limitat. Les pàgines que vam llegir no ho confirmen oferta per oferta, i diuen que «molts proveïdors» ofereixen km il·limitat. Comproveu-ho a les condicions de l'oferta concreta.",
+   "franquicia": "No indicada. Diu que el preu inclou «normalment» CDW i robatori.",
+   "diposit": "No indicat. Es mostra abans de reservar. Cal targeta de crèdit a nom del conductor principal.",
+   "pros": [
+    "Pot ser l'opció més fàcil per aconseguir km il·limitat a l'aeroport",
+    "Ofereix Toyota Hilux (pick-up 4x4)"
+   ],
+   "contres": [
+    "La política de km s'ha de comprovar a cada oferta",
+    "Els preus poden canviar sense avís"
+   ],
+   "notes": "Europcar hi apareix com a soci de VIPCars per al Senegal.",
+   "fonts": [
+    {
+     "nom": "VIPCars – Dakar Blaise Diagne Airport",
+     "url": "https://www.vipcars.com/en-gb/car-rental/senegal/dakar/dakar-blaise-diagne-airport"
+    },
+    {
+     "nom": "VIPCars – Location Voiture Dakar (FR)",
+     "url": "https://www.vipcars.com/fr/car-rental/senegal/dakar"
+    }
+   ]
+  },
+  {
+   "nom": "Sixt Senegal",
+   "tipus": "internacional",
+   "on": "AIBD («Accès Aéroport», tel. +221 33 957 10 11) i VDN Dakar (Cité CPI lot 37)",
+   "web": "https://www.sixt.com/car-rental/senegal/dakar/dakar-airport/",
+   "preu": "A Kayak, Sixt surt des de 58 €/dia (consultat l'1/11/2026). A VIPCars, entre 64 € (i10) i 115 € (Hilux). El 2017 es pagaven 94.000 FCFA/dia per un Pajero Sport.",
+   "km": "Segons el resum del cercador, la pàgina de Sixt Dakar presenta el km il·limitat com un extra opcional, no inclòs per defecte. Exemple real del 2017: Pajero Sport amb 100 km/dia inclosos. Una altra pàgina de Sixt menciona un impost estatal per km recorregut a partir de l'1/1/2026, que no hem pogut verificar per al Senegal.",
+   "franquicia": "No publicada (les pàgines de Sixt bloquegen la lectura automàtica).",
+   "diposit": "No publicat. Cal targeta de crèdit.",
+   "pros": [
+    "Taulell a l'aeroport",
+    "Tarifes de partida de les més baixes",
+    "Accepta passar a Gàmbia i a Guinea-Bissau per 50 € (resposta del 2023)"
+   ],
+   "contres": [
+    "El km il·limitat es paga a part",
+    "Valoració mitjana de 3,9/10 a Kayak (16 usuaris)"
+   ],
+   "notes": "Contacte de Sixt Senegal: tel. (221) 33 820 15 95, WhatsApp +221 76 645 39 49. Demaneu-los per escrit el preu de l'extra «kilométrage illimité».",
+   "fonts": [
+    {
+     "nom": "au-senegal.com – SIXT Rent a Car",
+     "url": "https://au-senegal.com/sixt-rent-a-car,5414.html?lang=fr"
+    },
+    {
+     "nom": "Sixt – Dakar airport",
+     "url": "https://www.sixt.com/car-rental/senegal/dakar/dakar-airport/"
+    },
+    {
+     "nom": "Sixt (IS) – Dakar airport (impost per km 2026)",
+     "url": "https://www.sixt.is/car-rental/senegal/dakar/dakar-airport"
+    }
+   ]
+  },
+  {
+   "nom": "Hertz (Hertz Transacauto)",
+   "tipus": "internacional",
+   "on": "AIBD, taulell 24 h (tel. +221 78 620 08 27), i 6 oficines a Dakar",
+   "web": "https://www.hertz.com/us/en/location/senegal/diass/dsst51",
+   "preu": "No publicat. Una viatgera el descriu com «certament car», però negociable (blog Scratch Your Mapa, 2022, actualitzat el 27/10/2025).",
+   "km": "Límit de 300 km/dia en el cas de la viatgera, que el va superar «de molt» i va pagar «molts diners» després. No en diu el preu per km. També diu que no va trobar cap agència al Senegal que oferís km il·limitat. Una ressenya del 2022 a Kayak es queixa que els km no eren gratuïts.",
+   "franquicia": "No publicada.",
+   "diposit": "Amb targeta de crèdit. Una ressenya del 2022 diu que era d'unes 10 vegades la tarifa diària.",
+   "pros": [
+    "Obert 24 h a l'aeroport (útil si arribeu de nit)",
+    "300 km/dia (2.700 km en 9 dies) són suficients per a qualsevol itinerari de la guia"
+   ],
+   "contres": [
+    "Valoració de 3,2/10 a Kayak",
+    "Km extra cars",
+    "Dipòsit alt"
+   ],
+   "notes": "Confirmeu si el límit de 300 km/dia continua vigent i quant costa el km extra.",
+   "fonts": [
+    {
+     "nom": "Hertz – Blaise Diagne Airport",
+     "url": "https://www.hertz.com/us/en/location/senegal/diass/dsst51"
+    },
+    {
+     "nom": "Scratch Your Mapa – Renting a Car in Senegal",
+     "url": "https://scratchyourmapa.com/?p=18633"
+    },
+    {
+     "nom": "Momondo (ressenyes Hertz)",
+     "url": "https://www.momondo.fr/location-de-voiture/Dakar-28457"
+    }
+   ]
+  },
+  {
+   "nom": "Europcar / Keddy by Europcar / OK Mobility / Avis / Budget",
+   "tipus": "internacional",
+   "on": "Europcar a l'AIBD (tel. +221 77 794 25 84); OK Mobility a l'AIBD; Avis a Diass i a Dakar; Budget a Dakar",
+   "web": "https://www.europcar.com/en/car-rental/locations/senegal",
+   "preu": "OK Mobility: 78–134 €/dia (Kayak, DiscoverCars). Avis: 40–167 €/dia (DiscoverCars), Toyota RAV4 ~86 €/dia de mitjana (Momondo). Les pàgines d'Europcar no publiquen tarifes del Senegal.",
+   "km": "Segons el resum del cercador de Liligo, Europcar, Sixt i OK Mobility tenen ofertes amb km il·limitat a l'AIBD (no hem pogut llegir la pàgina, que bloqueja l'accés). No hem trobat cap política de km publicada per a Avis ni Budget.",
+   "franquicia": "No publicada.",
+   "diposit": "Europcar: targeta de crèdit a nom del conductor principal (FAQ general). OK Mobility: dipòsit alt.",
+   "pros": [
+    "Diverses opcions de recollida a l'aeroport",
+    "Europcar i OK Mobility poden oferir km il·limitat"
+   ],
+   "contres": [
+    "Condicions locals poc transparents",
+    "Cap valoració significativa a Kayak"
+   ],
+   "notes": "No hem trobat presència confirmada d'Alamo, Enterprise ni Thrifty a l'AIBD. Rentalcars mostra els seus logos a la pàgina del Senegal, però no diu que tinguin oficina a l'aeroport.",
+   "fonts": [
+    {
+     "nom": "Europcar – Senegal",
+     "url": "https://www.europcar.com/en/car-rental/locations/senegal"
+    },
+    {
+     "nom": "Liligo – Aéroport Blaise Diagne",
+     "url": "https://www.liligo.fr/location-voiture/senegal/dakar/aeroport-blaise-diagne"
+    },
+    {
+     "nom": "Rentalcars – Senegal/DSS",
+     "url": "https://www.rentalcars.com/en/airport/sn/dss/"
+    }
+   ]
+  },
+  {
+   "nom": "AutoRent (La Sénégalaise de l'Automobile)",
+   "tipus": "local",
+   "on": "Showroom a l'aeroport de Diass (recollida i retorn 24 h) i Bd du Centenaire, Dakar. Tel. +221 33 889 01 21",
+   "web": "https://www.autorent.sn/",
+   "preu": "No publicat al web (cal reservar o trucar). L'entrega a domicili costa 10.000 FCFA més.",
+   "km": "100 km/dia inclosos (FAQ oficial). Els km extra es facturen segons la categoria del vehicle, i el preu no es publica. En 9 dies són 900 km: NO n'hi ha prou per al circuit clàssic de ~950 km.",
+   "franquicia": "Assegurança tot risc inclosa, amb una franquícia de 250.000 FCFA TTC (~381 €). Per fer-la valer en cas d'accident, cal un atestat d'un agutzil (huissier) al lloc dels fets.",
+   "diposit": "No s'especifica. Es cobra un prepagament a la sortida, en efectiu, xec certificat o targeta (CB, Visa, Mastercard, AMEX).",
+   "pros": [
+    "Agència local seriosa amb showroom a l'aeroport",
+    "Tot risc inclòs amb franquícia relativament baixa",
+    "Assistència 24/7",
+    "Ofereix xofer a petició"
+   ],
+   "contres": [
+    "Només 100 km/dia",
+    "Prohibit circular per platges i dunes (per tant, res de Lompoul amb el cotxe)",
+    "Recàrrec de 5.900 FCFA pel servei de carburant",
+    "Edat mínima de 24 anys i 2 anys de carnet"
+   ],
+   "notes": "Demaneu un forfait de km superior o il·limitat i el preu del km extra. Si el preu del km extra és ~250 FCFA (com a la graella de Dakar Location), 500 km de més costarien ~125.000 FCFA (~190 €).",
+   "fonts": [
+    {
+     "nom": "AutoRent – FAQ",
+     "url": "https://www.autorent.sn/FAQ.html"
+    },
+    {
+     "nom": "AutoRent – Conditions générales",
+     "url": "https://www.autorent.sn/Conditions-generales.html"
+    },
+    {
+     "nom": "AutoRent – Offre Loisir",
+     "url": "https://www.autorent.sn/Offre-Loisir.html"
+    },
+    {
+     "nom": "au-senegal.com – AutoRent",
+     "url": "https://www.au-senegal.com/autorent,009.html"
+    }
+   ]
+  },
+  {
+   "nom": "Dakar Location SARL",
+   "tipus": "local",
+   "on": "7, Rue Thiong x Dr Thèze, Dakar (Plateau). Entrega i retorn a l'aeroport possibles",
+   "web": "https://www.au-senegal.com/dakar-location-de-voiture-sarl,2077.html",
+   "preu": "Graella sense data i probablement antiga (hi surt el Peugeot 205), tot sense l'IVA del 18%. Tarifa setmanal per dia: Toyota Corolla 13.500 FCFA; Suzuki Grand Vitara o Kia Sportage 24.300 FCFA; Hyundai Santa Fe 27.000 FCFA; pick-up de doble cabina 29.700 FCFA. Grand Vitara 9 dies: ~218.700 FCFA + IVA ≈ 258.000 FCFA (~394 €) SENSE comptar els km.",
+   "km": "Dues fórmules: (a) tarifa estàndard per km, en què es paga cada km a part (Grand Vitara 270 FCFA/km, Corolla 150 FCFA/km, sense IVA); 950 km amb un Grand Vitara serien ~256.500 FCFA + IVA (~460 €); (b) forfaits amb 100 km/dia inclosos, sense preu publicat.",
+   "franquicia": "500.000 FCFA (cat. A–C), 750.000 FCFA (D, E, I) o 1.000.000 FCFA (F–M). Es pot eliminar per 3.000–4.500 FCFA/dia. NO cobreix pneumàtics, vidres ni accessoris.",
+   "diposit": "Import no indicat. En efectiu o xec certificat. Accepta Visa, Amex, Mastercard.",
+   "pros": [
+    "Tarifes base baixes",
+    "Graella transparent",
+    "Ofereix xofer"
+   ],
+   "contres": [
+    "Pagar per km encareix molt els circuits llargs",
+    "Franquícia alta si no es compra l'eliminació",
+    "La graella no té data"
+   ],
+   "notes": "Xofer: 6.000 FCFA/dia a la ciutat i 8.000 FCFA/dia a l'interior (graella antiga, probablement desfasada).",
+   "fonts": [
+    {
+     "nom": "au-senegal.com – Dakar Location SARL",
+     "url": "https://www.au-senegal.com/dakar-location-de-voiture-sarl,2077.html"
+    },
+    {
+     "nom": "au-senegal.com – Dakar Location",
+     "url": "https://au-senegal.com/dakar-location,006.html"
+    }
+   ]
+  },
+  {
+   "nom": "Leila Prestige Cars",
+   "tipus": "local",
+   "on": "16, Rue Parchappe x Huart, Dakar",
+   "web": "https://au-senegal.com/-leila-prestige-cars-.html",
+   "preu": "No publicat.",
+   "km": "No publicat.",
+   "franquicia": "500.000 FCFA (econòmic), 750.000 FCFA (4x4 júnior, pick-up) o 1.000.000 FCFA (4x4 sènior). Eliminació per 3.000, 3.500 o 4.500 FCFA/dia. No cobreix pneumàtics, vidres ni accessoris.",
+   "diposit": "Basat en l'import de la franquícia. En efectiu o targeta (Amex, Visa, Mastercard).",
+   "pros": [
+    "Permet anar a països veïns amb xofer (10.000 FCFA/dia de xofer)"
+   ],
+   "contres": [
+    "Sense tarifes ni política de km publicades",
+    "Dipòsit igual a la franquícia (fins a 1.000.000 FCFA)"
+   ],
+   "notes": "Xofer: 5.000 FCFA/dia a Dakar i 7.000 FCFA/dia a l'interior (sense data).",
+   "fonts": [
+    {
+     "nom": "au-senegal.com – Leila Prestige Cars",
+     "url": "https://au-senegal.com/-leila-prestige-cars-.html"
+    }
+   ]
+  },
+  {
+   "nom": "Sénégal Transports Solutions (STS) i Africartours",
+   "tipus": "local",
+   "on": "STS: Cité Magistrat, darrere de Keur Yoff. Africartours: VDN Ouest Foire, davant del CICES",
+   "web": "https://au-senegal.com/senegal-transports-solutions,6904.html",
+   "preu": "STS anuncia preus «fins a un 50% més barats que les agències tradicionals», amb descomptes segons la durada i «sense caució». Cap import publicat.",
+   "km": "No publicat.",
+   "franquicia": "No publicada.",
+   "diposit": "STS diu que no en demana.",
+   "pros": [
+    "Amb xofer o sense",
+    "Recomanades per au-senegal.com (maig del 2026)",
+    "Segons un comentari, STS accepta passar a Gàmbia i Guinea-Bissau (50 €)"
+   ],
+   "contres": [
+    "Cal demanar-ho tot per escrit"
+   ],
+   "notes": "Demaneu pressupost escrit amb km inclosos i preu del km extra.",
+   "fonts": [
+    {
+     "nom": "au-senegal.com – Louer une voiture au Sénégal (2026)",
+     "url": "https://au-senegal.com/louer-une-voiture-au-senegal-prix-conseils-et-erreurs-a-eviter,18326.html"
+    },
+    {
+     "nom": "au-senegal.com – STS",
+     "url": "https://au-senegal.com/senegal-transports-solutions,6904.html"
+    },
+    {
+     "nom": "au-senegal.com – Africartours",
+     "url": "https://au-senegal.com/africartours,6943.html"
+    }
+   ]
+  },
+  {
+   "nom": "Lloguer entre particulars (Autowou, CoinAfrique)",
+   "tipus": "local",
+   "on": "Dakar, amb entrega a l'AIBD (Autowou)",
+   "web": "https://au-senegal.com/location-de-voiture-au-senegal-le-guide-complet,16592.html",
+   "preu": "Utilitari 15.000–22.000 FCFA/dia; berlina 20.000–30.000; monovolum 25.000–35.000; 4x4/SUV 30.000–40.000 FCFA/dia (guia d'au-senegal.com, sense data). Les agències tradicionals poden costar fins a 3 vegades més.",
+   "km": "Segons la guia, el km sovint és il·limitat en el lloguer entre particulars.",
+   "franquicia": "Responsabilitat civil generalment inclosa. La col·lisió i el tot risc són opcionals. Comproveu les exclusions.",
+   "diposit": "Pot demanar-se en efectiu o per transferència de moneder mòbil. Feu constar per escrit el termini de devolució.",
+   "pros": [
+    "Més barat",
+    "Km sovint il·limitat"
+   ],
+   "contres": [
+    "Assegurança més dubtosa",
+    "Menys garanties en cas d'avaria o accident"
+   ],
+   "notes": "Opció per a viatgers amb experiència. Per a un grup que no coneix el país, millor una agència o un xofer.",
+   "fonts": [
+    {
+     "nom": "au-senegal.com – Location de voiture au Sénégal : le guide complet",
+     "url": "https://au-senegal.com/location-de-voiture-au-senegal-le-guide-complet,16592.html"
+    },
+    {
+     "nom": "iambeezy – Louer une voiture au Sénégal : suppléments 2026",
+     "url": "https://blog.iambeezy.app/fr/louer-une-voiture-senegal-supplements-2026/"
+    }
+   ]
+  },
+  {
+   "nom": "Cotxe amb xofer (xofers particulars recomanats al Routard)",
+   "tipus": "xofer",
+   "on": "Recollida a l'AIBD; xofers de Rufisque, Saly, Dakar…",
+   "web": "https://www.routard.com/forums/t/voiture-avec-chauffeur-au-senegal-a-recommander/229247",
+   "preu": "Testimonis del Routard: Malik Mbaye 46 €/dia (gener del 2024), benzina i peatges a part; Ali Mbaye 25.000–26.000 FCFA/dia (2018–2020), benzina a part; Boniface Dieme 50.000 FCFA/dia (2019), benzina a part; TALL TRANSPORT, Nissan Pathfinder, 50.000 FCFA/dia (2019); Thierno Thiaw, Duster, 60.000 FCFA/dia (2020), benzina i peatges inclosos. Per a 9 dies: ~415 € (46 €/dia + ~120–150 € de benzina) a ~820 € (60.000 FCFA/dia, tot inclòs).",
+   "km": "Normalment no hi ha límit de km pràctic: un viatger va pagar 50.000 FCFA/dia amb xofer, km il·limitat i assegurança inclosos. Si la benzina va a part, el cost depèn dels km, però no hi ha penalització.",
+   "franquicia": "Normalment no n'hi ha per al client: el xofer o l'empresa assumeix el vehicle.",
+   "diposit": "Normalment no n'hi ha. Pagament en efectiu, sovint una bestreta i la resta al final.",
+   "pros": [
+    "No cal PIC ni assumir franquícia",
+    "Sense límit de km",
+    "Coneix pistes, ferris, controls i allotjaments",
+    "Recomanat pel MAEC espanyol",
+    "Segons Routard, només un ~25% més car que llogar sense xofer"
+   ],
+   "contres": [
+    "Es perd una plaça: amb 4 viatgers i xofer, cal un vehicle de 7 places o un SUV gran amb maleter ampli",
+    "Menys llibertat",
+    "Cal pactar l'allotjament i els àpats del xofer"
+   ],
+   "notes": "Allotjament i menjar del xofer: molts hotels i campaments l'allotgen i l'alimenten gratis o a preu baix (testimoni del 2019). En altres casos el xofer ho demana sense fixar import (Routard 2021). Pacteu-ho al pressupost: «tout compris (carburant, péages, logement et repas du chauffeur)» o no. Xofers citats: Ali Mbaye (lunetour.fr), Malik Mbaye, Mamadou Faye, Thierno Thiaw (Saly), Alliou (Saly).",
+   "fonts": [
+    {
+     "nom": "Routard – Voiture avec chauffeur au Sénégal à recommander",
+     "url": "https://www.routard.com/forums/t/voiture-avec-chauffeur-au-senegal-a-recommander/229247"
+    },
+    {
+     "nom": "Routard – Tarif hébergement et nourriture chauffeur",
+     "url": "https://www.routard.com/forums/t/tarif-hebergement-et-nourriture-chauffeur-au-senegal/289825"
+    },
+    {
+     "nom": "Routard – Transports Sénégal",
+     "url": "https://www.routard.com/guide/senegal/138/transports.htm"
+    }
+   ]
+  },
+  {
+   "nom": "Agències de cotxe amb xofer (AutoRent, Mapauto, Sixt transferts)",
+   "tipus": "xofer",
+   "on": "Dakar / AIBD",
+   "web": "https://www.mapauto.sn/",
+   "preu": "Mapauto calcula el preu segons la distància (Google Maps), els dies i el tipus de servei. Els canvis de ruta demanats pel client es facturen per distància. Cap import publicat. AutoRent ofereix xofer 24 h a petició.",
+   "km": "Mapauto factura segons la distància. AutoRent, sobre la base de 100 km/dia més extra.",
+   "franquicia": "No aplica.",
+   "diposit": "Mapauto: pagament en línia o en efectiu al final.",
+   "pros": [
+    "Factura formal",
+    "Vehicles més nous"
+   ],
+   "contres": [
+    "Més cars que els xofers particulars",
+    "Facturació per km o per distància"
+   ],
+   "notes": "Útil per al trasllat AIBD–Dakar o AIBD–Saly si no lloguen cotxe els primers dies.",
+   "fonts": [
+    {
+     "nom": "Mapauto",
+     "url": "https://www.mapauto.sn/"
+    },
+    {
+     "nom": "Ndarinfo – Mapauto (2021)",
+     "url": "https://www.ndarinfo.com/MAPAUTO-nouvelle-agence-de-location-de-voitures-avec-chauffeur-VTC-au-Senegal_a31228.html"
+    }
+   ]
+  }
+ ],
+ "requisits": [
+  "Permís internacional de conduir (PIC): el MAEC espanyol diu que el carnet espanyol NO és reconegut per les autoritats senegaleses i que el PIC espanyol (vàlid 1 any) sí que permet conduir. Cal portar tots dos. El PIC es demana a la DGT. Feu-lo amb temps abans del 27/12.",
+  "Edat mínima i anys de carnet: AutoRent demana 24 anys i 2 anys de carnet. Els comparadors indiquen que alguns proveïdors accepten menors de 25 anys amb recàrrec de conductor jove.",
+  "Targeta de crèdit (no de dèbit) a nom del conductor principal per al dipòsit (Europcar, VIPCars). Les agències locals també accepten efectiu o xec certificat.",
+  "Dipòsit: sovint igual a la franquícia (250.000–1.000.000 FCFA a les agències locals). Una ressenya de Hertz parla de ~10 vegades la tarifa diària.",
+  "Passaport (o còpia) sempre a sobre: les autoritats el poden demanar als controls (MAEC).",
+  "Registreu com a conductors addicionals tots els que condueixin: l'assegurança només cobreix els conductors i el nombre de passatgers declarats (FAQ d'AutoRent)."
+ ],
+ "assegurança": [
+  "La responsabilitat civil sol estar inclosa. La col·lisió (CDW) pot ser opcional. El tot risc («assurance tous risques») és opcional i pot cobrir robatori, vandalisme i vidres (au-senegal.com).",
+  "Franquícies típiques a les agències locals: 250.000 FCFA amb tot risc (AutoRent); 500.000 / 750.000 / 1.000.000 FCFA segons la categoria (Dakar Location, Leila Prestige), amb eliminació per 3.000–4.500 FCFA/dia.",
+  "Exclusions habituals: pneumàtics, vidres i accessoris no coberts (Dakar Location, Leila Prestige). Pregunteu també pels baixos i el sostre, que són els danys típics a les pistes.",
+  "Pistes i sorra: AutoRent prohibeix circular per platges i dunes. El Routard diu que amb un cotxe de lloguer normal no es pot anar per pistes. Un dany en zona prohibida no està cobert.",
+  "En cas d'accident: AutoRent exigeix un atestat d'agutzil (huissier) al lloc dels fets per aplicar l'assegurança. El MAEC diu que cal avisar la policia i esperar-la al lloc (alerta: hi ha accidents simulats de nit).",
+  "Carte Brune CEDEAO: assegurança regional de responsabilitat civil (Protocol A/P1/5/82, Cotonou 1982). L'oficina nacional és a la Maison de l'Assurance, Mermoz-Pyrotechnie, Dakar. Si sortiu del Senegal, demaneu a l'agència si el vehicle hi està cobert i que us ensenyi el document.",
+  "Creuar fronteres: Sixt i STS (respostes del 2023) permeten només Gàmbia i Guinea-Bissau, amb un recàrrec de 50 €. Cal autorització per escrit. El MAEC desaconsella les zones frontereres de Ziguinchor amb Guinea-Bissau."
+ ],
+ "conduir": [
+  "Cotxe recomanat per a 4 persones amb equipatge: un SUV compacte o mitjà (Duster, Nissan Kicks, Qashqai, Suzuki Vitara/Grand Vitara, Toyota Rush/RAV4). Un utilitari (i10) és massa petit. Per al Saloum i el Lompoul n'hi ha prou amb un vehicle alt per a carretera, i al desert de Lompoul s'hi arriba en 4x4 dels campaments. Per a pistes i la Casamance, 4x4 (au-senegal.com 2026: «4x4 recommandé» per al Sine Saloum i les zones rurals, i aconsellat segons la zona a la Casamance).",
+  "Carreteres: en general en bon estat, però amb ralentitzadors sense senyalitzar a l'entrada i la sortida dels pobles i amb trams molt dolents, com Bignona–Diouloulou (Routard). El MAEC alerta de vehicles en mal estat i accidents freqüents.",
+  "Límits de velocitat: 50 km/h en zona urbana, 90 km/h a les nacionals (Kayak), 110 km/h a l'autopista Dakar–AIBD–Mbour (MAEC).",
+  "Conduir de nit: desaconsellat (MAEC i Routard). A l'autopista hi ha animals i obstacles sense llum, i de nit es preparen accidents falsos. Si us passa, no pareu i aneu a la gendarmeria més propera.",
+  "Controls de policia i gendarmeria: freqüents a l'entrada dels pobles, també amb radar. Si us posen una multa, pagueu-la per recuperar els papers i demaneu SEMPRE el rebut (Routard). Porteu PIC, carnet, passaport i els papers del cotxe. Telèfons útils: Gendarmeria 800 00 20 20, Policia 17.",
+  "Casamance: el MAEC recomana màxima precaució, només de dia, per carreteres principals i, si pot ser, en comboi. No sortiu de l'asfalt (mines). Prefereix l'avió o el ferri per anar de Dakar a Ziguinchor o al Cap Skirring. Si es travessa Gàmbia, millor pel pont de Farafenni.",
+  "Benzina: hi ha gasolineres arreu (Routard), però gairebé no accepten targeta. Porteu efectiu i ompliu el dipòsit sempre que pugueu fora de Dakar.",
+  "Hores punta a Dakar: 8.30–10.30 i 17.00–19.30. Eviteu la N1 en aquestes hores (Kayak).",
+  "Aparcament: als aparcaments privats del centre de Dakar, ~1,50 €/hora; a l'aeroport, ~1,50 €/hora o ~15 €/dia (Kayak). Al terminal del ferri de Gorée, 1.000 FCFA (Scratch Your Mapa). Per a Saint-Louis no hem trobat tarifes publicades: demaneu a l'hotel un lloc vigilat.",
+  "Navegació: la senyalització és escassa i sovint cal preguntar el camí (Routard). Porteu un mapa fora de línia (Google Maps o Maps.me descarregats) i una SIM local amb dades. Aquest consell és general: no l'hem pogut contrastar amb cap font concreta."
+ ],
+ "peatges": [
+  {
+   "tram": "Dakar → Diamniadio (barrera de Thiaroye)",
+   "preu": "1.000 FCFA, vehicle lleuger (TollGuru, actualitzat el juliol del 2026)"
+  },
+  {
+   "tram": "Dakar → Diamniadio (barrera de Rufisque)",
+   "preu": "400 FCFA (TollGuru, juliol del 2026)"
+  },
+  {
+   "tram": "Diamniadio → AIBD (barrera de Toglou)",
+   "preu": "600 FCFA (TollGuru, juliol del 2026)"
+  },
+  {
+   "tram": "Total Dakar → AIBD",
+   "preu": "~2.000 FCFA (1.000 + 400 + 600); TollGuru l'estima en 2.000–2.600 FCFA. Una font del 2018 parlava de 2.000 FCFA (abans 3.000)."
+  },
+  {
+   "tram": "AIBD → Thiès (Ila Touba)",
+   "preu": "1.000 FCFA (TollGuru, 2026)"
+  },
+  {
+   "tram": "Thiès → Touba (Ila Touba)",
+   "preu": "2.500 FCFA (TollGuru, 2026). El 2018 es parlava de 3.000 FCFA des de Thiès i 5.000 FCFA Dakar–Touba: les fonts no coincideixen."
+  },
+  {
+   "tram": "AIBD → Mbour (autopista, sortides Sindia/Nguékhokh/Malicounda/Mbour)",
+   "preu": "No hem trobat cap tarifa actual verificada. El 2016, Diamniadio–AIBD–Sindia costava 1.600 FCFA. Confirmeu-ho in situ (es paga en efectiu o amb targeta)."
+  },
+  {
+   "tram": "Mbour → Kaolack (autopista nova)",
+   "preu": "3.000 FCFA, 100 km (Le Soleil, 24/08/2026)"
+  },
+  {
+   "tram": "Dakar → Kaolack (sencer)",
+   "preu": "6.500 FCFA, 184 km (ADS, Le Soleil, 24/08/2026)"
+  }
+ ],
+ "benzina": "Preus oficials vigents des del 15/08/2026 (comunicat del Govern del 14/08/2026): súper sense plom 990 FCFA/litre (~1,51 €) i gasoil 755 FCFA/litre (~1,15 €). Els preus de 920 i 680 FCFA que encara surten en algunes webs són del desembre del 2025 i estan desfasats. Els preus estan regulats i subvencionats, de manera que són iguals a tot el país. Càlcul orientatiu: 950 km amb un SUV de gasolina a ~8 l/100 km són ~76 l, uns 75.000 FCFA (~115 €); amb un dièsel a ~7 l/100 km, ~50.000 FCFA (~77 €). Pagueu en efectiu: la targeta gairebé no s'accepta a les gasolineres. Comproveu si hi ha algun canvi de preus abans del viatge.",
+ "consells_km": [
+  "Abans de reservar, pregunteu per escrit (correu o WhatsApp): «Le kilométrage est-il illimité ? Sinon, combien de km inclus par jour, et quel est le prix du km supplémentaire TTC ?»",
+  "Feu-vos confirmar si el límit es compta per dia (i si es perden els km d'un dia que no us moveu) o en total per als 9 dies. Demaneu que es compti en total: 9 × 200 = 1.800 km.",
+  "Feu els números amb l'itinerari. Circuit clàssic Dakar–Lompoul–Saint-Louis–Saloum–Petite Côte ≈950 km: 100 km/dia (900 km) NO n'hi ha prou; 150 km/dia (1.350 km) és justet però suficient; 200–300 km/dia, còmode.",
+  "Nord salvatge ≈1.150 km: cal com a mínim 150 km/dia (1.350 km) i millor 200 km/dia o il·limitat. Amb 100 km/dia, hi haurà uns 250 km de més, més les voltes.",
+  "Saloum lent ≈450 km: n'hi ha prou amb qualsevol límit (amb 100 km/dia sobren 450 km). Valoreu si cal cotxe tots els dies.",
+  "Base a Dakar amb excursions: els km solen ser pocs (AIBD–Dakar–Lac Rose–Petite Côte, uns 300–600 km), així que n'hi ha prou amb 100 km/dia. Ara bé, el trànsit de Dakar fa que probablement us surti més a compte el taxi o el xofer només per a les excursions.",
+  "Fora dels circuits o Casamance: quilometratge alt i incert (Dakar–Ziguinchor per carretera ja són uns 450 km només d'anada, segons la ruta). Només amb km il·limitat o amb xofer.",
+  "Sumeu-hi un 15–20% de marge per a les voltes urbanes, els desviaments i els errors de ruta: la senyalització és escassa.",
+  "Al comparador, filtreu per «kilométrage illimité / unlimited mileage» i llegiu la «mileage policy» de l'oferta concreta, no la general. Si diu «limited», busqueu-hi el preu per km.",
+  "Si l'agència cobra per km (model Dakar Location: 150–330 FCFA/km + 18% d'IVA), calculeu-ho: 950 km × 270 FCFA = ~256.500 FCFA + IVA (~460 €), sovint més car que el lloguer mateix.",
+  "En recollir el cotxe, fotografieu o filmeu el comptaquilòmetres i l'indicador de benzina davant de l'empleat, i feu que el km inicial consti al contracte. Feu el mateix en tornar-lo i guardeu les fotos fins que us retornin el dipòsit.",
+  "Demaneu que el contracte (no només el voucher) reculli: km inclosos, preu del km extra, franquícia, dipòsit i termini de devolució, nivell de benzina i zones prohibides (pistes, platges, fronteres).",
+  "Si el límit és baix, negocieu un forfait de km més alt per a 9 dies: és més barat que pagar els km extra després (la viatgera de Hertz que va superar els 300 km/dia va acabar pagant «molts diners»).",
+  "Pregunteu si hi ha algun impost estatal per km (una pàgina de Sixt n'esmenta un des de l'1/1/2026) i si ja és dins del preu.",
+  "Alternativa sense risc de km: cotxe amb xofer a preu diari tancat (amb benzina inclosa o no), on els km no es penalitzen."
+ ],
+ "fonts": [
+  {
+   "nom": "MAEC – Recomanacions de viatge Senegal",
+   "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Senegal"
+  },
+  {
+   "nom": "Kayak – Location voiture Dakar",
+   "url": "https://www.kayak.fr/location-voiture-Dakar.28457.cars.ksp"
+  },
+  {
+   "nom": "Momondo – Location de voiture Dakar",
+   "url": "https://www.momondo.fr/location-de-voiture/Dakar-28457"
+  },
+  {
+   "nom": "DiscoverCars – Dakar",
+   "url": "https://www.discovercars.com/senegal/Dakar"
+  },
+  {
+   "nom": "VIPCars – Dakar Blaise Diagne Airport",
+   "url": "https://www.vipcars.com/en-gb/car-rental/senegal/dakar/dakar-blaise-diagne-airport"
+  },
+  {
+   "nom": "VIPCars – Location Voiture Dakar",
+   "url": "https://www.vipcars.com/fr/car-rental/senegal/dakar"
+  },
+  {
+   "nom": "Liligo – Aéroport Blaise Diagne",
+   "url": "https://www.liligo.fr/location-voiture/senegal/dakar/aeroport-blaise-diagne"
+  },
+  {
+   "nom": "Rentalcars – DSS",
+   "url": "https://www.rentalcars.com/en/airport/sn/dss/"
+  },
+  {
+   "nom": "Hertz – Blaise Diagne Airport",
+   "url": "https://www.hertz.com/us/en/location/senegal/diass/dsst51"
+  },
+  {
+   "nom": "Sixt – Dakar airport",
+   "url": "https://www.sixt.com/car-rental/senegal/dakar/dakar-airport/"
+  },
+  {
+   "nom": "Europcar – Senegal",
+   "url": "https://www.europcar.com/en/car-rental/locations/senegal"
+  },
+  {
+   "nom": "Scratch Your Mapa – Renting a Car in Senegal",
+   "url": "https://scratchyourmapa.com/?p=18633"
+  },
+  {
+   "nom": "AutoRent – FAQ",
+   "url": "https://www.autorent.sn/FAQ.html"
+  },
+  {
+   "nom": "AutoRent – Conditions générales",
+   "url": "https://www.autorent.sn/Conditions-generales.html"
+  },
+  {
+   "nom": "au-senegal.com – Dakar Location SARL (graella)",
+   "url": "https://www.au-senegal.com/dakar-location-de-voiture-sarl,2077.html"
+  },
+  {
+   "nom": "au-senegal.com – Leila Prestige Cars",
+   "url": "https://au-senegal.com/-leila-prestige-cars-.html"
+  },
+  {
+   "nom": "au-senegal.com – SIXT Rent a Car",
+   "url": "https://au-senegal.com/sixt-rent-a-car,5414.html?lang=fr"
+  },
+  {
+   "nom": "au-senegal.com – Louer une voiture au Sénégal (maig del 2026)",
+   "url": "https://au-senegal.com/louer-une-voiture-au-senegal-prix-conseils-et-erreurs-a-eviter,18326.html"
+  },
+  {
+   "nom": "au-senegal.com – Location de voiture : le guide complet",
+   "url": "https://au-senegal.com/location-de-voiture-au-senegal-le-guide-complet,16592.html"
+  },
+  {
+   "nom": "au-senegal.com – Louer un véhicule (directori)",
+   "url": "https://www.au-senegal.com/location-de-voitures,355.html"
+  },
+  {
+   "nom": "iambeezy – Louer une voiture au Sénégal : suppléments 2026",
+   "url": "https://blog.iambeezy.app/fr/louer-une-voiture-senegal-supplements-2026/"
+  },
+  {
+   "nom": "Routard – Voiture avec chauffeur à recommander",
+   "url": "https://www.routard.com/forums/t/voiture-avec-chauffeur-au-senegal-a-recommander/229247"
+  },
+  {
+   "nom": "Routard – Tarif hébergement et nourriture chauffeur",
+   "url": "https://www.routard.com/forums/t/tarif-hebergement-et-nourriture-chauffeur-au-senegal/289825"
+  },
+  {
+   "nom": "Routard – Sénégal en autonomie (nov. 2025)",
+   "url": "https://www.routard.com/forums/t/senegal-en-autonomie/476781"
+  },
+  {
+   "nom": "Routard – Retour 28 jours au Sénégal en autonome",
+   "url": "https://www.routard.com/forums/t/retour-d-un-voyage-de-28-jours-au-senegal-en-autonome/457445"
+  },
+  {
+   "nom": "Routard – Transports Sénégal",
+   "url": "https://www.routard.com/guide/senegal/138/transports.htm"
+  },
+  {
+   "nom": "Mapauto",
+   "url": "https://www.mapauto.sn/"
+  },
+  {
+   "nom": "TollGuru – Senegal Toll Roads 2026",
+   "url": "https://beta.tollguru.mapup.ai/senegal-toll"
+  },
+  {
+   "nom": "Le Soleil – Tarifs péage Dakar-Kaolack (24/08/2026)",
+   "url": "https://lesoleil.sn/actualites/economie/tarifs-peage-autoroute-dakar-kaolack-la-societe-nationale-autoroutes-du-senegal-dement-les-rumeurs-sur-les-reseaux-sociaux/"
+  },
+  {
+   "nom": "au-senegal.com – Nouveaux tarifs autoroute Dakar-AIBD (2018)",
+   "url": "https://au-senegal.com/nouveaux-tarifs-de-l-autoroute-dakar-aibd,15566.html"
+  },
+  {
+   "nom": "Primature – Ajustement des prix des carburants (15/08/2026)",
+   "url": "https://primature.sn/publications/communiques-officiels/ajustement-des-prix-des-carburants-compter-du-samedi-15-aout"
+  },
+  {
+   "nom": "Dakaractu – Supercarburant 990 FCFA, gasoil 755 FCFA",
+   "url": "https://www.dakaractu.com/Hausse-des-prix-des-carburants-le-supercarburant-passe-a-990-FCFA-soit-70-FCFA-de-plus-et-le-gasoil-a-755-FCFA-soit_a275005.html"
+  }
+ ]
+}

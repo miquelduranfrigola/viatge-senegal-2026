@@ -442,3 +442,17 @@ body[data-page="mapa"] main { padding: 0; }
   .map-panel.collapsed { padding: var(--s-md) 10px; }
   .map-panel.collapsed .map-panel-body, .map-panel.collapsed h1 { display: none; }
 }
+
+/* Calculadora de cotxe */
+.calc-form { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--s-md); background: var(--surface-container-lowest); border-radius: var(--r-lg); padding: var(--s-lg); box-shadow: var(--shadow); margin: var(--s-md) 0; }
+.calc-form label { display: flex; flex-direction: column; gap: 6px; font: 600 13px/18px var(--font-body); color: var(--on-surface-variant); }
+.calc-form input, .calc-form select { height: 44px; border-radius: var(--r-md); border: 1px solid var(--outline-variant); background: var(--surface-container-low); color: var(--on-surface); padding: 0 12px; font: 500 16px var(--font-body); }
+.calc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--s-md); }
+.calc-grid b { display: block; font: 700 26px/32px var(--font-display); }
+.calc-grid small { opacity: .85; }
+.car-opt .kv { grid-template-columns: auto 1fr; }
+[hidden] { display: none !important; }
+.km-matrix td, .km-matrix th { text-align: center; }
+.km-matrix td:first-child, .km-matrix th:first-child { text-align: left; }
+.km-ok { color: var(--tertiary); font-weight: 700; }
+.km-bad { color: var(--error); font-weight: 600; background: color-mix(in srgb, var(--error-container) 45%, transparent); }

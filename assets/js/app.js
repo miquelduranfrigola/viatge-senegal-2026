@@ -17,6 +17,7 @@
     ["coneix.html", "Coneix el Senegal"],
     ["curiositats.html", "Curiositats", "curiositats"],
     ["compres.html", "Compres i frases", "compres_idioma"],
+    ["cotxe.html", "Lloguer de cotxe", "cotxe"],
     ["cultura.html", "Llegir, mirar i escoltar"],
     ["fonts.html", "Fonts i crèdits"],
   ];
@@ -357,6 +358,14 @@
       (ci.compres.llocs || []).forEach((o) => add({ kind: "On comprar", icon: "storefront", title: o.nom, body: o.detall, url: "compres.html#llocs" }));
       add({ kind: "Compres", icon: "sell", title: "Com regatejar", tags: "regateig preu", body: (ci.compres.regatejar || []).join(" "), url: "compres.html#regatejar" });
     }
+    const car = await get("cotxe");
+    if (car) {
+      add({ kind: "Lloguer de cotxe", icon: "directions_car", title: "Límits de quilòmetres", tags: "km quilometratge il·limitat lloguer cotxe", body: car.km_explicacio + " " + (car.consells_km || []).join(" "), url: "cotxe.html#km" });
+      add({ kind: "Lloguer de cotxe", icon: "calculate", title: "Calculadora de km del lloguer", tags: "km calculadora lloguer cotxe límit", body: "Calcula si el límit de quilòmetres del lloguer és suficient per a cada itinerari.", url: "cotxe.html#calc" });
+      (car.opcions || []).forEach((o) => add({ kind: "Lloguer de cotxe", icon: "directions_car", title: o.nom, tags: `${o.tipus} lloguer cotxe ${o.on || ""}`, body: [o.km, o.preu, o.franquicia, o.notes, (o.pros || []).join(" "), (o.contres || []).join(" ")].join(" \u2022 "), url: "cotxe.html#opcions-s" }));
+      [["Requisits per llogar", car.requisits, "req"], ["Assegurança del cotxe", car["assegurança"], "req"], ["Conduir al Senegal", car.conduir, "cond"]].forEach(([t, a, h]) => a && add({ kind: "Lloguer de cotxe", icon: "badge", title: t, tags: "cotxe conduir", body: a.map((x) => typeof x === "string" ? x : Object.values(x).join(": ")).join(" \u2022 "), url: `cotxe.html#${h}` }));
+      (car.peatges || []).forEach((x) => add({ kind: "Peatge", icon: "toll", title: x.tram, tags: "peatge autopista", body: x.preu, url: "cotxe.html#cond" }));
+    }
     (await get("curiositats") || []).forEach((f) => add({ kind: "Curiositat", icon: "lightbulb", title: f.fet.length > 90 ? f.fet.slice(0, 88) + "…" : f.fet, tags: (FCAT[f.categoria] || [f.categoria])[0], body: [f.fet, f.detall].join(" \u2022 "), url: `curiositats.html#fet-${f.n}` }));
     (ci?.idioma?.situacions || []).forEach((sit) => sit.frases.forEach((f) => add({ kind: `Frases · ${sit.titol}`, icon: "translate", title: `${f.catala}`, tags: `${f.wolof} ${f.frances}`, body: `Wòlof: ${f.wolof} [${f.pronuncia || ""}] · Francès: ${f.frances}`, url: "compres.html#idioma" })));
     searchIndex = docs;
@@ -501,6 +510,87 @@
   }
 
 
+
+
+  /* ---------- Lloguer de cotxe ---------- */
+  async function pageCotxe() {
+    const [d, its] = await Promise.all([load("cotxe"), load("itineraris")]);
+    const paras = (t) => (Array.isArray(t) ? t : String(t || "").split(/\n\n+/)).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("");
+    const list = (a) => (a || []).map((x) => `<li>${esc(typeof x === "string" ? x : Object.values(x).join(": "))}</li>`).join("");
+    $("#car-intro").innerHTML = paras(d.intro);
+    $("#km-exp").innerHTML = paras(d.km_explicacio);
+    $("#km-tips").innerHTML = list(d.consells_km);
+    const TT = { comparador: ["Comparador", "travel_explore"], internacional: ["Agència internacional", "public"], local: ["Agència local", "storefront"], xofer: ["Cotxe amb xofer", "person"] };
+    $("#opcions").innerHTML = (d.opcions || []).map((o) => `
+      <article class="info car-opt">
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px"><span class="badge badge-type">${icon((TT[o.tipus] || [0, "directions_car"])[1])} ${esc((TT[o.tipus] || [o.tipus])[0])}</span>${o.on ? `<span class="badge badge-region">${esc(o.on)}</span>` : ""}</div>
+        <h3 style="font-size:20px">${esc(o.nom)}</h3>
+        <dl class="kv">
+          ${o.km ? `<dt>${icon("speed")} Km</dt><dd><strong>${esc(o.km)}</strong></dd>` : ""}
+          ${o.preu ? `<dt>${icon("payments")} Preu</dt><dd>${esc(o.preu)}</dd>` : ""}
+          ${o.franquicia ? `<dt>${icon("shield")} Franquícia</dt><dd>${esc(o.franquicia)}</dd>` : ""}
+          ${o.diposit ? `<dt>${icon("credit_card")} Dipòsit</dt><dd>${esc(o.diposit)}</dd>` : ""}
+        </dl>
+        ${o.pros?.length ? `<p class="where" style="color:var(--tertiary)">${icon("thumb_up")} ${o.pros.map(esc).join(" · ")}</p>` : ""}
+        ${o.contres?.length ? `<p class="where" style="color:var(--error)">${icon("thumb_down")} ${o.contres.map(esc).join(" · ")}</p>` : ""}
+        ${o.notes ? `<p class="muted" style="font-size:14px">${esc(o.notes)}</p>` : ""}
+        ${o.web ? `<p><a href="${esc(o.web)}" target="_blank" rel="noopener">${icon("open_in_new")} Web</a></p>` : ""}
+        ${srcLine(o.fonts)}
+      </article>`).join("");
+    $("#requisits").innerHTML = list(d.requisits);
+    $("#asseguranca").innerHTML = list(d["assegurança"] || d.asseguranca);
+    $("#conduir").innerHTML = list(d.conduir);
+    $("#peatges").innerHTML = (d.peatges || []).map((x) => `<tr><td>${esc(x.tram)}</td><td>${esc(x.preu)}</td></tr>`).join("");
+    $("#benzina").textContent = d.benzina || "";
+    $("#car-src").innerHTML = srcLine(d.fonts);
+
+    // Calculadora
+    const sel = $("#calc-it");
+    sel.innerHTML = its.map((it) => `<option value="${it.id}">${esc(it.nom.split(":")[0])} (≈${it.km_aprox} km)</option>`).join("") + `<option value="custom">Una altra ruta (introdueix els km)</option>`;
+    const ROADKM = { casamance: 450 };
+    const EUR = 655.957;
+    const fmt = (n) => Math.round(n).toLocaleString("ca");
+    const calc = () => {
+      const it = its.find((x) => x.id === sel.value);
+      const custom = sel.value === "custom";
+      $("#calc-custom-row").hidden = !custom;
+      let base = custom ? +$("#calc-km").value || 0 : (ROADKM[it.id] ?? it.km_aprox);
+      const margin = +$("#calc-margin").value || 0;
+      const total = base * (1 + margin / 100);
+      const days = +$("#calc-days").value || 0;
+      const mode = $("#calc-mode").value;
+      const lim = +$("#calc-limit").value || 0;
+      const included = mode === "dia" ? lim * days : mode === "total" ? lim : Infinity;
+      const extraPrice = +$("#calc-extra").value || 0;
+      const excess = Math.max(0, total - included);
+      const cost = excess * extraPrice;
+      $("#calc-perday-row").hidden = mode === "il";
+      const r = $("#calc-result");
+      const note = !custom && it.id === "casamance" ? `<p class="muted" style="font-size:13px">Per a l'itinerari de la Casamance només es compta la part per carretera (≈450 km), perquè l'anada és en avió.</p>` : "";
+      r.className = "callout " + (excess > 0 ? "warn" : "green");
+      r.innerHTML = `
+        <div class="calc-grid">
+          <div><div class="label" style="color:inherit">Km estimats</div><b>${fmt(total)} km</b><small>${fmt(base)} km + ${margin}% de marge</small></div>
+          <div><div class="label" style="color:inherit">Km inclosos</div><b>${included === Infinity ? "Il·limitats" : fmt(included) + " km"}</b><small>${mode === "dia" ? `${fmt(lim)} km/dia × ${days} dies` : mode === "total" ? "total del lloguer" : ""}</small></div>
+          <div><div class="label" style="color:inherit">Km de més</div><b>${fmt(excess)} km</b><small>${excess > 0 ? `${((excess / (included || 1)) * 100).toFixed(0)}% per sobre` : "dins del límit"}</small></div>
+          <div><div class="label" style="color:inherit">Cost extra</div><b>${excess > 0 ? `${fmt(cost)} FCFA` : "0"}</b><small>${excess > 0 ? `≈ ${fmt(cost / EUR)} € (≈ ${fmt(cost / EUR / 4)} €/persona)` : "cap sorpresa"}</small></div>
+        </div>
+        <p style="margin-top:10px"><strong>${excess > 0 ? `${icon("warning")} Amb aquest límit us en passareu. Negocieu més km o il·limitat abans de signar, o compareu-ho amb un cotxe amb xofer.` : `${icon("check_circle")} Amb aquest límit en teniu prou, amb marge.`}</strong></p>${note}`;
+    };
+    $$("#calc input, #calc select").forEach((el) => el.addEventListener("input", calc));
+    $("#calc-presets").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-preset]"); if (!b) return;
+      const [mode, lim] = b.dataset.preset.split(":");
+      $("#calc-mode").value = mode; if (lim) $("#calc-limit").value = lim; calc();
+    });
+    calc();
+    // Matriu itinerari × límit
+    const LIMS = [100, 150, 200, 300];
+    $("#km-matrix").innerHTML = `<thead><tr><th>Itinerari (km + 20%)</th>${LIMS.map((l) => `<th>${l} km/dia<br><small>${fmt(l * 9)} km</small></th>`).join("")}<th>Il·limitat</th></tr></thead><tbody>${its.map((it) => {
+      const km = (ROADKM[it.id] ?? it.km_aprox) * 1.2;
+      return `<tr><td><strong>${esc(it.nom.split(":")[0])}</strong><br><small class="muted">≈${fmt(km)} km</small></td>${LIMS.map((l) => { const ex = Math.max(0, km - l * 9); return `<td class="${ex ? "km-bad" : "km-ok"}">${ex ? `+${fmt(ex)} km<br><small>≈${fmt(ex * 200 / EUR)} €</small>` : "✓"}</td>`; }).join("")}<td class="km-ok">✓</td></tr>`;
+    }).join("")}</tbody>`;
+  }
 
   /* ---------- Mapa interactiu ---------- */
   async function pageMapa() {
@@ -925,7 +1015,7 @@
           ${it.km_aprox ? `<div class="fact"><div class="label">${icon("route")}Distància</div><div>≈${Number(it.km_aprox).toLocaleString("ca")} km</div></div>` : ""}
           <div class="fact"><div class="label">${icon("calendar_month")}Dates</div><div>27 des. – 4 gen. (9 dies)</div></div>
         </div>
-        <div class="callout green"><strong>${icon("group")} Per a qui:</strong> ${esc(it.per_a_qui)}<br><strong>${icon("route")} Ruta:</strong> ${esc(it.ruta)}<br><strong>${icon("directions_car")} Transport:</strong> ${esc(it.transport)}</div>
+        <div class="callout green"><strong>${icon("group")} Per a qui:</strong> ${esc(it.per_a_qui)}<br><strong>${icon("route")} Ruta:</strong> ${esc(it.ruta)}<br><strong>${icon("directions_car")} Transport:</strong> ${esc(it.transport)} <a href="cotxe.html#calc" data-need-link>Calcula si el límit de km del lloguer us arriba →</a></div>
         <div class="map" id="it-map" style="height:360px;margin-bottom:var(--s-lg)"></div>
         <div class="timeline">${it.dies.map((d) => `
           <article class="day">
@@ -1086,7 +1176,7 @@
   }
 
   async function pageFonts() {
-    const names = ["activitats", "practic", "cultura", "coneix", "regions", "itineraris", "esdeveniments", "hero", "ciutats", "directori", "aire_lliure", "compres_idioma", "curiositats"];
+    const names = ["activitats", "practic", "cultura", "coneix", "regions", "itineraris", "esdeveniments", "hero", "ciutats", "directori", "aire_lliure", "compres_idioma", "curiositats", "cotxe"];
     const all = await Promise.all(names.map((n) => load(n).catch(() => null)));
     const links = new Map(), photos = new Map();
     const walk = (o) => {
@@ -1117,7 +1207,7 @@
   }
   document.addEventListener("DOMContentLoaded", () => {
     layout();
-    const pages = { mapa: pageMapa, curiositats: pageCuriositats, guies: pageGuies, natura: pageNatura, compres: pageCompres, agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
+    const pages = { cotxe: pageCotxe, mapa: pageMapa, curiositats: pageCuriositats, guies: pageGuies, natura: pageNatura, compres: pageCompres, agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
     const fn = pages[document.body.dataset.page];
     if (fn) fn().then(scrollToHash).catch((e) => {
       console.error(e);
