@@ -1,0 +1,12 @@
+{
+  "name": "Viatge a Senegal 2026",
+  "short_name": "Senegal 2026",
+  "description": "Guia en català per al viatge al Senegal (27 des. 2026 – 4 gen. 2027).",
+  "lang": "ca",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFF8F4",
+  "theme_color": "#9A4A1C",
+  "icons": [{ "src": "assets/img/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }]
+}

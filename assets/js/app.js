@@ -6,10 +6,13 @@
     ["index.html", "Inici"],
     ["cataleg.html", "Catàleg"],
     ["regions.html", "Regions"],
+    ["guies.html", "Ciutats", "ciutats"],
     ["itinerari.html", "Itineraris"],
     ["agenda.html", "Agenda"],
-    ["coneix.html", "Coneix el Senegal"],
+    ["natura.html", "Natura i rutes", "aire_lliure"],
+    ["coneix.html", "Coneix"],
     ["cultura.html", "Llegir i mirar"],
+    ["compres.html", "Compres i frases", "compres_idioma"],
     ["practic.html", "Pràctic"],
     ["fonts.html", "Fonts"],
   ];
@@ -58,13 +61,14 @@
     header.innerHTML = `
       <div class="container">
         <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span>Senegal 2026</a>
-        <nav class="nav" id="nav">${NAV.map(([h, t]) => `<a href="${h}"${h === here ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
+        <nav class="nav" id="nav">${NAV.map(([h, t, need]) => `<a href="${h}"${need ? ` data-need="${need}" hidden` : ""}${h === here ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
         <button class="search-pill" aria-label="Cerca a tota la guia">${icon("search")}<span>Cerca</span><kbd>/</kbd></button>
         <button class="icon-btn menu-btn" aria-label="Menú" aria-controls="nav" aria-expanded="false">${icon("menu")}</button>
         <button class="icon-btn theme-btn" aria-label="Canvia el tema">${icon("dark_mode")}</button>
       </div>`;
     document.body.prepend(header);
     const nav = $("#nav"), mb = $(".menu-btn", header);
+    $$("[data-need]", nav).forEach((a) => fetch(`data/${a.dataset.need}.json`, { method: "HEAD" }).then((r) => { if (r.ok) a.hidden = false; }).catch(() => {}));
     mb.addEventListener("click", () => {
       const open = nav.classList.toggle("open");
       mb.setAttribute("aria-expanded", open);
@@ -96,10 +100,44 @@
     footer.innerHTML = `
       <div class="container">
         <div><strong>Viatge a Senegal 2026</strong><br>27 de desembre de 2026 – 4 de gener de 2027 · 4 amics · Dakar</div>
+        <div><button class="btn btn-tonal" id="offline-btn" type="button">${icon("download_for_offline")} Prepara la guia per anar sense connexió</button><div id="offline-msg" class="muted" style="margin-top:6px;font-size:13px">Descarrega totes les fotos (≈40 MB) perquè la web funcioni sense cobertura. Millor amb wifi.</div></div>
         <div>Fotos de <a href="https://commons.wikimedia.org">Wikimedia Commons</a> (llicències lliures, crèdits a cada imatge i a <a href="fonts.html">Fonts</a>).<br>Disseny: sistema <a href="https://github.com/google-labs-code/design.md">DESIGN.md</a> «Teranga».</div>
       </div>`;
     document.body.append(footer);
+    $("#offline-btn").addEventListener("click", async () => {
+      const msg = $("#offline-msg");
+      if (!("serviceWorker" in navigator) || !navigator.serviceWorker.controller) { msg.textContent = "Torna a carregar la pàgina un cop i prova-ho de nou (cal el mode sense connexió activat)."; return; }
+      const names = ["activitats", "regions", "coneix", "practic", "esdeveniments", "ciutats", "aire_lliure", "compres_idioma", "experiencies", "itineraris", "cultura", "directori", "alias", "hero"];
+      const pages = ["index.html", "cataleg.html", "regions.html", "guies.html", "itinerari.html", "agenda.html", "natura.html", "coneix.html", "cultura.html", "compres.html", "practic.html", "fonts.html"];
+      const datas = await Promise.all(names.map((n) => load(n).catch(() => null)));
+      const imgs = new Set(["assets/img/hero.jpg"]);
+      JSON.stringify(datas).replace(/assets\/img\/[^"\\]+\.jpg/g, (m) => imgs.add(m));
+      const all = [...pages, ...names.map((n) => `data/${n}.json`), ...imgs];
+      let done = 0;
+      for (let i = 0; i < all.length; i += 6) {
+        await Promise.all(all.slice(i, i + 6).map((u) => fetch(u).catch(() => null)));
+        done = Math.min(all.length, i + 6);
+        msg.textContent = `Descarregant… ${done}/${all.length}`;
+      }
+      msg.textContent = `Fet! ${imgs.size} fotos i totes les pàgines desades. Els mapes només funcionen sense connexió a les zones que ja hàgiu mirat.`;
+    });
   }
+
+  /* ---------- Preferits ---------- */
+  const favs = {
+    all() { try { return new Set(JSON.parse(store.get("favs") || "[]")); } catch { return new Set(); } },
+    has(id) { return this.all().has(id); },
+    toggle(id) { const f = this.all(); f.has(id) ? f.delete(id) : f.add(id); store.set("favs", JSON.stringify([...f])); return f.has(id); },
+    addMany(ids) { const f = this.all(); ids.forEach((i) => f.add(i)); store.set("favs", JSON.stringify([...f])); },
+  };
+  const favBtn = (id) => `<span class="fav-btn" role="button" tabindex="0" data-fav="${esc(id)}" aria-pressed="${favs.has(id)}" title="Afegeix a la meva llista">${icon("favorite")}</span>`;
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-fav]"); if (!b) return;
+    e.preventDefault(); e.stopPropagation();
+    const on = favs.toggle(b.dataset.fav);
+    $$(`[data-fav="${CSS.escape(b.dataset.fav)}"]`).forEach((x) => x.setAttribute("aria-pressed", on));
+    document.dispatchEvent(new CustomEvent("favs-changed"));
+  }, true);
 
   /* ---------- Helpers ---------- */
   const credit = (img) => img ? `${esc(img.autor || "Autor desconegut")} · <a href="${esc(img.font)}" target="_blank" rel="noopener">${esc(img.llicencia || "Commons")}</a>` : "";
@@ -115,6 +153,7 @@
       <button class="card" data-id="${esc(a.id)}" aria-label="${esc(a.nom)}">
         <div class="card-img">
           ${img ? `<img src="${esc(img.src)}" alt="${esc(a.nom)}" loading="lazy">` : placeholder(a)}
+          ${favBtn(a.id)}
           <div class="card-badges">
             <span class="badge badge-region">${esc(REGIONS[a.regio] || a.regio)}</span>
             ${a.imprescindible ? `<span class="badge badge-must">${icon("star")} Imprescindible</span>` : ""}
@@ -148,7 +187,8 @@
     }
     const imgs = a.imatges || [];
     let idx = 0;
-    const paras = String(a.descripcio || "").split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("");
+    const paras = String(a.descripcio || "").split(/\n\n+/).map((p) => p.startsWith("Fora dels circuits: ")
+      ? `<h3 style="margin-top:var(--s-lg)">${icon("eco")} Fora dels circuits</h3><p>${esc(p.slice(20))}</p>` : `<p>${esc(p)}</p>`).join("");
     dlg.innerHTML = `
       <button class="icon-btn detail-close" aria-label="Tanca">${icon("close")}</button>
       <div class="detail-gallery">
@@ -164,7 +204,7 @@
           ${a.imprescindible ? `<span class="badge badge-must">${icon("star")} Imprescindible</span>` : ""}
           ${a.autentic ? `<span class="badge badge-auth">${icon("eco")} Autèntic · fora dels circuits</span>` : ""}
         </div>
-        <h2>${esc(a.nom)}</h2>
+        <div style="display:flex;gap:12px;align-items:flex-start;justify-content:space-between"><h2>${esc(a.nom)}</h2>${favBtn(a.id).replace('class="fav-btn"', 'class="fav-btn fav-inline"')}</div>
         <p class="lead">${esc(a.resum)}</p>
         <div class="facts">
           ${a.durada ? `<div class="fact"><div class="label">${icon("schedule")}Durada</div><div>${esc(a.durada)}</div></div>` : ""}
@@ -174,7 +214,7 @@
         </div>
         ${paras}
         ${a.pel_teu_compte ? `<div class="callout green"><strong>${icon("hiking")} Pel vostre compte:</strong> ${esc(a.pel_teu_compte)}</div>` : ""}
-        ${a.consells?.length ? `<div class="tips"><div class="label" style="color:inherit;margin-bottom:6px">${icon("lightbulb")} Consells</div><ul>${a.consells.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
+        ${a.consells?.length ? `<div class="tips"><div class="label" style="color:inherit;margin-bottom:6px">${icon("lightbulb")} Consells</div><ul>${a.consells.map((c) => c.startsWith("Actualització (Routard/LP): ") ? `<li><strong>${icon("update")} Actualització (Routard/LP):</strong> ${esc(c.slice(28))}</li>` : `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
         ${a.lat ? `<div class="mini-map" id="mini-map"></div>
           <p><a href="https://www.google.com/maps/search/?api=1&query=${a.lat},${a.lng}" target="_blank" rel="noopener">${icon("map")} Obre a Google Maps</a></p>` : ""}
         ${a.categories?.length ? `<p class="muted">${a.categories.map((c) => esc(CATS[c] || c)).join(" · ")}</p>` : ""}
@@ -450,6 +490,129 @@
     if (el) { setTimeout(() => { el.scrollIntoView({ block: "start" }); flash(el); }, 60); }
   }
 
+
+  /* ---------- Guies de ciutat ---------- */
+  const kvList = (arr, a, b) => (arr || []).length ? `<dl class="kv">${arr.map((x) => `<dt>${esc(x[a])}</dt><dd>${esc(x[b])}</dd>`).join("")}</dl>` : "";
+  const srcLine = (f) => f?.length ? `<p class="muted" style="font-size:13px">Fonts: ${f.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nom)}</a>`).join(" · ")}</p>` : "";
+  async function pageGuies() {
+    const [d, regions, items] = await Promise.all([load("ciutats"), load("regions"), load("activitats")]);
+    const regImg = Object.fromEntries(regions.map((r) => [r.id, r.imatge]));
+    $("#toc").innerHTML = d.ciutats.map((c) => `<a class="chip" href="#${c.id}">${esc(c.nom)}</a>`).join("");
+    $("#cities").innerHTML = d.ciutats.map((c) => {
+      const near = items.filter((a) => a.tipus === "activitat" && a.lat && c.lat && Math.hypot(a.lat - c.lat, a.lng - c.lng) < 0.12).slice(0, 14);
+      const img = (near.find((a) => a.imatges?.length)?.imatges[0]) || regImg[c.regio];
+      return `
+      <section class="chapter" id="${esc(c.id)}">
+        <span class="label">${icon("location_city")} Guia de ciutat · ${esc(REGIONS[c.regio] || "")}</span>
+        <h2>${esc(c.nom)}</h2>
+        ${c.resum ? `<p class="lead">${esc(c.resum)}</p>` : ""}
+        <div class="chapter-grid">
+          <div class="chapter-text">
+            ${(Array.isArray(c.orientacio) ? c.orientacio : String(c.orientacio || "").split(/\n\n+/)).map((p) => `<p>${esc(p)}</p>`).join("")}
+            ${c.barris?.length ? `<h3>${icon("holiday_village")} Barris</h3><div class="items">${c.barris.map((b) => `<div class="item"><div class="item-body"><h4>${esc(b.nom)}</h4><p>${esc(b.descripcio)}</p></div></div>`).join("")}</div>` : ""}
+          </div>
+          <aside class="chapter-aside">
+            ${img ? `<figure><img src="${esc(img.src)}" alt="${esc(c.nom)}" loading="lazy"><figcaption class="img-credit">${credit(img)}</figcaption></figure>` : ""}
+            ${near.length ? `<div class="keypoints"><div class="label" style="color:inherit;margin-bottom:6px">Al catàleg</div><ul class="region-list">${near.map((a) => `<li><a href="cataleg.html#a=${encodeURIComponent(a.id)}">${esc(a.nom)}</a></li>`).join("")}</ul></div>` : ""}
+          </aside>
+        </div>
+        <div class="info-grid" style="margin-top:var(--s-lg)">
+          ${c.arribar?.length ? `<article class="info"><h3>${icon("flight_land")} Arribar-hi</h3>${kvList(c.arribar, "mitja", "detall")}</article>` : ""}
+          ${c.moure_s?.length ? `<article class="info"><h3>${icon("directions_bus")} Moure's</h3>${kvList(c.moure_s, "mitja", "detall")}</article>` : ""}
+          ${c.info_practica?.length ? `<article class="info"><h3>${icon("info")} Informació pràctica</h3>${kvList(c.info_practica, "tema", "detall")}</article>` : ""}
+          ${c.compres?.length ? `<article class="info"><h3>${icon("shopping_bag")} Compres</h3>${kvList(c.compres, "nom", "detall")}</article>` : ""}
+          ${c.seguretat?.length ? `<article class="info"><h3>${icon("shield")} Seguretat</h3><ul>${c.seguretat.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></article>` : ""}
+        </div>
+        ${srcLine(c.fonts)}
+      </section>`;
+    }).join("");
+  }
+
+  /* ---------- Natura i rutes ---------- */
+  async function pageNatura() {
+    const d = await load("aire_lliure");
+    $("#intro").innerHTML = (Array.isArray(d.intro) ? d.intro : String(d.intro || "").split(/\n\n+/)).map((p) => `<p class="lead">${esc(p)}</p>`).join("");
+    $("#toc").innerHTML = d.seccions.map((x) => `<a class="chip" href="#${x.id}">${esc(x.titol)}</a>`).join("");
+    const routes = [];
+    $("#sections").innerHTML = d.seccions.map((sec) => `
+      <section class="chapter" id="${esc(sec.id)}">
+        <h2>${esc(sec.titol)}</h2>
+        ${sec.intro ? String(sec.intro).split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("") : ""}
+        <div class="items">${(sec.llocs || []).map((l, i) => {
+          if (l.punts?.length > 1) routes.push({ ...l, sec: sec.titol });
+          return `
+          <div class="item" id="${esc(sec.id)}-${i}" style="scroll-margin-top:90px"><div class="item-body">
+            <h4>${esc(l.nom)}</h4>
+            <div class="meta" style="margin:4px 0 8px;padding:0">
+              ${l.regio ? `<span>${icon("location_on")}${esc(REGIONS[l.regio] || l.regio)}</span>` : ""}
+              ${l.km ? `<span>${icon("straighten")}${esc(l.km)} km</span>` : ""}
+              ${l.durada ? `<span>${icon("schedule")}${esc(l.durada)}</span>` : ""}
+              ${l.nivell || l.dificultat ? `<span>${icon("signal_cellular_alt")}${esc(l.nivell || l.dificultat)}</span>` : ""}
+            </div>
+            ${l.inici || l.final ? `<p><strong>${esc(l.inici || "")}${l.final ? " → " + esc(l.final) : ""}</strong></p>` : ""}
+            ${l.detall ? `<p>${esc(l.detall)}</p>` : ""}
+            ${l.descripcio_ruta ? `<p style="margin-top:6px">${esc(l.descripcio_ruta)}</p>` : ""}
+            ${l.on_llogar_bici ? `<p class="where">${icon("pedal_bike")} ${esc(l.on_llogar_bici)}</p>` : ""}
+            ${l.lat ? `<p class="where"><a href="https://www.google.com/maps/search/?api=1&query=${l.lat},${l.lng}" target="_blank" rel="noopener">${icon("map")} Mapa</a></p>` : ""}
+          </div></div>`; }).join("")}</div>
+        ${sec.especies?.length ? `<h3 style="margin-top:var(--s-lg)">Espècies destacades</h3><div class="table-wrap"><table class="tbl"><thead><tr><th>Espècie</th><th>On</th><th>Quan</th></tr></thead><tbody>${sec.especies.map((e) => `<tr><td><strong>${esc(e.nom_catala)}</strong><br><em class="muted">${esc(e.nom_cientific || "")}</em></td><td>${esc(e.on || "")}</td><td>${esc(e.quan || "")}</td></tr>`).join("")}</tbody></table></div>` : ""}
+        ${sec.on_llogar?.length ? `<div class="callout green"><strong>${icon("storefront")} On llogar o fer classes</strong><ul>${sec.on_llogar.map((o) => `<li><strong>${esc(o.nom)}</strong>: ${esc(o.detall)}</li>`).join("")}</ul></div>` : ""}
+        ${sec.consells?.length ? `<div class="tips"><div class="label" style="color:inherit;margin-bottom:6px">${icon("lightbulb")} Consells</div><ul>${sec.consells.map((c) => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
+        ${srcLine(sec.fonts)}
+      </section>`).join("");
+    if (window.L && routes.length) {
+      const map = L.map("routes-map", { scrollWheelZoom: false }); tiles(map);
+      const all = [];
+      const colors = ["#9A4A1C", "#00658E", "#3F6837", "#B8860B", "#6B4E9B", "#C46A2B", "#2E7D5B"];
+      routes.forEach((r, i) => {
+        const pts = r.punts.filter((p) => Array.isArray(p) && p.length === 2);
+        if (pts.length < 2) return;
+        all.push(...pts);
+        L.polyline(pts, { color: colors[i % colors.length], weight: 4, opacity: .85 }).addTo(map).bindPopup(`<b>${esc(r.nom)}</b><br>${esc(r.sec)}${r.km ? ` · ${esc(r.km)} km` : ""}`);
+        L.circleMarker(pts[0], { radius: 5, color: "#fff", weight: 1.5, fillColor: colors[i % colors.length], fillOpacity: 1 }).addTo(map);
+      });
+      fit(map, all);
+    } else { const m = $("#routes-map"); if (m) m.style.display = "none"; }
+  }
+
+  /* ---------- Compres i frases ---------- */
+  async function pageCompres() {
+    const d = await load("compres_idioma");
+    const c = d.compres || {}, l = d.idioma || {};
+    $("#c-intro").innerHTML = String(c.intro || "").split(/\n\n+/).map((p) => `<p class="lead">${esc(p)}</p>`).join("");
+    $("#regatejar-list").innerHTML = (c.regatejar || []).map((x) => `<li>${esc(x)}</li>`).join("");
+    $("#objectes-grid").innerHTML = (c.objectes || []).map((o) => `
+      <div class="item">${o.imatge ? `<img src="${esc(o.imatge.src)}" alt="${esc(o.nom)}" loading="lazy">` : ""}<div class="item-body"><h4>${esc(o.nom)}</h4><p>${esc(o.descripcio)}</p>
+        ${o.on ? `<div class="where">${icon("location_on")} ${esc(o.on)}</div>` : ""}${o.preu ? `<div class="where">${icon("payments")} ${esc(o.preu)}</div>` : ""}</div></div>`).join("");
+    $("#llocs-list").innerHTML = (c.llocs || []).map((o) => `<div class="item"><div class="item-body"><h4>${esc(o.nom)}</h4><div class="where">${icon("location_on")} ${esc(REGIONS[o.regio] || o.regio || "")}</div><p>${esc(o.detall)}</p></div></div>`).join("");
+    $("#evitar-list").innerHTML = (c.evitar || []).map((x) => `<li>${esc(x)}</li>`).join("");
+    $("#c-src").innerHTML = srcLine(c.fonts);
+    $("#l-intro").innerHTML = String(l.intro || "").split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("");
+    $("#pron-list").innerHTML = (l.pronuncia || []).map((x) => `<li>${esc(x)}</li>`).join("");
+    $("#derem").textContent = l["dërëm"] || l.derem || "";
+    $("#sit-toc").innerHTML = (l.situacions || []).map((x, i) => `<a class="chip" href="#sit-${i}">${esc(x.titol)}</a>`).join("");
+    $("#situacions").innerHTML = (l.situacions || []).map((sit, i) => `
+      <h3 id="sit-${i}" style="margin-top:var(--s-lg);scroll-margin-top:90px">${esc(sit.titol)}</h3>
+      <div class="table-wrap"><table class="tbl phr"><thead><tr><th>Català</th><th>Wòlof</th><th>Pronúncia</th><th>Francès</th></tr></thead><tbody>
+        ${sit.frases.map((f) => `<tr><td>${esc(f.catala)}</td><td><strong>${esc(f.wolof)}</strong></td><td class="muted">${esc(f.pronuncia || "")}</td><td>${esc(f.frances || "")}</td></tr>`).join("")}
+      </tbody></table></div>`).join("");
+    $("#l-src").innerHTML = srcLine(l.fonts);
+  }
+
+  /* ---------- Directori (pràctic) ---------- */
+  async function renderDirectori() {
+    const d = await load("directori").catch(() => null);
+    const box = $("#directori"); if (!d || !box) return;
+    const sec = (x, id) => `<article class="info" id="${id}" style="scroll-margin-top:90px"><h3>${icon(x.icona || "info")} ${esc(x.tema)}</h3><ul>${x.punts.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>${x.fonts?.length ? `<div class="src">Fonts: ${x.fonts.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nom)}</a>`).join(" · ")}</div>` : ""}</article>`;
+    box.innerHTML = `
+      ${d.necessitat_saber?.length ? `<section class="section" id="cal-saber" style="scroll-margin-top:80px"><h2>Cal saber</h2><div class="table-wrap"><table class="tbl"><tbody>${d.necessitat_saber.map((x) => `<tr><th style="width:34%">${esc(x.tema)}</th><td>${esc(x.valor)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
+      ${d.transport_taula?.length ? `<section class="section" id="trajectes" style="padding-top:0;scroll-margin-top:80px"><h2>Temps de trajecte entre llocs clau</h2><div class="table-wrap"><table class="tbl"><thead><tr><th>Trajecte</th><th>Km</th><th>Temps</th><th>Com</th></tr></thead><tbody>${d.transport_taula.map((t) => `<tr><td><strong>${esc(t.de)} → ${esc(t.a)}</strong>${t.notes ? `<br><span class="muted">${esc(t.notes)}</span>` : ""}</td><td>${esc(t.km ?? "")}</td><td style="white-space:nowrap">${esc(t.temps || "")}</td><td>${esc(t.mitjans || "")}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
+      ${d.salut?.length ? `<section class="section" id="salut-det" style="padding-top:0;scroll-margin-top:80px"><h2>Salut</h2><div class="info-grid">${d.salut.map((x, i) => sec({ ...x, icona: x.icona || "medical_services" }, `salut-${i}`)).join("")}</div></section>` : ""}
+      ${d.az?.length ? `<section class="section" id="az" style="padding-top:0;scroll-margin-top:80px"><h2>Directori A–Z</h2><div class="info-grid">${d.az.map((x, i) => sec(x, `az-${i}`)).join("")}</div></section>` : ""}`;
+    const toc = $("#toc");
+    if (toc) toc.insertAdjacentHTML("afterbegin", [["cal-saber", "Cal saber"], ["trajectes", "Trajectes"], ["salut-det", "Salut"], ["az", "Directori A–Z"]].filter(([id]) => document.getElementById(id)).map(([id, t]) => `<a class="chip" href="#${id}">${t}</a>`).join(""));
+  }
+
   /* ---------- Pages ---------- */
   async function pageIndex() {
     const [items, regions] = await Promise.all([load("activitats"), load("regions")]);
@@ -492,6 +655,7 @@
     const state = {
       q: "", regio: new Set(params.getAll("regio")), tipus: new Set(params.getAll("tipus")),
       cat: new Set(params.getAll("cat")), must: params.has("imprescindible"), auth: params.has("autentic"), sort: "recomanat", maxh: "",
+      fav: params.has("preferits"), shared: params.get("llista") ? new Set(params.get("llista").split(",")) : null,
     };
     const chips = (id, map, set) => {
       const counts = {};
@@ -502,7 +666,7 @@
       $(`#f-${id}`).innerHTML += Object.entries(map).filter(([k]) => counts[k])
         .map(([k, v]) => `<button class="chip" data-k="${k}" aria-pressed="${set.has(k)}">${esc(v)} <small>${counts[k]}</small></button>`).join("");
       $(`#f-${id}`).addEventListener("click", (e) => {
-        const b = e.target.closest(".chip"); if (!b) return;
+        const b = e.target.closest(".chip[data-k]"); if (!b) return;
         set.has(b.dataset.k) ? set.delete(b.dataset.k) : set.add(b.dataset.k);
         b.setAttribute("aria-pressed", set.has(b.dataset.k));
         render();
@@ -514,6 +678,23 @@
     const mustBtn = $("#f-must");
     mustBtn.setAttribute("aria-pressed", state.must);
     mustBtn.addEventListener("click", () => { state.must = !state.must; mustBtn.setAttribute("aria-pressed", state.must); render(); });
+    const favBtnF = $("#f-fav");
+    favBtnF.setAttribute("aria-pressed", state.fav);
+    favBtnF.addEventListener("click", () => { state.fav = !state.fav; favBtnF.setAttribute("aria-pressed", state.fav); render(); });
+    document.addEventListener("favs-changed", () => { updFav(); if (state.fav) render(); });
+    const updFav = () => { const n = favs.all().size; $("#fav-count").textContent = n; $("#share-favs").disabled = !n; };
+    updFav();
+    $("#share-favs").addEventListener("click", async () => {
+      const url = `${location.origin}${location.pathname}?llista=${[...favs.all()].join(",")}`;
+      try { await navigator.clipboard.writeText(url); $("#share-msg").textContent = "Enllaç copiat! Envia'l al grup."; }
+      catch { prompt("Copia aquest enllaç:", url); }
+    });
+    if (state.shared) {
+      $("#shared-bar").hidden = false;
+      $("#shared-n").textContent = state.shared.size;
+      $("#import-shared").addEventListener("click", () => { favs.addMany([...state.shared]); updFav(); $("#import-shared").textContent = "Afegides a la meva llista ✓"; $$("[data-fav]").forEach((x) => x.setAttribute("aria-pressed", favs.has(x.dataset.fav))); });
+      $("#clear-shared").addEventListener("click", () => { state.shared = null; $("#shared-bar").hidden = true; history.replaceState(null, "", location.pathname); render(); });
+    }
     const authBtn = $("#f-auth");
     authBtn.setAttribute("aria-pressed", state.auth);
     authBtn.addEventListener("click", () => { state.auth = !state.auth; authBtn.setAttribute("aria-pressed", state.auth); render(); });
@@ -531,6 +712,8 @@
         (!state.cat.size || (a.categories || []).some((c) => state.cat.has(c))) &&
         (!state.must || a.imprescindible) &&
         (!state.auth || a.autentic) &&
+        (!state.fav || favs.has(a.id)) &&
+        (!state.shared || state.shared.has(a.id)) &&
         (!state.maxh || (a.hores_des_de_dakar ?? 99) <= Number(state.maxh)) &&
         (!q || norm(`${a.nom} ${a.resum} ${a.descripcio} ${a.pel_teu_compte || ""} ${REGIONS[a.regio]}`).includes(q)));
       const s = state.sort;
@@ -543,7 +726,7 @@
     }
     render();
     $("#reset").addEventListener("click", () => {
-      state.regio.clear(); state.tipus.clear(); state.cat.clear(); state.must = false; state.auth = false; state.q = ""; state.maxh = "";
+      state.regio.clear(); state.tipus.clear(); state.cat.clear(); state.must = false; state.auth = false; state.fav = false; state.q = ""; state.maxh = "";
       $("#q").value = ""; $("#maxh").value = "";
       $$(".chip").forEach((c) => c.setAttribute("aria-pressed", "false"));
       render();
@@ -748,11 +931,11 @@
       <div class="item">${p.imatge ? `<img src="${esc(p.imatge.src)}" alt="${esc(p.nom)}" loading="lazy" title="${esc((p.imatge.autor || "") + " · " + (p.imatge.llicencia || ""))}">` : ""}
         <div class="item-body"><h4>${esc(p.nom)}</h4><p>${esc(p.descripcio)}</p></div></div>`).join("");
     $("#wolof-grid").innerHTML = d.wolof.map((w) => `<div class="phrase"><b>${esc(w.wolof)}</b>${esc(w.catala)}${w.pronuncia ? `<br><small>[${esc(w.pronuncia)}]</small>` : ""}</div>`).join("");
-    if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    await renderDirectori();
   }
 
   async function pageFonts() {
-    const names = ["activitats", "practic", "cultura", "coneix", "regions", "itineraris", "esdeveniments", "hero"];
+    const names = ["activitats", "practic", "cultura", "coneix", "regions", "itineraris", "esdeveniments", "hero", "ciutats", "directori", "aire_lliure", "compres_idioma"];
     const all = await Promise.all(names.map((n) => load(n).catch(() => null)));
     const links = new Map(), photos = new Map();
     const walk = (o) => {
@@ -778,9 +961,12 @@
   }
 
   /* ---------- Boot ---------- */
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
   document.addEventListener("DOMContentLoaded", () => {
     layout();
-    const pages = { agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
+    const pages = { guies: pageGuies, natura: pageNatura, compres: pageCompres, agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
     const fn = pages[document.body.dataset.page];
     if (fn) fn().then(scrollToHash).catch((e) => {
       console.error(e);
