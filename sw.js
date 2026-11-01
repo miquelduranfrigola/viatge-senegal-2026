@@ -1,5 +1,5 @@
 /* Service worker: la guia funciona sense connexió un cop visitada. */
-const VERSION = "v1";
+const VERSION = "v2";
 const CORE = `core-${VERSION}`;
 const RUNTIME = `runtime-${VERSION}`;
 const PAGES = ["./", "index.html", "cataleg.html", "regions.html", "guies.html", "itinerari.html", "agenda.html", "natura.html", "coneix.html", "cultura.html", "compres.html", "practic.html", "fonts.html"];

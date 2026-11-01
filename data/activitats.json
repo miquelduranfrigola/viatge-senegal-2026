@@ -11635,7 +11635,29 @@
   ],
   "autentic": false,
   "pel_teu_compte": "A peu des de l'embarcador de Gorée o el Plateau.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-dkr-gare-dakar-1.jpg",
+    "autor": "Zythème",
+    "llicencia": "CC0",
+    "font": "https://commons.wikimedia.org/wiki/File:Gare_de_Dakar_-_Soir.jpg",
+    "titol": "Gare de Dakar - Soir.jpg"
+   },
+   {
+    "src": "assets/img/wv-dkr-gare-dakar-2.jpg",
+    "autor": "Seydina Aba Gueye (VOA)",
+    "llicencia": "Public domain",
+    "font": "https://commons.wikimedia.org/wiki/File:La_gare_de_Dakar,_le_15_janvier_2019.jpg",
+    "titol": "La gare de Dakar, le 15 janvier 2019.jpg"
+   },
+   {
+    "src": "assets/img/wv-dkr-gare-dakar-3.jpg",
+    "autor": "mon.nini",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Gare_de_dakar_en_renovation_2018-10-11_par_mon.nini.jpg",
+    "titol": "Gare de dakar en renovation 2018-10-11 par mon.nini.jpg"
+   }
+  ]
  },
  {
   "id": "wv-dkr-cimetiere-bel-air",
@@ -11673,7 +11695,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Taxi fins a Bel-Air i entrada lliure.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-dkr-cimetiere-bel-air-1.jpg",
+    "autor": "Tbo47",
+    "llicencia": "CC0",
+    "font": "https://commons.wikimedia.org/wiki/File:Cimeti%C3%A8re_Bel-Air_(76153).jpg",
+    "titol": "Cimetière Bel-Air (76153).jpg"
+   }
+  ]
  },
  {
   "id": "wv-dkr-musee-senghor",
@@ -11785,7 +11815,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Taxi fins a l'estadi i entrada a taquilla el mateix dia.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-dkr-stade-senghor-1.jpg",
+    "autor": "GuillaumeG",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:ON-FCG_5703.JPG",
+    "titol": "ON-FCG 5703.JPG"
+   }
+  ]
  },
  {
   "id": "wv-dkr-plage-mamelles",
@@ -11824,7 +11862,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Taxi a les Mamelles i baixada a peu.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-dkr-plage-mamelles-1.jpg",
+    "autor": "Tbo47",
+    "llicencia": "CC BY 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Plage_des_mamelles,_Dakar,_S%C3%A9n%C3%A9gal.jpg",
+    "titol": "Plage des mamelles, Dakar, Sénégal.jpg"
+   }
+  ]
  },
  {
   "id": "wv-dkr-virage-secret-spot",
@@ -11902,7 +11948,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "A peu des del Plateau.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-dkr-anse-bernard-1.jpg",
+    "autor": "jbdodane",
+    "llicencia": "CC BY 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:20130502-IMG_2225_(8750150087).jpg",
+    "titol": "20130502-IMG 2225 (8750150087).jpg"
+   }
+  ]
  },
  {
   "id": "wv-dkr-voile-dor",
@@ -11979,7 +12033,22 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Taxi fins a l'embarcador de Ngor i a peu.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-dkr-ngor-street-art-1.jpg",
+    "autor": "GuillaumeG",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Ile_Ngor_8641.jpg",
+    "titol": "Ile Ngor 8641.jpg"
+   },
+   {
+    "src": "assets/img/wv-dkr-ngor-street-art-2.jpg",
+    "autor": "Kateryna Serdiuk",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Boys_in_Ngor_village_by_Serdiuk.jpg",
+    "titol": "Boys in Ngor village by Serdiuk.jpg"
+   }
+  ]
  },
  {
   "id": "wv-dkr-cafe-de-rome",
@@ -12117,7 +12186,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "A peu per l'illa.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-nord-grande-mosquee-sl-1.jpg",
+    "autor": "Manu25",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Saintlouis_mosqu%C3%A9e2.jpg",
+    "titol": "Saintlouis mosquée2.jpg"
+   }
+  ]
  },
  {
   "id": "wv-nord-cathedrale-sl",
@@ -12358,7 +12435,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Sept-place des de Saint-Louis i a peu pel centre.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-nord-richard-toll-1.jpg",
+    "autor": "Massowka",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Richard_toll.jpg",
+    "titol": "Richard toll.jpg"
+   }
+  ]
  },
  {
   "id": "wv-vlt-tivaouane",
@@ -12396,7 +12481,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Sept-place per la N2 i a peu pel centre.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-vlt-tivaouane-1.jpg",
+    "autor": "Cheikh Ahmed Tidiane Diagne",
+    "llicencia": "CC BY 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Mosqu%C3%A9e_Serigne_Babacar_Sy_RTA.jpg",
+    "titol": "Mosquée Serigne Babacar Sy RTA.jpg"
+   }
+  ]
  },
  {
   "id": "wv-sal-cercles-megalitics",
@@ -12440,7 +12533,29 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Transport públic fins a Nioro du Rip i moto o taxi al lloc; o cotxe amb xofer des de Kaolack.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-sal-cercles-megalitics-1.jpg",
+    "autor": "Tobias 67",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Stone_circles_Sine_Ngay%C3%A8ne_TP07.jpg",
+    "titol": "Stone circles Sine Ngayène TP07.jpg"
+   },
+   {
+    "src": "assets/img/wv-sal-cercles-megalitics-2.jpg",
+    "autor": "Tobias 67",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Stone_circles_Sine_Ngay%C3%A8ne_TP10.jpg",
+    "titol": "Stone circles Sine Ngayène TP10.jpg"
+   },
+   {
+    "src": "assets/img/wv-sal-cercles-megalitics-3.jpg",
+    "autor": "Tobias 67",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Stone_circles_Sine_Ngay%C3%A8ne_TP14.jpg",
+    "titol": "Stone circles Sine Ngayène TP14.jpg"
+   }
+  ]
  },
  {
   "id": "wv-sal-foundiougne-puits-sel",
@@ -12555,7 +12670,15 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Reserva directa amb el campement; transport públic fins al poble.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-ptc-ker-cupaam-1.jpg",
+    "autor": "KingDJ.o7",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Vue_c%C3%B4ti%C3%A8re_des_hauteurs_du_cap_de_Naz_du_village_de_popenguine_05.jpg",
+    "titol": "Vue côtière des hauteurs du cap de Naz du village de popenguine 05.jpg"
+   }
+  ]
  },
  {
   "id": "wv-ptc-joal-port-senghor",
@@ -12625,6 +12748,14 @@
   ],
   "autentic": true,
   "pel_teu_compte": "Reserva directa; transport col·lectiu fins a Joal.",
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/wv-ptc-joal-thiouraye-1.jpg",
+    "autor": "Wuzyprod",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Aire_Marine_Prot%C3%A9g%C3%A9e_de_Joal-Fadiouth_04.jpg",
+    "titol": "Aire Marine Protégée de Joal-Fadiouth 04.jpg"
+   }
+  ]
  }
 ]

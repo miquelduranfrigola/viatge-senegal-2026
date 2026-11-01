@@ -369,3 +369,5 @@ mark { background: color-mix(in srgb, var(--accent-sun) 55%, transparent); color
 .checklist label { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
 .checklist input { margin-top: 5px; width: 18px; height: 18px; accent-color: var(--primary); flex: none; }
 .checklist a { color: inherit; font-weight: 600; }
+.info, .item, .media, .day, .fact, .callout, .tips, .keypoints { min-width: 0; overflow-wrap: anywhere; }
+.info-grid > *, .items > *, .media-list > *, .grid > * { min-width: 0; }
