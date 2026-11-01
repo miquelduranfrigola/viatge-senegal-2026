@@ -9,6 +9,7 @@
     ["guies.html", "Ciutats", "ciutats"],
     ["itinerari.html", "Itineraris"],
     ["agenda.html", "Agenda"],
+    ["mapa.html", "Mapa"],
     ["natura.html", "Natura i rutes", "aire_lliure"],
     ["practic.html", "Pràctic"],
   ];
@@ -223,7 +224,7 @@
         ${a.pel_teu_compte ? `<div class="callout green"><strong>${icon("hiking")} Pel vostre compte:</strong> ${esc(a.pel_teu_compte)}</div>` : ""}
         ${a.consells?.length ? `<div class="tips"><div class="label" style="color:inherit;margin-bottom:6px">${icon("lightbulb")} Consells</div><ul>${a.consells.map((c) => c.startsWith("Actualització (Routard/LP): ") ? `<li><strong>${icon("update")} Actualització (Routard/LP):</strong> ${esc(c.slice(28))}</li>` : `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}
         ${a.lat ? `<div class="mini-map" id="mini-map"></div>
-          <p><a href="https://www.google.com/maps/search/?api=1&query=${a.lat},${a.lng}" target="_blank" rel="noopener">${icon("map")} Obre a Google Maps</a></p>` : ""}
+          <p><a href="mapa.html?q=${encodeURIComponent(a.nom)}">${icon("map")} Veure al mapa de la guia</a> · <a href="https://www.google.com/maps/dir/?api=1&destination=${a.lat},${a.lng}" target="_blank" rel="noopener">${icon("directions")} Com arribar-hi (Google Maps)</a></p>` : ""}
         ${a.categories?.length ? `<p class="muted">${a.categories.map((c) => esc(CATS[c] || c)).join(" · ")}</p>` : ""}
         ${a.fonts?.length ? `<div class="sources"><div class="label">Fonts</div><ul>${a.fonts.map((f) => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nom || f.url)}</a></li>`).join("")}</ul></div>` : ""}
       </div>`;
@@ -499,6 +500,104 @@
     if (el) { setTimeout(() => { el.scrollIntoView({ block: "start" }); flash(el); }, 60); }
   }
 
+
+
+  /* ---------- Mapa interactiu ---------- */
+  async function pageMapa() {
+    const get = (n) => load(n).catch(() => null);
+    const [acts, evs, air, ci, ciu, regions] = await Promise.all(["activitats", "esdeveniments", "aire_lliure", "compres_idioma", "ciutats", "regions"].map(get));
+    const inSN = (lat, lng) => lat > 11.5 && lat < 17.2 && lng > -18 && lng < -10.8;
+    const LAYERS = {
+      activitat: { t: "Activitats", ic: "explore", c: "#9A4A1C" },
+      menjar: { t: "Menjar", ic: "restaurant", c: "#C46A2B" },
+      nit: { t: "Nit i música", ic: "nightlife", c: "#6B4E9B" },
+      allotjament: { t: "Allotjament", ic: "bed", c: "#00658E" },
+      event: { t: "Agenda (27/12–4/1)", ic: "event", c: "#BA1A1A" },
+      natura: { t: "Natura, surf i platges", ic: "forest", c: "#3F6837" },
+      ruta: { t: "Rutes a peu i en bici", ic: "hiking", c: "#2E7D5B" },
+      compres: { t: "On comprar", ic: "shopping_bag", c: "#B8860B" },
+      ciutat: { t: "Ciutats", ic: "location_city", c: "#382E29" },
+    };
+    const pts = [];
+    (acts || []).forEach((a) => { if (a.lat && a.lng && inSN(a.lat, a.lng)) pts.push({ layer: a.tipus in LAYERS ? a.tipus : "activitat", lat: a.lat, lng: a.lng, nom: a.nom, regio: a.regio, resum: a.resum, img: a.imatges?.[0], act: a, autentic: a.autentic, must: a.imprescindible }); });
+    (evs || []).forEach((e) => { if (e.lat && e.lng && inSN(e.lat, e.lng)) pts.push({ layer: "event", lat: e.lat, lng: e.lng, nom: e.titol, regio: e.regio, resum: `${e.data_inici || ""}${e.data_fi && e.data_fi !== e.data_inici ? " – " + e.data_fi : ""} · ${e.descripcio || ""}`, url: `agenda.html#${e.id}` }); });
+    const routes = [];
+    (air?.seccions || []).forEach((sec) => (sec.llocs || []).forEach((l, i) => {
+      const line = (l.punts || []).filter((p) => Array.isArray(p) && p.length === 2 && inSN(p[0], p[1]));
+      if (line.length > 1) routes.push({ nom: l.nom, sec: sec.titol, line, km: l.km, durada: l.durada, url: `natura.html#${sec.id}-${i}`, regio: l.regio });
+      else if (l.lat && l.lng && inSN(l.lat, l.lng)) pts.push({ layer: "natura", lat: l.lat, lng: l.lng, nom: l.nom, regio: l.regio, resum: `${sec.titol} · ${l.detall || ""}`, url: `natura.html#${sec.id}-${i}` });
+    }));
+    (ci?.compres?.llocs || []).forEach((l) => { if (l.lat && l.lng && inSN(l.lat, l.lng)) pts.push({ layer: "compres", lat: l.lat, lng: l.lng, nom: l.nom, regio: l.regio, resum: l.detall, url: "compres.html#llocs" }); });
+    (ciu?.ciutats || []).forEach((c) => { if (c.lat && c.lng) pts.push({ layer: "ciutat", lat: c.lat, lng: c.lng, nom: c.nom, regio: c.regio, resum: c.resum, url: `guies.html#${c.id}` }); });
+
+    const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' });
+    const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { maxZoom: 18, attribution: "Imatges &copy; Esri, Maxar, Earthstar Geographics" });
+    const map = L.map("bigmap", { layers: [osm], zoomControl: true }).setView([14.5, -15.8], 7);
+    L.control.layers({ "Mapa": osm, "Satèl·lit": sat }, null, { position: "topright" }).addTo(map);
+    const cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 42, spiderfyOnMaxZoom: true, disableClusteringAtZoom: 15 });
+    map.addLayer(cluster);
+    const routeLayer = L.layerGroup().addTo(map);
+    const mkIcon = (p) => L.divIcon({ className: "pin-wrap", iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14],
+      html: `<span class="pin${p.must ? " must" : ""}${p.act && favs.has(p.act.id) ? " fav" : ""}" style="background:${LAYERS[p.layer].c}">${icon(LAYERS[p.layer].ic)}</span>` });
+    const popup = (p) => `
+      <div class="pop">${p.img ? `<img src="${esc(p.img.src)}" alt="">` : ""}
+        <div class="pop-body"><div class="pop-kind">${esc(LAYERS[p.layer].t)}${p.regio ? ` · ${esc(REGIONS[p.regio] || p.regio)}` : ""}</div>
+        <b>${esc(p.nom)}</b>${p.resum ? `<p>${esc(String(p.resum).slice(0, 160))}${String(p.resum).length > 160 ? "…" : ""}</p>` : ""}
+        <div class="pop-btns">${p.act ? `<button class="chip" data-open="${esc(p.act.id)}">${icon("article")} Fitxa</button>` : p.url ? `<a class="chip" href="${esc(p.url)}">${icon("article")} Més info</a>` : ""}
+          <a class="chip" href="https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}" target="_blank" rel="noopener">${icon("directions")} Com arribar-hi</a></div></div></div>`;
+    pts.forEach((p) => { p.marker = L.marker([p.lat, p.lng], { icon: mkIcon(p), title: p.nom }).bindPopup(() => popup(p), { maxWidth: 280, minWidth: 240 }); });
+    routes.forEach((r) => { r.poly = L.polyline(r.line, { color: LAYERS.ruta.c, weight: 5, opacity: .85 }).bindPopup(`<div class="pop-body"><div class="pop-kind">${esc(r.sec)}</div><b>${esc(r.nom)}</b><p>${[r.km && `${esc(r.km)} km`, r.durada && esc(r.durada)].filter(Boolean).join(" · ")}</p><div class="pop-btns"><a class="chip" href="${esc(r.url)}">${icon("article")} Descripció</a></div></div>`); });
+    const actById = Object.fromEntries((acts || []).map((a) => [a.id, a]));
+    map.on("popupopen", (e) => { const b = e.popup.getElement().querySelector("[data-open]"); if (b) b.addEventListener("click", () => openDetail(actById[b.dataset.open])); });
+
+    // Panel
+    const state = { layers: new Set(Object.keys(LAYERS).filter((k) => k !== "allotjament")), regio: new Set(), auth: false, fav: false, q: "" };
+    const count = (k) => k === "ruta" ? routes.length : pts.filter((p) => p.layer === k).length;
+    $("#map-layers").innerHTML = Object.entries(LAYERS).filter(([k]) => count(k)).map(([k, L_]) => `
+      <label class="layer-row"><input type="checkbox" data-layer="${k}" ${state.layers.has(k) ? "checked" : ""}><span class="pin small" style="background:${L_.c}">${icon(L_.ic)}</span><span>${esc(L_.t)}</span><small>${count(k)}</small></label>`).join("");
+    $("#map-regions").innerHTML = Object.entries(REGIONS).map(([k, v]) => `<button class="chip" data-k="${k}" aria-pressed="false">${esc(v)}</button>`).join("");
+    const norm = (x) => fold(x);
+    function apply() {
+      cluster.clearLayers(); routeLayer.clearLayers();
+      const q = norm(state.q).trim();
+      const vis = pts.filter((p) => state.layers.has(p.layer) && (!state.regio.size || state.regio.has(p.regio)) &&
+        (!state.auth || p.autentic) && (!state.fav || (p.act && favs.has(p.act.id))) && (!q || norm(`${p.nom} ${p.resum || ""}`).includes(q)));
+      cluster.addLayers(vis.map((p) => p.marker));
+      let nr = 0;
+      if (state.layers.has("ruta") && !state.fav && !state.auth) routes.filter((r) => (!state.regio.size || state.regio.has(r.regio)) && (!q || norm(r.nom).includes(q))).forEach((r) => { r.poly.addTo(routeLayer); nr++; });
+      $("#map-count").textContent = `${vis.length} llocs${nr ? ` i ${nr} rutes` : ""} al mapa`;
+      return vis;
+    }
+    $("#map-layers").addEventListener("change", (e) => { const k = e.target.dataset.layer; if (!k) return; e.target.checked ? state.layers.add(k) : state.layers.delete(k); apply(); });
+    $("#map-regions").addEventListener("click", (e) => {
+      const b = e.target.closest(".chip[data-k]"); if (!b) return;
+      state.regio.has(b.dataset.k) ? state.regio.delete(b.dataset.k) : state.regio.add(b.dataset.k); b.setAttribute("aria-pressed", state.regio.has(b.dataset.k));
+      const vis = apply(); if (vis.length) map.fitBounds(vis.map((p) => [p.lat, p.lng]), { padding: [30, 30], maxZoom: 12 });
+    });
+    $("#map-auth").addEventListener("click", (e) => { state.auth = !state.auth; e.currentTarget.setAttribute("aria-pressed", state.auth); apply(); });
+    $("#map-fav").addEventListener("click", (e) => { state.fav = !state.fav; e.currentTarget.setAttribute("aria-pressed", state.fav); const v = apply(); if (state.fav && v.length) map.fitBounds(v.map((p) => [p.lat, p.lng]), { padding: [30, 30], maxZoom: 12 }); });
+    let tq; $("#map-q").addEventListener("input", (e) => { clearTimeout(tq); tq = setTimeout(() => { state.q = e.target.value; const v = apply(); if (state.q.trim().length > 2 && v.length && v.length < 40) map.fitBounds(v.map((p) => [p.lat, p.lng]), { padding: [40, 40], maxZoom: 13 }); }, 200); });
+    $("#map-all").addEventListener("click", () => { Object.keys(LAYERS).forEach((k) => state.layers.add(k)); $$("[data-layer]").forEach((c) => (c.checked = true)); apply(); });
+    if (matchMedia("(max-width: 860px)").matches) $("#map-panel").classList.add("collapsed");
+    $("#map-toggle").addEventListener("click", () => { $("#map-panel").classList.toggle("collapsed"); setTimeout(() => map.invalidateSize(), 250); });
+    document.addEventListener("favs-changed", () => { pts.forEach((p) => p.act && p.marker.setIcon(mkIcon(p))); if (state.fav) apply(); });
+
+    // Locate me
+    const Loc = L.Control.extend({ options: { position: "topleft" }, onAdd() {
+      const b = L.DomUtil.create("button", "loc-btn"); b.type = "button"; b.title = "On soc?"; b.innerHTML = icon("my_location");
+      L.DomEvent.on(b, "click", (ev) => { L.DomEvent.stop(ev); map.locate({ setView: true, maxZoom: 14 }); });
+      return b; } });
+    map.addControl(new Loc());
+    let me;
+    map.on("locationfound", (e) => { if (me) me.remove(); me = L.layerGroup([L.circle(e.latlng, { radius: e.accuracy, color: "#00658E", weight: 1, fillOpacity: .1 }), L.circleMarker(e.latlng, { radius: 7, color: "#fff", weight: 2, fillColor: "#00658E", fillOpacity: 1 })]).addTo(map); });
+    map.on("locationerror", () => alert("No s'ha pogut obtenir la ubicació (cal permís i, a l'iPhone, connexió segura)."));
+
+    const params = new URLSearchParams(location.search);
+    if (params.get("q")) { $("#map-q").value = params.get("q"); state.q = params.get("q"); }
+    const vis = apply();
+    map.fitBounds(vis.map((p) => [p.lat, p.lng]), { padding: [20, 20] });
+    setTimeout(() => map.invalidateSize(), 200);
+  }
 
   /* ---------- Curiositats ---------- */
   const FCAT = { geografia: ["Geografia", "public"], historia: ["Història", "history_edu"], llengua: ["Llengua", "translate"], natura: ["Natura", "forest"],
@@ -1018,7 +1117,7 @@
   }
   document.addEventListener("DOMContentLoaded", () => {
     layout();
-    const pages = { curiositats: pageCuriositats, guies: pageGuies, natura: pageNatura, compres: pageCompres, agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
+    const pages = { mapa: pageMapa, curiositats: pageCuriositats, guies: pageGuies, natura: pageNatura, compres: pageCompres, agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
     const fn = pages[document.body.dataset.page];
     if (fn) fn().then(scrollToHash).catch((e) => {
       console.error(e);

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa · Senegal 2026</title>
+<meta name="description" content="Mapa interactiu amb tots els llocs de la guia: activitats, menjar, nit, allotjament, agenda, natura, rutes i compres.">
+<meta name="theme-color" content="#9A4A1C">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/img/icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400,0..1,0&display=block" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="mapa">
+<main>
+
+<div class="map-shell">
+  <aside class="map-panel" id="map-panel">
+    <div class="map-panel-head">
+      <h1>Mapa</h1>
+      <button class="icon-btn" id="map-toggle" aria-label="Amaga o mostra els filtres"><span class="msym">tune</span></button>
+    </div>
+    <div class="map-panel-body">
+      <label class="search"><span class="msym">search</span><span class="visually-hidden">Cerca al mapa</span><input id="map-q" type="search" placeholder="Cerca un lloc…"></label>
+      <p class="muted" id="map-count" style="margin:10px 0 6px;font-size:14px"></p>
+      <div class="label" style="margin-top:8px">Capes</div>
+      <div id="map-layers"></div>
+      <button class="chip" id="map-all" style="margin-top:6px"><span class="msym">layers</span> Mostra-ho tot</button>
+      <div class="label" style="margin-top:14px">Filtres</div>
+      <div class="map-chips"><button class="chip" id="map-auth" aria-pressed="false"><span class="msym">eco</span> Autèntic</button><button class="chip" id="map-fav" aria-pressed="false"><span class="msym">favorite</span> La meva llista</button></div>
+      <div class="label" style="margin-top:14px">Regions</div>
+      <div class="map-chips" id="map-regions"></div>
+      <p class="muted" style="font-size:12px;margin-top:14px">Toca un punt per veure'n la fitxa. Els números agrupen llocs propers: amplia per separar-los. Coordenades d'alguns llocs aproximades.</p>
+    </div>
+  </aside>
+  <div id="bigmap" role="region" aria-label="Mapa interactiu"></div>
+</div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
