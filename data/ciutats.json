@@ -1,0 +1,1000 @@
+{
+ "ciutats": [
+  {
+   "id": "dakar",
+   "nom": "Dakar",
+   "regio": "dakar",
+   "lat": 14.6928,
+   "lng": -17.4467,
+   "resum": "Una península de barris molt diferents, des del Plateau administratiu fins als antics pobles lebous de Ngor i Yoff, amb un transport públic que per fi funciona (TER i BRT) i un trànsit que no ho fa.",
+   "orientacio": "Dakar ocupa la península del Cap Vert, la punta més occidental de l'Àfrica continental. El centre històric i administratiu, el Plateau, és a l'extrem sud-est: hi ha la Place de l'Indépendance, els mercats Sandaga i Kermel, el port amb la gare maritime per anar a Gorée i a Ziguinchor, i l'estació central del TER. Just al nord hi ha la Médina, el gran barri popular, i a partir d'aquí la ciutat s'estén cap al nord-oest per dues vies ràpides que la vertebren: la Corniche Ouest (a tocar del mar, passant per Soumbédioune, Fann i Mermoz) i la VDN (Voie de Dégagement Nord), més a l'interior. A l'extrem nord-oest hi ha Ouakam, les Mamelles, les Almadies, Ngor i Yoff; cap a l'est, la gran banlieue (Grand Yoff, Parcelles Assainies, Pikine, Guédiawaye), on hi ha la gare routière des Baux Maraîchers d'on surten els sept-places cap a tot el país.\n\nL'aeroport internacional (AIBD) no és a Dakar sinó a Diass, a uns 47-50 km, i des del setembre del 2026 hi arriba el TER. Calculeu sempre temps de sobres: l'autopista va bé, però dins la ciutat els embussos de primera hora del matí, de la tarda i del divendres a la tarda són llegendaris.\n\nOn allotjar-se segons perfil: per a la primera i l'última nit, si l'avió arriba molt tard o surt d'hora, un hotel a prop de l'AIBD o a la Petite Côte (Saly, Somone, Toubab Dialaw) us estalvia l'autopista. Per viure el Dakar més relaxat i surfer, Ngor i Yoff (allotjaments petits, platja, illa de Ngor). Per a restaurants, vida nocturna i comoditat, Almadies, Mermoz o Point E. Per estar a peu dels mercats, el port de Gorée i els museus, el Plateau (pràctic de dia, mort de nit i en cap de setmana). Si voleu calma absoluta i fer Dakar en excursions, l'illa de Gorée té cases d'hostes.",
+   "barris": [
+    {
+     "nom": "Plateau",
+     "descripcio": "El centre administratiu i comercial: Place de l'Indépendance, palau presidencial, catedral, mercats Sandaga i Kermel, Institut Français, oficines i bancs. Molt animat (i amb molts venedors i 'guies' insistents) de dia; buit de nit i els diumenges, que és quan millor es fotografia l'arquitectura colonial. Des del port surten els ferris a Gorée i el vaixell cap a Ziguinchor."
+    },
+    {
+     "nom": "Médina",
+     "descripcio": "El barri popular per excel·lència, creat pels francesos a principis del segle XX per apartar la població africana del Plateau. Graella de carrers numerats, la Gran Mosquée, el mercat Tilène (queviures a preus de barri), sastres i tallers. Autèntic i segur de dia amb el sentit comú habitual."
+    },
+    {
+     "nom": "Gueule Tapée i Fass",
+     "descripcio": "Barris residencials populars entre la Médina i la Corniche. A la Gueule Tapée hi ha Soumbédioune, amb el village artisanal i el mercat de peix de la tarda, quan tornen les pirogues. Poca oferta turística però vida de barri real."
+    },
+    {
+     "nom": "Fann i Point E",
+     "descripcio": "Fann Résidence és un barri tranquil d'ambaixades i viles sobre la Corniche Ouest; al costat hi ha la universitat Cheikh Anta Diop (UCAD) i l'hospital de Fann. Point E és residencial i agradable, amb cafès, restaurants i allotjaments de gamma mitjana: una bona base cèntrica i tranquil·la."
+    },
+    {
+     "nom": "Mermoz i Sacré-Cœur",
+     "descripcio": "Barris residencials de classe mitjana entre la Corniche i la VDN, amb molts restaurants, supermercats, apartaments de lloguer i ambient local benestant. Bons per allotjar-se si busqueu tranquil·litat i un preu raonable a mig camí de tot."
+    },
+    {
+     "nom": "Ouakam i Les Mamelles",
+     "descripcio": "Antic poble lebou, avui engolit per la ciutat, al peu dels dos turons de les Mamelles: Monument de la Renaissance Africaine, far de les Mamelles, mesquita de la Divinité i platges amb onades. Hi ha una gare routière de barri i restaurants populars."
+    },
+    {
+     "nom": "Ngor",
+     "descripcio": "Poble lebou de pescadors amb una platja des d'on surten pirogues cap a l'illa de Ngor (uns minuts de travessa). Ambient relaxat, escoles de surf i petits allotjaments: la base preferida per molts viatgers independents."
+    },
+    {
+     "nom": "Yoff",
+     "descripcio": "Gran poble lebou de pescadors al costat de l'antic aeroport, amb el mausoleu dels layènes a la platja i una vida comunitària molt pròpia. Platja animada a la tarda (lluita, futbol, pirogues); el bany pot estar prohibit per contaminació o corrents."
+    },
+    {
+     "nom": "Almadies",
+     "descripcio": "La punta occidental: grans hotels, restaurants de peix, bars i discoteques, ambaixades i expatriats. El barri més car i menys senegalès; còmode però allunyat de tot el que és autèntic."
+    },
+    {
+     "nom": "Grand Yoff i HLM",
+     "descripcio": "Barris populars de l'interior. A HLM hi ha el gran mercat de teixits (wax, bazin) envoltat de sastres, i a HLM Grand Yoff la terminal de la llançadora Dakar Dem Dikk de l'AIBD. A Liberté 5 i 6 hi ha terminals de busos interurbans."
+    },
+    {
+     "nom": "Parcelles Assainies",
+     "descripcio": "Enorme barri planificat al nord-est, molt populós i sense interès turístic específic; el travessa el BRT. Útil només si hi teniu contactes o allotjament."
+    },
+    {
+     "nom": "Pikine i Guédiawaye",
+     "descripcio": "La banlieue, on viu bona part dels dakarois. A Pikine hi ha la gare routière des Baux Maraîchers (sept-places, minibusos i Ndiaga Ndiaye cap a tot el país), amb parada de TER a prop; Guédiawaye és el terminal nord del BRT."
+    }
+   ],
+   "arribar": [
+    {
+     "mitja": "Avió (AIBD)",
+     "detall": "L'aeroport Blaise Diagne és a Diass, a uns 47-50 km. TER fins a l'estació de Dakar (Plateau) en uns 55 min, 4.000 FCFA en 2a classe i 10.000 en 1a (tarifes d'octubre del 2026); funciona fins a les 22 h aprox. Llançadora Dakar Dem Dikk fins a HLM Grand Yoff aprox. cada hora de 6 a 21 h, 6.000 FCFA (des. 2024). Taxi: pacteu-lo abans (aprox. 20.000-32.000 FCFA fins al centre + peatge); Yango aprox. 18.000-23.000 FCFA segons demanda (cal SIM local)."
+    },
+    {
+     "mitja": "Sept-place i minibús des de l'interior",
+     "detall": "Tots arriben a la gare routière des Baux Maraîchers (Bountou Pikine), que va substituir l'antiga gare Pompiers el 2014. Des d'allà, taxi al centre aprox. 4.000-6.000 FCFA (Wikivoyage) o TER des de la parada propera. Preus orientatius per seient: Thiès 1.500-2.500, Mbour 1.800-3.000, Kaolack 3.000-5.000, Saint-Louis 4.000-6.000, Ziguinchor 8.000-12.000 FCFA (au-senegal 2022 i Senego, a confirmar)."
+    },
+    {
+     "mitja": "Bus interurbà",
+     "detall": "Sénégal Dem Dikk i companyies privades fan línies regulars amb clima. Segons la taula d'au-senegal (maig 2023): Saint-Louis 5.000 FCFA des de Liberté 5 (7 i 14 h), Ziguinchor 9.000 (Liberté 5, 7 h), Kaolack 4.000 (HLM Grand Yoff), Kédougou 12.000 (rond-point Sipres, VDN, 5-7 h). Un viatger del 2025 confirma el Dem Dikk Dakar-Saint-Louis des de Liberté 6, 5.000 FCFA, sovint ple: reserveu."
+    },
+    {
+     "mitja": "Ferri des de Ziguinchor",
+     "detall": "L'Aline Sitoé Diatta (COSAMA) surt de Ziguinchor dijous i diumenge a les 13 h i arriba al port de Dakar l'endemà al matí (unes 15-16 h, amb parada a Carabane). Bitllets a batobi.sn (Orange Money) o a les estacions marítimes amb passaport."
+    },
+    {
+     "mitja": "Avió domèstic",
+     "detall": "Transair vola Ziguinchor-AIBD cada dia excepte dijous (vol d'uns 45 min) i Cap Skirring-AIBD dilluns, dimecres, dissabte i diumenge (abril 2026). Els vols domèstics també arriben a l'AIBD, no a l'antic aeroport de Yoff."
+    }
+   ],
+   "moure_s": [
+    {
+     "mitja": "Taxi (groc i negre)",
+     "detall": "Sense taxímetre: pacteu el preu abans de pujar i porteu canvi (sovint 'no en tenen'). Orientatiu: trajecte curt 1.000-1.500 FCFA, mitjà 1.500-2.500, llarg 2.500-5.000; a partir de les 22 h, un 30-50% més (Senego). Plateau-Ouakam aprox. 1.500-2.500 FCFA."
+    },
+    {
+     "mitja": "Yango i Heetch",
+     "detall": "Les apps de VTC funcionen bé i eviten regatejar; cal una SIM senegalesa amb número. Yango és la més còmoda segons Wikivoyage en francès. Es pot pagar en efectiu."
+    },
+    {
+     "mitja": "TER (Train Express Régional)",
+     "detall": "Tren modern i net des de l'estació de Dakar (Plateau) cap a Colobane, Hann, Baux Maraîchers, Pikine, Rufisque, Diamniadio i, des del setembre del 2026, l'AIBD. Freqüència d'uns 8 min fins a Diamniadio. Útil per a la banlieue, la gare routière i l'aeroport. Circula fins a les 22 h aprox."
+    },
+    {
+     "mitja": "BRT (SunuBRT)",
+     "detall": "Bus ràpid en carril propi de 18,3 km entre Petersen/Papa Gueye Fall (Plateau) i la Préfecture de Guédiawaye, per Grand Dakar, Liberté, Grand Yoff i Parcelles. Línia B1 cada 6 min de 6 a 21 h. 400 FCFA dins d'una zona, 500 FCFA tota la línia; el bitllet (QR) es compra a l'estació o a l'app SunuBRT, mai a bord, i es valida a l'entrada i a la sortida (set. 2026). No passa per les zones turístiques de la costa."
+    },
+    {
+     "mitja": "Bus Dakar Dem Dikk",
+     "detall": "Xarxa de busos urbans barata (bitllets de pocs centenars de FCFA; Wikivoyage diu 150 FCFA, xifra antiga). La línia 10 fa la Corniche Ouest i la 1 la VDN. No hi ha mapa oficial fàcil: pregunteu o mireu-ho a Google Maps."
+    },
+    {
+     "mitja": "Car rapide, Tata i Ndiaga Ndiaye",
+     "detall": "Els cars rapides (minibusos blau i groc pintats) i els Ndiaga Ndiaye (grans Mercedes blancs) són l'experiència local per excel·lència: barats, plens i lents. Digueu el destí a l'apprenti i pregunteu on va el vehicle (no si va al vostre destí: diran que sí). Per baixar, piqueu el sostre o la carrosseria."
+    },
+    {
+     "mitja": "Ferri i pirogues",
+     "detall": "Chaloupe a Gorée des de la gare maritime del port (Plateau), uns 20-30 min, 5.000 FCFA per a no residents. Pirogues a l'illa de Ngor des de la platja de Ngor (Wikivoyage diu 500 FCFA; confirmeu el preu actual)."
+    }
+   ],
+   "info_practica": [
+    {
+     "tema": "Caixers i bancs",
+     "detall": "Dakar és el lloc més fàcil del país per treure diners: caixers de bancs grans per tot el Plateau, Almadies, Mermoz i als centres comercials (com Sea Plaza, a la Corniche). Feu servir caixers dins d'oficines o centres comercials. Donen bitllets de 5.000 i 10.000 FCFA: trenqueu-los en supermercats."
+    },
+    {
+     "tema": "Canvi",
+     "detall": "1 € = 655,957 FCFA (canvi fix). No canvieu a l'aeroport: el 2025 un viatger hi va obtenir 630 FCFA per euro i Wikivoyage desaconsella fer-ho per seguretat. Els bureaux de change del Plateau donen millor canvi; els euros en efectiu es canvien sense problema."
+    },
+    {
+     "tema": "Hospitals i clíniques",
+     "detall": "Hôpital Principal (Av. Nelson Mandela, Plateau, +221 33 889 50 50; urgències 24 h, el de referència). Clinique du Cap (Av. Pasteur, +221 33 889 02 02; urgències). Clinique de la Madeleine (Av. des Jambars, +221 33 889 94 38; molt freqüentada per expatriats). Hôpital de Fann (Av. Cheikh Anta Diop, +221 33 869 18 18; públic). Llista del FCDO britànic (2021): confirmeu-ne els números. Paguen per avançat i en efectiu: porteu l'assegurança a mà."
+    },
+    {
+     "tema": "Urgències",
+     "detall": "SOS Médecins (visites a domicili 24 h, Soumbédioune): +221 33 889 15 15. SAMU: +221 33 824 24 18. Bombers: 18. Policia: 17."
+    },
+    {
+     "tema": "Farmàcies",
+     "detall": "N'hi ha a tots els barris (creu verda). Per a les de guàrdia de nit i cap de setmana, pregunteu a l'allotjament o a qualsevol farmàcia, que hi té penjada la llista setmanal."
+    },
+    {
+     "tema": "Ambaixada d'Espanya",
+     "detall": "Av. Nelson Mandela 18-20, Plateau, tel. +221 33 821 30 81. Consolat general: Corniche Ouest, Fann Mermoz, tel. +221 33 869 07 07. Urgències consulars 24 h: +221 77 569 28 89."
+    },
+    {
+     "tema": "Internet i SIM",
+     "detall": "SIM o eSIM a qualsevol botiga Orange amb el passaport (també Free i Expresso). Amb número local podreu fer servir Yango/Heetch, Wave i Orange Money. Wi-fi a la majoria d'allotjaments i cafès."
+    },
+    {
+     "tema": "Oficina de turisme",
+     "detall": "No hem trobat cap oficina de turisme útil i verificada per a viatgers a Dakar; la millor font és l'allotjament. L'Institut Français (89 rue Joseph Gomis) publica l'agenda de concerts i exposicions."
+    },
+    {
+     "tema": "Bugaderia",
+     "detall": "No hi ha bugaderies d'autoservei habituals; els allotjaments renten la roba per un preu modest i a tots els barris hi ha 'pressings' (tintoreries)."
+    }
+   ],
+   "compres": [
+    {
+     "nom": "Village artisanal de Soumbédioune",
+     "detall": "El gran mercat d'artesania de la ciutat, a la Corniche Ouest: escultures, joies, cuir, instruments, teles. Preus inicials molt inflats: regategeu sense pressa. Combineu-ho amb el mercat de peix de la tarda, al costat."
+    },
+    {
+     "nom": "Mercat HLM",
+     "detall": "La 'ciutat del teixit': wax, bazin i brodats per metres (Wikivoyage parla d'uns 1.000 FCFA el metre de wax; normalment venen talls de 3 a 6 m) i sastres que us fan una peça a mida en un o dos dies."
+    },
+    {
+     "nom": "Sandaga i Kermel (Plateau)",
+     "detall": "Sandaga és el gran mercat caòtic del centre (de tot, molt atapeït, carteristes); Kermel, a prop del port, és més petit i tranquil, amb edifici colonial circular, flors, fruita i alguna parada d'artesania."
+    },
+    {
+     "nom": "Mercat Tilène (Médina) i Colobane",
+     "detall": "Tilène per a espècies, bissap i queviures a preu de barri; Colobane és el mercat de puces i roba de segona mà, per als que volen immersió total."
+    },
+    {
+     "nom": "Village des Arts",
+     "detall": "Tallers d'artistes contemporanis al costat de l'estadi Léopold Sédar Senghor (cada dia 11-18 h segons Wikivoyage): s'hi pot comprar art directament als creadors."
+    },
+    {
+     "nom": "Cocktail du Sénégal",
+     "detall": "Botiga d'artesania i objectes al carrer Moussé Diop (Plateau), segons Wikivoyage, per a qui no vulgui regatejar en un mercat."
+    }
+   ],
+   "seguretat": [
+    "Aeroport: no canvieu diners a l'AIBD i desconfieu de qui s'ofereix a portar-vos la maleta o fer-vos de 'guia' fent-se passar per personal; aneu directament al TER, al taxi pactat o al trasllat reservat.",
+    "Carteristes a Sandaga, a la Place de l'Indépendance i a tots els llocs atapeïts; porteu el mòbil i la cartera a les butxaques de davant.",
+    "Estafes típiques: el 'jo treballo al vostre hotel, no em reconeixeu?' que acaba demanant diners (per a gasolina, un bateig o una 'cerimònia'), i els guies espontanis que us acompanyen a una botiga a comissió. Somriure i 'non merci' ferm.",
+    "No camineu per la Corniche ni per les platges un cop fosc; Wikivoyage assenyala especialment el tram entre l'International School of Dakar i el Club Olympique.",
+    "A la Pointe des Almadies hi ha hagut 'guardes' que demanen un peatge que no és legal.",
+    "Moltes platges urbanes tenen aigua contaminada o corrents forts: banyeu-vos només on es banyen els locals i amb socorristes.",
+    "Als taxis, pacteu el preu i deixeu clar si és per persona o per cotxe abans de pujar."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage EN – Dakar",
+     "url": "https://en.wikivoyage.org/wiki/Dakar"
+    },
+    {
+     "nom": "Wikivoyage FR – Dakar",
+     "url": "https://fr.wikivoyage.org/wiki/Dakar"
+    },
+    {
+     "nom": "Au Sénégal – Les transports en commun (tarifs 2022-2023)",
+     "url": "https://www.au-senegal.com/les-transports-en-commun,097.html"
+    },
+    {
+     "nom": "Au Sénégal – BRT Dakar: lignes, stations, tarifs (set. 2026)",
+     "url": "https://au-senegal.com/brt-dakar-lignes-stations-tarifs-et-comment-l-utiliser,18546.html"
+    },
+    {
+     "nom": "Au Sénégal – TER Dakar-AIBD: tarifs et horaires",
+     "url": "https://au-senegal.com/ter-dakar-aibd-tarifs-horaires-et-guide-pratique-pour-rejoindre-l-aeroport,18552.html"
+    },
+    {
+     "nom": "Au Sénégal – La gare routière des Baux Maraîchers",
+     "url": "https://au-senegal.com/la-gare-routiere-des-baux-maraichers-de-dakar-est-en-fonction,10180.html"
+    },
+    {
+     "nom": "Senego – Prix des billets de transport au Sénégal",
+     "url": "https://senego.com/services/prix-billets-transport"
+    },
+    {
+     "nom": "GOV.UK – Senegal: list of doctors (2021)",
+     "url": "https://www.gov.uk/government/publications/list-of-recommemded-practitioners/senegal-doctors"
+    },
+    {
+     "nom": "Au Sénégal – SOS Médecin Sénégal",
+     "url": "https://au-senegal.com/sos-medecin-senegal,3084.html"
+    },
+    {
+     "nom": "Fòrum Routard – Quelques infos Dakar et St Louis (2025)",
+     "url": "https://www.routard.com/forums/t/quelques-infos-dakar-et-st-louis-2025/451316"
+    },
+    {
+     "nom": "Au Sénégal – Transair: vols vers la Casamance (abril 2026)",
+     "url": "https://au-senegal.com/dakar-ziguinchor-et-dakar-cap-skirring-transair-renforce-ses-vols-vers-la-casamance,18300.html"
+    }
+   ]
+  },
+  {
+   "id": "saint-louis",
+   "nom": "Saint-Louis",
+   "regio": "nord",
+   "lat": 16.0244,
+   "lng": -16.5045,
+   "resum": "Antiga capital colonial repartida entre el continent (Sor), una illa històrica patrimoni de la UNESCO i la Langue de Barbarie dels pescadors de Guet Ndar, que es recorre a peu, en bici o en calesa.",
+   "orientacio": "Saint-Louis s'estén en tres franges paral·leles separades pels braços del riu Senegal. A l'est, al continent, hi ha Sor, la ciutat moderna i popular, amb la gare routière, el gran mercat i la majoria de serveis. El pont Faidherbe (la icona metàl·lica de la ciutat, reconstruït el 2011) porta a l'illa de Ndar, el nucli colonial de 2 km de llarg per 400 m d'ample, amb carrers en quadrícula, cases de balcons de fusta, museus i la majoria de cases d'hostes. Un segon pont, el Mustapha Malick Gaye, creua el braç petit del riu fins a la Langue de Barbarie, la llengua de sorra entre el riu i l'oceà on hi ha el poble de pescadors de Guet Ndar i, més al sud, la platja de l'Hydrobase.\n\nL'illa es fa tota a peu i és on passa gairebé tot per al viatger: restaurants, galeries, botigues, el Syndicat d'Initiative i les calesses que esperen just després del pont Faidherbe. Sor és on aneu per agafar transport, canviar o comprar al mercat; Guet Ndar, per veure arribar les pirogues a la tarda.\n\nOn allotjar-se: a l'illa si voleu ambient, arquitectura i fer-ho tot a peu (cases d'hostes en edificis històrics; el 2025 viatgers del Routard trobaven els preus alts per a la qualitat). A l'Hydrobase si preferiu platja i calma, amb hotels de platja a 4-5 km del centre (cal taxi). A Sor hi ha hotels moderns i allotjaments més barats i tranquils, pràctics si arribeu tard en sept-place. Per Cap d'Any (Fanal de finals de desembre) reserveu amb molta antelació.",
+   "barris": [
+    {
+     "nom": "Illa de Ndar – nord",
+     "descripcio": "La meitat nord de l'illa, amb el palau del Governador i la Place Faidherbe a tocar del pont, la catedral, cases colonials restaurades, la majoria de restaurants, bancs (carrers Blanchot i Khalifa Ababacar Sy) i hotels històrics com l'Hôtel de la Poste."
+    },
+    {
+     "nom": "Illa de Ndar – sud",
+     "descripcio": "Més residencial i tranquil·la, amb carrers de cases baixes, la mesquita, galeries i cases d'hostes més discretes. Bona per passejar al vespre."
+    },
+    {
+     "nom": "Sor",
+     "descripcio": "La ciutat continental, on viu la majoria de la població: gare routière, el gran mercat diari de l'avinguda del Général de Gaulle, una de les dues esglésies catòliques, el village artisanal (rue de la Corniche), gasolineres i supermercats. Menys bonica però molt viva i barata."
+    },
+    {
+     "nom": "Guet Ndar",
+     "descripcio": "El barri de pescadors de la Langue de Barbarie, un dels més densos de l'Àfrica occidental: centenars de pirogues pintades, assecadors de peix i un petit mercat. Espectacular a la tarda, quan tornen les barques. Demaneu sempre permís abans de fer fotos."
+    },
+    {
+     "nom": "Hydrobase",
+     "descripcio": "La part sud de la Langue de Barbarie, a uns 4-5 km de l'illa, on hi havia la base d'hidroavions de l'Aéropostale: platja infinita a l'Atlàntic i la majoria d'hotels de platja de Saint-Louis."
+    }
+   ],
+   "arribar": [
+    {
+     "mitja": "Sept-place",
+     "detall": "Des de la gare routière des Baux Maraîchers (Dakar) quan s'omple. Aprox. 4.000-6.000 FCFA per seient (5.000 segons au-senegal 2022) + equipatge; el cotxe sencer surt per unes 33.000-35.000 FCFA segons Wikivoyage (que encara cita la desapareguda gare Pompier). Unes 4-5 h per 264-274 km per la N2. Arriba a la gare routière de Sor; d'allà a l'illa, taxi de 500-600 FCFA."
+    },
+    {
+     "mitja": "Bus",
+     "detall": "Sénégal Dem Dikk Dakar-Saint-Louis des de Liberté 5/Liberté 6, dues sortides al dia (7 i 14 h segons au-senegal 2023), 5.000 FCFA, unes 5 h; còmode però sovint ple, cal reservar (fòrum Routard, febrer 2025). Les companyies privades costen aprox. 6.000-8.000 FCFA."
+    },
+    {
+     "mitja": "Minicar i Ndiaga Ndiaye",
+     "detall": "Més barats (Wikivoyage: minicar 3.500 FCFA, Ndiaga Ndiaye 2.500 FCFA, dades antigues) però molt més lents, amb parades contínues. Compteu els seients lliures abans de pagar."
+    },
+    {
+     "mitja": "Porta a porta i taxi",
+     "detall": "'Allo taxi' fa un servei regular Dakar-Saint-Louis amb recollida a domicili per uns 10.000 FCFA per persona (au-senegal). Un taxi sencer des de l'AIBD surt per unes 60.000 FCFA per a fins a 4 persones, negociable (Wikivoyage)."
+    },
+    {
+     "mitja": "Avió",
+     "detall": "L'aeroport de Saint-Louis (a 9 km) no té vols comercials: segons Wikivoyage, els vols des de Dakar que van tornar el 2024 s'havien suspès a principis del 2026."
+    },
+    {
+     "mitja": "Des del nord i Mauritània",
+     "detall": "Sept-places a Rosso (frontera de Mauritània), Richard Toll, Podor, Louga i Touba des de la gare routière de Sor. Rosso costava 2.500 FCFA + 500 d'equipatge el 2025 (fòrum Routard)."
+    }
+   ],
+   "moure_s": [
+    {
+     "mitja": "A peu",
+     "detall": "L'illa sencera i Guet Ndar es fan a peu: de punta a punta de l'illa són uns 25 minuts."
+    },
+    {
+     "mitja": "Taxi",
+     "detall": "Tarifa fixa habitual de 500 FCFA per trajecte dins la ciutat; 600 FCFA des de la gare routière o de nit (Wikivoyage). Fins a l'Hydrobase, pacteu-ho abans."
+    },
+    {
+     "mitja": "Calesa",
+     "detall": "Les calesses esperen just després del pont Faidherbe i ofereixen voltes per l'illa, Sor i Guet Ndar amb explicacions. Pacteu preu i durada abans de pujar. El Syndicat d'Initiative també organitza circuits a peu, en bici i en calesa."
+    },
+    {
+     "mitja": "Bicicleta i escúter",
+     "detall": "Lloguer a la cantonada del carrer Blanchot amb el Quai Roume (illa): bicicleta uns 5.000 FCFA/dia, escúter uns 10.000 FCFA/dia (Wikivoyage). Ideal per arribar a l'Hydrobase."
+    },
+    {
+     "mitja": "Car rapide",
+     "detall": "Minibusos urbans a uns 100 FCFA el trajecte (Wikivoyage), útils entre Sor i l'illa."
+    }
+   ],
+   "info_practica": [
+    {
+     "tema": "Caixers i bancs",
+     "detall": "Hi ha bancs amb caixer 24 h a la part nord de l'illa: CBAO/Attijari (rue Khalifa Ababacar Sy), BICIS (rue de France x rue Blanchot), BHS (rue Khalifa Ababacar Sy), Ecobank (bd du Général de Gaulle x rue de France) i també a Sor (SGBS, av. du Général de Gaulle). Llistat de Ndarinfo sense data: alguns noms poden haver canviat."
+    },
+    {
+     "tema": "Canvi",
+     "detall": "Bureau de Change Central (Boutique de la Poste), bd du Général de Gaulle x rue Blaise Diagne, a prop de l'Hôtel de la Poste, tel. 33 961 13 73."
+    },
+    {
+     "tema": "Hospital i farmàcies",
+     "detall": "Centre Hospitalier Régional, bd Abdoulaye Mar Diop, tel. +221 33 938 24 00, obert 24 h. Hi ha una oficina de Suma Assistance (assistència mèdica privada). Farmàcies a l'illa i a Sor; Wikivoyage cita la Pharmacie Malang Lyss (rue de la Corniche, Sor)."
+    },
+    {
+     "tema": "Oficina de turisme",
+     "detall": "Office de Tourisme / Syndicat d'Initiative, a l'illa just després del pont Faidherbe (rue Mille Lacroix segons Wikivoyage), tel. +221 33 961 24 55, sltourisme@orange.sn. Plànol per fer l'illa a peu i circuits guiats."
+    },
+    {
+     "tema": "Internet i SIM",
+     "detall": "Orange té 4G a tota la ciutat (Free i Expresso, 3G). Wi-fi a la majoria d'hotels i cafès. Al sud de la Langue de Barbarie, passat Tassinère, no hi ha cobertura."
+    },
+    {
+     "tema": "Supermercats",
+     "detall": "Exotica i D.S.K. Mini Prix, tots dos al carrer Khalifa Ababacar Sy (illa), amb productes occidentals."
+    },
+    {
+     "tema": "Correus",
+     "detall": "Mitja dotzena d'oficines; la central és darrere el Musée Jean Mermoz i el Syndicat d'Initiative."
+    }
+   ],
+   "compres": [
+    {
+     "nom": "Chez Adja Sokho Créations",
+     "detall": "Objectes dissenyats i fets a Saint-Louis. Rue Blanchot x rue Blaise Diagne (illa)."
+    },
+    {
+     "nom": "Keur Fall",
+     "detall": "Botiga de comerç just amb productes de l'associació Ndem (teixits i objectes de disseny rural). Quai Roume (illa)."
+    },
+    {
+     "nom": "Galerie N'Dar i Mama Africa",
+     "detall": "Galeria i botiga de records al carrer Blaise Diagne (illa)."
+    },
+    {
+     "nom": "Village artisanal",
+     "detall": "A Sor, rue de la Corniche: molta oferta d'artesania, però també molta insistència. Regategeu."
+    },
+    {
+     "nom": "Mercat de Sor",
+     "detall": "Mercat diari de l'avinguda del Général de Gaulle: fruita, teles, wax i roba de segona mà. Hi ha un mercat més petit a Guet Ndar."
+    }
+   ],
+   "seguretat": [
+    "Porteu els objectes de valor a sobre, no a l'equipatge del sept-place o del bus: s'han reportat robatoris a les bosses.",
+    "Al pont Faidherbe i a l'entrada de l'illa us abordaran 'guies' i venedors; si voleu guia, contracteu-lo al Syndicat d'Initiative.",
+    "Al village artisanal la pressió per comprar és alta; entreu-hi amb paciència i sense presses.",
+    "A Guet Ndar, sigueu discrets amb la càmera: és un barri de treball i molta gent no vol fotos.",
+    "A la platja no camineu massa cap al nord: s'acosta a la frontera de Mauritània (Wikivoyage aconsella dir a la policia que aneu a la platja si us aturen).",
+    "Si torneu a Dakar, no arribeu tard a la gare routière: de vespre pot no haver-hi vehicles i no és un lloc recomanable de nit.",
+    "Per Cap d'Any i el Fanal hi ha moltes aglomeracions a l'illa: compte amb carteristes."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage EN – Saint-Louis",
+     "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+    },
+    {
+     "nom": "Wikivoyage FR – Saint-Louis (Sénégal)",
+     "url": "https://fr.wikivoyage.org/wiki/Saint-Louis_(S%C3%A9n%C3%A9gal)"
+    },
+    {
+     "nom": "Routard – Saint-Louis",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/saint-louis"
+    },
+    {
+     "nom": "Fòrum Routard – Quelques infos Dakar et St Louis (2025)",
+     "url": "https://www.routard.com/forums/t/quelques-infos-dakar-et-st-louis-2025/451316"
+    },
+    {
+     "nom": "Ndarinfo – Bonnes adresses: les banques",
+     "url": "https://www.ndarinfo.com/bonnesadresses/Les-Banques_a5.html"
+    },
+    {
+     "nom": "Saint-Louis du Sénégal – Transports",
+     "url": "https://www.saintlouisdusenegal.com/english/transports.php"
+    },
+    {
+     "nom": "Au Sénégal – Les transports en commun",
+     "url": "https://www.au-senegal.com/les-transports-en-commun,097.html"
+    },
+    {
+     "nom": "Senego – Prix des billets de transport",
+     "url": "https://senego.com/services/prix-billets-transport"
+    }
+   ]
+  },
+  {
+   "id": "ziguinchor",
+   "nom": "Ziguinchor",
+   "regio": "casamance",
+   "lat": 12.5833,
+   "lng": -16.2719,
+   "resum": "La capital de la Casamance, una ciutat tranquil·la i verda a la riba del riu, porta d'entrada a la Baixa Casamance pel ferri nocturn de Dakar o per avió.",
+   "orientacio": "Ziguinchor s'estira per la riba sud del riu Casamance, a uns 70 km de l'oceà. El centre és l'Escale, el barri colonial a tocar del riu i del port, amb avingudes amples, edificis administratius envellits, hotels amb vistes al riu i l'embarcador on atraca l'Aline Sitoé Diatta. Cap al sud i l'interior s'estenen els barris residencials: Néma, amb el mercat Saint-Maur-des-Fossés, i Santhiaba, amb la gran mesquita. L'aeroport és a tocar de la ciutat.\n\nÉs una ciutat per fer-hi una o dues nits: passejar per l'Escale i el port (on es construeixen pirogues), el mercat, el centre artesanal, i organitzar el següent salt cap a Oussouye, Cap Skirring, Elinkine i Carabane o la Casamance del nord (Bignona, Kafountine). És també l'última ciutat amb serveis complets (bancs, farmàcies, hospital) abans dels pobles.\n\nOn allotjar-se: a l'Escale, a prop del riu i del port, si arribeu en vaixell o voleu fer-ho tot a peu (hi ha hotels clàssics amb terrassa sobre el riu). Fora del centre hi ha campements i allotjaments més econòmics, però cal taxi. Si la idea és la platja, no us quedeu: Cap Skirring és a uns 70 km.",
+   "barris": [
+    {
+     "nom": "Escale",
+     "descripcio": "El centre colonial a la riba del riu: port i estació marítima, avingudes amples amb edificis de l'època francesa, hotels i restaurants amb vistes al riu, la plaça Jean-Paul II i drassanes de pirogues."
+    },
+    {
+     "nom": "Néma",
+     "descripcio": "Barri del mercat Saint-Maur-des-Fossés (batejat per la ciutat agermanada francesa), el més animat per a compres quotidianes, fruita, peix i teles."
+    },
+    {
+     "nom": "Santhiaba",
+     "descripcio": "Barri residencial amb la gran mesquita de Santhiaba; vida de barri sense interès turístic específic."
+    },
+    {
+     "nom": "Gare routière i avinguda Carvalho",
+     "descripcio": "La gare routière (sept-places i minibusos cap a Dakar, Oussouye, Cap Skirring, Bignona, Kolda i Bissau) és en un carrer de sorra a l'esquerra de l'avinguda Carvalho, a una distància raonable del centre."
+    }
+   ],
+   "arribar": [
+    {
+     "mitja": "Ferri Aline Sitoé Diatta (COSAMA)",
+     "detall": "Surt de Dakar dimarts i divendres a les 20 h i arriba al matí següent (uns 15-16 h, amb una parada breu a Carabane). Tornada de Ziguinchor dijous i diumenge a les 13 h. Preus no residents (juny 2025): butaca Pullman 15.900 FCFA, llit en cabina de 8 18.900, cabina de 4 28.900, cabina de 2 30.900. Bitllets a batobi.sn (des del juliol 2026, amb Orange Money) o a les estacions marítimes amb el passaport original. Les cabines s'esgoten setmanes abans per Nadal i Cap d'Any."
+    },
+    {
+     "mitja": "Avió",
+     "detall": "Transair va reprendre el Dakar (AIBD)-Ziguinchor l'1 de maig del 2026: uns 45 min, dilluns a les 9 h i la resta de dies excepte dijous a les 15 h; aprox. 39.500-101.500 FCFA l'anada (abril 2026). No hem pogut confirmar si Air Sénégal manté la ruta: comproveu-ho a les webs de les companyies."
+    },
+    {
+     "mitja": "Sept-place per la Gàmbia",
+     "detall": "Uns 450 km, tot un dia. Des de Baux Maraîchers (Dakar), sortida abans de les 6 h. Aprox. 8.500-10.000 FCFA + 500 per bulto (Wikivoyage; au-senegal 2022). Travessa la Gàmbia per la Transgambiana (des del 2019 amb el pont de Farafenni en lloc de l'antic ferri): dues fronteres, passaport a mà. El bus des de Liberté 5 costava 9.000 FCFA el 2023."
+    },
+    {
+     "mitja": "Per l'interior (sense passar per la Gàmbia)",
+     "detall": "Via Kaolack-Tambacounda-Kolda: molt més llarg, útil només si combineu amb el Senegal oriental. Des de Kaolack, els vehicles cap al sud surten del Garage Nioro."
+    },
+    {
+     "mitja": "Des de la Baixa Casamance",
+     "detall": "Taxis brousse i sept-places freqüents des de Cap Skirring, Oussouye i Bignona; arriben a la gare routière."
+    }
+   ],
+   "moure_s": [
+    {
+     "mitja": "Taxi",
+     "detall": "Un trajecte d'una sola parada dins la ciutat costa uns 500 FCFA, siguin els passatgers que siguin (Wikivoyage); fins a l'aeroport o de nit, pacteu-lo."
+    },
+    {
+     "mitja": "A peu",
+     "detall": "L'Escale, el port i els hotels del riu es fan a peu; el mercat Saint-Maur queda a un taxi curt o a una bona passejada."
+    },
+    {
+     "mitja": "Taxi brousse i sept-place",
+     "detall": "Per sortir cap a Oussouye, Cap Skirring, Elinkine o Bignona, a la gare routière. Per a quatre persones, llogar un vehicle sencer o un cotxe amb xofer per dia permet aturar-se als pobles."
+    }
+   ],
+   "info_practica": [
+    {
+     "tema": "Caixers",
+     "detall": "Ziguinchor és el millor lloc de la Casamance per treure efectiu: hi ha oficines bancàries amb caixer al centre. Traieu-ne prou abans d'anar als pobles i campements, on gairebé no n'hi ha."
+    },
+    {
+     "tema": "Salut",
+     "detall": "Com a capital regional, té hospital (no hem pogut verificar-ne serveis ni urgències: pregunteu a l'allotjament en arribar). Per a qualsevol cosa greu, l'evacuació és cap a Dakar (avió)."
+    },
+    {
+     "tema": "Oficina de turisme",
+     "detall": "El Routard esmenta una oficina de turisme, sense adreça; la informació més pràctica la donen els hotels de l'Escale i els campements."
+    },
+    {
+     "tema": "Bitllets del ferri",
+     "detall": "A més de l'estació marítima, l'hotel Le Perroquet ha venut bitllets del ferri; ara també es poden comprar en línia a batobi.sn."
+    },
+    {
+     "tema": "Internet",
+     "detall": "Bona cobertura 4G d'Orange a la ciutat; als pobles de la Baixa Casamance, més irregular."
+    }
+   ],
+   "compres": [
+    {
+     "nom": "Mercat Saint-Maur-des-Fossés (Néma)",
+     "detall": "El mercat principal: fruita tropical, espècies, peix, teles i alguna parada d'artesania. Bon lloc per comprar oli de palma, mel i fruita de la Casamance."
+    },
+    {
+     "nom": "Centre artisanal",
+     "detall": "Al centre de la ciutat: escultura, cistelleria, teles i records de la regió. Regategeu."
+    },
+    {
+     "nom": "Tallers d'artesans",
+     "detall": "El Routard esmenta tallers de terrissa i teixit a la ciutat; la ceràmica diola de veritat es compra a Edioungou, a prop d'Oussouye."
+    }
+   ],
+   "seguretat": [
+    "No circuleu de nit fora dels grans eixos i de les ciutats: el Routard ho desaconsella fortament i el ministeri d'Exteriors francès classificava a principis del 2026 algunes zones de la regió com a desaconsellades.",
+    "Consulteu els avisos d'Exteriors abans d'anar a zones frontereres amb la Gàmbia i la Guinea Bissau i no us aparteu de camins i pistes coneguts.",
+    "La ciutat en si és tranquil·la; les precaucions habituals en mercats i gare routière."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage EN – Ziguinchor",
+     "url": "https://en.wikivoyage.org/wiki/Ziguinchor"
+    },
+    {
+     "nom": "Routard – Ziguinchor",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance/ziguinchor"
+    },
+    {
+     "nom": "Au Sénégal – Transair renforce ses vols vers la Casamance (abril 2026)",
+     "url": "https://au-senegal.com/dakar-ziguinchor-et-dakar-cap-skirring-transair-renforce-ses-vols-vers-la-casamance,18300.html"
+    },
+    {
+     "nom": "Au Sénégal – Les transports en commun",
+     "url": "https://www.au-senegal.com/les-transports-en-commun,097.html"
+    },
+    {
+     "nom": "Senego – Prix des billets de transport",
+     "url": "https://senego.com/services/prix-billets-transport"
+    }
+   ]
+  },
+  {
+   "id": "mbour-saly",
+   "nom": "Mbour i Saly",
+   "regio": "petite-cote",
+   "lat": 14.4161,
+   "lng": -16.9644,
+   "resum": "La parella de la Petite Côte: Mbour, ciutat pescadora i comercial de veritat, i Saly, l'estació turística de resorts al costat, totes dues a 20-30 minuts de l'aeroport.",
+   "orientacio": "Mbour és a uns 80 km al sud de Dakar i a uns 20-30 minuts per autopista de l'aeroport AIBD. És una ciutat senegalesa de veritat, viva i caòtica: el port de pesca (amb l'arribada de pirogues a la tarda), el gran mercat, la gare routière i la Route Nationale que la travessa, de la qual surten barris populars que de vegades queden lluny de l'asfalt. És el nus de transport de tota la Petite Côte: d'aquí surten els vehicles cap a Joal-Fadiouth, Palmarin, Fimela i el Sine Saloum.\n\nSaly, uns quants quilòmetres al nord, és una altra cosa: l'estació balneària més gran del país, amb resorts, apartaments, golf, restaurants, supermercats i bancs. Saly Portudal és l'antic poble pescador (a tocar de Mbour); al nord, Saly Nord / Niakhniakhal concentra hotels, centres comercials i el mercat d'artesania. Més amunt hi ha Ngaparou i la llacuna de la Somone; al sud de Mbour, Warang i Nianing, amb campements més tranquils.\n\nOn allotjar-se: a Saly si voleu comoditat, piscina i serveis (és la millor opció per a la primera o l'última nit, a prop de l'AIBD). A la Somone o Ngaparou per a un ambient més calmat i natural. A Warang, Nianing o en un campement si busqueu quelcom més senzill i autèntic. Dormir a Mbour mateix només té sentit si hi teniu algun motiu concret.",
+   "barris": [
+    {
+     "nom": "Mbour centre i port",
+     "descripcio": "El mercat, el port de pesca i el mercat de peix (espectacle a la tarda, quan tornen les pirogues), la Route Nationale, l'ajuntament i l'hospital. Autèntic i caòtic."
+    },
+    {
+     "nom": "Grand Mbour i barris",
+     "descripcio": "Barris residencials populars a banda i banda de la Route Nationale, sovint lluny de l'asfalt; s'hi arriba amb clandos per 100-125 FCFA."
+    },
+    {
+     "nom": "Saly Portudal",
+     "descripcio": "L'antic poble de pescadors, entre Mbour i la zona de resorts: platja amb pirogues, petits restaurants i allotjaments."
+    },
+    {
+     "nom": "Saly Nord / Niakhniakhal",
+     "descripcio": "La zona turística: hotels i resorts, apartaments, golf, centre comercial, supermercats, bancs, clínica i el mercat artesanal."
+    },
+    {
+     "nom": "Somone i Ngaparou",
+     "descripcio": "Al nord de Saly: la llacuna i reserva de la Somone (ocells, manglar) i el poble de Ngaparou, amb allotjaments més tranquils."
+    },
+    {
+     "nom": "Warang i Nianing",
+     "descripcio": "Al sud de Mbour, en direcció a Joal: platges menys urbanitzades, campements i cases d'hostes."
+    }
+   ],
+   "arribar": [
+    {
+     "mitja": "Des de l'AIBD",
+     "detall": "Uns 20-30 min per autopista. Taxi: tarifa oficial del 2017 de 10.000-14.000 FCFA fins a Saly (dia/nit); avui pacteu-lo. Trasllat privat aprox. 45.000-65.000 FCFA per vehicle. El TER no hi arriba."
+    },
+    {
+     "mitja": "Sept-place i minibús des de Dakar",
+     "detall": "Des de la gare routière des Baux Maraîchers (Pikine), quan s'omplen: sept-place aprox. 1.800-3.000 FCFA per seient, minicar aprox. 1.200 FCFA (au-senegal 2022, Senego), bus 2.500 FCFA des de Baux Maraîchers (7 i 19 h, 2023). Arriben a la gare routière de Mbour; per anar a Saly, baixeu a l'entrada o agafeu un clando."
+    },
+    {
+     "mitja": "Taxi des de Dakar",
+     "detall": "Un taxi sencer Dakar-Mbour costava unes 15.000 FCFA segons Wikivoyage (dada antiga); compteu-hi més amb els peatges."
+    },
+    {
+     "mitja": "Des del Sine Saloum i el sud",
+     "detall": "Sept-places i minibusos des de Joal, Palmarin, Fimela, Fatick i Kaolack arriben a la gare routière de Mbour."
+    }
+   ],
+   "moure_s": [
+    {
+     "mitja": "Taxi",
+     "detall": "Dins Mbour, uns 500-800 FCFA segons distància i hora (Wikivoyage, 2019). Entre Mbour i Saly o fins a la Somone, pacteu-lo."
+    },
+    {
+     "mitja": "Clandos i taxis col·lectius",
+     "detall": "Per la Route Nationale passen cotxes col·lectius: aixequeu la mà i digueu el destí. Grand Mbour 100 FCFA, més enllà de l'ajuntament 125 FCFA, Mbour-Saly (cap al nord) uns 200 FCFA (Wikivoyage, preus orientatius antics)."
+    },
+    {
+     "mitja": "Calesa (charrette)",
+     "detall": "Les charrettes de cavall porten gent al mercat de Mbour per uns 50 FCFA (Wikivoyage)."
+    },
+    {
+     "mitja": "Cotxe amb xofer o taxi per dies",
+     "detall": "Per a quatre persones és la manera més còmoda de fer Bandia, la Somone, Popenguine o Joal en un dia; llogar un taxi fora de Dakar surt per 15.000-50.000 FCFA segons distància (au-senegal)."
+    }
+   ],
+   "info_practica": [
+    {
+     "tema": "Caixers i bancs",
+     "detall": "Saly té diverses oficines bancàries amb caixer i supermercats; Mbour també. És el darrer lloc còmode per treure efectiu abans del Sine Saloum."
+    },
+    {
+     "tema": "Salut",
+     "detall": "Hospital de Mbour (al centre, prop de la platja); a Saly Nord hi ha una clínica de serveis bàsics i una oficina de Suma Assistance (assistència mèdica privada). Diverses farmàcies a Saly i a Mbour. Per a res greu, Dakar."
+    },
+    {
+     "tema": "Seguretat i emergències",
+     "detall": "Saly té gendarmeria i parc de bombers propis. Bombers: 18; policia: 17."
+    },
+    {
+     "tema": "Internet i SIM",
+     "detall": "Botigues Orange i Free a Mbour i Saly; bona cobertura 4G."
+    }
+   ],
+   "compres": [
+    {
+     "nom": "Mercat artesanal de Saly",
+     "detall": "A Saly Nord, el mercat d'artesania de l'estació: escultures, teles, joies. Preus pensats per al turisme: regategeu molt."
+    },
+    {
+     "nom": "Mercat de Mbour",
+     "detall": "El mercat central de la ciutat: teles, fruita, espècies i vida local, molt més barat que Saly."
+    },
+    {
+     "nom": "Mercat de peix i port de Mbour",
+     "detall": "No és per comprar records, però l'arribada de les pirogues a la tarda és un dels espectacles de la costa."
+    },
+    {
+     "nom": "Mercat setmanal de Nguéniène",
+     "detall": "Mercat rural de la rodalia, ja descrit al catàleg (Petite Côte): l'opció autèntica per comprar teles i cistelleria."
+    }
+   ],
+   "seguretat": [
+    "A la platja i als carrers turístics de Saly us abordaran venedors i 'antiquaires' (intermediaris que porten clients a botigues a comissió): sigueu ferms i educats, seguiu caminant i no us deixeu portar a cap botiga.",
+    "Compte amb el truc del 'regal de l'amistat': us donen una polsera o un objecte com a regal i després us demanen diners.",
+    "Als bars i discoteques de Saly hi ha prostitució, de vegades amb menors, i s'hi han fet detencions per explotació infantil i drogues: estigueu-ne alerta i denuncieu-ho.",
+    "No doneu diners als nens talibés amb el bol; si voleu ajudar, millor menjar o una associació.",
+    "A Mbour, demaneu permís abans de fotografiar gent, sobretot al port i al mercat."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage EN – Mbour",
+     "url": "https://en.wikivoyage.org/wiki/Mbour"
+    },
+    {
+     "nom": "Fòrum Routard – Tout sur Saly (2014)",
+     "url": "https://www.routard.com/forums/t/tout-sur-saly/79015"
+    },
+    {
+     "nom": "Routard – Mbour",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/petite-cote/mbour"
+    },
+    {
+     "nom": "Vikidia – Saly Portudal",
+     "url": "https://fr.vikidia.org/wiki/Saly_Portudal"
+    },
+    {
+     "nom": "Au Sénégal – Les transports en commun",
+     "url": "https://www.au-senegal.com/les-transports-en-commun,097.html"
+    },
+    {
+     "nom": "Au Sénégal – Hôpitaux, cliniques, soins d'urgence",
+     "url": "https://au-senegal.com/structures-de-sante,9546.html"
+    },
+    {
+     "nom": "Senego – Prix des billets de transport",
+     "url": "https://senego.com/services/prix-billets-transport"
+    }
+   ]
+  },
+  {
+   "id": "kaolack",
+   "nom": "Kaolack",
+   "regio": "saloum",
+   "lat": 14.152,
+   "lng": -16.0726,
+   "resum": "La capital del cacauet i de la confraria Niassène, una ciutat calorosa i comercial amb un dels mercats coberts més grans de l'Àfrica occidental i la gran mesquita de Médina Baye.",
+   "orientacio": "Kaolack és a uns 190 km al sud-est de Dakar (3-4 h), a la riba del Saloum, i és una cruïlla clau: d'aquí surten les carreteres cap a Tambacounda i el Senegal oriental, cap a la Gàmbia i la Casamance, i cap al delta del Saloum (Foundiougne, Sokone, Toubacouta). És una ciutat comercial, calorosa i poc turística, amb el gran mercat central al cor del centre i les salines a la sortida de la ciutat.\n\nEl centre gira al voltant del mercat cobert i les avingudes principals (com la Valdiodio Ndiaye, on hi ha restaurants i allotjaments). Al nord-oest hi ha Médina Baye, la ciutat santa de la branca Niassène de la tijaniyya, amb la gran mesquita, i a l'altre extrem Léona Niassène, l'altre centre religiós. Les dues estacions de transport són a extrems oposats: Garage Dakar (cap a l'oest i el nord) i Garage Nioro (cap al sud i l'est).\n\nOn allotjar-se: per a la majoria de viatgers, Kaolack és una parada d'una nit o d'unes hores entre Dakar i el Senegal oriental o el Saloum. Busqueu allotjament al centre o a l'avinguda Valdiodio Ndiaye, a prop de restaurants i a un taxi curt de les estacions.",
+   "barris": [
+    {
+     "nom": "Centre i mercat",
+     "descripcio": "El gran mercat cobert (amb els venedors de wax a l'anell exterior de botigues), comerços, bancs i les avingudes principals, com la Valdiodio Ndiaye."
+    },
+    {
+     "nom": "Médina Baye",
+     "descripcio": "La ciutat santa del xeic Ibrahima Niass i la seva confraria (amb seguidors a tota l'Àfrica occidental), amb la gran mesquita. Vestiu de manera discreta i demaneu abans de fer fotos."
+    },
+    {
+     "nom": "Léona Niassène",
+     "descripcio": "L'altre gran centre religiós niassène de la ciutat, amb la seva mesquita."
+    }
+   ],
+   "arribar": [
+    {
+     "mitja": "Sept-place i minibús des de Dakar",
+     "detall": "Des de la gare routière des Baux Maraîchers: sept-place aprox. 3.000-5.000 FCFA per seient (3.500 segons au-senegal 2022), minicar aprox. 2.400 FCFA. Unes 3-4 h. Arriben al Garage Dakar."
+    },
+    {
+     "mitja": "Bus",
+     "detall": "Bus des d'HLM Grand Yoff (Dakar), 4.000 FCFA, sortides a les 7 i a les 15 h (au-senegal, maig 2023). També hi passen els busos Dakar-Bamako."
+    },
+    {
+     "mitja": "Des del sud i l'est",
+     "detall": "Tambacounda, Kolda, la Casamance i la frontera gambiana: vehicles al Garage Nioro."
+    },
+    {
+     "mitja": "Des de la Petite Côte i el Saloum",
+     "detall": "Sept-places des de Mbour i Fatick; des de Foundiougne i Sokone, minibusos i taxis brousse."
+    }
+   ],
+   "moure_s": [
+    {
+     "mitja": "Taxi",
+     "detall": "La manera habitual de moure's: uns 700-800 FCFA el trajecte segons Wikivoyage (dada antiga). Entre Garage Dakar i Garage Nioro cal taxi."
+    },
+    {
+     "mitja": "Moto-taxi",
+     "detall": "També n'hi ha; negocieu el preu i demaneu casc."
+    }
+   ],
+   "info_practica": [
+    {
+     "tema": "Caixers",
+     "detall": "Com a capital regional i ciutat comercial, té oficines bancàries amb caixer al centre. Si continueu cap al Saloum o el Senegal oriental, traieu efectiu aquí."
+    },
+    {
+     "tema": "Salut",
+     "detall": "Com a capital regional té hospital (no n'hem verificat els serveis); farmàcies al voltant del mercat i de les avingudes principals."
+    },
+    {
+     "tema": "Calor",
+     "detall": "És una de les ciutats més caloroses del país fins i tot al desembre: aigua, gorra i visites al matí."
+    }
+   ],
+   "compres": [
+    {
+     "nom": "Mercat central cobert",
+     "detall": "Un dels mercats coberts més grans de l'Àfrica occidental. Wax a l'anell exterior de botigues: Wikivoyage parla d'uns 1.500 FCFA per 2 m i 3.500 FCFA per 6 m (preus antics). Hi ha una secció de 'gris-gris' amb pells, petxines i ingredients per als fabricants d'amulets."
+    },
+    {
+     "nom": "Village artisanal",
+     "detall": "Centre d'artesania de la ciutat, per a escultura i objectes de record."
+    }
+   ],
+   "seguretat": [
+    "Precaucions habituals amb els carteristes al mercat central i a les estacions.",
+    "Respecteu les normes de vestimenta i comportament a Médina Baye i Léona Niassène (llocs religiosos); en grans celebracions religioses la ciutat s'omple i el transport es complica.",
+    "Pacteu preus de taxi i equipatge abans de pujar als vehicles a les estacions."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage EN – Kaolack",
+     "url": "https://en.wikivoyage.org/wiki/Kaolack"
+    },
+    {
+     "nom": "Au Sénégal – Les transports en commun",
+     "url": "https://www.au-senegal.com/les-transports-en-commun,097.html"
+    },
+    {
+     "nom": "Senego – Prix des billets de transport",
+     "url": "https://senego.com/services/prix-billets-transport"
+    }
+   ]
+  },
+  {
+   "id": "thies",
+   "nom": "Thiès",
+   "regio": "voltants",
+   "lat": 14.791,
+   "lng": -16.9359,
+   "resum": "La ciutat del ferrocarril, a una hora de Dakar: avingudes arbrades, el mercat Kër Mame El Hadj, el museu en un antic fort i els tapissos de les Manufactures des Arts Décoratifs.",
+   "orientacio": "Thiès és la tercera ciutat del país, a uns 60-70 km a l'est de Dakar per la N2 i l'autopista, i a poca distància de l'AIBD. Va néixer com a gran nus ferroviari (línies cap a Dakar, Saint-Louis i Bamako) i en conserva l'antiga estació i el barri de tallers. Les grans avingudes arbrades la fan més aireada i tranquil·la que Dakar.\n\nEl centre concentra el mercat central (Kër Mame El Hadj), el Musée régional, instal·lat en un antic fort militar, i l'antiga estació (avinguda del Général de Gaulle). Les Manufactures Sénégalaises des Arts Décoratifs (MSAD), amb els tallers de tapís i la sala d'exposició, són el motiu principal de la visita. A uns 23 km a l'oest hi ha l'abadia de Keur Moussa, coneguda pels cants amb kora dels monjos. La gare routière és al sud de la ciutat.\n\nOn allotjar-se: Thiès es fa normalment de pas (mig dia des de Dakar o de camí a Saint-Louis, Touba o el Saloum). Si hi dormiu, hi ha hotels senzills al centre; els horaris de les MSAD (dies feiners) són el factor clau per planificar.",
+   "barris": [
+    {
+     "nom": "Centre",
+     "descripcio": "Mercat Kër Mame El Hadj, museu regional al fort, restaurants i comerços. Es fa a peu."
+    },
+    {
+     "nom": "Zona de l'estació",
+     "descripcio": "L'antiga estació i el barri ferroviari, testimoni del passat de la ciutat (avinguda del Général de Gaulle)."
+    },
+    {
+     "nom": "Guinth",
+     "descripcio": "Barri amb restaurants populars com el Pamanda (rue Amadou Sow), obert 24 h."
+    }
+   ],
+   "arribar": [
+    {
+     "mitja": "Sept-place i minibús des de Dakar",
+     "detall": "Des de la gare routière des Baux Maraîchers: sept-place aprox. 1.500-2.500 FCFA per seient, minibús aprox. 1.000 FCFA (au-senegal 2022, Senego). Aprox. 1-1,5 h segons trànsit."
+    },
+    {
+     "mitja": "Bus",
+     "detall": "Busos des de la gare de Colobane (Dakar), 2.000 FCFA, de 7 a 19 h (au-senegal, maig 2023)."
+    },
+    {
+     "mitja": "Tren",
+     "detall": "Wikivoyage parla d'un tren diari Thiès-Diamniadio que enllaça amb el TER cap a Dakar; comproveu-ne l'horari actual abans de comptar-hi."
+    },
+    {
+     "mitja": "Des de l'AIBD",
+     "detall": "És a pocs quilòmetres de l'aeroport: taxi pactat."
+    },
+    {
+     "mitja": "Cap a Saint-Louis i Touba",
+     "detall": "Thiès és a la ruta Dakar-Saint-Louis (194 km fins a Saint-Louis) i a la de Touba; els sept-places de pas poden aturar-s'hi."
+    }
+   ],
+   "moure_s": [
+    {
+     "mitja": "Taxi",
+     "detall": "Abundants: la majoria de trajectes uns 500 FCFA; del centre a la gare routière del sud, uns 600 FCFA (Wikivoyage, dades antigues)."
+    },
+    {
+     "mitja": "A peu",
+     "detall": "El centre (mercat, museu, estació) es recorre bé a peu."
+    }
+   ],
+   "info_practica": [
+    {
+     "tema": "MSAD (horaris)",
+     "detall": "Les Manufactures obren de dilluns a divendres (8-13 h i 14.30-17 h): durant el viatge, només els dies feiners són útils."
+    },
+    {
+     "tema": "Salut",
+     "detall": "Hôpital Régional de Thiès; al centre hi ha la Clinique Conception (rue Yacine Boubou). Farmàcies al centre."
+    },
+    {
+     "tema": "Caixers",
+     "detall": "Com a gran ciutat, té bancs amb caixer al centre."
+    }
+   ],
+   "compres": [
+    {
+     "nom": "Manufactures Sénégalaises des Arts Décoratifs (MSAD)",
+     "detall": "Tapissos teixits a mà pels liciers a partir de cartrons d'artistes senegalesos; es visiten els tallers i es pot comprar a la sala d'exposició (peces cares, però úniques)."
+    },
+    {
+     "nom": "Mercat central Kër Mame El Hadj",
+     "detall": "Teles de colors, menjar i objectes quotidians a preus locals."
+    },
+    {
+     "nom": "Village artisanal",
+     "detall": "Artesania local i pintures sous-verre (pintura sobre vidre), un record típic."
+    }
+   ],
+   "seguretat": [
+    "Ciutat tranquil·la; precaucions habituals al mercat i a la gare routière.",
+    "Pacteu preus abans de pujar al taxi o al sept-place."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage EN – Thiès",
+     "url": "https://en.wikivoyage.org/wiki/Thi%C3%A8s"
+    },
+    {
+     "nom": "Routard – Thiès",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/saint-louis-et-le-nord/thies"
+    },
+    {
+     "nom": "Au Sénégal – Les transports en commun",
+     "url": "https://www.au-senegal.com/les-transports-en-commun,097.html"
+    },
+    {
+     "nom": "Au Sénégal – Hôpitaux, cliniques, soins d'urgence",
+     "url": "https://au-senegal.com/structures-de-sante,9546.html"
+    },
+    {
+     "nom": "Saint-Louis du Sénégal – Transports (distàncies)",
+     "url": "https://www.saintlouisdusenegal.com/english/transports.php"
+    }
+   ]
+  },
+  {
+   "id": "kedougou",
+   "nom": "Kédougou",
+   "regio": "est",
+   "lat": 12.5556,
+   "lng": -12.1743,
+   "resum": "Petita capital del Senegal oriental a la riba del riu Gàmbia, base per als pobles bassari i bédik, les cascades de Dindéfelo i els turons del país bassari, a uns 700 km de Dakar.",
+   "orientacio": "Kédougou és una ciutat petita i polsosa a la riba del riu Gàmbia, enmig dels turons del país bassari, a prop de les fronteres de Guinea i Mali. És capital de regió des del 2008, la llengua més parlada és el pulaar i viu de l'agricultura, el comerç i, cada cop més, l'or de les mines dels voltants. Hi arriba la N7, que travessa el parc del Niokolo-Koba des de Tambacounda.\n\nÉs sobretot una base logística: aquí es troben guies, cotxes i motos per anar als pobles bédik d'Iwol i Bandafassi, al país bassari (Salémata, Ethiolo), a les cascades de Dindéfelo (uns 25-35 km) o a fer una passejada en barca pel riu Gàmbia. El mercat, amb teles i artesania arribades de Guinea, és el punt més animat.\n\nOn allotjar-se: a la ciutat hi ha campements i hotels senzills, pràctics per a la primera nit. Molts viatgers prefereixen dormir als campements dels pobles (Bandafassi, Dindéfelo, Dar Salam), bàsics però agradables, o tornar cada vespre a Kédougou si fan excursions d'un dia.",
+   "barris": [
+    {
+     "nom": "Centre i mercat",
+     "descripcio": "Al voltant del mercat: comerços, transport, restaurants senzills i serveis (banc, farmàcies)."
+    },
+    {
+     "nom": "Riba del riu Gàmbia",
+     "descripcio": "Campements i allotjaments a tocar del riu, amb possibilitat de passejades en barca."
+    }
+   ],
+   "arribar": [
+    {
+     "mitja": "Bus des de Dakar",
+     "detall": "Busos nocturns o de matinada des del rond-point Sipres (VDN, Dakar), sortides de 5 a 7 h, 12.000 FCFA (au-senegal, maig 2023). Unes 10-13 h de viatge segons els viatgers. En sentit invers, els busos surten de Kédougou cap a les 14-15 h i arriben a Dakar al matí (fòrum Routard)."
+    },
+    {
+     "mitja": "Sept-place",
+     "detall": "Aprox. 12.000-15.000 FCFA per seient des de Dakar (au-senegal 2022, Senego); un cotxe sencer, unes 105.000 FCFA segons un fòrum antic. Molts viatgers fan el trajecte en dues etapes, amb nit a Tambacounda."
+    },
+    {
+     "mitja": "Des de Tambacounda",
+     "detall": "Sept-places o bus de Niokolo Transport per la N7, travessant el Niokolo-Koba (unes 4 h). Dakar Dem Dikk va obrir línies a Kédougou el 2023 i les reorganitzava el 2025: consulteu horaris actuals."
+    },
+    {
+     "mitja": "Avió",
+     "detall": "L'aeroport de Kédougou (KGG) existeix, però no hem trobat vols regulars confirmats des de Dakar per al 2026."
+    }
+   ],
+   "moure_s": [
+    {
+     "mitja": "Taxi i moto-taxi",
+     "detall": "Dins la ciutat i per a trajectes curts, taxis i motos ('jakartas' o 'clandos'). Pacteu el preu abans."
+    },
+    {
+     "mitja": "4x4 amb guia",
+     "detall": "Per als pobles bédik i bassari, segons els viatgers és difícil, si no impossible, sense llogar un 4x4 i un guia que conegui els pobles i els costums. Contracteu-lo a la ciutat o a través del campement."
+    },
+    {
+     "mitja": "Taxi brousse",
+     "detall": "Cap a Salémata, Dindéfelo i Bandafassi surten taxis brousse des de la ciutat, poc freqüents: informeu-vos el dia abans."
+    }
+   ],
+   "info_practica": [
+    {
+     "tema": "Efectiu",
+     "detall": "La CBAO hi ha obert una agència, però no hem pogut confirmar caixers fiables; fòrums antics deien que només es podia treure a Tambacounda. Porteu efectiu suficient per a tota l'estada a la regió."
+    },
+    {
+     "tema": "Salut",
+     "detall": "Hospital regional Amath Dansokho. Per a res greu, l'evacuació és cap a Tambacounda o Dakar: porteu farmaciola i assegurança amb repatriació. Vacuna de la febre groga i profilaxi de la malària imprescindibles en aquesta zona."
+    },
+    {
+     "tema": "Guies",
+     "detall": "Un guia local és gairebé imprescindible per als pobles bédik i bassari (per respecte i per orientar-se). Acordeu abans el preu, el que inclou i les contribucions als pobles."
+    },
+    {
+     "tema": "Proveïments",
+     "detall": "Tambacounda és el darrer lloc on es troba de tot; a Kédougou hi ha el bàsic al mercat."
+    }
+   ],
+   "compres": [
+    {
+     "nom": "Mercat de Kédougou",
+     "detall": "Mercat acolorit amb teles i artesania arribades de Guinea, a més de productes locals."
+    },
+    {
+     "nom": "Artesania als pobles",
+     "detall": "Als pobles bédik i bassari, compreu directament als artesans o a les associacions locals si n'hi ha."
+    }
+   ],
+   "seguretat": [
+    "Incendis forestals a la regió en saó seca: el Routard avisava el març del 2026 que l'accés a Dindéfelo i als senders pot quedar restringit o ser perillós. Informeu-vos amb les autoritats locals.",
+    "Eviteu conduir de nit, sobretot per la N7 a través del Niokolo-Koba.",
+    "Als pobles bédik i bassari, demaneu sempre permís abans de fotografiar persones o llocs sagrats.",
+    "Calor intensa al migdia fins i tot al desembre: caminades de bon matí i molta aigua."
+   ],
+   "fonts": [
+    {
+     "nom": "Wikivoyage EN – Kédougou",
+     "url": "https://en.wikivoyage.org/wiki/K%C3%A9dougou"
+    },
+    {
+     "nom": "Routard – Kédougou",
+     "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental/kedougou"
+    },
+    {
+     "nom": "Fòrum Routard – Aller de Dakar à Kédougou",
+     "url": "https://www.routard.com/forums/t/aller-de-dakar-a-kedougou/24337"
+    },
+    {
+     "nom": "Fòrum Routard – Pays Bassari",
+     "url": "https://www.routard.com/forums/t/pays-bassari/83828"
+    },
+    {
+     "nom": "Au Sénégal – Les transports en commun",
+     "url": "https://www.au-senegal.com/les-transports-en-commun,097.html"
+    },
+    {
+     "nom": "Seneweb – Kédougou: Dakar Dem Dikk lance deux nouvelles lignes (2023)",
+     "url": "https://www.seneweb.com/news/Societe/kedougou-dakar-dem-dikk-lance-deux-nouve_n_410054.html"
+    },
+    {
+     "nom": "Senego – Inaugurations agences CBAO (Kédougou)",
+     "url": "https://senego.com/photos-texte-inaugurations-agences-cbao_1840257.html"
+    },
+    {
+     "nom": "Wildtrips – Kédougou",
+     "url": "https://www.wildtrips.net/lieux/Kedougou-S%C3%A9n%C3%A9gal-que-visiter.htm"
+    }
+   ]
+  }
+ ]
+}
