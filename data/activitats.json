@@ -9847,7 +9847,29 @@
     "url": "https://www.routard.com/fr/guide/afrique/senegal/sine-saloum"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-sal-sipo-1.jpg",
+    "autor": "Julien saison",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_traditionnelle_des_noix_de_Cajou,_fruit_de_l%27Anacardier,_%C3%AEle_de_Sipo,_delta_du_Sine_Saloum,_S%C3%A9n%C3%A9gal.jpg",
+    "titol": "Préparation traditionnelle des noix de Cajou, fruit de l'Anacardier, île de Sipo, delta du Sine Saloum, Sénégal.jpg"
+   },
+   {
+    "src": "assets/img/rlp-sal-sipo-2.jpg",
+    "autor": "Julien saison",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Boulanger_traditionnel,_%C3%AEle_de_Sipo,_delta_du_Sine_Saloum,_S%C3%A9n%C3%A9gal.jpg",
+    "titol": "Boulanger traditionnel, île de Sipo, delta du Sine Saloum, Sénégal.jpg"
+   },
+   {
+    "src": "assets/img/rlp-sal-sipo-3.jpg",
+    "autor": "Kateryna Serdiuk",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:In_the_boat_by_Serdiuk.jpg",
+    "titol": "In the boat by Serdiuk.jpg"
+   }
+  ]
  },
  {
   "id": "rlp-sal-samba-dia",
@@ -9966,7 +9988,15 @@
     "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-cas-eloubaline-1.jpg",
+    "autor": "Ji-Elle",
+    "llicencia": "Public domain",
+    "font": "https://commons.wikimedia.org/wiki/File:Enampor-Impluvium2.jpg",
+    "titol": "Enampor-Impluvium2.jpg"
+   }
+  ]
  },
  {
   "id": "rlp-cas-djembering",
@@ -10006,7 +10036,22 @@
     "url": "https://www.routard.com/fr/guide/afrique/senegal/casamance"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-cas-djembering-1.jpg",
+    "autor": "Christian Pirkl",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Diemb%C3%A9ring_DSC07208_Senegal.jpg",
+    "titol": "Diembéring DSC07208 Senegal.jpg"
+   },
+   {
+    "src": "assets/img/rlp-cas-djembering-2.jpg",
+    "autor": "Olivier Epron Olivierkeita",
+    "llicencia": "CC BY 3.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_diola_diemb%C3%A9ring.jpg",
+    "titol": "Musée diola diembéring.jpg"
+   }
+  ]
  },
  {
   "id": "rlp-cas-kachouane",
@@ -10242,7 +10287,15 @@
     "url": "https://www.routard.com/forums/t/circuit-dans-le-nord-du-senegal/342478"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-ptc-baobab-fadial-1.jpg",
+    "autor": "Abrahami",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Baobab_sacr%C3%A9_de_Fadial.jpg",
+    "titol": "Baobab sacré de Fadial.jpg"
+   }
+  ]
  },
  {
   "id": "rlp-ptc-warang",
@@ -10318,7 +10371,15 @@
     "url": "https://fr.wikipedia.org/wiki/Village_des_tortues"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-vlt-village-tortues-1.jpg",
+    "autor": "Finn-DE",
+    "llicencia": "CC BY 3.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Geochelone_sulcata_-_Guembeul.JPG",
+    "titol": "Geochelone sulcata - Guembeul.JPG"
+   }
+  ]
  },
  {
   "id": "rlp-nord-mboro-niayes",
@@ -10476,7 +10537,15 @@
     "url": "https://www.routard.com/fr/guide/afrique/senegal/senegal-oriental"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-est-bandafassi-ethiouar-1.jpg",
+    "autor": "John Atherton",
+    "llicencia": "CC BY-SA 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Bedik_village_of_Iwol,_Southeast_S%C3%A9n%C3%A9gal_(462983188).jpg",
+    "titol": "Bedik village of Iwol, Southeast Sénégal (462983188).jpg"
+   }
+  ]
  },
  {
   "id": "rlp-est-cascades-segou",
@@ -10554,7 +10623,15 @@
     "url": "https://fr.wikipedia.org/wiki/Lay%C3%A8ne"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-dkr-mausolee-layene-1.jpg",
+    "autor": "Ji-Elle",
+    "llicencia": "Public domain",
+    "font": "https://commons.wikimedia.org/wiki/File:Yoff-Mosqu%C3%A9eLayene.jpg",
+    "titol": "Yoff-MosquéeLayene.jpg"
+   }
+  ]
  },
  {
   "id": "rlp-dkr-medina-tilene",
@@ -10597,7 +10674,15 @@
     "url": "https://fr.wikipedia.org/wiki/M%C3%A9dina_(Dakar)"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-dkr-medina-tilene-1.jpg",
+    "autor": "Julien saison",
+    "llicencia": "CC BY-SA 4.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Atelier_de_couture,_Medina,_Dakar,_S%C3%A9n%C3%A9gal.jpg",
+    "titol": "Atelier de couture, Medina, Dakar, Sénégal.jpg"
+   }
+  ]
  },
  {
   "id": "rlp-dkr-parc-hann",
@@ -10669,7 +10754,15 @@
     "url": "https://www.lonelyplanet.com/articles/dakar-music"
    }
   ],
-  "imatges": []
+  "imatges": [
+   {
+    "src": "assets/img/rlp-dkr-djembe-ibou-sene-1.jpg",
+    "autor": "Bess Sadler from Palo Alto, CA, USA",
+    "llicencia": "CC BY 2.0",
+    "font": "https://commons.wikimedia.org/wiki/File:Dakar-Djemb%C3%A9_sur_la_plage.jpg",
+    "titol": "Dakar-Djembé sur la plage.jpg"
+   }
+  ]
  },
  {
   "id": "rlp-dkr-bufalo-soldier",
@@ -10774,6 +10867,1605 @@
    {
     "nom": "Routard - Incontournables Sénégal",
     "url": "https://www.routard.com/fr/guide/top/afrique/senegal"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "eat-dkr-tangana-carrer",
+  "nom": "Tanganes i esmorzar de carrer a Dakar",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "mercats"
+  ],
+  "resum": "Plats de tieb, yassa o mafè a uns 400-1.000 FCFA a les tanganes de barri, amb ataya i pastels: el Dakar que menja cada dia.",
+  "descripcio": "Les tanganes (o gargotes) són les cantines de barri on els dakarois dinen: un banc, una olla enorme i un plat del dia (ceebu jën, yassa, mafè, pollastre amb vermicelli). Wikivoyage en francès hi situa els plats al voltant de 400 FCFA; avui compteu més aviat 500-1.500 FCFA segons el barri. A la Médina, Grand Yoff o Ouakam és on són més genuïnes; al Plateau i les Almadies ja costen més.\n\nAl matí, els carrers s'omplen de paradetes de pa amb mongetes o ou, beignets de mil, pastels (crestes de peix fregides) i Café Touba, el cafè especiat amb djar. A la tarda, l'ataya (te verd en tres rondes) és l'excusa per seure i xerrar. El Routard recorda que els pastels i els beignets es troben a tot arreu i que els petits locals libanesos de xauarma i falàfel són l'altra opció barata.\n\nNo és un lloc concret sinó una manera de menjar: la millor pista és preguntar al vostre allotjament o al taxista on dina ell.",
+  "consells": [
+   "El plat fort (ceebu jën) es cuina per dinar, entre les 13 h i les 15 h; al vespre hi ha menys opció i més brasa.",
+   "Pregunteu 'fan lañuy lekk ceebu jën bu neex?' (on es menja un bon ceebu jën?) o simplement 'tangana?' en francès: tothom té el seu lloc.",
+   "Mireu que l'olla sigui de l'hora i el local ple: més rotació, més seguretat alimentària. Aigua sempre embotellada.",
+   "Porteu monedes i bitllets petits (500, 1.000, 2.000 FCFA); el canvi de 10.000 és un problema."
+  ],
+  "durada": "1 h",
+  "preu": "Plat del dia aprox. 500-1.500 FCFA; pastels i beignets 50-100 FCFA la peça; Café Touba 50-100 FCFA (aprox.)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0,
+  "lat": 14.6845,
+  "lng": -17.45,
+  "millor_moment": "Dinar (13-15 h) per al ceebu jën; matí per als esmorzars de carrer",
+  "imprescindible": true,
+  "pel_teu_compte": "Camineu per la Médina o Ouakam a l'hora de dinar i entreu on vegeu gent del barri asseguda; no cal reservar.",
+  "fonts": [
+   {
+    "nom": "Wikivoyage FR – Dakar (Manger)",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Routard – Gastronomie, où manger au Sénégal",
+    "url": "https://www.routard.com/fr/guide/a/gastronomie-ou-manger/afrique/senegal"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-dkr-marche-tilene",
+  "nom": "Marché Tilène (Médina)",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "mercats",
+   "gastronomia"
+  ],
+  "resum": "El mercat de queviures de la Médina, el dels preus de barri: fruita, peix, espècies i gargotes al voltant.",
+  "descripcio": "Mentre que Sandaga i Kermel són els mercats que surten a totes les guies, Tilène és el mercat de la Médina, el barri popular per excel·lència de Dakar. La guia d'expatriats d'Expat.com el descriu com el mercat que serveix la comunitat local, amb alguns dels millors preus de la ciutat.\n\nÉs un bon lloc per veure el ritme del barri, comprar fruita (mango, papaia, fruit del baobab), bissap sec, espècies, cacauets torrats i provar menjar de paradeta als carrers del voltant. Al migdia, les dones venen plats casolans a les cantonades i a les petites gargotes que envolten el mercat.\n\nNo hi espereu res pensat per al turista: és caòtic, sorollós i molt viu. Wikivoyage FR també suggereix l'opció més local de totes: comprar peix o moniatos al mercat i fer-los a la brasa (una petita graella costa uns 1.000 FCFA).",
+  "consells": [
+   "Aneu-hi al matí (8-11 h), quan el producte és fresc i fa menys calor.",
+   "Taxi des del Plateau: aprox. 1.000-1.500 FCFA negociat; també hi passen els bus Dakar Dem Dikk i els 'cars rapides'.",
+   "Vigileu les butxaques i porteu poc a sobre; demaneu permís abans de fotografiar persones.",
+   "Combineu-lo amb la Gran Mesquita, que és a pocs minuts a peu."
+  ],
+  "durada": "1-2 h",
+  "preu": "Gratuït entrar; fruita i snacks a preu de mercat (centenars de FCFA)",
+  "nivell_preu": 0,
+  "hores_des_de_dakar": 0.2,
+  "lat": 14.6862,
+  "lng": -17.4497,
+  "millor_moment": "Matí, de dilluns a dissabte",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi o bus fins a la Médina (Avenue Blaise Diagne) i a peu; no cal guia, però un amic local ajuda a negociar.",
+  "fonts": [
+   {
+    "nom": "Expat.com – Food and dining in Dakar",
+    "url": "https://www.expat.com/en/guide/africa/senegal/dakar/37433-food-and-dining-in-dakar.html"
+   },
+   {
+    "nom": "Wikivoyage FR – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-dkr-jamm-rekk",
+  "nom": "Jamm Rekk (Ouakam)",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Petit restaurant de barri a Ouakam, prop del Monument de la Renaissance, amb cuina senegalesa casolana a preu molt baix.",
+  "descripcio": "Una recomanació dels fòrums del Routard: un 'petit resto hyper sympa' a Ouakam, al carrer OKM87, a prop del Monument de la Renaissance Africaine i de la gare routière de Ouakam. Curiosament, el portaven uns joves japonesos, que hi fan plats senegalesos casolans i també curri i nems.\n\nEl 2019 un viatger hi va pagar 1.000 FCFA pels plats senegalesos, i el 2020 un altre usuari en va confirmar la ubicació. És el tipus de lloc que encaixa perfectament si visiteu el Monument o la Mosquée de la Divinité i voleu dinar al barri en comptes de les terrasses de la Corniche.\n\nAtenció: les ressenyes són del 2019-2020; truqueu abans per confirmar que continua obert i amb el mateix equip.",
+  "consells": [
+   "Telèfon publicat al fòrum: 77 889 32 53 (2019). Confirmeu-ho per WhatsApp abans d'anar-hi.",
+   "Referència per al taxista: 'à côté de la gare routière de Ouakam' o 'Brioche Dorée Ouakam'.",
+   "Encaixa amb la pujada al Monument de la Renaissance (a pocs minuts).",
+   "Coordenades aproximades."
+  ],
+  "durada": "1 h",
+  "preu": "Plats senegalesos aprox. 1.000 FCFA (preu del 2019, probablement més ara)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.7225,
+  "lng": -17.4935,
+  "millor_moment": "Dinar després de visitar el Monument de la Renaissance",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi fins a la gare routière de Ouakam (aprox. 1.500-2.500 FCFA des del Plateau) i pregunteu per 'Jamm Rekk'.",
+  "fonts": [
+   {
+    "nom": "Fòrum Routard – Jamm Rekk, resto hyper sympa à Ouakam",
+    "url": "https://www.routard.com/forums/t/jamm-rekk-resto-hyper-sympa-a-ouakam/242101"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-dkr-le-djembe",
+  "nom": "Le Djembé (Plateau)",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Local lluminós amb carta 100% senegalesa al Plateau: yassa, ceebu jën i sucs de bissap i bouye.",
+  "descripcio": "Food Republic el va incloure entre els millors llocs per menjar a Dakar: un local lluminós i airejat al número 56 del carrer Saint-Michel, amb una carta estrictament senegalesa (yassa de pollastre, ceebu jën) i sucs frescos de bissap (hibisc) i bouye (fruit del baobab). El porta un propietari d'origen libanès nascut a Dakar.\n\nÉs una bona opció per dinar quan feu el Plateau a peu (Place de l'Indépendance, mercat Kermel), en una zona on abunden les opcions cares per a funcionaris i expats.\n\nHonestedat: la referència és del 2013 i no hem trobat ressenyes recents verificables. Confirmeu que segueix obert abans d'anar-hi expressament; si no, al mateix barri hi ha Chez Loutcha (ja al catàleg).",
+  "consells": [
+   "Adreça: 56 Rue Saint-Michel, Plateau. Coordenades aproximades.",
+   "Aneu-hi a l'hora de dinar: els plats del dia s'acaben.",
+   "Demaneu els sucs locals (bissap, bouye, gingembre) en lloc de refrescos.",
+   "Possiblement tancat o canviat: verifiqueu-ho a Google Maps el mateix dia."
+  ],
+  "durada": "1 h",
+  "preu": "Sense preus publicats; plats senegalesos de nivell econòmic-mitjà (aprox. 2.500-5.000 FCFA)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0,
+  "lat": 14.668,
+  "lng": -17.435,
+  "millor_moment": "Dinar entre setmana mentre visiteu el Plateau",
+  "imprescindible": false,
+  "pel_teu_compte": "A peu des de la Place de l'Indépendance; sense reserva.",
+  "fonts": [
+   {
+    "nom": "Food Republic – 7 places to eat and drink in Dakar (2013)",
+    "url": "https://www.foodrepublic.com/2013/06/25/7-places-to-eat-and-drink-incredibly-well-in-dakar-senegal"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-dkr-bant-yi-brochettes",
+  "nom": "Les Bâtons (Bant-yi): broquetes a la nigerina",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Broquetes de carn a la brasa amb acompanyament de blat de moro a l'estil del Níger, a l'Avenue Jean Jaurès.",
+  "descripcio": "Wikivoyage recull aquest local popular del Plateau, al número 7 de l'Avenue Jean Jaurès, conegut com 'Les bâtons' o 'Bant-yi' (els pals, en wolof). La especialitat són les broquetes de carn a la brasa servides amb un acompanyament de blat de moro típic del Níger: l'equivalent dakarès del 'choukouya' de l'Àfrica de l'Oest.\n\nÉs un menjar ràpid, barat i de carrer, perfecte per a un sopar informal al centre. A Dakar, les comunitats nigerina, guineana i maliana tenen els seus propis llocs de brasa: si us agrada, pregunteu per les 'dibiteries' (el xai a la brasa senegalès, ja al catàleg) i compareu.",
+  "consells": [
+   "Adreça: 7 Av. Jean Jaurès, Plateau (coord. de Wikivoyage).",
+   "Millor al vespre, quan s'encenen les brases.",
+   "Demaneu la carn ben feta i acompanyeu-la amb ceba i pebre (kaani) al gust."
+  ],
+  "durada": "45 min",
+  "preu": "Sense preu publicat; broquetes de carrer, nivell econòmic (aprox. 1.000-3.000 FCFA)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0,
+  "lat": 14.671153,
+  "lng": -17.440311,
+  "millor_moment": "Sopar",
+  "imprescindible": false,
+  "pel_teu_compte": "A peu pel Plateau o en taxi; sense reserva.",
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Dakar (Eat)",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-dkr-xauarma-libanesos",
+  "nom": "Xauarmes i falàfels libanesos del Plateau (Ali Baba, Chez Elias)",
+  "regio": "dakar",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "La comunitat libanesa és part de Dakar des de fa un segle: xauarma i falàfel barats a l'Avenue Pompidou i Peytavin.",
+  "descripcio": "Els libanesos arribaren al Senegal a principis del segle XX i el seu menjar és part de la quotidianitat dakaresa. Wikivoyage recomana dues institucions del Plateau: Ali Baba, a mig camí de l'Avenue Pompidou, un 'greasy spoon' barat de falàfel, xauarma i kebabs, i Chez Elias (81 bis Av. Peytavin), amb fama de fer la millor xauarma de la ciutat i un servei senzill i amable.\n\nEl Routard també cita els petits locals libanesos de xauarma i falàfel com una de les opcions més barates del país. Són ideals per a un sopar ràpid o un mos entre visites.",
+  "consells": [
+   "Ali Baba: Av. Pompidou (coord. 14.6693, -17.4345). Chez Elias: 81 bis Av. Peytavin (14.6691, -17.4390).",
+   "Obren fins tard: bona opció si arribeu a Dakar al vespre.",
+   "Demaneu la xauarma 'avec piment' si us agrada picant."
+  ],
+  "durada": "30 min",
+  "preu": "Sense preu publicat; sandvitxos aprox. 1.500-3.000 FCFA (aprox.)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0,
+  "lat": 14.669322,
+  "lng": -17.43448,
+  "millor_moment": "Qualsevol hora; especialment sopar ràpid",
+  "imprescindible": false,
+  "pel_teu_compte": "A peu pel Plateau; sense reserva.",
+  "autentic": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Dakar (Eat: Budget)",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Routard – Gastronomie au Sénégal",
+    "url": "https://www.routard.com/fr/guide/a/gastronomie-ou-manger/afrique/senegal"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "eat-nord-chez-dasso",
+  "nom": "Chez Dasso (Saint-Louis)",
+  "regio": "nord",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Cuina casolana senegalesa feta al moment per una sola cuinera: mafè, thiou, yassa i molta opció vegetariana.",
+  "descripcio": "Un dels llocs més ben valorats de Saint-Louis a TripAdvisor (4,7/5, 59 ressenyes) i encara amb ressenyes fresques del 2026. És un local petit, de poques taules, a l'illa, entre l'Avenue Blaise Diagne i el Quai Roume, amb una senyora gran al capdavant i una sola persona a la cuina.\n\nEls viatgers en destaquen el mafè, el thiou (guisat de peix o pollastre amb tomàquet), la yassa, les llenties i els nems, i que hi ha opcions vegetarianes i veganes, cosa rara al Senegal. Ambient local i tranquil, lluny del circuit dels bars del carrer Abdoulaye Seck.\n\nAvís: com que tot es cuina al moment, l'espera pot ser llarga. Una ressenya del 2026 el va trobar car per al que era (uns 8.000 FCFA per dos plats, cafè i una yassa) i insípid, però és l'excepció.",
+  "consells": [
+   "Telèfon: +221 33 962 14 43. Truqueu o passeu al matí per encarregar el plat i estalviar-vos l'espera.",
+   "Porteu paciència (o un llibre): una sola cuinera per a tot.",
+   "Bona opció per a vegetarians.",
+   "Adreça: carrer Aynina Fall, entre l'Av. Blaise Diagne i el Quai Roume (illa)."
+  ],
+  "durada": "1,5 h",
+  "preu": "Aprox. 2.000-4.000 FCFA per plat (una ressenya: 8.000 FCFA per dos plats, cafè i yassa)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.028603,
+  "lng": -16.503757,
+  "millor_moment": "Dinar, encarregant el plat al matí",
+  "imprescindible": true,
+  "pel_teu_compte": "A peu des de qualsevol punt de l'illa; reserva/encàrrec per telèfon recomanat.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Chez Dasso",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g304072-d10103158-Reviews-Chez_Dasso-Saint_Louis_Saint_Louis_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-nord-fleuve-plus",
+  "nom": "Restaurant Fleuve Plus (Saint-Louis)",
+  "regio": "nord",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Gargota familiar de peix i gambes a preu baix, amb el peix 'a la saint-louisienne' (all, llimona i mostassa) i te de regal.",
+  "descripcio": "Restaurant familiar i sense pretensions al carrer Blaise Diagne de l'illa, molt apreciat pels viatgers independents per la relació qualitat-preu. Les ressenyes destaquen el peix 'à la saint-louisienne' amb salsa d'all, llimona i mostassa, el thiou de gambes, les broquetes de marisc, el mafè, la yassa i el ceebu jën, i l'ataya que regalen en acabar.\n\nEl 2019 un àpat amb gambes a l'all i fruita costava uns 6.000 FCFA; el 2018 un thiou de gambes, 1.500 FCFA. L'interior és molt bàsic.\n\nAvís honest: l'última ressenya (octubre del 2026) és molt negativa (taules brutes, mosques, llagosta poc fresca), mentre que les anteriors (2016-2024) eren excel·lents. Mireu com està abans de seure.",
+  "consells": [
+   "Telèfon: +221 33 964 13 52. Tancat diumenge; dl-dt 7-23 h, dc-ds 9-23 h (segons TripAdvisor).",
+   "Demaneu el peix del dia a la brasa o 'saint-louisienne' i pregunteu el preu abans.",
+   "Al migdia s'omple de turistes; al vespre és més tranquil.",
+   "Coordenades aproximades (carrer Blaise Diagne, illa)."
+  ],
+  "durada": "1 h",
+  "preu": "Plats aprox. 1.500-4.000 FCFA; àpat complet aprox. 6.000 FCFA (2019)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.0292,
+  "lng": -16.504,
+  "millor_moment": "Sopar o dinar tardà",
+  "imprescindible": false,
+  "pel_teu_compte": "A peu dins l'illa; sense reserva.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Restaurant Fleuve Plus",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g304072-d3908732-Reviews-Restaurant_Fleuve_Plus-Saint_Louis_Saint_Louis_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-nord-le-reveil",
+  "nom": "Le Réveil (Saint-Louis)",
+  "regio": "nord",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Forat a la paret amb decoració colorista, on el propietari Mawdo cuina i serveix menjar senegalès honest i cervesa freda.",
+  "descripcio": "Petit restaurant africà del carrer Abdoulaye Seck, a tocar de L'Embuscade, al cor de la vida nocturna de l'illa. Els viatgers el descriuen com un 'hole in the wall' amb decoració estrafolària i colorista, on el propietari, Mawdo, cuina, serveix i fa conversa. Menjar honest, preus justos i cervesa freda; s'hi esmenta especialment la rap (lotte).\n\nUn viatger de negocis hi va menjar un dia sí i un dia no durant dues setmanes. Perfecte per sopar abans d'anar de bars pel mateix carrer.\n\nAvís: les ressenyes visibles són de 2015-2017 i el local es va traslladar uns metres; confirmeu que continua obert.",
+  "consells": [
+   "Telèfon: +221 77 701 96 82 (truqueu abans: info antiga).",
+   "Al costat de L'Embuscade, al carrer Abdoulaye Seck; coordenades aproximades.",
+   "Demaneu el plat del dia i pregunteu-ne el preu."
+  ],
+  "durada": "1 h",
+  "preu": "Econòmic (TripAdvisor '$'); sense preus publicats, aprox. 2.000-4.000 FCFA per plat",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.0273,
+  "lng": -16.5046,
+  "millor_moment": "Sopar abans de sortir pel carrer Abdoulaye Seck",
+  "imprescindible": false,
+  "pel_teu_compte": "A peu dins l'illa; sense reserva.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Le Réveil",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g304072-d5530202-Reviews-Le_Reveil-Saint_Louis_Saint_Louis_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-nord-delices-du-fleuve",
+  "nom": "Aux Délices du Fleuve (pastisseria, Saint-Louis)",
+  "regio": "nord",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "relax"
+  ],
+  "resum": "Pastisseria veterana de l'illa per esmorzar: croissants, truites i cafè des de 400 FCFA, amb wifi.",
+  "descripcio": "Wikivoyage la cita com una pastisseria de llarga trajectòria al carrer Blanchot, a tocar del Quai Roume: pastes des de 400 FCFA, truites, pizza, postres i begudes calentes, amb wifi. És el típic lloc on els saint-louisiens prenen el cafè amb llet i un croissant abans de la feina.\n\nIdeal per esmorzar abans de fer l'illa a peu o abans d'agafar el sept-place cap a Dakar o el Djoudj.",
+  "consells": [
+   "Adreça: carrer Blanchot, prop del Quai Roume (illa).",
+   "Aneu-hi d'hora: les millors pastes s'acaben al matí.",
+   "Bon lloc per carregar el mòbil i mirar mapes amb wifi."
+  ],
+  "durada": "30 min",
+  "preu": "Pastes des de 400 FCFA; esmorzar complet aprox. 1.500-3.000 FCFA",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.026826,
+  "lng": -16.503671,
+  "millor_moment": "Esmorzar",
+  "imprescindible": false,
+  "pel_teu_compte": "A peu dins l'illa.",
+  "autentic": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Saint-Louis (Eat)",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "eat-nord-bar-la-source-sor",
+  "nom": "Bar La Source (Sor, Saint-Louis)",
+  "regio": "nord",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "musica-nit"
+  ],
+  "resum": "Bar-restaurant de barri a Sor amb jardí, broquetes de facoter i la cervesa més barata i freda de la ciutat.",
+  "descripcio": "A l'altra banda del pont Faidherbe, al barri continental de Sor, on viu la majoria de saint-louisiens, Wikivoyage recomana aquest bar-restaurant de barri amb jardí al darrere. Té fama de servir una de les cerveses més barates i fredes de la ciutat, broquetes de facoter (phacochère) a la brasa i plats senegalesos.\n\nÉs un bon contrapunt a les terrasses de l'illa, pensades per al visitant: aquí la clientela és local.",
+  "consells": [
+   "Ubicació: carrer que surt de la Rue de la Corniche, baixant des de la Pharmacie Malang Lyss (Sor).",
+   "Taxi des de l'illa: aprox. 500-1.000 FCFA; o a peu creuant el pont (15-20 min).",
+   "Hi ha poca il·luminació als carrers de Sor de nit: torneu en taxi."
+  ],
+  "durada": "1-2 h",
+  "preu": "Econòmic; sense preus publicats (cervesa i broquetes de barri, aprox. 1.000-3.000 FCFA)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.0281,
+  "lng": -16.4813,
+  "millor_moment": "Vespre",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi o a peu pel pont Faidherbe fins a Sor; sense reserva.",
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Saint-Louis (Eat: Budget)",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-ptc-le-thieboudienne-toubab",
+  "nom": "Le Thieboudienne (Toubab Dialaw)",
+  "regio": "petite-cote",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "platja"
+  ],
+  "resum": "Cuina senegalesa casolana amb vista al mar al barri Bataille de Toubab Dialaw: gambes, broquetes de peix i ceebu jën.",
+  "descripcio": "Al barri Bataille de Toubab Dialaw, aquest petit restaurant amb terrassa coberta fa cuina senegalesa casolana amb vista a l'oceà, per menjar allà o emportar. A TripAdvisor té 4,7/5 (14 ressenyes); una família el va qualificar de 'millor àpat al Senegal fins ara', amb gambes i broquetes de peix generoses i saboroses.\n\nToubab Dialaw és el poble d'artistes i pescadors de la Petite Côte, encara lluny del turisme de Saly. Dinar aquí després de passejar per la platja i les roques vermelles és un pla rodó.",
+  "consells": [
+   "Telèfon: +221 77 795 60 51 (el propietari diu que obre els 7 dies).",
+   "Encarregueu el ceebu jën o el peix al matí: es cuina al moment.",
+   "Les ressenyes són poques i no gaire recents (2022); confirmeu per telèfon."
+  ],
+  "durada": "1,5 h",
+  "preu": "TripAdvisor el situa en preu mitjà; aprox. 3.000-6.000 FCFA per plat (aprox.)",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 1,
+  "lat": 14.605291,
+  "lng": -17.147379,
+  "millor_moment": "Dinar de cap de setmana",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi brousse o 'clando' des de Dakar/Rufisque a Toubab Dialaw (o via Diamniadio) i a peu fins al barri Bataille.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Le Thieboudienne",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g1566625-d11953705-Reviews-Le_Thieboudienne-Toubab_Dialao_Dakar_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-ptc-chez-nabou-toubab",
+  "nom": "Le Rocher – Chez Nabou (Toubab Dialaw)",
+  "regio": "petite-cote",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "platja"
+  ],
+  "resum": "Menjar casolà a peu de platja a Toubab Dialaw, amb peix sencer a la brasa, bissap i una posta de sol espectacular.",
+  "descripcio": "Un restaurant 'de casa' sobre la platja, on Nabou i la seva família serveixen peix sencer a la brasa, arròs, verdures i sucs de fruita naturals. Els viatgers en destaquen la vista a l'oceà i la brisa, sobretot al capvespre, i els preus: uns 20.000 FCFA per a dues persones (2022) o 22.500 FCFA per a quatre amb begudes (2024).\n\nAvís honest: les ressenyes del 2024 són irregulars. Lloen el menjar i el lloc, però critiquen el manteniment i n'hi ha una de molt negativa sobre higiene. Val la pena per la posta de sol i un peix a la brasa senzill, mirant bé on seieu.",
+  "consells": [
+   "Telèfon: +221 77 657 17 90. Horari: 8-22 h (dv-dg fins a les 23 h).",
+   "Demaneu el peix sencer a la brasa i el suc de bissap; pacteu el preu abans.",
+   "Hi haurà artesans del poble oferint coses: un 'non merci' amable n'hi ha prou."
+  ],
+  "durada": "1,5 h",
+  "preu": "Aprox. 5.500-10.000 FCFA per persona (ressenyes 2022-2024)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 1,
+  "lat": 14.606788,
+  "lng": -17.152697,
+  "millor_moment": "Capvespre",
+  "imprescindible": false,
+  "pel_teu_compte": "Arribeu a Toubab Dialaw en clando i baixeu a la platja; trucar per reservar taula al capvespre.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Le Rocher Chez Nabou",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g1566625-d10820885-Reviews-Le_Rocher_Chez_Nabou-Toubab_Dialao_Dakar_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-ptc-mbour-arc-en-ciel",
+  "nom": "Arc-en-Ciel (Mbour)",
+  "regio": "petite-cote",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Restaurant senzill a la sortida de Mbour cap a Joal, amb 'cuina molt senegalesa' i bon preu.",
+  "descripcio": "Lluny de les terrasses de Saly, Arc-en-Ciel és un restaurant senzill al km 1 de la carretera de Joal, a Mbour, que barreja plats senegalesos, pizza i menjar ràpid. És l'únic restaurant de Mbour que TripAdvisor marca alhora com a africà i econòmic (4,2/5); les ressenyes del 2023 i del 2024 parlen de 'cuina molt saborosa i realment senegalesa', bon servei i bon preu.\n\nÉs pràctic si passeu pel mercat de peix de Mbour (ja al catàleg) o feu escala cap a Joal-Fadiouth o el Saloum.",
+  "consells": [
+   "Telèfon: +221 33 957 29 15; correu arcenciel.mbour@yahoo.fr.",
+   "Adreça: km 1 route de Joal, barri Trypano (Mbour).",
+   "Demaneu el plat del dia senegalès, no la pizza."
+  ],
+  "durada": "1 h",
+  "preu": "Econòmic (TripAdvisor '$'); aprox. 2.000-4.000 FCFA per plat",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 1.5,
+  "lat": 14.386273,
+  "lng": -16.94979,
+  "millor_moment": "Dinar de pas cap a Joal o el Saloum",
+  "imprescindible": false,
+  "pel_teu_compte": "Des de la gare routière de Mbour, taxi curt (aprox. 500-1.000 FCFA) o a peu.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Arc-en-ciel Mbour",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g488113-d12379342-Reviews-Arc_en_ciel-Mbour_La_Petite_Cote_Thies_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-ptc-mbour-ely-alain-keur-damel",
+  "nom": "Chez Ely et Alain i Auberge Keur Damel (Mbour)",
+  "regio": "petite-cote",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Dos 'coups de cœur' de viatgers a Mbour: cuina senegalesa barata davant l'hospital i plats casolans a la carretera de Nianing.",
+  "descripcio": "Chez Ely et Alain és un petit restaurant senegalès davant de l'hospital de Mbour que un usuari del fòrum del Routard va recomanar el 2023 per la bona cuina, els preus baixos i l'energia de la propietària, Ely. A TripAdvisor té 4,6/5 (32 ressenyes), amb comentaris com 'un dels millors àpats del viatge'.\n\nL'Auberge Keur Damel, a la carretera de Nianing, és un altre lloc senzill amb menjar casolà, racions enormes i bons preus (ressenyes de 2014 a 2025); les seves patates fregides gruixudes tenen fans. Tot es cuina al moment, així que convé encarregar el dinar abans.",
+  "consells": [
+   "Keur Damel: +221 33 957 58 07 (encarregueu el plat amb antelació; costa de trobar).",
+   "Ely et Alain: 'en face de l'hôpital de Mbour', pregunteu-ho a qualsevol taxista.",
+   "Coordenades aproximades (centre de Mbour)."
+  ],
+  "durada": "1-1,5 h",
+  "preu": "Econòmic; aprox. 2.000-5.000 FCFA per plat (sense preus publicats)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 1.5,
+  "lat": 14.417,
+  "lng": -16.964,
+  "millor_moment": "Dinar",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi des de la gare routière de Mbour; trucar per encarregar a Keur Damel.",
+  "fonts": [
+   {
+    "nom": "Fòrum Routard – Restaurant coup de cœur à Mbour",
+    "url": "https://www.routard.com/forums/t/restaurant-coup-de-coeur-a-mbour/365006"
+   },
+   {
+    "nom": "TripAdvisor – Auberge Keur Damel",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g488113-d2627955-Reviews-Auberge_Keur_Damel-Mbour_La_Petite_Cote_Thies_Region.html"
+   },
+   {
+    "nom": "TripAdvisor – restaurants de Mbour",
+    "url": "https://www.tripadvisor.com/Restaurants-g488113-Mbour_La_Petite_Cote_Thies_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-ptc-cafe-du-reve-ngaparou",
+  "nom": "Le Café du Rêve (Ngaparou)",
+  "regio": "petite-cote",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "platja",
+   "musica-nit"
+  ],
+  "resum": "Petit restaurant 'pieds dans l'eau' entre Saly i Ngaparou, amb plat del dia a 2.000 FCFA i música els divendres.",
+  "descripcio": "Recomanat en un fil del Routard com a 'petit resto local très sympa' sobre la platja: unes 30 places arran de sorra, a uns 20 minuts a peu a l'oest de l'hotel Lamantin, ja a Ngaparou. El 2019 el plat del dia costava 2.000 FCFA, igual que el plàtan flamejat amb taronja i rom.\n\nEls divendres al vespre hi tocava un petit grup de música. Un missatge del 2024 confirma que segueix obert i lloa el propietari, l'Édouard, i el seu equip, que van servir més de 60 dinars el dia de la Korité. És una manera d'aprofitar la platja de Saly sense el seu ambient de resort.",
+  "consells": [
+   "Telèfon (2024): 77 958 95 95. Reserveu per dinar i per als divendres.",
+   "Accés a peu per la platja des de Saly Nord o en taxi fins a Ngaparou.",
+   "Coordenades aproximades."
+  ],
+  "durada": "1,5 h",
+  "preu": "Plat del dia 2.000 FCFA i postres 2.000 FCFA (preus del 2019)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 1.3,
+  "lat": 14.456,
+  "lng": -17.042,
+  "millor_moment": "Dinar; divendres al vespre per la música",
+  "imprescindible": false,
+  "pel_teu_compte": "Clando o taxi fins a Ngaparou i a peu per la platja; trucar per reservar.",
+  "fonts": [
+   {
+    "nom": "Fòrum Routard – Petit resto local très sympa sur la plage de Saly",
+    "url": "https://www.routard.com/forums/t/petit-resto-local-tres-sympa-sur-la-plage-de-saly/230930"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-ptc-joal-finio-metis",
+  "nom": "Le Finio i Le Métis (Joal)",
+  "regio": "petite-cote",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "Peix fresc abans de creuar a Fadiouth (Le Finio) i les 'millors broquetes del Senegal' segons un viatger (Le Métis).",
+  "descripcio": "Le Finio és un restaurant de peix del costat de Joal, abans del pont de fusta cap a l'illa de petxines de Fadiouth. Les ressenyes (2017-2025) lloen el llenguado, el barracuda a la brasa i la llengua, el servei ràpid i els bons preus; és parada habitual de grups, però tranquil·la fora de les hores punta.\n\nLe Métis és un bar-lounge que un usuari del Routard va descobrir 'per casualitat' el 2021: segons ell, les millors broquetes que havia menjat en deu dies al Senegal, bons plats principals i postres, i bona música, a preus baixos.",
+  "consells": [
+   "Le Finio: +221 77 569 88 13.",
+   "Le Métis no té contacte publicat: pregunteu-lo a Joal.",
+   "Per evitar els grups organitzats, dineu després de les 14 h.",
+   "Coordenades aproximades (Joal, prop del pont de Fadiouth)."
+  ],
+  "durada": "1,5 h",
+  "preu": "Le Finio: preu mitjà (TripAdvisor $$-$$$), aprox. 3.000-6.000 FCFA per plat; Le Métis: barat",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 2,
+  "lat": 14.161,
+  "lng": -16.848,
+  "millor_moment": "Dinar abans o després de visitar Fadiouth",
+  "imprescindible": false,
+  "pel_teu_compte": "Sept-place o minibús de Mbour a Joal (aprox. 30-45 min) i a peu fins al pont.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Le Finio",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g1019207-d3865094-Reviews-Le_Finio-Joal_Fadiouth_La_Petite_Cote_Thies_Region.html"
+   },
+   {
+    "nom": "Fòrum Routard – Un restaurant extraordinaire à Joal Fadiouth",
+    "url": "https://www.routard.com/forums/t/un-restaurant-extraordinaire-a-joal-fadiouth/290382"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-vlt-thies-cafe-du-rail",
+  "nom": "Café du Rail (Thiès)",
+  "regio": "voltants",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "relax"
+  ],
+  "resum": "El restaurant més ben valorat de Thiès: paninis, pizzes i plats africans en un local cuidat, ideal per a una parada a la ruta.",
+  "descripcio": "Thiès, la ciutat del ferrocarril, és pas obligat cap a Saint-Louis, Touba o el Saloum. El Café du Rail, davant de la Clinique Conception, és el número 1 de TripAdvisor a la ciutat (4,9/5, 71 ressenyes) i té ressenyes recents del 2025-2026 que lloen la decoració, el servei i els plats abundants (paninis, pizzes, hamburgueses, sucs i alguns plats africans).\n\nNo és una gargota: és un cafè-restaurant modern frequentat per la classe mitjana local, perfecte per a una parada còmoda amb wifi entre sept-places. Si busqueu cuina senegalesa pura, el Pamanda (Guinth, rue Amadou Sow) obre 24 h i fa plats locals.",
+  "consells": [
+   "Telèfon: +221 33 951 10 60. Dilluns tancat; dt-dj 9-21.30 h, dv-ds 9-22.30 h, dg 10-22.30 h.",
+   "Adreça: Rue Yacine Boubou, davant de la Clinique Conception.",
+   "Combineu-lo amb les Manufactures des Arts Décoratifs (ja al catàleg).",
+   "Coordenades aproximades."
+  ],
+  "durada": "1 h",
+  "preu": "Preu mitjà (TripAdvisor $$-$$$), aprox. 3.000-6.000 FCFA per plat",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 1.3,
+  "lat": 14.792,
+  "lng": -16.93,
+  "millor_moment": "Dinar de pas cap al nord o el Saloum",
+  "imprescindible": false,
+  "pel_teu_compte": "Sept-place de Dakar (gare des Baux Maraîchers) a Thiès i taxi curt; o TER fins a Diamniadio + bus.",
+  "autentic": false,
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Café du Rail",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g811261-d23650413-Reviews-Cafe_Du_Rail-Thies_Thies_Region.html"
+   },
+   {
+    "nom": "Wikivoyage EN – Thiès (Eat)",
+    "url": "https://en.wikivoyage.org/wiki/Thi%C3%A8s"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "eat-sal-kaolack-brasero",
+  "nom": "Le Brasero (Kaolack)",
+  "regio": "saloum",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "El clàssic de Kaolack per dinar: pollastre a la brasa marinat amb mostassa i menú del dia a l'ombra, en un pati obert.",
+  "descripcio": "Kaolack és la ciutat del cacauet i de la mesquita de Médina Baye, i una cruïlla de sept-places cap al Saloum, Tambacounda i Gàmbia. Le Brasero, a l'Avenue Valdiodio Ndiaye, és el número 1 de TripAdvisor a la ciutat (4,5/5, 33 ressenyes): un restaurant familiar a l'aire lliure, amb ombra i ventiladors, taules i lavabos nets, cafè bo i cervesa freda.\n\nL'estrella és el pollastre a la brasa marinat amb mostassa (triga una mica); si teniu pressa, el plat local del dia (peix o pollastre, uns 5 USD el 2016) és ràpid i generós. Un viatger el 2025 recordava el gerent libanès Edward.",
+  "consells": [
+   "Telèfon: +221 33 941 16 08.",
+   "Porteu repel·lent de mosquits per a la terrassa al vespre.",
+   "Bona parada per dinar el dia que feu el mercat central de Kaolack.",
+   "Ressenyes majoritàriament antigues (2014-2016, i una del 2025); confirmeu-ho. Coordenades aproximades."
+  ],
+  "durada": "1 h",
+  "preu": "Menú del dia aprox. 3.000 FCFA (5 USD el 2016); pollastre a la brasa una mica més",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 3.5,
+  "lat": 14.145,
+  "lng": -16.076,
+  "millor_moment": "Dinar",
+  "imprescindible": false,
+  "pel_teu_compte": "Sept-place de Dakar a Kaolack (aprox. 3-4 h) i taxi fins a l'Av. Valdiodio Ndiaye.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Le Brasero",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g480238-d6164466-Reviews-Le_Brasero-Kaolack_Kaolack_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-cas-kafountine-baobab-beach-bar",
+  "nom": "Baobab Beach Bar (Kafountine)",
+  "regio": "casamance",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "platja",
+   "relax"
+  ],
+  "resum": "Xiringuito de taulons de pirogua i fulles de palmera al costat d'un baobab: sucs acabats d'esprémer, coco i peix si teniu paciència.",
+  "descripcio": "Un bar de platja 'a l'africana' fet amb taulons de pirogues velles i parets de fulla de palmera, al costat d'un baobab a la platja de Kafountine. A TripAdvisor té 4,9/5 (15 ressenyes, de 2014 a 2024): sucs de taronja i aranja acabats d'esprémer (amb ginebra o sense), aigua de coco, cervesa freda i, per menjar, peix i broquetes de llagosta.\n\nEl propietari, Koffi, és conversador, parla diversos idiomes i fa de guia pels voltants (com la passejada fins al 'Golden Tree'). Sorprenentment, hi oneja una bandera catalana.\n\nNo és un restaurant de veritat: el peix pot trigar dues hores perquè primer el van a comprar al port. Preneu-ho com part de l'experiència.",
+  "consells": [
+   "Telèfon: +221 77 736 02 29. Obert 7 dies a la setmana fins a la posta de sol (segons una ressenya del 2016).",
+   "Si voleu dinar, encarregueu el peix d'hora al matí.",
+   "Podeu deixar-hi les coses mentre us banyeu.",
+   "Coordenades aproximades (platja de Kafountine)."
+  ],
+  "durada": "1-3 h",
+  "preu": "Econòmic (TripAdvisor '$'): sucs i cerveses a preu baix; peix a consultar",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 9,
+  "lat": 12.93,
+  "lng": -16.75,
+  "millor_moment": "Tarda fins a la posta de sol",
+  "imprescindible": false,
+  "pel_teu_compte": "Des de Kafountine poble, a peu o en moto-taxi fins a la platja i pregunteu pel 'Baobab Beach Bar de Koffi'.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Baobab Beach Bar",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g954005-d6882336-Reviews-Baobab_Beach_Bar-Kafountine_Ziguinchor_Region_Casamance.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-cas-ziguinchor-ponto-sangamar",
+  "nom": "Pontó del Sangamar 2 (Ziguinchor)",
+  "regio": "casamance",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia",
+   "relax"
+  ],
+  "resum": "Restaurant i dos bars sobre un pontó al riu Casamance, al barri de Goumel: posta de sol i preus de barri.",
+  "descripcio": "El Sangamar 2 és un hotel econòmic del barri de Goumel, a Ziguinchor, però val la pena també només per menjar o fer una cervesa: té un restaurant sobre un pontó al riu Casamance i dos bars, amb preus que la fitxa d'Au Sénégal qualifica d'accessibles. Els comentaris del 2023-2024 en recomanen l'ambient del vespre i la posta de sol sobre el riu.\n\nÉs una alternativa més local a les terrasses del port (Le Perroquet, Kadiandoumagne, ja al catàleg).",
+  "consells": [
+   "Telèfon: 33 991 96 55 / 77 448 98 16 (WhatsApp +221 77 448 98 16).",
+   "Arribeu-hi una hora abans de la posta de sol.",
+   "Taxi des del centre de Ziguinchor: aprox. 500-1.000 FCFA."
+  ],
+  "durada": "1-2 h",
+  "preu": "Sense carta publicada; preus 'accessibles' (aprox. 2.000-5.000 FCFA per plat)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 9,
+  "lat": 12.58779,
+  "lng": -16.253564,
+  "millor_moment": "Capvespre",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi fins al barri Goumel (Ziguinchor); sense reserva.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Hôtel Sangamar 2",
+    "url": "https://www.au-senegal.com/hotel-sangamar-2-ziguinchor,6455.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "eat-est-chez-alpha-dindefelo",
+  "nom": "Chez Alpha (Dindéfelo)",
+  "regio": "est",
+  "tipus": "menjar",
+  "categories": [
+   "gastronomia"
+  ],
+  "resum": "El restaurant de referència de la zona de Kédougou a TripAdvisor: menjar típic al poble de la cascada de Dindéfelo.",
+  "descripcio": "TripAdvisor el classifica com el número 1 de la regió de Kédougou (4,6/5, 9 ressenyes), però és al poble de Dindéfelo, als peus de la cascada, i està vinculat al campament Tako Mayo segons les fotos. Els viatgers en destaquen la 'nourriture typique', és a dir, arròs amb salsa de cacauet o de fulles, pollastre i mafè, i el tracte proper.\n\nÉs pràctic per esmorzar o sopar després de la caminada fins a la cascada o la pujada al poble de Dande.",
+  "consells": [
+   "Telèfon: +221 77 652 64 50 (truqueu per encarregar el sopar).",
+   "No hi ha preus publicats: pacteu-los en demanar.",
+   "Al país bassari els menús són curts: el que hi hagi aquell dia.",
+   "Coordenades aproximades (centre de Dindéfelo)."
+  ],
+  "durada": "1 h",
+  "preu": "Econòmic (TripAdvisor '$'), aprox. 1.500-3.500 FCFA per plat",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 12,
+  "lat": 12.384,
+  "lng": -12.327,
+  "millor_moment": "Sopar després de la cascada",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi brousse de Kédougou a Dindéfelo (aprox. 1-1,5 h) i pregunteu per 'Chez Alpha'.",
+  "fonts": [
+   {
+    "nom": "TripAdvisor – Chez Alpha",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g1601794-d7691055-Reviews-Chez_Alpha-Kedougou_Kedougou_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-dkr-keur-diame-yoff",
+  "nom": "Auberge Keur Diame (Yoff)",
+  "regio": "dakar",
+  "tipus": "allotjament",
+  "categories": [
+   "relax"
+  ],
+  "resum": "Casa d'hostes familiar de 8 habitacions a tocar de la platja de Yoff, amb terrassa sobre el mar i a 15 min de l'antic aeroport.",
+  "descripcio": "Petita casa d'hostes familiar a la Cité Djily Mbaye, a pocs passos de la platja de Yoff, el poble lebou de pescadors. Té 8 habitacions amb bany privat o compartit (aigua calenta), ventiladors i mosquiteres; aire condicionat opcional en algunes. Terrassa amb vista al mar, jardí i wifi.\n\nEs defineix com a orientada al turisme individual i 'authentique', i té xofers i guies associats per a excursions. Per a un grup de 4, el més pràctic és demanar dues dobles o una habitació gran. Yoff és una bona base per a la primera o l'última nit: és fora del caos del centre i a prop de Ngor.",
+  "consells": [
+   "Reserva per Booking (fitxa 'Auberge Keur Diame') o pel formulari d'Au Sénégal; per Cap d'Any, reserveu ja.",
+   "Taxa turística de 1.000 FCFA per persona i nit, a part.",
+   "L'AIBD queda a uns 45-60 min; trasllat 25.000 FCFA o TER + taxi.",
+   "Molts comentaris de la fitxa són peticions sense resposta: confirmeu per Booking."
+  ],
+  "durada": "1-3 nits",
+  "preu": "Habitacions 16.000-40.000 FCFA per nit amb esmorzar segons categoria i temporada; A/C +5.000 FCFA; taxa 1.000 FCFA/pers./nit",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.4,
+  "lat": 14.7653,
+  "lng": -17.4416,
+  "millor_moment": "Primera o última nit del viatge",
+  "imprescindible": false,
+  "pel_teu_compte": "Booking o formulari d'Au Sénégal; des de l'AIBD, bus AIBD-Dakar fins a Yoff + taxi curt o trasllat de la casa.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Auberge Keur Diame",
+    "url": "https://www.au-senegal.com/auberge-keur-diame,530.html"
+   },
+   {
+    "nom": "Booking – Auberge Keur Diame",
+    "url": "https://m.booking.com/hotel/sn/auberge-keur-diame.en-gb.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-dkr-espace-thialy",
+  "nom": "Auberge Espace Thialy (Patte d'Oie)",
+  "regio": "dakar",
+  "tipus": "allotjament",
+  "categories": [
+   "cultura"
+  ],
+  "resum": "Alberg associatiu amb més de 30 anys d'història, habitacions de 2 a 6 llits i ambient de turisme solidari en un barri residencial.",
+  "descripcio": "L'Espace Thialy és un alberg de la Cité Impôts et Domaines, a la Patte d'Oie, un barri residencial entre el centre i Yoff on no veureu gaires turistes. Fa més de 30 anys que acull viatgers, grups de turisme solidari, camps de joves i associacions de desenvolupament, i té capacitat per a 40 persones en habitacions de 2 a 6 llits.\n\nPer a 4 amics, una habitació compartida de 4 llits és la fórmula més econòmica: 12.000 FCFA per persona amb esmorzar i taxa inclosos. També té restaurant i wifi.\n\nAvís: un comentari del 2025 diu que no contestaven el telèfon. Comproveu-ho amb temps i tingueu un pla B.",
+  "consells": [
+   "Habitació compartida (2-6 llits, bany fora): 12.000 FCFA/pers.; amb bany privat: 14.000 FCFA/pers. en doble. Esmorzar i taxa inclosos.",
+   "Trasllat aeroport: 25.000 FCFA per a 1-4 persones.",
+   "Contacte pel formulari d'Au Sénégal; reserveu i confirmeu per escrit, sobretot per Cap d'Any.",
+   "La Patte d'Oie està ben comunicada amb bus i 'cars rapides'."
+  ],
+  "durada": "1-3 nits",
+  "preu": "12.000-20.000 FCFA per persona i nit amb esmorzar i taxa",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.747456,
+  "lng": -17.440387,
+  "millor_moment": "Tot l'any; bona base per a pressupostos ajustats",
+  "imprescindible": false,
+  "pel_teu_compte": "Formulari d'Au Sénégal o telèfon; taxi des del centre aprox. 2.000-3.000 FCFA.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Espace Thialy",
+    "url": "https://www.au-senegal.com/espace-thialy,532.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-dkr-hotel-du-phare-mamelles",
+  "nom": "Hôtel du Phare (Les Mamelles, Ouakam)",
+  "regio": "dakar",
+  "tipus": "allotjament",
+  "categories": [
+   "relax"
+  ],
+  "resum": "Petit hotel de 10 habitacions al voltant d'un pati florit, a sota del far de les Mamelles; té habitacions quàdruples.",
+  "descripcio": "Petit hotel en un barri residencial i tranquil de platges, a la Cité Magistrats de Les Mamelles (Ouakam), als peus del far. Té deu habitacions al voltant d'un pati florit (individuals, dobles, triples i quàdruples), amb ventilador o aire condicionat, i un estudi climatitzat. Recepció 24 h, recollida a l'aeroport i wifi gratuït.\n\nLa quàdruple és ideal per a 4 amics. Des d'aquí podeu pujar al far, anar a peu a la Mosquée de la Divinité o a les platges de Ouakam.\n\nAvís: les dades de Wikivoyage són del 2018 (des de 30-32 €); comproveu preus actuals.",
+  "consells": [
+   "Telèfon: +221 33 860 30 00.",
+   "Demaneu explícitament l'habitació quàdruple.",
+   "Coordenades aproximades (Cité Magistrats, Les Mamelles)."
+  ],
+  "durada": "1-3 nits",
+  "preu": "Des de 30-32 € per habitació (aprox. 20.000-21.000 FCFA, preus del 2018)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.3,
+  "lat": 14.724,
+  "lng": -17.499,
+  "millor_moment": "Base tranquil·la per a Dakar",
+  "imprescindible": false,
+  "pel_teu_compte": "Telèfon o correu; taxi des del Plateau aprox. 2.000-3.000 FCFA.",
+  "autentic": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage FR – Dakar (Se loger)",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage EN – Dakar (Sleep)",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "sleep-dkr-poulagou-yoff",
+  "nom": "Auberge Le Poulagou (Yoff Tonghor)",
+  "regio": "dakar",
+  "tipus": "allotjament",
+  "categories": [
+   "relax",
+   "platja"
+  ],
+  "resum": "Alberg senzill a la platja de Yoff Tonghor, 'ideal per als primers dies al Senegal', des d'uns 16 €.",
+  "descripcio": "Wikivoyage el recomana com un petit hotel costaner a Yoff Tonghor Plage, a uns 2 km de l'antic aeroport, amb recepció 24 h i wifi. La versió francesa el considera 'idéal pour les premiers jours au Sénégal' per desconnectar del brogit de Dakar.\n\nÉs dels allotjaments més barats de la costa nord de Dakar, al cor del Yoff lebou: platja de pescadors, mesquita i carrerons de sorra.\n\nAvís: la informació és del 2018. No hem pogut confirmar que segueixi obert; verifiqueu-ho per telèfon.",
+  "consells": [
+   "Telèfon: +221 33 820 23 47.",
+   "Confirmeu el preu i si té habitacions per a 3-4 persones.",
+   "Possiblement desactualitzat (dades del 2018)."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Des de 16 € (aprox. 10.500 FCFA) per nit (2018)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 0.4,
+  "lat": 14.76444,
+  "lng": -17.47972,
+  "millor_moment": "Primeres nits",
+  "imprescindible": false,
+  "pel_teu_compte": "Telèfon; taxi fins a 'Yoff Tonghor plage'.",
+  "fonts": [
+   {
+    "nom": "Wikivoyage FR – Dakar",
+    "url": "https://fr.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Wikivoyage EN – Dakar",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-dkr-chez-eric-goree",
+  "nom": "Chez Eric (illa de Gorée)",
+  "regio": "dakar",
+  "tipus": "allotjament",
+  "categories": [
+   "historia",
+   "relax"
+  ],
+  "resum": "Bed & breakfast a l'illa de Gorée per viure-la quan marxa l'últim ferri i l'illa queda en silenci.",
+  "descripcio": "Dormir a Gorée és una experiència completament diferent de la visita de dia: quan marxa l'últim ferri, l'illa torna als seus mil habitants, als carrers de bougainvillees i als gats. Un viatger al fòrum del Routard ho resumeix: 'no hi ha res barat a Gorée, però s'hi val la pena quedar-se a dormir'.\n\nWikivoyage recomana Chez Eric, al carrer de la Compagnie: un B&B amb wifi, bar i esmorzar inclòs, a uns 22.000 FCFA. Una opció per trencar el ritme de Dakar a la primera o l'última nit.",
+  "consells": [
+   "Telèfon: +221 33 821 19 31.",
+   "Ferri des del port de Dakar (aprox. 5.200 FCFA anada i tornada per a no residents); comproveu l'horari de l'últim ferri.",
+   "Preu de Wikivoyage, possiblement desactualitzat; demaneu habitacions per a 4."
+  ],
+  "durada": "1 nit",
+  "preu": "Aprox. 22.000 FCFA per nit amb esmorzar (data no indicada)",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 0.5,
+  "lat": 14.66695,
+  "lng": -17.39713,
+  "millor_moment": "Vespre i matinada, quan no hi ha turistes de dia",
+  "imprescindible": false,
+  "pel_teu_compte": "Ferri des del port de Dakar i a peu; reserva per telèfon.",
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Dakar (Sleep)",
+    "url": "https://en.wikivoyage.org/wiki/Dakar"
+   },
+   {
+    "nom": "Fòrum Routard – Hébergement pas cher au Sénégal",
+    "url": "https://www.routard.com/forums/t/hebergement-pas-cher-au-senegal/176871"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-nord-auberge-de-la-vallee",
+  "nom": "Auberge de la Vallée (Saint-Louis)",
+  "regio": "nord",
+  "tipus": "allotjament",
+  "categories": [
+   "historia"
+  ],
+  "resum": "Alberg en un edifici colonial al cor de l'illa de Saint-Louis, des de 7.000 FCFA per persona.",
+  "descripcio": "L'opció més econòmica de l'illa històrica: un edifici d'estil colonial a la cantonada dels carrers Potin i Blaise Diagne, amb 7 habitacions amb bany privat i TV, ventilador o aire condicionat, i capacitat per a 24 persones. Wifi gratuït.\n\nOrganitzen excursions al Djoudj, a la Langue de Barbarie i a Lompoul, però podeu prescindir-ne i fer-ho pel vostre compte. Un comentari del març del 2025 en lloa la ubicació cèntrica i els preus.",
+  "consells": [
+   "Des de 7.000 FCFA per persona: per a 4, compteu aprox. 28.000-40.000 FCFA per nit.",
+   "Reserva pel formulari d'Au Sénégal o per telèfon local; per Cap d'Any (Fanal i festa a Saint-Louis) reserveu amb molta antelació.",
+   "Demaneu habitació amb A/C si aneu a l'abril-maig; al desembre amb ventilador n'hi ha prou."
+  ],
+  "durada": "2-3 nits",
+  "preu": "Des de 7.000 FCFA per persona i nit; trasllat AIBD des de 45.000 FCFA",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.027939,
+  "lng": -16.504061,
+  "millor_moment": "Tot l'any; molt demanat per Cap d'Any",
+  "imprescindible": true,
+  "pel_teu_compte": "Sept-place de Dakar a Saint-Louis (aprox. 4-5 h) i a peu o en calesa des del pont Faidherbe.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Auberge de la Vallée",
+    "url": "https://www.au-senegal.com/auberge-de-la-vallee,739.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-nord-marie-jose-sor",
+  "nom": "Auberge Marie José (Sor, Saint-Louis)",
+  "regio": "nord",
+  "tipus": "allotjament",
+  "categories": [
+   "relax"
+  ],
+  "resum": "Alberg renovat de 9 habitacions al voltant d'un jardí al barri de Ndioloffène (Sor), amb esmorzar inclòs.",
+  "descripcio": "Al barri continental de Sor, a la Route de Khor (Ndioloffène), on viuen la majoria de saint-louisiens: nou habitacions amb bany privat al voltant d'un jardí, amb ventilador o aire condicionat, TV i wifi. Esmorzar inclòs i restaurant sota comanda.\n\nUn client el 2021 en lloava el personal, els preus baixos i l'esmorzar. És una base econòmica i tranquil·la, a 10 minuts en taxi de l'illa.",
+  "consells": [
+   "Habitació amb ventilador 14.000 FCFA; amb A/C 16.000 FCFA (esmorzar inclòs).",
+   "Per a 4 persones, demaneu dues habitacions (capacitat total 18).",
+   "Contacte pel formulari d'Au Sénégal (no publica telèfon)."
+  ],
+  "durada": "2-3 nits",
+  "preu": "14.000-16.000 FCFA per habitació i nit amb esmorzar",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.032636,
+  "lng": -16.471758,
+  "millor_moment": "Tot l'any",
+  "imprescindible": false,
+  "pel_teu_compte": "Formulari d'Au Sénégal; el sept-place de Dakar arriba a la gare routière de Sor, a prop.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Auberge Marie José",
+    "url": "https://www.au-senegal.com/auberge-marie-jose,3709.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-nord-hotel-du-palais",
+  "nom": "Hôtel du Palais (Saint-Louis)",
+  "regio": "nord",
+  "tipus": "allotjament",
+  "categories": [
+   "historia"
+  ],
+  "resum": "Un dels hotels més antics de l'illa, davant del Palau de Justícia: habitacions senzilles i netes, amb esmorzar.",
+  "descripcio": "Wikivoyage el descriu com 'un dels hotels més antics de la ciutat, molt ben situat al centre de l'illa', davant del Palau de Justícia. Habitacions una mica gastades però correctes, amb ventilador, aire condicionat, aigua calenta, TV i wifi. Té un bar a peu de carrer i una pastisseria.\n\nEstà a dos passos dels restaurants i bars del carrer Abdoulaye Seck. És per a qui vulgui una mica més de comoditat que un alberg sense pagar els preus de l'Hôtel de la Poste.",
+  "consells": [
+   "Telèfon: +221 33 961 17 72.",
+   "Individual 16.800-25.000 FCFA; doble 20.000-35.000 FCFA, esmorzar inclòs.",
+   "Demaneu habitació interior si teniu el son lleuger (bar al carrer)."
+  ],
+  "durada": "2-3 nits",
+  "preu": "Doble 20.000-35.000 FCFA amb esmorzar (aprox. 30.000 FCFA segons Wikivoyage FR)",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.026996,
+  "lng": -16.504676,
+  "millor_moment": "Tot l'any",
+  "imprescindible": false,
+  "pel_teu_compte": "Telèfon; a peu des del pont Faidherbe.",
+  "autentic": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Saint-Louis (Sleep)",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   },
+   {
+    "nom": "Wikivoyage FR – Saint-Louis",
+    "url": "https://fr.wikivoyage.org/wiki/Saint-Louis_(S%C3%A9n%C3%A9gal)"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "sleep-nord-sunu-keur",
+  "nom": "Maison d'hôtes Sunu Keur (Saint-Louis)",
+  "regio": "nord",
+  "tipus": "allotjament",
+  "categories": [
+   "historia",
+   "relax"
+  ],
+  "resum": "Casa d'hostes a la riba del riu, a l'extrem nord de l'illa, amb pati central i habitacions triples amb vista.",
+  "descripcio": "Una casa d'hostes a l'extrem nord de l'illa, al costat del Quai Giraud, amb pati central i diverses habitacions amb balcó i vista al riu Senegal. Segons Wikivoyage, la doble costa 28.000 FCFA i la triple 30.000 FCFA.\n\nAquesta punta de l'illa és més tranquil·la que el centre i dona al braç petit del riu, amb vistes a Guet Ndar i les pirogues.",
+  "consells": [
+   "Telèfon: +221 33 961 88 00.",
+   "Per a 4: una triple + llit supletori o una doble + una altra doble.",
+   "Preus de Wikivoyage; confirmeu-los."
+  ],
+  "durada": "2-3 nits",
+  "preu": "Doble 28.000 FCFA; triple 30.000 FCFA",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 4.5,
+  "lat": 16.031763,
+  "lng": -16.505582,
+  "millor_moment": "Tot l'any",
+  "imprescindible": false,
+  "pel_teu_compte": "Telèfon; a peu o en calesa des del pont Faidherbe.",
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Saint-Louis (Sleep)",
+    "url": "https://en.wikivoyage.org/wiki/Saint-Louis"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-nord-teranga-gandiole",
+  "nom": "Campement Teranga Gandiole (Tassinère)",
+  "regio": "nord",
+  "tipus": "allotjament",
+  "categories": [
+   "natura",
+   "platja",
+   "relax"
+  ],
+  "resum": "Campament en una finca arbrada davant de la Langue de Barbarie, amb bungalous, khaïma-dormitori i piscina.",
+  "descripcio": "A Tassinère, al Gandiol, a 20 km al sud de Saint-Louis i davant de la Langue de Barbarie, aquest campament ocupa una finca arbrada d'una hectàrea. Té bungalous ventilats o climatitzats amb bany i terrassa, un estudi, habitacions dobles amb lavabos compartits, una khaïma-dormitori de fins a 10 places i zona d'acampada.\n\nTaula d'hostes amb producte local: peix, graellades i méchoui. Bany a la llacuna i travessa en pirogua a la Langue de Barbarie per anar a l'oceà. Obre de novembre a maig, així que encaixa amb les vostres dates.",
+  "consells": [
+   "Preu mitjà (25.000-50.000 FCFA segons Au Sénégal); la khaïma-dormitori és l'opció barata per a 4.",
+   "Dues habitacions tenen porta comunicant: ideal per a 4 amics.",
+   "No publica telèfon; contacte pel formulari d'Au Sénégal. Informació possiblement antiga.",
+   "Des de Tassinère, negocieu amb un pescador la travessa a la Langue de Barbarie."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Aprox. 25.000-50.000 FCFA per nit (bungalou); khaïma i dobles bàsiques més barates",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 4.5,
+  "lat": 15.879804,
+  "lng": -16.509746,
+  "millor_moment": "Novembre-maig (obert); posta de sol sobre la llacuna",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi o clando des de Saint-Louis cap a Gandiol/Tassinère (aprox. 30-40 min).",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Teranga Gandiole",
+    "url": "https://www.au-senegal.com/teranga-gandiole,1845.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-nord-jardins-fleuris-lompoul-mer",
+  "nom": "Les Jardins Fleuris de Lompoul-sur-Mer",
+  "regio": "nord",
+  "tipus": "allotjament",
+  "categories": [
+   "platja",
+   "relax"
+  ],
+  "resum": "Campament al poble de pescadors de Lompoul-sur-Mer, a prop de la platja i del desert, des de 12.000 FCFA.",
+  "descripcio": "Si els campaments de jaimes del desert de Lompoul us semblen massa turístics o cars, una alternativa és dormir al poble costaner de Lompoul-sur-Mer, a uns 15-20 minuts del desert. Aquest campament té habitacions i tendes berbers, restaurant, bar, jardí, terrassa, piscina i wifi, a pocs minuts a peu de la platja de pescadors.\n\nDes d'aquí podeu anar a les dunes en 4x4 o carro i tornar a dormir al poble, on cada tarda arriben les pirogues.",
+  "consells": [
+   "Habitacions des de 12.000 FCFA (no publica més categories).",
+   "No publica telèfon; contacte pel formulari d'Au Sénégal.",
+   "Fitxa amb poca informació: confirmeu disponibilitat i capacitat per a 4."
+  ],
+  "durada": "1 nit",
+  "preu": "Des de 12.000 FCFA per habitació i nit",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 3,
+  "lat": 15.448155,
+  "lng": -16.723624,
+  "millor_moment": "Aturada entre Dakar i Saint-Louis",
+  "imprescindible": false,
+  "pel_teu_compte": "Sept-place Dakar–Saint-Louis fins a Kébémer i taxi brousse fins a Lompoul-sur-Mer.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Les Jardins Fleuris de Lompoul-sur-Mer",
+    "url": "https://www.au-senegal.com/les-jardins-fleuris-de-lompoul-sur-mer,6871.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-sal-campement-nanaay",
+  "nom": "Campement Nanaay (Palmarin Facao)",
+  "regio": "saloum",
+  "tipus": "allotjament",
+  "categories": [
+   "natura",
+   "platja",
+   "relax"
+  ],
+  "resum": "Bungalous amb sostre de palla davant del mar a Palmarin, amb restaurant de peix fresc i excursions a les salines.",
+  "descripcio": "Campament a Palmarin Facao, entre l'oceà i els manglars del Saloum, amb 19 habitacions i suites en bungalous tradicionals de palla, amb ventilador o A/C, bany i mosquiteres. El restaurant fa plats senegalesos, peix fresc i opcions vegetarianes (TripAdvisor el puntua amb un 5).\n\nOrganitzen visites a les salines i a la reserva de Palmarin, passejades en carro, pirogua o caiac i pesca, però a Palmarin és molt fàcil fer-ho tot pel vostre compte. Un client del 2020 en lloava l'acollida i la comoditat.",
+  "consells": [
+   "Telèfon: 77 624 72 72 / 77 820 19 44 (WhatsApp +221 77 624 72 72); web nanaaygroupe.com.",
+   "Des de 20.000 FCFA per persona segons categoria; per a 4, pregunteu per mitja pensió.",
+   "Per Cap d'Any, reserveu ja: Palmarin s'omple de residents de Dakar.",
+   "Trasllat AIBD des de 40.000 FCFA."
+  ],
+  "durada": "2-3 nits",
+  "preu": "Des de 20.000 FCFA per persona i nit",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 3,
+  "lat": 14.035294,
+  "lng": -16.771059,
+  "millor_moment": "Capvespre sobre els palmerars i les salines",
+  "imprescindible": false,
+  "pel_teu_compte": "WhatsApp; sept-place Dakar–Mbour i després Mbour–Joal–Palmarin en minibús o taxi brousse.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Campement Nanaay",
+    "url": "https://www.au-senegal.com/campement-nanaay,2576.html"
+   },
+   {
+    "nom": "TripAdvisor – Nanaay Restaurant",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g657834-d32982885-Reviews-Nanaay_Restaurant-Palmarin_Fatick_Region.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-sal-essamaye-mar-lodj",
+  "nom": "Campement Essamaye (Mar Lodj)",
+  "regio": "saloum",
+  "tipus": "allotjament",
+  "categories": [
+   "natura",
+   "relax"
+  ],
+  "resum": "Cases a impluvium tradicionals sota els arbres de Mar Fafako, a l'illa de Mar Lodj, en mitja pensió i ambient familiar.",
+  "descripcio": "A Mar Fafako, a l'illa de Mar Lodj, Essamaye ofereix 12 habitacions ventilades en cases tradicionals a impluvium (alguns amb lavabo exterior), a l'ombra dels arbres i en un ambient familiar. El preu inclou mitja pensió i la travessa en pirogua des de Ndangane és gratuïta per als clients.\n\nActivitats: caiac o pirogua pels bolongs per veure ocells, passejades i calesa pels pobles de l'illa, visita a les pedreres de petxines de Ndidior, acampada a les illes i pesca. Les ressenyes del 2023-2024 parlen de confort bàsic, però acollida càlida i bones activitats; és el tipus de lloc per a qui busca senzillesa.",
+  "consells": [
+   "Des de 18.000 FCFA per persona en mitja pensió (cases a impluvium).",
+   "Pirogua Ndangane–Essamaye gratuïta per als clients; trasllat des de Ndangane 40.000 FCFA per a 4.",
+   "Contacte pel formulari d'Au Sénégal: escriviu amb antelació, molts missatges queden sense resposta.",
+   "Hi ha altres campaments a Mar Lodj (ja al catàleg): compareu-los."
+  ],
+  "durada": "2-3 nits",
+  "preu": "Des de 18.000 FCFA per persona i nit amb mitja pensió",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 3.5,
+  "lat": 14.069856,
+  "lng": -16.657859,
+  "millor_moment": "Matinada i capvespre als bolongs",
+  "imprescindible": false,
+  "pel_teu_compte": "Sept-place a Fimela/Ndangane (via Mbour o Fatick) i pirogua del campament fins a l'illa.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Campement Essamaye",
+    "url": "https://www.au-senegal.com/campement-essamaye,1207.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-sal-bazouk-mar-lodj",
+  "nom": "Écolodge Bazouk du Saloum (Mar Lodj)",
+  "regio": "saloum",
+  "tipus": "allotjament",
+  "categories": [
+   "natura",
+   "relax"
+  ],
+  "resum": "Ecolodge de 12 bungalous ventilats a la riba de Mar Lodj, en un parc arbrat, amb pensió completa a preu raonable.",
+  "descripcio": "Ecolodge a l'illa de Mar Lodj, a la riba del riu dins un parc arbrat, amb 12 bungalous ventilats amb bany privat, terrassa individual i vista al riu o al parc. Fitxa d'Au Sénégal: ambient tranquil i familiar i bona relació qualitat-preu.\n\nEls àpats (cuina local) costen 11.500 FCFA per persona i dia. Activitats: visites a illes i pobles, caiac, pesca i passejades.",
+  "consells": [
+   "Habitacions des de 27.000 FCFA per nit + àpats 11.500 FCFA/pers./dia.",
+   "Estada mínima de 2 nits.",
+   "Contacte pel formulari d'Au Sénégal."
+  ],
+  "durada": "2-3 nits",
+  "preu": "Des de 27.000 FCFA per nit + 11.500 FCFA per persona i dia (àpats)",
+  "nivell_preu": 2,
+  "hores_des_de_dakar": 3.5,
+  "lat": 14.048528,
+  "lng": -16.686368,
+  "millor_moment": "Mínim 2 nits",
+  "imprescindible": false,
+  "pel_teu_compte": "Arribeu a Ndangane en transport públic i pirogua fins a l'illa (coordineu-ho amb el lodge).",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Écolodge Bazouk du Saloum",
+    "url": "https://www.au-senegal.com/ecolodge-bazouk-du-saloum,691.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-sal-badoudou-sokone",
+  "nom": "Centre d'accueil de Badoudou (Sokone)",
+  "regio": "saloum",
+  "tipus": "allotjament",
+  "categories": [
+   "natura",
+   "fauna"
+  ],
+  "resum": "Centre d'acollida en un bosc al costat del Saloum, des de 3.000 FCFA per persona, amb pirogues a l'illa de petxines i als ocells.",
+  "descripcio": "Prop de Sokone, entre Kaolack i Toubacouta, aquest centre d'acollida rústic té 17 habitacions amb ventilador i bany privat (capacitat 30 persones), restaurant i wifi. Organitza sortides en pirogua a l'Île aux Coquillages i al dormidor d'ocells.\n\nÉs una de les opcions més barates de tot el Saloum (3.000 FCFA per persona!). Avís: un antic visitant (2019) es va sorprendre de com havia canviat el lloc, i el 2018 un altre alertava que el pont d'accés estava molt deteriorat. Comproveu-ne l'estat abans d'anar-hi.",
+  "consells": [
+   "Des de 3.000 FCFA per persona i nit.",
+   "No publica telèfon: escriviu pel formulari d'Au Sénégal o pregunteu a Sokone.",
+   "Comproveu l'estat de les instal·lacions abans de reservar per Cap d'Any.",
+   "Bona base per explorar els bolongs del sud del Saloum pel vostre compte."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Des de 3.000 FCFA per persona i nit",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 4,
+  "lat": 13.854081,
+  "lng": -16.407566,
+  "millor_moment": "Capvespre per al dormidor d'ocells",
+  "imprescindible": false,
+  "pel_teu_compte": "Sept-place Dakar–Kaolack–Sokone (o direcció Karang) i moto-taxi fins a Badoudou.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Centre d'accueil de Badoudou",
+    "url": "https://www.au-senegal.com/centre-d-accueil-de-badoudou,1227.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-sal-kaolack-arc-en-ciel",
+  "nom": "Motel Arc-en-Ciel (Kaolack)",
+  "regio": "saloum",
+  "tipus": "allotjament",
+  "categories": [
+   "relax"
+  ],
+  "resum": "Motel senzill i funcional amb piscina a la N1, al centre de Kaolack, útil per partir el viatge cap a l'est o la Casamance.",
+  "descripcio": "Si aneu cap a Tambacounda/Kédougou o la Casamance per terra, Kaolack és la parada natural. Aquest motel del centre, a la Route Nationale 1, té 12 habitacions amb ventilador o A/C, bany privat i TV, esmorzar inclòs, piscina, restaurant i wifi.\n\nNo és especial, però és pràctic, net segons la fitxa i a prop del mercat central i de Médina Baye.",
+  "consells": [
+   "Telèfon: 33 941 12 12; WhatsApp +221 773 328 556.",
+   "Des de 18.600 FCFA per habitació amb esmorzar.",
+   "Per a 4, dues habitacions; capacitat total 26 persones."
+  ],
+  "durada": "1 nit",
+  "preu": "Des de 18.600 FCFA per habitació i nit, esmorzar inclòs",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 3.5,
+  "lat": 14.147229,
+  "lng": -16.079178,
+  "millor_moment": "Nit de pas",
+  "imprescindible": false,
+  "pel_teu_compte": "WhatsApp o formulari d'Au Sénégal; a pocs minuts en taxi de la gare routière.",
+  "autentic": false,
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Motel Arc-en-ciel",
+    "url": "https://www.au-senegal.com/motel-arc-en-ciel,1850.html"
+   }
+  ],
+  "imatges": []
+ },
+ {
+  "id": "sleep-cas-affiniam",
+  "nom": "Campement villageois d'Affiniam",
+  "regio": "casamance",
+  "tipus": "allotjament",
+  "categories": [
+   "cultura",
+   "natura"
+  ],
+  "resum": "Campament de poble en una gran case à impluvium, a la riba nord del Casamance, des de 4.000 FCFA i amb arribada en pirogua.",
+  "descripcio": "Un dels campements villageois històrics de la Casamance, a Affiniam (riba nord, zona de Bignona), en una gran case à impluvium enmig del bosc, a tocar de l'embarcador. Té 22 habitacions amb llum solar i mosquiteres (capacitat 30), i ofereix mitja pensió o pensió completa.\n\nEl campament organitza sortides pels bolongs, a l'Île aux oiseaux i a la case artística de Djilapao (la casa de fang decorada amb escultures). Les ressenyes del 2025 en lloen l'acollida, el menjar, la calma i l'ambient de poble. Un viatger hi va arribar en la pirogua del poble des de Ziguinchor, la manera més bonica d'arribar-hi.",
+  "consells": [
+   "Habitació des de 4.000 FCFA per nit; mitja pensió o completa des de 8.500 FCFA.",
+   "Pirogua de línia des de l'embarcador de Ziguinchor (pregunteu els dies i l'horari al port) o taxi brousse via Bignona.",
+   "No hi ha A/C ni electricitat convencional: llum solar.",
+   "Els beneficis dels campements villageois van al poble."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Des de 4.000 FCFA per nit; mitja/completa des de 8.500 FCFA",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 9.5,
+  "lat": 12.654154,
+  "lng": -16.356389,
+  "millor_moment": "Arribada en pirogua al matí",
+  "imprescindible": true,
+  "pel_teu_compte": "Pirogua de línia Ziguinchor–Affiniam o taxi brousse via Bignona; reserveu trucant al campament o a l'arribada.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Campement villageois d'Affiniam",
+    "url": "https://www.au-senegal.com/campement-villageois-d-affiniam,1476.html"
+   },
+   {
+    "nom": "Routard – Où dormir au Sénégal (campements villageois)",
+    "url": "https://www.routard.com/fr/guide/a/ou-dormir/afrique/senegal"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-cas-sitokoto-kafountine",
+  "nom": "Campement villageois Sitokoto (Kafountine)",
+  "regio": "casamance",
+  "tipus": "allotjament",
+  "categories": [
+   "platja",
+   "cultura"
+  ],
+  "resum": "'Sota el baobab' en mandinga: campament gestionat pel poble a la platja de Kafountine, amb tarifes per a habitació triple.",
+  "descripcio": "Campament senzill amb jardí ombrejat a la platja de Kafountine, gestionat pel poble: hi treballen veïns i els beneficis financen infraestructures de salut i educació. Té 12 habitacions amb ventilador, bany privat i mosquitera, en dues categories (sostre fals o sostre de materials locals).\n\nTé accés a la platja, menjar i bar a peu de sorra, i organitzen sortides amb guia, en pirogua o de pesca. Kafountine és el port de pesca més animat de la Casamance i un paradís d'ocells.",
+  "consells": [
+   "Tarifes 2023: triple 'local' 15.500 FCFA sense esmorzar / 20.000 amb esmorzar; triple amb sostre fals 20.500 / 25.000 FCFA.",
+   "Per a 4: una triple + una individual, o dues dobles (12.000-17.000 FCFA cadascuna).",
+   "Contacte pel formulari d'Au Sénégal (gerent: Mamadou).",
+   "Preus del 2023: poden haver pujat."
+  ],
+  "durada": "2-3 nits",
+  "preu": "Doble 12.000-20.000 FCFA; triple 15.500-25.000 FCFA per nit (2023)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 9,
+  "lat": 12.9339,
+  "lng": -16.7492,
+  "millor_moment": "Capvespre al port de pesca",
+  "imprescindible": false,
+  "pel_teu_compte": "Taxi brousse de Ziguinchor a Kafountine via Diouloulou (aprox. 2-3 h) i a peu fins a la platja.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Campement villageois Sitokoto",
+    "url": "https://www.au-senegal.com/campement-villageois-sitokoto-de-kafountine,3242.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-cas-ziguinchor-sangamar-ndaary",
+  "nom": "Sangamar 2 i Ndaary Khassoum (Ziguinchor)",
+  "regio": "casamance",
+  "tipus": "allotjament",
+  "categories": [
+   "relax"
+  ],
+  "resum": "Dues opcions econòmiques a Ziguinchor: habitacions quàdruples sobre el riu a Goumel o un hotel renovat amb jardí al centre.",
+  "descripcio": "El Sangamar 2, al barri de Goumel, té habitacions ventilades individuals, dobles o quàdruples per 10.000-13.000 FCFA, climatitzades per 15.000 FCFA i un estudi per 25.000 FCFA, a més d'un pontó amb restaurant i bars sobre el riu Casamance. Els comentaris (2023-2024) recomanen les habitacions de dalt i la posta de sol.\n\nL'Hôtel Ndaary Khassoum, a l'Escale (Rue de France), a prop del port, té 20 habitacions climatitzades al voltant d'un jardí interior, renovades recentment segons un comentari del 2025, des de 22.000 FCFA amb esmorzar. Ideal si arribeu amb el ferri de Dakar.",
+  "consells": [
+   "Sangamar 2: 33 991 96 55 / 77 448 98 16 (WhatsApp).",
+   "Ndaary Khassoum: 33 991 14 72 / 77 727 04 26; WhatsApp +221 78 148 28 60. Demaneu el segon pis.",
+   "El ferri Aline Sitoe Diatta arriba al port, a 5 min del Ndaary Khassoum."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Sangamar 2: 10.000-15.000 FCFA (quàdruple ventilada inclosa); Ndaary Khassoum: des de 22.000 FCFA amb esmorzar",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 9,
+  "lat": 12.585497,
+  "lng": -16.272506,
+  "millor_moment": "Nit d'arribada a la Casamance",
+  "imprescindible": false,
+  "pel_teu_compte": "WhatsApp; a peu o en taxi (500-1.000 FCFA) des del port o la gare routière.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Hôtel Sangamar 2",
+    "url": "https://www.au-senegal.com/hotel-sangamar-2-ziguinchor,6455.html"
+   },
+   {
+    "nom": "Au Sénégal – Hôtel Ndaary Khassoum",
+    "url": "https://www.au-senegal.com/hotel-ndaary-khassoum,5682.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-est-chez-balingo-ethiolo",
+  "nom": "Campement chez Balingo (Ethiolo, país bassari)",
+  "regio": "est",
+  "tipus": "allotjament",
+  "categories": [
+   "cultura",
+   "natura",
+   "aventura"
+  ],
+  "resum": "Cases tradicionals dalt d'un turó a l'entrada del poble bassari d'Ethiolo, des de 5.000 FCFA i pagament en efectiu.",
+  "descripcio": "A l'entrada del poble bassari d'Ethiolo, dalt d'un turó, Balingo té 16 habitacions en cases tradicionals amb mosquitera (capacitat 26). Menjar sota comanda de 12 h a 21 h i guies disponibles per descobrir el poble, les seves cerimònies i els turons del voltant.\n\nÉs un dels campaments més apreciats del país bassari: els comentaris (2014-2024) el descriuen com 'meravellós, tranquil i relaxant'. Experiència autèntica garantida: sense electricitat convencional ni luxes.",
+  "consells": [
+   "Telèfon: 77 146 81 39 / 77 426 55 52; WhatsApp +221 77 418 92 91.",
+   "Des de 5.000 FCFA per nit; pagament en efectiu, in situ.",
+   "Accés: pista des de Salémata (a uns 80 km de Kédougou); taxi brousse Kédougou–Salémata i moto o vehicle fins a Ethiolo.",
+   "Porteu frontal i efectiu suficient: no hi ha caixers."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Des de 5.000 FCFA per nit",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 13,
+  "lat": 12.59829,
+  "lng": -12.82792,
+  "millor_moment": "Saó seca (desembre ideal)",
+  "imprescindible": true,
+  "pel_teu_compte": "WhatsApp; taxi brousse Kédougou–Salémata i després moto-taxi fins a Ethiolo.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Campement chez Balingo",
+    "url": "https://www.au-senegal.com/campement-chez-balingo,791.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-est-boundou-reserve",
+  "nom": "Cases de la Reserva Comunitària del Boundou",
+  "regio": "est",
+  "tipus": "allotjament",
+  "categories": [
+   "natura",
+   "fauna",
+   "aventura"
+  ],
+  "resum": "Dormir en cases senzilles de quatre pobles dins una reserva comunitària de 120.000 ha, amb ecoguies locals.",
+  "descripcio": "La Reserva Natural Comunitària del Boundou, gestionada per la població local (CORENA), cobreix més de 120.000 hectàrees de sabana al Senegal oriental, a uns 70 km de la frontera amb Mali. Els visitants dormen en cases simples a quatre pobles (Koussan, Toumboura, Didé i Talibadji).\n\nEcoguies del poble guien caminades per veure fauna i flora i rutes culturals. És turisme comunitari de debò, molt lluny de qualsevol circuit.",
+  "consells": [
+   "Telèfon: 33 981 15 62; web reserve-boundou.com.",
+   "Preus 'bon marché' (menys de 25.000 FCFA) segons Au Sénégal, sense detall: pregunteu.",
+   "Entrada per Koussan; cal vehicle o transport local des de Tambacounda/Goudiry.",
+   "Lloc remot: aneu-hi amb aigua, efectiu i el contacte del guia confirmat."
+  ],
+  "durada": "1-2 nits",
+  "preu": "Econòmic (menys de 25.000 FCFA segons Au Sénégal); preus a consultar",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 9,
+  "lat": 14.157882,
+  "lng": -12.634277,
+  "millor_moment": "Saó seca",
+  "imprescindible": false,
+  "pel_teu_compte": "Truqueu a la reserva; transport fins a Koussan (via Goudiry) i els ecoguies us acompanyen.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Réserve communautaire du Boundou",
+    "url": "https://www.au-senegal.com/reserve-communautaire-du-boudou,6446.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-est-saare-aminata-tamba",
+  "nom": "Auberge Saare Aminata Paate (Tambacounda)",
+  "regio": "est",
+  "tipus": "allotjament",
+  "categories": [
+   "cultura"
+  ],
+  "resum": "Petita auberge de turisme cultural al barri de Saré Guilele, a Tambacounda: aturada pràctica cap a Kédougou o el Niokolo.",
+  "descripcio": "Tambacounda és la cruïlla obligatòria cap al Niokolo-Koba i Kédougou. Aquesta auberge del barri de Saré Guilele, al nord del mercat però apartada de la carretera nacional, té 7 habitacions climatitzades amb TV i bany privat (capacitat 14).\n\nEs presenta com a casa de turisme cultural (pràctiques culturals locals, medicina tradicional, immersió en la vida quotidiana). Un comentari del 2019 critica que es cobrés 500 FCFA per l'esmorzar sense avisar: pacteu-ho tot per avançat.",
+  "consells": [
+   "Telèfon: 71 050 70 70 / 78 165 46 66; WhatsApp +221 77 243 00 55.",
+   "Des de 15.000 FCFA segons època.",
+   "Aclariu què inclou el preu (esmorzar, taxa) abans de pagar."
+  ],
+  "durada": "1 nit",
+  "preu": "Des de 15.000 FCFA per habitació i nit",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 7,
+  "lat": 13.782871,
+  "lng": -13.676653,
+  "millor_moment": "Nit de pas cap a l'est",
+  "imprescindible": false,
+  "pel_teu_compte": "WhatsApp; sept-place Dakar–Tambacounda (aprox. 7-8 h) i taxi fins a Saré Guilele.",
+  "fonts": [
+   {
+    "nom": "Au Sénégal – Auberge Saare Aminata Paate",
+    "url": "https://www.au-senegal.com/auberge-saare-aminata-paate,3680.html"
+   }
+  ],
+  "autentic": true,
+  "imatges": []
+ },
+ {
+  "id": "sleep-vlt-thies-hotel-rex",
+  "nom": "Hôtel Rex (Thiès)",
+  "regio": "voltants",
+  "tipus": "allotjament",
+  "categories": [
+   "historia"
+  ],
+  "resum": "Hotelet econòmic del centre de Thiès, de quan es dormia a la ciutat del tren per menys de 10.000 FCFA.",
+  "descripcio": "Wikivoyage hi dona l'Hôtel Rex, al número 197 del carrer de Dousumont, com l'opció econòmica de Thiès: individuals a 7.000 FCFA i dobles a 9.600 FCFA. Encara apareix al directori d'Au Sénégal.\n\nNo és una joia, però és una manera barata de passar la nit a Thiès si voleu visitar les Manufactures de tapissos i l'abadia de Keur Moussa amb calma, o partir el viatge cap a Touba.\n\nAvís: preus molt antics (Wikivoyage); compteu que han pujat i comproveu l'estat de l'hotel.",
+  "consells": [
+   "Telèfon (antic, de Wikivoyage): +221 33 951 10 81.",
+   "Confirmeu els preus actuals: probablement 15.000-25.000 FCFA.",
+   "Al centre: a peu de restaurants com el Café du Rail."
+  ],
+  "durada": "1 nit",
+  "preu": "Individual 7.000 FCFA, doble 9.600 FCFA (preus antics de Wikivoyage)",
+  "nivell_preu": 1,
+  "hores_des_de_dakar": 1.3,
+  "lat": 14.799777,
+  "lng": -16.929226,
+  "millor_moment": "Nit de pas cap a Touba o el nord",
+  "imprescindible": false,
+  "pel_teu_compte": "Telèfon; sept-place de Dakar a Thiès i taxi curt.",
+  "autentic": false,
+  "fonts": [
+   {
+    "nom": "Wikivoyage EN – Thiès (Sleep)",
+    "url": "https://en.wikivoyage.org/wiki/Thi%C3%A8s"
+   },
+   {
+    "nom": "Au Sénégal – Hôtel Rex",
+    "url": "https://www.au-senegal.com/hotel-rex,676.html"
    }
   ],
   "imatges": []
