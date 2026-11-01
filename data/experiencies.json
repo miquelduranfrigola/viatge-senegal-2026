@@ -1,0 +1,34 @@
+{
+  "top": [
+    {"id": "sal-pirogua-bolongs", "titol": "Perdre's pels bolongs del Saloum", "text": "Navegar en pirogua entre manglars i illots de petxines, saludant pescadors serers, fins que el sol es pon i milers d'ocells tornen a dormir. És el Senegal més lent i més bonic."},
+    {"id": "nord-guet-ndar", "titol": "L'hora de les pirogues a Guet Ndar", "text": "A Saint-Louis, el barri de pescadors més dens de l'Àfrica occidental bull a la tarda: centenars de pirogues pintades, caixes de peix, carros i crits. Aclaparador i inoblidable."},
+    {"id": "dkr-goree", "titol": "Gorée, memòria i silenci", "text": "Una illa sense cotxes a vint minuts de Dakar, de carrers de sorra i buguenvíl·lees, que obliga a pensar en la tracta atlàntica. Aneu-hi d'hora i quedeu-vos al capvespre."},
+    {"id": "dkr-lluita-arena", "titol": "Un combat de lluita a l'Arène Nationale", "text": "Gris-gris, tambors, cants i 20.000 persones cridant: la lluita senegalesa és un ritual més que un esport. El diumenge 3 de gener hi ha el gran combat Sa Thiès – Siteu."},
+    {"id": "nord-djoudj", "titol": "Pelicans i flamencs al Djoudj", "text": "Desembre i gener són la temporada alta d'un dels grans santuaris d'ocells del món. Una pirogua entre milers de pelicans val el madrugó."},
+    {"id": "nord-lompoul", "titol": "Una nit entre les dunes de Lompoul", "text": "Un petit desert de dunes taronja a tres hores de Dakar, per dormir en jaima sota les estrelles. Confirmeu abans on és el campament: la mineria n'ha fet moure alguns."},
+    {"id": "vlt-kayar", "titol": "Kayar quan tornen els pescadors", "text": "Centenars de pirogues arribant a la platja a la tarda, i la subhasta del peix al mateix lloc. És autèntic, gens turístic i a hora i mitja de Dakar."},
+    {"id": "nord-saint-louis-illa", "titol": "Passejar l'illa de Saint-Louis", "text": "Façanes colonials descolorides, balcons de ferro, el pont Faidherbe i un ambient musical i decadent. Pel Fanal de Cap d'Any, l'illa s'omple de fanals."},
+    {"id": "vlt-keur-moussa", "titol": "Missa amb kora a Keur Moussa", "text": "Monjos benedictins que canten gregorià acompanyats de kores. La missa del diumenge a les 10 h (27/12 i 3/1) és una de les experiències sonores més especials del país."},
+    {"id": "dkr-corniche-ouest", "titol": "El capvespre a la Corniche", "text": "Mig Dakar corre, fa flexions, juga a futbol i entrena lluita vora l'Atlàntic. Afegiu-vos-hi i acabeu amb peix a la brasa a Soumbédioune."},
+    {"id": "ptc-joal-fadiouth", "titol": "L'illa de petxines de Fadiouth", "text": "Carrers fets de petxines, graners sobre pilots i un cementiri compartit per cristians i musulmans, units per un pont de fusta."},
+    {"id": "sal-palmarin-reserva", "titol": "Palmarin al capvespre", "text": "Baobabs, llacunes, salines i, amb sort, hienes tacades al vespre, en una reserva gestionada pels mateixos vilatans."},
+    {"id": "dkr-ile-ngor", "titol": "Un dia a l'illa de Ngor", "text": "Cinc minuts de pirogua i ja sou en una illa sense cotxes, amb platges petites, murals, cases d'artistes i una onada mítica de surf."},
+    {"id": "dkr-soumbedioune", "titol": "Peix a la brasa a Soumbédioune", "text": "Al capvespre les pirogues descarreguen a la platja, i a pocs metres el graellen. Barrejat amb el poble artesanal, és Dakar en estat pur."},
+    {"id": "cas-mlomp", "titol": "Les cases de fang de la Casamance", "text": "A Mlomp, cases de fang de dos pisos sota fromagers gegants; a Enampore, cases a impluvium que recullen la pluja. És la cultura diola en estat pur."},
+    {"id": "cas-carabane", "titol": "L'illa de Carabane", "text": "Una antiga factoria francesa a la desembocadura de la Casamance, avui una illa tranquil·la de palmeres, pirogues i ruïnes colonials."},
+    {"id": "est-pais-bassari", "titol": "Caminar pel País Bassari", "text": "Pobles bassari i bedik enfilats als turons de la frontera amb Guinea, Patrimoni de la Humanitat. És el Senegal més remot: cal dedicar-li el viatge."},
+    {"id": "dkr-marche-hlm", "titol": "Fer-se roba a mida al mercat HLM", "text": "Trieu tela wax o bazin entre muntanyes de colors, porteu-la a un sastre i en 48 hores tindreu una camisa o un boubou fet a mida."},
+    {"id": "dkr-mcn", "titol": "El Musée des Civilisations Noires", "text": "Un museu enorme i ambiciós que explica l'Àfrica i la diàspora des d'una mirada africana. És la millor introducció al continent."},
+    {"id": "sal-ocells-capvespre", "titol": "L'Île aux Oiseaux al capvespre", "text": "Pelicans, flamencs, garses i milers de xatracs tornant als manglars mentre el sol cau sobre el delta."}
+  ],
+  "si_tagrada": [
+    {"titol": "la natura i els ocells", "icona": "forest", "ids": ["nord-djoudj", "nord-langue-de-barbarie", "sal-ocells-capvespre", "sal-palmarin-reserva", "nord-guembeul", "ptc-somone-llacuna", "dkr-iles-madeleine", "ptc-popenguine", "est-niokolo-koba", "est-dindefelo"]},
+    {"titol": "els mercats", "icona": "storefront", "ids": ["dkr-marche-hlm", "dkr-sandaga-kermel", "rlp-dkr-medina-tilene", "sal-kaolack", "otb-ngueniene-louma", "otb-diaobe-louma", "rlp-cas-marche-saint-maur", "rlp-nord-marche-sor", "ptc-mbour-peix", "dkr-soumbedioune"]},
+    {"titol": "la vida dels pescadors", "icona": "sailing", "ids": ["nord-guet-ndar", "vlt-kayar", "ptc-mbour-peix", "dkr-yoff-lebou", "sal-djiffer-pescadors", "cas-kafountine", "cas-elinkine-bolongs", "nord-gandiol-pobles"]},
+    {"titol": "la música i la nit", "icona": "music_note", "ids": ["dkr-just4u", "dkr-nit-almadies", "dkr-institut-francais", "rlp-dkr-djembe-ibou-sene", "cas-festival-abene", "nord-rue-abdoulaye-seck", "vlt-keur-moussa"]},
+    {"titol": "la història", "icona": "account_balance", "ids": ["dkr-goree", "dkr-goree-maison-esclaves", "nord-saint-louis-illa", "dkr-mcn", "cas-carabane", "sal-diorom-boumak", "nord-podor", "otb-rufisque"]},
+    {"titol": "la vida espiritual", "icona": "mosque", "ids": ["nord-touba", "dkr-mosquee-divinite", "rlp-dkr-mausolee-layene", "otb-ndiassane", "vlt-keur-moussa", "cas-oussouye", "rlp-ptc-baobab-fadial"]},
+    {"titol": "l'aventura i l'esport", "icona": "kayaking", "ids": ["dkr-surf-ngor", "sal-caiac-palmarin", "dkr-lluita-arena", "dkr-corniche-ouest", "rlp-est-bandafassi-ethiouar", "nord-lompoul", "ptc-accrobaobab", "sal-pesca"]},
+    {"titol": "les platges", "icona": "beach_access", "ids": ["cas-cap-skirring", "otb-diembering", "ptc-toubab-dialaw", "dkr-ile-ngor", "sal-dionewar-niodior", "cas-pointe-saint-georges", "ptc-popenguine"]}
+  ]
+}

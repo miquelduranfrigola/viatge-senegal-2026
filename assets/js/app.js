@@ -59,6 +59,7 @@
       <div class="container">
         <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span>Senegal 2026</a>
         <nav class="nav" id="nav">${NAV.map(([h, t]) => `<a href="${h}"${h === here ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
+        <button class="search-pill" aria-label="Cerca a tota la guia">${icon("search")}<span>Cerca</span><kbd>/</kbd></button>
         <button class="icon-btn menu-btn" aria-label="Menú" aria-controls="nav" aria-expanded="false">${icon("menu")}</button>
         <button class="icon-btn theme-btn" aria-label="Canvia el tema">${icon("dark_mode")}</button>
       </div>`;
@@ -81,6 +82,15 @@
       store.set("theme", next);
       syncIcon();
     });
+
+    $(".search-pill", header).addEventListener("click", () => openSearch());
+    document.addEventListener("keydown", (e) => {
+      const typing = /input|textarea|select/i.test(document.activeElement?.tagName || "");
+      if ((e.key === "/" && !typing) || (e.key.toLowerCase() === "k" && (e.metaKey || e.ctrlKey))) { e.preventDefault(); openSearch(); }
+    });
+    $$("[data-open-search]").forEach((b) => b.addEventListener("click", () => openSearch()));
+    const hs = $("#home-search");
+    if (hs) hs.addEventListener("submit", (e) => { e.preventDefault(); openSearch($("input", hs).value); });
 
     const footer = document.createElement("footer");
     footer.innerHTML = `
@@ -191,12 +201,17 @@
 
   function bindCards(container, items) {
     const byId = Object.fromEntries(items.map((a) => [a.id, a]));
+    window.__openAct = (id) => { if (byId[id]) openDetail(byId[id]); else location.href = `cataleg.html#a=${encodeURIComponent(id)}`; };
     container.addEventListener("click", (e) => {
       const c = e.target.closest(".card[data-id]");
       if (c && byId[c.dataset.id]) openDetail(byId[c.dataset.id]);
     });
     const m = location.hash.match(/^#a=(.+)$/);
-    if (m && byId[decodeURIComponent(m[1])]) openDetail(byId[decodeURIComponent(m[1])]);
+    if (m) {
+      const id = decodeURIComponent(m[1]);
+      if (byId[id]) openDetail(byId[id]);
+      else load("alias").then((al) => { if (byId[al[id]]) openDetail(byId[al[id]]); }).catch(() => {});
+    }
   }
 
   /* ---------- Maps ---------- */
@@ -233,6 +248,208 @@
     legend.addTo(map);
   }
 
+
+  /* ---------- Cerca global ---------- */
+  const fold = (x) => String(x ?? "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[’']/g, "'");
+  let searchIndex = null;
+  async function buildIndex() {
+    if (searchIndex) return searchIndex;
+    const docs = [];
+    const W = (x) => " " + fold(x).replace(/[^a-z0-9]+/g, " ") + " ";
+    const add = (d) => { d._t = W(d.title); d._k = W(d.tags || ""); d._b = W(d.body || ""); docs.push(d); };
+    const get = (n) => load(n).catch(() => null);
+    const [acts, regs, its, evs, con, cul, pra, ciu, dir, air, ci] = await Promise.all(
+      ["activitats", "regions", "itineraris", "esdeveniments", "coneix", "cultura", "practic", "ciutats", "directori", "aire_lliure", "compres_idioma"].map(get));
+    (acts || []).forEach((a) => add({ kind: TYPES[a.tipus] || "Fitxa", icon: TYPE_ICON[a.tipus] || "explore", title: a.nom,
+      tags: `${REGIONS[a.regio] || ""} ${(a.categories || []).map((c) => CATS[c] || c).join(" ")} ${a.autentic ? "autentic" : ""}`,
+      body: [a.resum, a.descripcio, a.pel_teu_compte, (a.consells || []).join(" "), a.preu, a.durada, a.millor_moment].join(" • "),
+      url: `cataleg.html#a=${encodeURIComponent(a.id)}`, actId: a.id, sub: REGIONS[a.regio] }));
+    (regs || []).forEach((r) => add({ kind: "Regió", icon: "map", title: r.nom, tags: r.etiqueta, body: [r.descripcio, r.com_arribar, r.dies, r.ideal].join(" • "), url: `regions.html#${r.id}` }));
+    (its || []).forEach((it) => {
+      add({ kind: "Itinerari", icon: "route", title: it.nom, tags: it.ritme, body: [it.resum, it.per_a_qui, it.ruta, it.transport, (it.notes || []).join(" ")].join(" • "), url: `itinerari.html#${it.id}` });
+      it.dies.forEach((d) => add({ kind: "Dia d'itinerari", icon: "today", title: `${d.data}: ${d.titol}`, sub: it.nom.split(":")[0],
+        body: [d.plans.map((p) => p.text).join(" "), d.transport, d.dormir].join(" • "), url: `itinerari.html#${it.id}` }));
+    });
+    (evs || []).forEach((e) => add({ kind: "Agenda", icon: "event", title: e.titol, tags: `${e.categoria} ${e.confirmacio} ${e.lloc || ""}`,
+      sub: e.data_inici, body: [e.descripcio, e.com_anar].join(" • "), url: `agenda.html#${e.id}` }));
+    (con?.capitols || []).forEach((c) => {
+      add({ kind: "Coneix el Senegal", icon: c.icona || "menu_book", title: c.titol, tags: c.subtitol, body: [c.paragrafs.join(" "), (c.punts_clau || []).join(" ")].join(" • "), url: `coneix.html#${c.id}` });
+      (c.llista?.items || []).forEach((x) => add({ kind: c.titol, icon: c.icona || "menu_book", title: x.nom, body: [x.text, x.on].join(" • "), url: `coneix.html#${c.id}` }));
+    });
+    if (cul) {
+      cul.llibres.forEach((b, i) => add({ kind: "Llibre", icon: "menu_book", title: b.titol, tags: `${b.autor} ${b.titol_original || ""} ${b.genere || ""}`, body: [b.per_que, b.traduccions].join(" • "), url: `cultura.html#b-${i}` }));
+      cul.pellicules.forEach((f, i) => add({ kind: "Pel·lícula", icon: "movie", title: f.titol, tags: `${f.director} ${f.titol_original || ""} ${f.tipus || ""}`, body: [f.per_que, f.on_veure].join(" • "), url: `cultura.html#f-${i}` }));
+      cul.musica.forEach((m, i) => add({ kind: "Música", icon: "music_note", title: m.artista, tags: m.tema, body: m.per_que, url: `cultura.html#m-${i}` }));
+    }
+    if (pra) {
+      pra.seccions.forEach((x) => add({ kind: "Pràctic", icon: x.icona || "info", title: x.titol, body: x.punts.join(" • "), url: `practic.html#${x.id}` }));
+      add({ kind: "Pràctic", icon: "partly_cloudy_day", title: "El temps a finals de desembre", tags: "clima temperatura harmattan", body: pra.clima, url: "practic.html" });
+      pra.calendari.forEach((c) => add({ kind: "Calendari", icon: "calendar_month", title: c.titol, sub: c.data, body: c.descripcio, url: "practic.html#calendari" }));
+      pra.pressupost.forEach((c) => add({ kind: "Pressupost", icon: "payments", title: c.concepte, tags: "preu cost", body: c.preu, url: "practic.html#pressupost" }));
+      pra.plats.forEach((c) => add({ kind: "Plat", icon: "restaurant", title: c.nom, body: c.descripcio, url: "practic.html#plats" }));
+      pra.wolof.forEach((w) => add({ kind: "Wolof", icon: "translate", title: `${w.wolof} — ${w.catala}`, body: w.pronuncia, url: "practic.html#wolof" }));
+    }
+    (ciu?.ciutats || []).forEach((c) => add({ kind: "Guia de ciutat", icon: "location_city", title: c.nom, tags: c.resum,
+      body: JSON.stringify([c.orientacio, c.barris, c.arribar, c.moure_s, c.info_practica, c.compres, c.seguretat]).replace(/[{}\[\]"]/g, " "), url: `guies.html#${c.id}` }));
+    if (dir) {
+      (dir.necessitat_saber || []).forEach((x) => add({ kind: "Cal saber", icon: "info", title: x.tema, body: x.valor, url: "practic.html#cal-saber" }));
+      (dir.az || []).forEach((x, i) => add({ kind: "Directori A–Z", icon: x.icona || "info", title: x.tema, body: x.punts.join(" • "), url: `practic.html#az-${i}` }));
+      (dir.salut || []).forEach((x, i) => add({ kind: "Salut", icon: "medical_services", title: x.tema, body: x.punts.join(" • "), url: `practic.html#salut-${i}` }));
+      (dir.transport_taula || []).forEach((t) => add({ kind: "Trajecte", icon: "directions_bus", title: `${t.de} → ${t.a}`, tags: "temps distancia transport", body: [t.temps, t.km && `${t.km} km`, t.mitjans, t.notes].join(" • "), url: "practic.html#trajectes" }));
+    }
+    (air?.seccions || []).forEach((sec) => {
+      add({ kind: "Natura i aventura", icon: "hiking", title: sec.titol, body: [sec.intro, (sec.consells || []).join(" ")].join(" • "), url: `natura.html#${sec.id}` });
+      (sec.llocs || []).forEach((l, i) => add({ kind: sec.titol, icon: "hiking", title: l.nom, tags: `${REGIONS[l.regio] || ""} ${l.nivell || ""} ${l.dificultat || ""}`,
+        body: [l.detall, l.descripcio_ruta, l.inici, l.final, l.km && `${l.km} km`, l.durada].join(" • "), url: `natura.html#${sec.id}-${i}` }));
+      (sec.especies || []).forEach((e) => add({ kind: "Espècie", icon: "flutter_dash", title: e.nom_catala, tags: e.nom_cientific, body: [e.on, e.quan].join(" • "), url: `natura.html#${sec.id}` }));
+    });
+    if (ci?.compres) {
+      (ci.compres.objectes || []).forEach((o) => add({ kind: "Compres", icon: "shopping_bag", title: o.nom, body: [o.descripcio, o.on, o.preu].join(" • "), url: "compres.html#objectes" }));
+      (ci.compres.llocs || []).forEach((o) => add({ kind: "On comprar", icon: "storefront", title: o.nom, body: o.detall, url: "compres.html#llocs" }));
+      add({ kind: "Compres", icon: "sell", title: "Com regatejar", tags: "regateig preu", body: (ci.compres.regatejar || []).join(" "), url: "compres.html#regatejar" });
+    }
+    (ci?.idioma?.situacions || []).forEach((sit) => sit.frases.forEach((f) => add({ kind: `Frases · ${sit.titol}`, icon: "translate", title: `${f.catala}`, tags: `${f.wolof} ${f.frances}`, body: `Wòlof: ${f.wolof} [${f.pronuncia || ""}] · Francès: ${f.frances}`, url: "compres.html#idioma" })));
+    searchIndex = docs;
+    return docs;
+  }
+  const SYN = [
+    ["paludisme", "malaria", "paludismo", "mosquit"], ["visat", "visado", "visa"], ["ferri", "ferry", "vaixell", "batobi"],
+    ["regatejar", "regateig", "negociar", "regatear"], ["menjar", "restaurant", "gargota", "dibiterie"], ["dormir", "allotjament", "hotel", "campament", "campement", "auberge", "hostal"],
+    ["platja", "platges", "plage", "beach"], ["ocells", "aus", "oiseaux", "birds"], ["diners", "canvi", "caixer", "fcfa", "cfa", "efectiu"],
+    ["taxi", "yango", "heetch"], ["tren", "ter"], ["bici", "bicicleta", "velo", "vtt"], ["caminar", "caminada", "trekking", "senderisme", "excursio"],
+    ["lluita", "laamb", "lutte"], ["futbol", "football"], ["seguretat", "perill", "robatori", "estafa"], ["salut", "hospital", "clinica", "farmacia", "metge"],
+    ["vacuna", "vacunes", "febre groga"], ["cap d any", "reveillon", "nit de cap d any", "31 des"], ["telefon", "sim", "mobil", "internet", "wifi"],
+    ["aeroport", "aibd"], ["preu", "preus", "cost", "pressupost"]
+  ].map((g) => g.map((w) => fold(w).replace(/[^a-z0-9]+/g, " ").trim()));
+  const expand = (t) => { const g = SYN.find((g) => g.some((w) => w === t || (t.length > 4 && w.startsWith(t)))); return g ? [...new Set([t, ...g])] : [t]; };
+  function runSearch(docs, q) {
+    const terms = fold(q).replace(/[^a-z0-9]+/g, " ").split(" ").filter((t) => t.length >= 2 && !["de", "la", "el", "les", "els", "a", "i", "per", "amb", "que", "un", "una", "on", "com", "del", "dels"].includes(t));
+    if (!terms.length) return [];
+    const phrase = " " + fold(q).replace(/[^a-z0-9]+/g, " ").trim();
+    const res = [];
+    for (const d of docs) {
+      let score = 0, ok = true;
+      for (const t of terms) {
+        const alts = expand(t).map((x) => " " + x);
+        const hit = (f) => alts.some((x) => f.includes(x));
+        const inT = hit(d._t), inK = hit(d._k), inB = hit(d._b);
+        if (!inT && !inK && !inB) { ok = false; break; }
+        const ex = " " + t, w = (f, full, syn) => f.includes(ex) ? full : syn;
+        const nB = d._b.split(ex).length - 1;
+        score += (inT ? w(d._t, 12, 6) : 0) + (inK ? w(d._k, 4, 2) : 0) + (inB ? (nB ? 1 + Math.min(6, nB - 1) * 0.5 : 0.4) : 0);
+        if (d._t.startsWith(" " + t)) score += 4;
+      }
+      if (!ok) continue;
+      if (terms.length > 1 && (d._t.includes(phrase) || d._b.includes(phrase))) score += 10;
+      if (d.actId) score += 1;
+      res.push([score, d]);
+    }
+    res.sort((a, b) => b[0] - a[0]);
+    return res.slice(0, 60).map((r) => r[1]);
+  }
+  function snippet(d, q) {
+    const terms = fold(q).split(/\s+/).filter((t) => t.length >= 2);
+    const raw = String(d.body || "");
+    const f = fold(raw);
+    let pos = -1;
+    for (const t of terms) { pos = f.indexOf(t); if (pos >= 0) break; }
+    let start = Math.max(0, pos - 70), end = Math.min(raw.length, (pos < 0 ? 0 : pos) + 170);
+    let text = (start > 0 ? "…" : "") + raw.slice(start, end) + (end < raw.length ? "…" : "");
+    return highlight(text, terms);
+  }
+  function highlight(text, terms) {
+    let out = esc(text);
+    const ft = fold(text);
+    const marks = [];
+    terms.forEach((t) => { let i = ft.indexOf(t); while (i >= 0) { marks.push([i, i + t.length]); i = ft.indexOf(t, i + t.length); } });
+    if (!marks.length) return out;
+    marks.sort((a, b) => a[0] - b[0]);
+    const merged = [];
+    marks.forEach((m) => { const l = merged[merged.length - 1]; if (l && m[0] <= l[1]) l[1] = Math.max(l[1], m[1]); else merged.push([...m]); });
+    let html = "", last = 0;
+    merged.forEach(([a, b]) => { html += esc(text.slice(last, a)) + "<mark>" + esc(text.slice(a, b)) + "</mark>"; last = b; });
+    return html + esc(text.slice(last));
+  }
+  let sdlg;
+  function openSearch(initial = "") {
+    if (!sdlg) {
+      sdlg = document.createElement("dialog");
+      sdlg.className = "search-dlg";
+      sdlg.innerHTML = `
+        <div class="search-head">
+          <label class="search">${icon("search")}<span class="visually-hidden">Cerca a tota la guia</span>
+            <input id="gq" type="search" placeholder="Cerca a tota la guia: visat, ferri, thiéboudienne, surf, Cap d'Any…" autocomplete="off"></label>
+          <button class="icon-btn" id="gq-close" aria-label="Tanca">${icon("close")}</button>
+        </div>
+        <div class="search-hint muted" id="gq-hint">Escriu una o més paraules. Accents opcionals. <kbd>↑</kbd><kbd>↓</kbd> per moure't, <kbd>Enter</kbd> per obrir.</div>
+        <div class="search-results" id="gq-res" role="listbox"></div>`;
+      document.body.append(sdlg);
+      sdlg.addEventListener("click", (e) => { if (e.target === sdlg) sdlg.close(); });
+      $("#gq-close", sdlg).addEventListener("click", () => sdlg.close());
+      const inp = $("#gq", sdlg), out = $("#gq-res", sdlg);
+      let sel = 0, items = [];
+      const render = async () => {
+        const q = inp.value;
+        try { sessionStorage.setItem("gq", q); } catch { /* ignore */ }
+        if (fold(q).trim().length < 2) { out.innerHTML = SUGGEST; return; }
+        out.innerHTML = `<div class="empty">Cercant…</div>`;
+        const docs = await buildIndex();
+        items = runSearch(docs, q); sel = 0;
+        const terms = fold(q).split(/\s+/).filter((t) => t.length >= 2);
+        $("#gq-hint", sdlg).textContent = items.length ? `${items.length}${items.length === 60 ? "+" : ""} resultats per «${q}»` : "";
+        out.innerHTML = items.length ? items.map((d, i) => `
+          <a class="sr${i === 0 ? " on" : ""}" href="${esc(d.url)}" data-i="${i}" role="option">
+            <span class="sr-ico">${icon(d.icon)}</span>
+            <span class="sr-main"><span class="sr-kind">${esc(d.kind)}${d.sub ? ` · ${esc(d.sub)}` : ""}</span>
+              <span class="sr-title">${highlight(d.title, terms)}</span>
+              <span class="sr-snip">${snippet(d, q)}</span></span>
+          </a>`).join("") : `<div class="empty">Cap resultat per «${esc(q)}». Prova amb una altra paraula (o en francès).</div>`;
+      };
+      const SUGGEST = `<div class="sugg"><div class="label">Proves ràpides</div>${["visat", "ferri Ziguinchor", "Cap d'Any", "lluita", "surf", "thiéboudienne", "paludisme", "sept-place", "Lompoul", "regatejar", "pirogua", "wolof gràcies"].map((x) => `<button class="chip" data-q="${esc(x)}">${esc(x)}</button>`).join("")}</div>`;
+      out.addEventListener("click", (e) => {
+        const c = e.target.closest("[data-q]"); if (c) { inp.value = c.dataset.q; render(); inp.focus(); return; }
+        const a = e.target.closest(".sr"); if (a) { e.preventDefault(); go(items[+a.dataset.i]); }
+      });
+      let tmr;
+      inp.addEventListener("input", () => { clearTimeout(tmr); tmr = setTimeout(render, 120); });
+      inp.addEventListener("keydown", (e) => {
+        const rows = $$(".sr", out);
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+          e.preventDefault(); if (!rows.length) return;
+          sel = (sel + (e.key === "ArrowDown" ? 1 : -1) + rows.length) % rows.length;
+          rows.forEach((r, i) => r.classList.toggle("on", i === sel)); rows[sel].scrollIntoView({ block: "nearest" });
+        } else if (e.key === "Enter" && items[sel]) { e.preventDefault(); go(items[sel]); }
+      });
+      sdlg._render = render;
+    }
+    const inp = $("#gq", sdlg);
+    let prev = ""; try { prev = sessionStorage.getItem("gq") || ""; } catch { /* ignore */ }
+    inp.value = initial || prev;
+    if (!sdlg.open) sdlg.showModal();
+    inp.focus(); inp.select();
+    sdlg._render();
+    buildIndex();
+  }
+  function go(d) {
+    if (!d) return;
+    const here = location.pathname.split("/").pop() || "index.html";
+    const [page, hash] = d.url.split("#");
+    sdlg.close();
+    if (page === here) {
+      if (d.actId && window.__openAct) { window.__openAct(d.actId); return; }
+      location.hash = hash || "";
+      const el = hash && document.getElementById(decodeURIComponent(hash));
+      if (el) { el.scrollIntoView({ behavior: "smooth", block: "start" }); flash(el); }
+      if (window.__onHash) window.__onHash();
+    } else location.href = d.url;
+  }
+  function flash(el) { el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1800); }
+  function scrollToHash() {
+    if (!location.hash || location.hash.startsWith("#a=")) return;
+    const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (el) { setTimeout(() => { el.scrollIntoView({ block: "start" }); flash(el); }, 60); }
+  }
+
   /* ---------- Pages ---------- */
   async function pageIndex() {
     const [items, regions] = await Promise.all([load("activitats"), load("regions")]);
@@ -247,12 +464,14 @@
     $("#stat-acts").textContent = acts.length;
     $("#stat-total").textContent = items.length;
     $("#stat-regions").textContent = new Set(items.map((a) => a.regio)).size;
-    const must = items.filter((a) => a.imprescindible && a.tipus === "activitat");
-    const order = ["dakar", "voltants", "petite-cote", "saloum", "nord", "casamance", "est"];
-    must.sort((a, b) => order.indexOf(a.regio) - order.indexOf(b.regio));
+    const byId = Object.fromEntries(items.map((a) => [a.id, a]));
+    const exp = await load("experiencies").catch(() => ({ top: [], si_tagrada: [] }));
     const grid = $("#must-grid");
-    grid.innerHTML = must.slice(0, 12).map(cardHTML).join("");
+    grid.innerHTML = exp.top.filter((t) => byId[t.id]).map((t, i) => cardHTML({ ...byId[t.id], nom: `${i + 1}. ${t.titol}`, resum: t.text }).replace('class="card"', 'class="card top-card"')).join("");
     bindCards(grid, items);
+    $("#if-you-like").innerHTML = exp.si_tagrada.map((g) => `
+      <article class="info"><h3>${icon(g.icona)} …${esc(g.titol)}</h3>
+        <ul class="region-list">${g.ids.filter((id) => byId[id]).map((id) => `<li><a href="cataleg.html#a=${encodeURIComponent(id)}">${esc(byId[id].nom)}</a></li>`).join("")}</ul></article>`).join("");
     overviewMap($("#map"), items);
 
     const target = new Date("2026-12-27T00:00:00Z").getTime();
@@ -419,7 +638,7 @@
     const [cl, ccl] = CONF[e.confirmacio] || [e.confirmacio, "badge-type"];
     const dates = e.data_fi && e.data_fi !== e.data_inici ? `${fmtDate(e.data_inici)} – ${fmtDate(e.data_fi)}` : e.data_inici ? fmtDate(e.data_inici) : "";
     return `
-      <article class="media event">
+      <article class="media event" id="${esc(e.id)}" style="scroll-margin-top:90px">
         <div class="ico">${icon(ic)}</div>
         <div>
           <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px"><span class="badge ${ccl}">${esc(cl)}</span><span class="badge badge-region">${esc(REGIONS[e.regio] || e.regio || "")}</span></div>
@@ -498,16 +717,16 @@
   async function pageCultura() {
     const d = await load("cultura");
     const src = (f) => f?.length ? `<div class="src">${f.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nom)}</a>`).join(" · ")}</div>` : "";
-    $("#llibres").innerHTML = d.llibres.map((b) => `
-      <article class="media"><div class="ico">${icon(b.genere === "guia" ? "travel_explore" : b.genere === "poesia" ? "history_edu" : "menu_book")}</div>
+    $("#llibres").innerHTML = d.llibres.map((b, i) => `
+      <article class="media" id="b-${i}" style="scroll-margin-top:90px"><div class="ico">${icon(b.genere === "guia" ? "travel_explore" : b.genere === "poesia" ? "history_edu" : "menu_book")}</div>
         <div><h4>${esc(b.titol)}</h4><div class="by">${esc(b.autor)}${b.any ? ` · ${b.any}` : ""}${b.genere ? ` · ${esc(b.genere)}` : ""}${b.titol_original && b.titol_original !== b.titol ? ` · <em>${esc(b.titol_original)}</em>` : ""}</div>
         <p>${esc(b.per_que)}</p>${b.traduccions ? `<div class="tr">${icon("translate")} ${esc(b.traduccions)}</div>` : ""}${src(b.fonts)}</div></article>`).join("");
-    $("#pellicules").innerHTML = d.pellicules.map((p) => `
-      <article class="media"><div class="ico">${icon(p.tipus === "sèrie" ? "live_tv" : p.tipus === "documental" ? "videocam" : "movie")}</div>
+    $("#pellicules").innerHTML = d.pellicules.map((p, i) => `
+      <article class="media" id="f-${i}" style="scroll-margin-top:90px"><div class="ico">${icon(p.tipus === "sèrie" ? "live_tv" : p.tipus === "documental" ? "videocam" : "movie")}</div>
         <div><h4>${esc(p.titol)}</h4><div class="by">${esc(p.director)}${p.any ? ` · ${p.any}` : ""}${p.durada_min ? ` · ${p.durada_min} min` : ""}${p.tipus ? ` · ${esc(p.tipus)}` : ""}</div>
         <p>${esc(p.per_que)}</p>${p.on_veure ? `<div class="tr">${icon("play_circle")} ${esc(p.on_veure)}</div>` : ""}${src(p.fonts)}</div></article>`).join("");
-    $("#musica").innerHTML = d.musica.map((m) => `
-      <article class="media"><div class="ico">${icon("music_note")}</div>
+    $("#musica").innerHTML = d.musica.map((m, i) => `
+      <article class="media" id="m-${i}" style="scroll-margin-top:90px"><div class="ico">${icon("music_note")}</div>
         <div><h4>${esc(m.artista)}</h4><div class="by">${icon("play_arrow")} «${esc(m.tema)}»</div>
         <p>${esc(m.per_que)}</p>
         <div class="tr"><a href="https://www.youtube.com/results?search_query=${encodeURIComponent(m.artista + " " + m.tema)}" target="_blank" rel="noopener">Escolta-ho a YouTube</a></div>${src(m.fonts)}</div></article>`).join("");
@@ -563,7 +782,7 @@
     layout();
     const pages = { agenda: pageAgenda, index: pageIndex, cataleg: pageCataleg, regions: pageRegions, itinerari: pageItinerari, coneix: pageConeix, cultura: pageCultura, practic: pagePractic, fonts: pageFonts };
     const fn = pages[document.body.dataset.page];
-    if (fn) fn().catch((e) => {
+    if (fn) fn().then(scrollToHash).catch((e) => {
       console.error(e);
       const m = document.querySelector("main");
       m?.insertAdjacentHTML("afterbegin", `<div class="container"><div class="callout warn">No s'han pogut carregar les dades (${esc(e.message)}). Si obres el fitxer en local, serveix la carpeta amb <code>python3 -m http.server</code>.</div></div>`);
