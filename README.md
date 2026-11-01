@@ -8,21 +8,31 @@ Guia de viatge en català per a quatre amics que viatgen al Senegal del **27 de 
 
 | Pàgina | Contingut |
 |---|---|
-| `index.html` | Portada: compte enrere, imprescindibles, agenda i mapa |
-| `cataleg.html` | Catàleg filtrable: activitats, menjar, nit i allotjament, amb fotos i fonts |
+| `index.html` | Portada: cerca, compte enrere, 20 experiències imprescindibles, «Si t'agrada…», agenda i mapa |
+| `cataleg.html` | Catàleg filtrable (activitats, menjar, nit, allotjament) amb fotos i fonts, i llista de preferits compartible |
 | `regions.html` | Les set regions, amb temps des de Dakar i dies recomanats |
+| `guies.html` | Guies de ciutat: barris, com arribar-hi i moure's, informació pràctica, compres i seguretat |
 | `itinerari.html` | Sis itineraris dia a dia per anar pel vostre compte |
 | `agenda.html` | Esdeveniments d'aquells dies: Cap d'Any, festivals, lluita, futbol |
+| `natura.html` | Surf, ocells, fauna, rutes a peu i en bici (amb mapa), platges i cel nocturn |
 | `coneix.html` | Context: història, gent, religió, gastronomia, música, art, lluita, natura |
 | `cultura.html` | Llibres, pel·lícules i música per preparar el viatge |
-| `practic.html` | Visat, salut, diners, transport, seguretat, pressupost i wolof bàsic |
+| `compres.html` | Què comprar i on, com regatejar, i guia de conversa en wòlof i francès |
+| `practic.html` | Llista de tasques, visat, salut, diners, transport, temps de trajecte, directori A–Z, pressupost i wolof bàsic |
 | `fonts.html` | Totes les fonts consultades i els crèdits de les fotos |
+
+## Funcions útils
+
+- **Cerca global:** la icona de la lupa, la tecla `/` o `Ctrl/Cmd+K` cerquen a tota la guia (accents opcionals, amb sinònims).
+- **Preferits:** el cor de cada fitxa afegeix el lloc a la vostra llista. Amb «Comparteix la llista» n'obteniu un enllaç per enviar al grup.
+- **Sense connexió:** un cop visitada, la web funciona sense cobertura. El botó del peu de pàgina descarrega totes les fotos abans del viatge. També es pot afegir a la pantalla d'inici del mòbil.
+- **Mode fosc:** el botó de la lluna.
 
 ## Com està fet
 
 - **Dades:** `data/*.json`. Totes les pàgines es generen a partir d'aquests fitxers, així que per afegir o corregir alguna cosa n'hi ha prou d'editar el JSON.
 - **Disseny:** `DESIGN.md`, el sistema «Teranga», segons el format [DESIGN.md](https://github.com/google-labs-code/design.md) de Google. Els tokens es tradueixen a variables CSS a `assets/css/style.css`. Té mode clar i fosc.
-- **Lògica:** `assets/js/app.js`, en JavaScript pla.
+- **Lògica:** `assets/js/app.js`, en JavaScript pla. `sw.js` és el service worker del mode sense connexió.
 - **Mapes:** [Leaflet](https://leafletjs.com) amb [OpenStreetMap](https://www.openstreetmap.org).
 - **Fotos:** `assets/img/`, de [Wikimedia Commons](https://commons.wikimedia.org) amb llicències lliures. L'autor i la llicència de cada foto surten a la fitxa i a `fonts.html`.
 
