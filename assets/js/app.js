@@ -916,6 +916,10 @@
   }
 
   async function pagePractic() {
+    $$("#checklist input").forEach((cb) => {
+      cb.checked = store.get("chk-" + cb.dataset.k) === "1";
+      cb.addEventListener("change", () => store.set("chk-" + cb.dataset.k, cb.checked ? "1" : "0"));
+    });
     const d = await load("practic");
     $("#toc").innerHTML = [...d.seccions.map((s) => [s.id, s.titol]), ["calendari", "Calendari"], ["pressupost", "Pressupost"], ["plats", "Què menjar"], ["wolof", "Wolof bàsic"]]
       .map(([id, t]) => `<a class="chip" href="#${id}">${esc(t)}</a>`).join("");

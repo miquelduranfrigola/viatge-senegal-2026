@@ -364,3 +364,8 @@ mark { background: color-mix(in srgb, var(--accent-sun) 55%, transparent); color
 .fav-btn[aria-pressed="true"] .msym { font-variation-settings: "FILL" 1, "wght" 400; }
 .fav-btn.fav-inline { position: static; flex: none; background: var(--surface-container-high); box-shadow: none; }
 #share-favs:disabled { opacity: .5; cursor: default; }
+.checklist { list-style: none; padding: 0; margin: 8px 0 0; }
+.checklist li { margin: 6px 0; }
+.checklist label { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
+.checklist input { margin-top: 5px; width: 18px; height: 18px; accent-color: var(--primary); flex: none; }
+.checklist a { color: inherit; font-weight: 600; }
