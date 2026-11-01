@@ -339,7 +339,8 @@
     }
     (air?.seccions || []).forEach((sec) => {
       add({ kind: "Natura i aventura", icon: "hiking", title: sec.titol, body: [sec.intro, (sec.consells || []).join(" ")].join(" • "), url: `natura.html#${sec.id}` });
-      (sec.llocs || []).forEach((l, i) => add({ kind: sec.titol, icon: "hiking", title: l.nom, tags: `${REGIONS[l.regio] || ""} ${l.nivell || ""} ${l.dificultat || ""}`,
+      const secTags = { caminar: "ruta rutes caminada senderisme a peu trekking", bici: "ruta rutes bici bicicleta pedalar", surf: "surf onades", ocells: "ocells birding", platges: "platja banyar-se", aigua: "caiac pirogua nedar pesca" }[sec.id] || "";
+      (sec.llocs || []).forEach((l, i) => add({ kind: sec.titol, icon: sec.id === "bici" ? "pedal_bike" : "hiking", title: l.nom, tags: `${secTags} ${REGIONS[l.regio] || ""} ${l.nivell || ""} ${l.dificultat || ""}`,
         body: [l.detall, l.descripcio_ruta, l.inici, l.final, l.km && `${l.km} km`, l.durada].join(" • "), url: `natura.html#${sec.id}-${i}` }));
       (sec.especies || []).forEach((e) => add({ kind: "Espècie", icon: "flutter_dash", title: e.nom_catala, tags: e.nom_cientific, body: [e.on, e.quan].join(" • "), url: `natura.html#${sec.id}` }));
     });
@@ -586,6 +587,8 @@
         ${o.on ? `<div class="where">${icon("location_on")} ${esc(o.on)}</div>` : ""}${o.preu ? `<div class="where">${icon("payments")} ${esc(o.preu)}</div>` : ""}</div></div>`).join("");
     $("#llocs-list").innerHTML = (c.llocs || []).map((o) => `<div class="item"><div class="item-body"><h4>${esc(o.nom)}</h4><div class="where">${icon("location_on")} ${esc(REGIONS[o.regio] || o.regio || "")}</div><p>${esc(o.detall)}</p></div></div>`).join("");
     $("#evitar-list").innerHTML = (c.evitar || []).map((x) => `<li>${esc(x)}</li>`).join("");
+    const pc = c.portar_a_casa;
+    if (pc) $("#evitar").insertAdjacentHTML("afterend", `<div class="callout"><strong>${icon("luggage")} Portar-ho a casa</strong>${Array.isArray(pc) ? `<ul>${pc.map((x) => `<li>${esc(typeof x === "string" ? x : Object.values(x).join(": "))}</li>`).join("")}</ul>` : `<p>${esc(pc)}</p>`}</div>`);
     $("#c-src").innerHTML = srcLine(c.fonts);
     $("#l-intro").innerHTML = String(l.intro || "").split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join("");
     $("#pron-list").innerHTML = (l.pronuncia || []).map((x) => `<li>${esc(x)}</li>`).join("");
@@ -596,7 +599,7 @@
       <div class="table-wrap"><table class="tbl phr"><thead><tr><th>Català</th><th>Wòlof</th><th>Pronúncia</th><th>Francès</th></tr></thead><tbody>
         ${sit.frases.map((f) => `<tr><td>${esc(f.catala)}</td><td><strong>${esc(f.wolof)}</strong></td><td class="muted">${esc(f.pronuncia || "")}</td><td>${esc(f.frances || "")}</td></tr>`).join("")}
       </tbody></table></div>`).join("");
-    $("#l-src").innerHTML = srcLine(l.fonts);
+    $("#l-src").innerHTML = (l.nota ? `<p class="muted" style="font-size:13px">${icon("info")} ${esc(l.nota)}</p>` : "") + srcLine(l.fonts);
   }
 
   /* ---------- Directori (pràctic) ---------- */

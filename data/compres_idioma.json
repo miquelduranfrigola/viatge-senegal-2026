@@ -48,7 +48,14 @@
     "nom": "Souwère (pintura sota vidre)",
     "descripcio": "Pintura feta al revers d'un vidre, nascuda a Saint-Louis i Dakar a principis del segle XX. Temes clàssics: Cheikh Amadou Bamba, Lat Dior, signares, escenes de mercat i de pesca. És lleugera, barata i molt senegalesa. Emboliqueu-la bé: és vidre.",
     "on": "Soumbédioune (Dakar), Village Artisanal de Thiès i artistes del Village des Arts.",
-    "preu": "Des d'aprox. 2.500 FCFA les petites (au-senegal.com, sense data)."
+    "preu": "Des d'aprox. 2.500 FCFA les petites (au-senegal.com, sense data).",
+    "imatge": {
+     "src": "assets/img/obj-5-1.jpg",
+     "autor": "Unknown authorUnknown author",
+     "llicencia": "CC BY 3.0",
+     "font": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_2004.52.21_Al-Buraq.jpg",
+     "titol": "Brooklyn Museum 2004.52.21 Al-Buraq.jpg"
+    }
    },
    {
     "nom": "Escultura de fusta",
@@ -66,7 +73,14 @@
     "nom": "Cuir",
     "descripcio": "Bosses, sandàlies, cinturons, babutxes i coixins de pell. A Soumbédioune també en venen de pell de varà, serp i cocodril: eviteu-les (vegeu «Què no comprar»).",
     "on": "Soumbédioune i Sandaga (Dakar); artesans de Ziguinchor i Saint-Louis.",
-    "preu": "Babutxes des d'uns 5 € segons un fòrum del Routard (2013); la resta, a negociar."
+    "preu": "Babutxes des d'uns 5 € segons un fòrum del Routard (2013); la resta, a negociar.",
+    "imatge": {
+     "src": "assets/img/obj-8-1.jpg",
+     "autor": "Lebayefallserrère",
+     "llicencia": "CC BY-SA 4.0",
+     "font": "https://commons.wikimedia.org/wiki/File:SAC_EN_CUIR_D%E2%80%99ANNIMAUX_DU_PAYS.jpg",
+     "titol": "SAC EN CUIR D’ANNIMAUX DU PAYS.jpg"
+    }
    },
    {
     "nom": "Ceràmica d'Edioungou",
@@ -84,7 +98,14 @@
     "nom": "Tapissos de Thiès",
     "descripcio": "Les Manufactures Sénégalaises des Arts Décoratifs (MSAD), creades per Senghor el 1966, teixeixen a mà tapissos d'art amb la tècnica dels Gobelins a partir d'obres de pintors senegalesos. Són peces de luxe, però també hi ha catifes, batiks i ceràmica més assequibles.",
     "on": "MSAD, Thiès (de dilluns a divendres; truqueu abans).",
-    "preu": "Tapissos molt cars (un article parla d'uns 500.000 FCFA el m² i peces de més d'un milió); visita aprox. 1.000-2.000 FCFA (preus antics, a confirmar)."
+    "preu": "Tapissos molt cars (un article parla d'uns 500.000 FCFA el m² i peces de més d'un milió); visita aprox. 1.000-2.000 FCFA (preus antics, a confirmar).",
+    "imatge": {
+     "src": "assets/img/obj-11-1.jpg",
+     "autor": "Serieminou",
+     "llicencia": "CC BY-SA 4.0",
+     "font": "https://commons.wikimedia.org/wiki/File:Fabrication_de_Tapisserie_%C3%A0_Thies_04.jpg",
+     "titol": "Fabrication de Tapisserie à Thies 04.jpg"
+    }
    },
    {
     "nom": "Sabó i mantega de karité",
@@ -108,13 +129,27 @@
     "nom": "Música",
     "descripcio": "El mbalax de Youssou N'Dour, Omar Pène o Wally Seck es ven als voltants de Sandaga en CD (sovint còpies) i, cada cop més, en memòries USB. Els vinils originals d'Orchestra Baobab o Star Band són peces de col·leccionista difícils de trobar al carrer.",
     "on": "Voltants de Sandaga (Dakar).",
-    "preu": "A negociar; les còpies són barates però no paguen els artistes."
+    "preu": "A negociar; les còpies són barates però no paguen els artistes.",
+    "imatge": {
+     "src": "assets/img/obj-15-1.jpg",
+     "autor": "Thesupermat",
+     "llicencia": "CC BY-SA 3.0",
+     "font": "https://commons.wikimedia.org/wiki/File:Photo_-_Festival_de_Cornouaille_2010_-_Youssou_N%27Dour_en_concert_le_25_juillet_-_023.JPG",
+     "titol": "Photo - Festival de Cornouaille 2010 - Youssou N'Dour en concert le 25 juillet - 023.JPG"
+    }
    },
    {
     "nom": "Art contemporani",
     "descripcio": "Dakar té una escena potent: el Village des Arts (uns 52 tallers d'artistes residents on podeu comprar directament), l'OH Gallery i la Galerie Cécile Fakhoury al Plateau, i RAW Material Company. Molts espais tanquen diumenge i dilluns i alguns fan vacances entre Nadal i Cap d'Any.",
     "on": "Village des Arts (carretera de l'aeroport) i galeries del Plateau.",
-    "preu": "Des de petites obres sobre paper fins a milers d'euros. Als tallers es negocia; a les galeries, no gaire."
+    "preu": "Des de petites obres sobre paper fins a milers d'euros. Als tallers es negocia; a les galeries, no gaire.",
+    "imatge": {
+     "src": "assets/img/obj-16-1.jpg",
+     "autor": "Kalamuh 045",
+     "llicencia": "CC BY-SA 4.0",
+     "font": "https://commons.wikimedia.org/wiki/File:De_la_Peinture_Au_Village_des_Arts_de_Dakar.9.jpg",
+     "titol": "De la Peinture Au Village des Arts de Dakar.9.jpg"
+    }
    }
   ],
   "llocs": [

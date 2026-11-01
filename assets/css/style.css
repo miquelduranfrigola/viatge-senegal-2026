@@ -333,7 +333,7 @@ footer a { color: inherit; }
 .search-pill { margin-left: 8px; display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 12px 0 14px; border-radius: var(--r-full); border: 1px solid var(--outline-variant); background: var(--surface-container-low); color: var(--on-surface-variant); font: 500 14px/1 var(--font-body); cursor: pointer; }
 .search-pill:hover { background: var(--surface-container-high); color: var(--on-surface); }
 .search-pill kbd, .search-hint kbd { font: 600 11px/1 var(--font-body); padding: 3px 6px; border-radius: 6px; background: var(--surface-container-highest); color: var(--on-surface-variant); }
-@media (max-width: 1440px) { .search-pill { margin-left: auto; } .search-pill span, .search-pill kbd { display: none; } .search-pill { width: 40px; padding: 0; justify-content: center; border: 0; background: transparent; } .menu-btn { margin-left: 0; } }
+@media (max-width: 1440px) { .search-pill { margin-left: auto; } .search-pill span:not(.msym), .search-pill kbd { display: none; } .search-pill { width: 40px; padding: 0; justify-content: center; border: 0; background: transparent; } .menu-btn { margin-left: 0; } }
 dialog.search-dlg { border: 0; padding: 0; width: min(760px, calc(100vw - 16px)); max-height: min(80dvh, 760px); margin-top: 6vh; border-radius: var(--r-xl); background: var(--surface-container-low); color: var(--on-surface); box-shadow: 0 24px 64px rgba(0,0,0,.35); display: none; flex-direction: column; overflow: hidden; }
 dialog.search-dlg[open] { display: flex; }
 dialog.search-dlg::backdrop { background: rgba(20,12,8,.5); backdrop-filter: blur(2px); }
