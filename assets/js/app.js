@@ -205,6 +205,10 @@
       maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
   }
+  function fit(map, pts) {
+    const go = () => { map.invalidateSize(); if (pts.length > 1) map.fitBounds(pts, { padding: [28, 28], maxZoom: 11 }); else if (pts.length) map.setView(pts[0], 10); else map.setView([14.5, -16.2], 7); };
+    go(); setTimeout(go, 300);
+  }
   function overviewMap(el, items) {
     if (!window.L || !el) return;
     const map = L.map(el, { scrollWheelZoom: false }).setView([14.4, -16.0], 7);
@@ -218,7 +222,7 @@
       }).addTo(map);
       mk.bindPopup(`<b>${esc(a.nom)}</b><br>${esc(REGIONS[a.regio] || "")} · ${esc(TYPES[a.tipus] || "")}<br><a href="cataleg.html#a=${encodeURIComponent(a.id)}">Veure fitxa →</a>`);
     });
-    if (pts.length) map.fitBounds(pts, { padding: [24, 24] });
+    fit(map, pts);
     const legend = L.control({ position: "bottomleft" });
     legend.onAdd = () => {
       const d = L.DomUtil.create("div");
@@ -398,7 +402,7 @@
         }));
         const uniq = pts.filter((p, k) => k === 0 || p[0] !== pts[k - 1][0] || p[1] !== pts[k - 1][1]);
         if (uniq.length > 1) L.polyline(uniq, { color: "#9A4A1C", weight: 2, opacity: .6, dashArray: "6 6" }).addTo(map);
-        if (pts.length) map.fitBounds(pts, { padding: [30, 30] }); else map.setView([14.5, -16.5], 7);
+        fit(map, pts);
       }
       history.replaceState(null, "", `#${it.id}`);
     };
@@ -436,10 +440,17 @@
     filt.innerHTML = cats.map((c) => `<button class="chip" data-k="${c}" aria-pressed="false">${icon((EV_CAT[c] || [0, "event"])[1])} ${esc((EV_CAT[c] || [c])[0])}</button>`).join("");
     const render = () => {
       const l = ev.filter((e) => !sel.size || sel.has(e.categoria));
+      const span = (e) => e.data_inici && e.data_fi ? (new Date(e.data_fi) - new Date(e.data_inici)) / 864e5 : 0;
+      const conf = l.filter((e) => e.confirmacio === "confirmat");
       const days = {};
-      l.forEach((e) => { const k = e.data_inici && e.data_inici >= "2026-12-27" ? e.data_inici : "abans"; (days[k] ??= []).push(e); });
-      list.innerHTML = Object.keys(days).sort().map((k) => `
-        <h3 style="margin-top:var(--s-xl)">${k === "abans" ? "Durant tot el viatge / dates obertes" : esc(new Date(k + "T12:00:00").toLocaleDateString("ca", { weekday: "long", day: "numeric", month: "long" }))}</h3>
+      l.filter((e) => e.confirmacio !== "confirmat").forEach((e) => {
+        const k = !e.data_inici || span(e) >= 4 ? "zz" : (e.data_inici < "2026-12-27" ? "2026-12-27" : e.data_inici);
+        (days[k] ??= []).push(e);
+      });
+      const title = (k) => k === "zz" ? "Durant tot el viatge o diversos dies" : esc(new Date(k + "T12:00:00").toLocaleDateString("ca", { weekday: "long", day: "numeric", month: "long" }));
+      list.innerHTML = (conf.length ? `<h3 style="margin-top:var(--s-xl)">${icon("verified")} Confirmats</h3><div class="media-list">${conf.map(eventHTML).join("")}</div>` : "") +
+        Object.keys(days).sort().map((k) => `
+        <h3 style="margin-top:var(--s-xl)">${title(k)}</h3>
         <div class="media-list">${days[k].map(eventHTML).join("")}</div>`).join("") || `<div class="empty">Cap esdeveniment.</div>`;
     };
     filt.addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (!b) return; sel.has(b.dataset.k) ? sel.delete(b.dataset.k) : sel.add(b.dataset.k); b.setAttribute("aria-pressed", sel.has(b.dataset.k)); render(); });
@@ -447,7 +458,7 @@
     if (window.L) {
       const map = L.map("ev-map", { scrollWheelZoom: false }); tiles(map);
       const pts = ev.filter((e) => e.lat && e.lng).map((e) => { L.circleMarker([e.lat, e.lng], { radius: 7, color: "#fff", weight: 1.5, fillColor: REGION_COLOR[e.regio] || "#9A4A1C", fillOpacity: 1 }).addTo(map).bindPopup(`<b>${esc(e.titol)}</b><br>${esc(e.data_inici || "")}`); return [e.lat, e.lng]; });
-      pts.length ? map.fitBounds(pts, { padding: [30, 30] }) : map.setView([14.5, -16.5], 7);
+      fit(map, pts);
     }
   }
 
